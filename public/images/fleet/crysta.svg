@@ -1,0 +1,7 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <rect fill="#e0e0e0" height="300" width="400" y="0" x="0"/>
+  <text font-family="Arial, sans-serif" font-weight="bold" font-size="40" y="150" x="200" text-anchor="middle" fill="#333">Innova</text>
+  <text font-family="Arial, sans-serif" font-weight="bold" font-size="40" y="190" x="200" text-anchor="middle" fill="#333">Crysta</text>
+ </g>
+</svg>
