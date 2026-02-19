@@ -12,59 +12,30 @@ export default function BookingWidget() {
     const pickupRef = useRef<HTMLInputElement>(null);
     const dropRef = useRef<HTMLInputElement>(null);
 
+    const [distance, setDistance] = useState<string>("");
+    const pickupPlaceRef = useRef<any>(null);
+    const dropPlaceRef = useRef<any>(null);
+
     useEffect(() => {
-        const initAutocomplete = () => {
-            if (typeof window !== 'undefined' && (window as any).google && pickupRef.current && dropRef.current) {
-                const options = {
-                    componentRestrictions: { country: "in" },
-                    fields: ["address_components", "geometry", "icon", "name"],
-                    types: ["(cities)"],
-                };
+        const calculateDist = (origin: any, destination: any) => {
+            if (!origin || !destination || !(window as any).google) return;
 
-                const pickupAutocomplete = new (window as any).google.maps.places.Autocomplete(pickupRef.current, options);
-                const dropAutocomplete = new (window as any).google.maps.places.Autocomplete(dropRef.current, options);
-
-                // Optional: Add listeners if we want to extract lat/lng or formatted addresses
-                // pickupAutocomplete.addListener("place_changed", () => { ... });
-            }
+            const service = new (window as any).google.maps.DistanceMatrixService();
+            service.getDistanceMatrix(
+                {
+                    origins: [origin.geometry.location],
+                    destinations: [destination.geometry.location],
+                    travelMode: 'DRIVING',
+                },
+                (response: any, status: string) => {
+                    if (status === 'OK' && response.rows[0].elements[0].status === 'OK') {
+                        const dist = response.rows[0].elements[0].distance.text;
+                        setDistance(dist);
+                    }
+                }
+            );
         };
 
-        // Check for Google Maps API availability
-        const checkGoogleMaps = setInterval(() => {
-            if ((window as any).google && (window as any).google.maps && (window as any).google.maps.places) {
-                initAutocomplete();
-                clearInterval(checkGoogleMaps);
-            }
-        }, 100);
-
-        return () => clearInterval(checkGoogleMaps);
-    }, []);
-
-    const [distance, setDistance] = useState<string>("");
-    const [pickupPlace, setPickupPlace] = useState<any>(null);
-    const [dropPlace, setDropPlace] = useState<any>(null);
-
-    // Function to calculate distance
-    const calculateDistance = (origin: any, destination: any) => {
-        if (!origin || !destination || !(window as any).google) return;
-
-        const service = new (window as any).google.maps.DistanceMatrixService();
-        service.getDistanceMatrix(
-            {
-                origins: [origin.geometry.location],
-                destinations: [destination.geometry.location],
-                travelMode: 'DRIVING',
-            },
-            (response: any, status: string) => {
-                if (status === 'OK' && response.rows[0].elements[0].status === 'OK') {
-                    const dist = response.rows[0].elements[0].distance.text;
-                    setDistance(dist);
-                }
-            }
-        );
-    };
-
-    useEffect(() => {
         const initAutocomplete = () => {
             if (typeof window !== 'undefined' && (window as any).google && pickupRef.current && dropRef.current) {
                 const options = {
@@ -78,19 +49,18 @@ export default function BookingWidget() {
 
                 pickupAutocomplete.addListener("place_changed", () => {
                     const place = pickupAutocomplete.getPlace();
-                    setPickupPlace(place);
-                    if (dropPlace) calculateDistance(place, dropPlace);
+                    pickupPlaceRef.current = place;
+                    if (dropPlaceRef.current) calculateDist(place, dropPlaceRef.current);
                 });
 
                 dropAutocomplete.addListener("place_changed", () => {
                     const place = dropAutocomplete.getPlace();
-                    setDropPlace(place);
-                    if (pickupPlace) calculateDistance(pickupPlace, place);
+                    dropPlaceRef.current = place;
+                    if (pickupPlaceRef.current) calculateDist(pickupPlaceRef.current, place);
                 });
             }
         };
 
-        // Check for Google Maps API availability
         const checkGoogleMaps = setInterval(() => {
             if ((window as any).google && (window as any).google.maps && (window as any).google.maps.places) {
                 initAutocomplete();
@@ -99,7 +69,7 @@ export default function BookingWidget() {
         }, 100);
 
         return () => clearInterval(checkGoogleMaps);
-    }, [pickupPlace, dropPlace]);
+    }, []);
 
     const [loading, setLoading] = useState(false);
 
@@ -129,6 +99,9 @@ export default function BookingWidget() {
                 setSubmitted(true);
                 setTimeout(() => setSubmitted(false), 5000);
                 (e.target as HTMLFormElement).reset();
+                pickupPlaceRef.current = null;
+                dropPlaceRef.current = null;
+                setDistance("");
             } else {
                 alert('Something went wrong. Please try again or call us directly.');
             }

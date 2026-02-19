@@ -44,21 +44,46 @@ export function getSEOContent(district: District, serviceType: ServiceType): SEO
     const label = SERVICE_LABELS[serviceType];
     const verb = SERVICE_VERBS[serviceType];
     const topRoute = district.popularRoutes[0];
+    const dn = district.name;
+    const dl = district.name.toLowerCase();
+    const currentYear = new Date().getFullYear();
+
+    // Title: Optimized for <60 chars with CTR power words & Year
+    const TITLE_TEMPLATES: Record<ServiceType, string> = {
+        'drop-taxi': `${dn} Drop Taxi Service — Flat ₹${VEHICLE_TYPES[0].price}/km | Save 40%`,
+        'taxi-service': `${dn} Taxi Service (${currentYear}) — Book @ ₹${VEHICLE_TYPES[0].price}/km`,
+        'outstation-cab': `${dn} Outstation Cab — One Way Drops from ₹${VEHICLE_TYPES[0].price}/km`,
+        'airport-taxi': `${dn} Airport Taxi — On-time Pickup from ₹${VEHICLE_TYPES[0].price}/km`,
+    };
+
+    // Meta Description: Optimized for <155 chars with CTA
+    const topRouteText = topRoute ? `${dn} to ${topRoute.to} ₹${topRoute.fareEstimate}. ` : '';
+    const META_TEMPLATES: Record<ServiceType, string> = {
+        'drop-taxi': `Book ${dn} drop taxi from ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}Pay one-way fare only. No return charges. Verified drivers. Book now for ${currentYear}!`,
+        'taxi-service': `Best taxi service in ${dn}, ${district.state}. ${topRouteText}AC cabs from ₹${VEHICLE_TYPES[0].price}/km. 24/7 booking, verified drivers. Call now!`,
+        'outstation-cab': `Book outstation cab from ${dn} at ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}One-way pricing, AC vehicles, verified drivers. Book online!`,
+        'airport-taxi': `Reliable airport taxi in ${dn} from ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}On-time pickup, flight tracking, no surge. Book now!`,
+    };
 
     return {
-        title: `${district.name} ${label} | Book One Way Cab — Save 40% | OneWayTaxi.ai`,
-        metaDescription: `Book ${verb} in ${district.name}, ${district.state}. Starting ₹${VEHICLE_TYPES[0].price}/km. ${topRoute ? `Popular: ${district.name} to ${topRoute.to} at ₹${topRoute.fareEstimate}.` : ''} 24/7 service, verified drivers, no hidden charges.`,
-        h1: `${district.name} ${label} — Book Now & Save 40%`,
-        subtitle: `Premium ${verb} in ${district.name}, ${district.state}. Pay only for one way — no return fare, no hidden charges. Trusted by 50,000+ happy travelers across South India.`,
+        title: TITLE_TEMPLATES[serviceType],
+        metaDescription: META_TEMPLATES[serviceType],
+        h1: `${dn} ${label} — Book Now & Save 40%`,
+        subtitle: `Premium ${verb} in ${dn}, ${district.state}. Pay only for one way — no return fare, no hidden charges. Trusted by 50,000+ happy travelers in ${currentYear}.`,
         keywords: [
-            `${district.name.toLowerCase()} ${label.toLowerCase()}`,
-            `${district.name.toLowerCase()} to ${topRoute?.to.toLowerCase() || 'bangalore'} taxi`,
-            `${label.toLowerCase()} ${district.name.toLowerCase()}`,
-            `one way taxi ${district.name.toLowerCase()}`,
-            `${district.name.toLowerCase()} cab booking`,
-            `outstation taxi ${district.name.toLowerCase()}`,
-            `${district.name.toLowerCase()} ${district.state.toLowerCase()} taxi`,
-            `cheap taxi ${district.name.toLowerCase()}`,
+            `${dl} ${label.toLowerCase()}`,
+            `${dl} to ${topRoute?.to.toLowerCase() || 'bangalore'} taxi`,
+            `${label.toLowerCase()} ${dl}`,
+            `one way taxi ${dl}`,
+            `${dl} cab booking`,
+            `outstation taxi ${dl}`,
+            `${dl} ${district.state.toLowerCase()} taxi`,
+            `cheap taxi ${dl}`,
+            `${dl} one way cab`,
+            `book taxi ${dl}`,
+            `${dl} to ${topRoute?.to.toLowerCase() || 'bangalore'} cab fare`,
+            `${dl} drop taxi contact number`,
+            `call taxi ${dl}`,
         ],
         serviceDescription: generateServiceDescription(district, serviceType),
     };
@@ -67,20 +92,67 @@ export function getSEOContent(district: District, serviceType: ServiceType): SEO
 function generateServiceDescription(district: District, serviceType: ServiceType): string {
     const label = SERVICE_LABELS[serviceType];
     const verb = SERVICE_VERBS[serviceType];
+    const dn = district.name;
+    const ds = district.state;
     const topRoutes = district.popularRoutes.slice(0, 3);
-    const routeText = topRoutes.map(r => `${district.name} to ${r.to} (${r.distanceKm} km, ~₹${r.fareEstimate})`).join(', ');
+    const routeText = topRoutes.map(r => `${dn} to ${r.to} (${r.distanceKm} km, ~₹${r.fareEstimate})`).join(', ');
+    const routeNames = topRoutes.map(r => r.to).join(', ');
 
     const descriptions: Record<ServiceType, string> = {
-        'drop-taxi': `Looking for a ${verb} in ${district.name}? OneWayTaxi.ai offers the most affordable one-way drop taxi service from ${district.name}, ${district.state}. Unlike round-trip taxis, you only pay for the distance you travel — saving up to 40% on your fare. Our fleet includes Hatchbacks (₹${VEHICLE_TYPES[0].price}/km), Sedans (₹${VEHICLE_TYPES[1].price}/km), SUVs (₹${VEHICLE_TYPES[2].price}/km), Innova Crysta (₹${VEHICLE_TYPES[3].price}/km), and Tempo Travellers (₹${VEHICLE_TYPES[4].price}/km). Popular routes: ${routeText}. All fares are inclusive of driver allowance, toll charges, and GST. Book your ${district.name} drop taxi now for a comfortable, safe, and budget-friendly journey.`,
+        'drop-taxi': `Looking for a **${verb} in ${dn}**? OneWayTaxi.ai offers the most affordable one-way drop taxi service from ${dn}, ${ds}. Unlike traditional round-trip taxis where you pay for the driver's return journey, our drop taxi model charges you only for the distance you actually travel — **saving up to 40%** on your fare compared to competitors.
 
-        'taxi-service': `OneWayTaxi.ai is your trusted ${verb} in ${district.name}, ${district.state}. Whether you need a quick city ride or a long-distance outstation trip, we have you covered with our wide range of well-maintained, AC vehicles. Our professional, verified drivers ensure a safe and comfortable experience every time. Popular destinations from ${district.name}: ${routeText}. We offer transparent pricing with no surge charges or hidden fees. Available 24/7 for bookings.`,
+### Why Book Our ${dn} Drop Taxi?
+Our ${dn} drop taxi fleet includes **Mini/Hatchbacks (₹${VEHICLE_TYPES[0].price}/km)**, Sedans like Swift Dzire and Toyota Etios (₹${VEHICLE_TYPES[1].price}/km), SUVs (₹${VEHICLE_TYPES[4]?.price || 19}/km), and premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). Every vehicle is air-conditioned, GPS-tracked, and regularly serviced for your comfort and safety.
 
-        'outstation-cab': `Planning an outstation trip from ${district.name}? Book your ${verb} with OneWayTaxi.ai and enjoy hassle-free travel across ${district.state} and beyond. Our outstation cab service connects ${district.name} to major cities and tourist destinations with comfortable, AC vehicles. Top outstation routes: ${routeText}. With one-way pricing, you save significantly compared to traditional round-trip fares. All our vehicles are regularly serviced, GPS-tracked, and driven by experienced, background-verified drivers.`,
+### Popular Routes
+Popular one-way drop taxi routes from ${dn}: ${routeText}. Whether you're traveling for business, family visits, medical appointments, or pilgrimage, our ${dn} drop taxi service ensures a comfortable, reliable, and budget-friendly journey. All fares are inclusive of driver bata (allowance), toll charges, inter-state permits, and GST — what you see is what you pay, with absolutely zero hidden charges. Book your ${dn} drop taxi now online or call us 24/7.`,
 
-        'airport-taxi': `Need a reliable ${verb} in ${district.name}? OneWayTaxi.ai provides seamless airport transfer services with on-time pickups and drop-offs. Whether you're arriving at or departing from ${district.name}, our fleet of comfortable AC vehicles ensures a stress-free journey. Pre-book online and get instant fare estimates. Our drivers track flight timings to accommodate delays. No surge pricing, no meter tampering — just transparent, fixed-rate airport taxi service in ${district.name}, ${district.state}.`,
+        'taxi-service': `OneWayTaxi.ai is your trusted **${verb} in ${dn}, ${ds}**. Whether you need a local city ride, a long-distance outstation trip, or an airport transfer, we have you covered with our wide range of well-maintained, AC vehicles driven by professional, background-verified drivers.
+
+### Best Rate Guarantee
+What makes our ${dn} taxi service stand out? Transparent one-way pricing (no return charges), real-time GPS tracking, 24/7 availability, and a 4.8-star customer rating. Unlike app-based taxi services that charge surge pricing during peak hours, festivals, or rain, our ${dn} taxi fare stays fixed — no surprises at the end of your journey.
+
+### Destinations
+Popular destinations from ${dn}: ${routeText}. We also serve ${routeNames} and 115+ other cities across ${ds}, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana. Our ${dn} taxi service is available for one-way drops, round trips, multi-city tours, and corporate travel. Book online in 30 seconds or call our 24/7 helpline for instant confirmation.`,
+
+        'outstation-cab': `Planning an outstation trip from ${dn}? Book your **${verb}** with OneWayTaxi.ai and enjoy hassle-free intercity travel across ${ds} and all of South India. Our outstation cab service is designed for travelers who want the convenience of a private vehicle at the affordability of a one-way fare structure.
+
+### Save on Intercity Travel
+Why choose OneWayTaxi.ai for outstation cabs from ${dn}? We eliminate the traditional round-trip billing model — you pay only for the distance from ${dn} to your destination. This makes our outstation cabs up to 40% cheaper than regular taxi services. Your fare includes driver allowance, toll charges, state permits, and GST.
+
+### Fleet & Routes
+Top outstation routes from ${dn}: ${routeText}. Our outstation cab fleet covers 115+ cities across 5 South Indian states with vehicles ranging from budget hatchbacks (₹${VEHICLE_TYPES[0].price}/km) to premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). All vehicles are air-conditioned, clean, GPS-tracked, and driven by experienced, verified drivers who know the best highway routes.`,
+
+        'airport-taxi': `Need a reliable **${verb} in ${dn}**? OneWayTaxi.ai provides seamless airport transfer services with guaranteed on-time pickups and drop-offs. Whether you're arriving at or departing from ${dn} airport, our fleet of comfortable AC vehicles ensures a stress-free, hassle-free journey to or from the terminal.
+
+### Reliability First
+What sets our ${dn} airport taxi apart: our drivers actively track your flight status using real-time flight tracking. If your flight is delayed, your driver adjusts the pickup time automatically at no extra charge. We offer 30 minutes of free waiting time at the airport, so you don't need to rush through baggage claim. No surge pricing, no meter tampering.
+
+### Upfront Pricing
+Book your ${dn} airport taxi online and get an instant fare estimate. Popular airport transfer routes: ${routeText}. Available vehicle types include Hatchbacks (₹${VEHICLE_TYPES[0].price}/km), Sedans, SUVs, and Innova Crysta. All fares include driver bata, toll charges, parking fees, and GST. Our ${dn} airport taxi service operates 24/7.`,
     };
 
     return descriptions[serviceType];
+}
+
+export function getWhyChooseUs(district: District) {
+    return [
+        {
+            title: 'Flat One-Way Rate',
+            desc: `Pay only for the km you travel. No return charges. Save up to 40% on ${district.name} outstation trips.`,
+            icon: 'Wallet'
+        },
+        {
+            title: 'No Hidden Charges',
+            desc: 'Prices include Tolls, Driver Bata & GST. The quote you see is the final price you pay.',
+            icon: 'FileCheck'
+        },
+        {
+            title: 'On-Time Pickup',
+            desc: `Reliable pickup service in ${district.name} with 24/7 customer support and live tracking.`,
+            icon: 'Clock'
+        },
+    ];
 }
 
 // ─── FAQ Generator ──────────────────────────────────────────
@@ -143,6 +215,26 @@ export function getFAQs(district: District, serviceType: ServiceType): FAQ[] {
         question: `Is it safe to book ${label.toLowerCase()} in ${district.name} with OneWayTaxi.ai?`,
         answer: `Absolutely. All our ${district.name} ${label.toLowerCase()} drivers are professionally trained, background-verified, and carry valid licenses. Our vehicles are GPS-tracked in real-time, regularly serviced, and fully insured. We have served over 50,000 happy customers across South India with a 4.8-star average rating.`,
     });
+
+    // Additional high-value FAQs for better long-tail coverage
+    baseFAQs.push({
+        question: `What payment methods are accepted for ${district.name} ${label.toLowerCase()}?`,
+        answer: `We accept multiple payment methods for ${district.name} ${label.toLowerCase()}: Cash, UPI (Google Pay, PhonePe, Paytm), credit cards, debit cards, and net banking. You can pay the driver directly in cash or via UPI at the end of your trip. No advance payment is required for booking.`,
+    });
+
+    baseFAQs.push({
+        question: `Can I cancel my ${district.name} ${label.toLowerCase()} booking?`,
+        answer: `Yes, you can cancel your ${district.name} ${label.toLowerCase()} booking free of charge up to 2 hours before the scheduled pickup time. Cancellations within 2 hours may attract a nominal cancellation fee. Contact our 24/7 support at +91 81244 76010 for cancellations or rescheduling.`,
+    });
+
+    // Add second route FAQ if available
+    const secondRoute = district.popularRoutes[1];
+    if (secondRoute) {
+        baseFAQs.push({
+            question: `How much does a taxi from ${district.name} to ${secondRoute.to} cost?`,
+            answer: `A one-way taxi from ${district.name} to ${secondRoute.to} costs approximately ₹${secondRoute.fareEstimate} for a hatchback (${secondRoute.distanceKm} km). Sedan fare: ~₹${Math.round(secondRoute.distanceKm * VEHICLE_TYPES[1].price)}, SUV: ~₹${Math.round(secondRoute.distanceKm * (VEHICLE_TYPES[4]?.price || 19))}. All fares include toll, driver bata, and GST.`,
+        });
+    }
 
     return baseFAQs;
 }

@@ -12,7 +12,7 @@ interface BreadcrumbNavProps {
 export default function BreadcrumbNav({ state, stateSlug, districtName, districtSlug, serviceLabel }: BreadcrumbNavProps) {
     const crumbs = [
         { label: 'Home', href: '/' },
-        { label: state, href: `/${stateSlug}` },
+        { label: state, href: null },
         { label: districtName, href: `/${districtSlug}-drop-taxi` },
         { label: serviceLabel, href: null },
     ];

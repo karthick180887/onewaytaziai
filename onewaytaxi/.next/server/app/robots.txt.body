@@ -1,0 +1,27 @@
+User-Agent: *
+Allow: /
+Disallow: /api/
+Disallow: /_next/
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: Bingbot
+Allow: /
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: PerplexityBot
+Allow: /
+
+User-Agent: Bytespider
+Allow: /
+
+Sitemap: https://onewaytaxi.ai/sitemap.xml

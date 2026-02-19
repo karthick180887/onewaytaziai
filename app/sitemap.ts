@@ -1,5 +1,6 @@
 import type { MetadataRoute } from 'next';
 import { ALL_DISTRICTS, SERVICE_TYPES } from '@/lib/districts';
+import { getAllRoutes } from '@/lib/routes';
 
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://onewaytaxi.ai';
@@ -26,6 +27,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
                 priority,
             });
         }
+    }
+
+    // City-to-city route pages
+    const allRouteData = getAllRoutes();
+    for (const route of allRouteData) {
+        const priority = (route.from.tier === 1 && route.to.tier === 1) ? 0.85
+            : (route.from.tier === 1 || route.to.tier === 1) ? 0.7
+            : 0.5;
+        routes.push({
+            url: `${baseUrl}/route/${route.slug}`,
+            lastModified: now,
+            changeFrequency: 'weekly',
+            priority,
+        });
     }
 
     return routes;

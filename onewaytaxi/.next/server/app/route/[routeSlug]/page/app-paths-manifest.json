@@ -1,0 +1,3 @@
+{
+  "/route/[routeSlug]/page": "app/route/[routeSlug]/page.js"
+}

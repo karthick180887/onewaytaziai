@@ -1,0 +1,16 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/route,_N_T_/route/[routeSlug]/layout,_N_T_/route/[routeSlug]/page,_N_T_/route/alluri-sitharama-raju-to-visakhapatnam-taxi"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/route/$d$routeSlug/__PAGE__",
+    "/route/$d$routeSlug",
+    "/route",
+    "/_index",
+    "/_head"
+  ]
+}
