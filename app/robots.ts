@@ -22,6 +22,10 @@ export default function robots(): MetadataRoute.Robots {
                 allow: '/',
             },
             {
+                userAgent: 'OAI-SearchBot',
+                allow: '/',
+            },
+            {
                 userAgent: 'ChatGPT-User',
                 allow: '/',
             },

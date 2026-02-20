@@ -3,6 +3,7 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import FloatingCTA from "@/components/FloatingCTA";
 import Script from "next/script";
+import { SUPPORT_PHONE, GOOGLE_MAPS_URL } from "@/lib/constants";
 
 const outfit = Outfit({
   variable: "--font-outfit",
@@ -74,6 +75,110 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${outfit.variable} antialiased selection:bg-teal-900 selection:text-white`}>
+        {/* Organization Schema — site-wide entity identity */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "@id": "https://onewaytaxi.ai/#organization",
+              name: "OneWayTaxi.ai",
+              url: "https://onewaytaxi.ai",
+              logo: "https://onewaytaxi.ai/logo.png",
+              description: "South India's leading one-way drop taxi service covering 120+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry.",
+              telephone: SUPPORT_PHONE.replace(/\s/g, ""),
+              email: "booking@onewaytaxi.ai",
+              sameAs: [GOOGLE_MAPS_URL],
+              contactPoint: {
+                "@type": "ContactPoint",
+                telephone: SUPPORT_PHONE.replace(/\s/g, ""),
+                contactType: "customer service",
+                areaServed: "IN",
+                availableLanguage: ["en", "ta", "hi", "te", "kn", "ml"],
+              },
+              areaServed: {
+                "@type": "Country",
+                name: "India",
+              },
+            }),
+          }}
+        />
+        {/* WebSite Schema — enables sitelinks search box */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "WebSite",
+              "@id": "https://onewaytaxi.ai/#website",
+              name: "OneWayTaxi.ai",
+              url: "https://onewaytaxi.ai",
+              publisher: { "@id": "https://onewaytaxi.ai/#organization" },
+              potentialAction: {
+                "@type": "SearchAction",
+                target: {
+                  "@type": "EntryPoint",
+                  urlTemplate: "https://onewaytaxi.ai/?q={search_term_string}",
+                },
+                "query-input": "required name=search_term_string",
+              },
+            }),
+          }}
+        />
+        {/* HowTo Schema — targets 'how to book one way taxi' featured snippet */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "HowTo",
+              name: "How to Book a One Way Taxi Online in India",
+              description: "Book an affordable one-way intercity taxi in South India in under 3 minutes. Pay only for one way — no return charges.",
+              totalTime: "PT3M",
+              estimatedCost: {
+                "@type": "MonetaryAmount",
+                currency: "INR",
+                value: "13",
+                unitText: "per km",
+              },
+              tool: [
+                { "@type": "HowToTool", name: "Smartphone or Computer" },
+                { "@type": "HowToTool", name: "Internet connection" },
+              ],
+              step: [
+                {
+                  "@type": "HowToStep",
+                  position: 1,
+                  name: "Enter your pickup and destination city",
+                  text: "Go to OneWayTaxi.ai and type your pickup city (e.g. Chennai) and your destination city (e.g. Bangalore) in the booking form.",
+                  url: "https://onewaytaxi.ai/#booking",
+                },
+                {
+                  "@type": "HowToStep",
+                  position: 2,
+                  name: "Select travel date, time and vehicle type",
+                  text: "Choose your preferred departure date and time. Select a vehicle — Mini (₹13/km), Sedan (₹14/km), SUV (₹19/km), or Innova Crysta (₹22/km).",
+                  url: "https://onewaytaxi.ai/#booking",
+                },
+                {
+                  "@type": "HowToStep",
+                  position: 3,
+                  name: "Review your all-inclusive one-way fare",
+                  text: "See the instant fare — inclusive of driver bata, toll charges, permits, and GST. This is a ONE-WAY fare. You pay only for the distance you travel.",
+                  url: "https://onewaytaxi.ai/#booking",
+                },
+                {
+                  "@type": "HowToStep",
+                  position: 4,
+                  name: "Confirm booking and get driver details",
+                  text: "Enter your name, phone, and confirm the booking. Your driver details (name, vehicle number, contact) are sent instantly. Pay cash or UPI at trip end.",
+                  url: "https://onewaytaxi.ai/#booking",
+                },
+              ],
+            }),
+          }}
+        />
         {children}
         <FloatingCTA />
         <Script

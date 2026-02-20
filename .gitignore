@@ -14,8 +14,10 @@
 /coverage
 
 # next.js
-/.next/
-/out/
+.next/
+onewaytaxi/.next/
+out/
+onewaytaxi/out/
 
 # production
 /build

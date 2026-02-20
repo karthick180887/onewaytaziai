@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 import BookingWidget from '@/components/BookingWidget';
 import FAQSection from '@/components/seo/FAQSection';
 import TrustBanner from '@/components/seo/TrustBanner';
-import { MapPin, Clock, IndianRupee, ArrowRight, ArrowLeftRight, Phone, Shield, Car } from 'lucide-react';
+import { MapPin, Clock, IndianRupee, ArrowRight, ArrowLeftRight, Phone, Shield, Car, Route, Navigation, Lightbulb, CheckCircle } from 'lucide-react';
 
 // ─── Static Params (SSG for all route pages) ─────────────────
 export function generateStaticParams() {
@@ -145,6 +145,18 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
 
             <TrustBanner />
 
+            {/* Definition Block — AI-citeable summary passage */}
+            <section className="py-10 bg-white" aria-label={`${from.name} to ${to.name} taxi summary`}>
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+                        {from.name} to {to.name} One Way Taxi
+                    </h2>
+                    <p className="text-gray-700 leading-relaxed text-lg">
+                        The {from.name} to {to.name} one-way taxi fare starts at ₹{fareEstimate} for a hatchback, covering {distanceKm} km{seo.highway ? ` via ${seo.highway.highway}` : ' by road'}. The journey takes approximately {seo.durationText} depending on traffic. OneWayTaxi.ai offers door-to-door pickup from any location in {from.name} with drop at any point in {to.name}. All vehicles are air-conditioned, GPS-tracked, and driven by verified drivers. Fares include driver bata (allowance), toll charges, inter-state permits, and GST — no hidden costs, no return fare. Vehicle options: Hatchback (₹{VEHICLE_TYPES[0].price}/km), Sedan (₹{VEHICLE_TYPES[1].price}/km), SUV (₹{VEHICLE_TYPES[4].price}/km), and Innova Crysta (₹{VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). Book online in 30 seconds at onewaytaxi.ai or call +91 81244 76010 for 24/7 instant confirmation.
+                    </p>
+                </div>
+            </section>
+
             {/* Vehicle-wise Pricing */}
             <section className="py-16 bg-white" aria-label="Vehicle pricing">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -213,6 +225,147 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                             including early mornings, late nights, weekends, and holidays. Whether you&apos;re traveling for business,
                             family visits, medical needs, or leisure, we ensure a safe, comfortable, and affordable journey.
                         </p>
+                    </div>
+                </div>
+            </section>
+
+            {/* Pickup & Drop Points */}
+            {(seo.fromPickups.length > 0 || seo.toPickups.length > 0) && (
+                <section className="py-16 bg-white" aria-label="Pickup and drop points">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-3 text-center">
+                            {from.name} to {to.name} — Pickup & Drop Points
+                        </h2>
+                        <p className="text-gray-600 text-center mb-10">
+                            Door-to-door pickup from any location. Popular pickup/drop points include:
+                        </p>
+                        <div className="grid md:grid-cols-2 gap-8">
+                            {seo.fromPickups.length > 0 && (
+                                <div>
+                                    <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                                        <Navigation className="h-5 w-5 text-teal-600" />
+                                        Pickup Points in {from.name}
+                                    </h3>
+                                    <ul className="space-y-2">
+                                        {seo.fromPickups.map((point, i) => (
+                                            <li key={i} className="flex items-center gap-2 text-gray-700">
+                                                <CheckCircle className="h-4 w-4 text-emerald-500 shrink-0" />
+                                                {point}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
+                            {seo.toPickups.length > 0 && (
+                                <div>
+                                    <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                                        <MapPin className="h-5 w-5 text-teal-600" />
+                                        Drop Points in {to.name}
+                                    </h3>
+                                    <ul className="space-y-2">
+                                        {seo.toPickups.map((point, i) => (
+                                            <li key={i} className="flex items-center gap-2 text-gray-700">
+                                                <CheckCircle className="h-4 w-4 text-emerald-500 shrink-0" />
+                                                {point}
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            {/* Highway Route & Travel Tips */}
+            {seo.highway && (
+                <section className="py-16 bg-gray-50" aria-label="Route and travel tips">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+                            {from.name} to {to.name} Route & Travel Tips
+                        </h2>
+
+                        <div className="grid md:grid-cols-2 gap-8 mb-10">
+                            {/* Highway Route */}
+                            <div className="bg-white rounded-xl border border-gray-200 p-6">
+                                <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                                    <Route className="h-5 w-5 text-teal-600" />
+                                    Highway Route
+                                </h3>
+                                <p className="text-gray-700 mb-4">
+                                    <span className="font-semibold">{seo.highway.highway}</span>
+                                </p>
+                                <h4 className="text-sm font-bold text-gray-500 uppercase tracking-wider mb-3">Route via</h4>
+                                <div className="flex flex-wrap gap-2">
+                                    {seo.highway.via.map((stop, i) => (
+                                        <span key={i} className="inline-flex items-center gap-1 px-3 py-1.5 bg-teal-50 text-teal-800 rounded-lg text-sm font-medium border border-teal-100">
+                                            {stop}
+                                            {i < seo.highway!.via.length - 1 && <ArrowRight className="h-3 w-3 text-teal-400 ml-1" />}
+                                        </span>
+                                    ))}
+                                </div>
+                            </div>
+
+                            {/* Travel Tips */}
+                            <div className="bg-white rounded-xl border border-gray-200 p-6">
+                                <h3 className="font-bold text-gray-900 mb-4 flex items-center gap-2">
+                                    <Lightbulb className="h-5 w-5 text-amber-500" />
+                                    Travel Tips
+                                </h3>
+                                <ul className="space-y-3">
+                                    {seo.highway.tips.map((tip, i) => (
+                                        <li key={i} className="flex items-start gap-2 text-gray-700 text-sm">
+                                            <CheckCircle className="h-4 w-4 text-emerald-500 shrink-0 mt-0.5" />
+                                            {tip}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+
+                        {/* Additional SEO Content */}
+                        <div className="prose prose-gray max-w-none text-gray-700 leading-relaxed">
+                            <h3 className="text-xl font-bold text-gray-900 mb-4">Best Time to Travel from {from.name} to {to.name}</h3>
+                            <p>
+                                The best time for a {from.name} to {to.name} taxi journey is early morning (5:00 AM - 7:00 AM) or
+                                late evening. Starting early helps you avoid city traffic in both {from.name} and {to.name}, and ensures
+                                a smoother highway drive. The {distanceKm} km journey typically takes {seo.durationText} with normal traffic conditions.
+                            </p>
+                            <p>
+                                Our drivers are experienced with the {from.name}–{to.name} route via {seo.highway.highway} and know
+                                the best rest stops, fuel stations, and food joints along the way. Whether you are traveling for business,
+                                family visit, medical appointment, or pilgrimage — we ensure a safe, comfortable, and on-time journey.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            {/* Why Book One-Way Section */}
+            <section className="py-16 bg-white" aria-label="Benefits of one-way taxi">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-8 text-center">
+                        Why Book One-Way Taxi from {from.name} to {to.name}?
+                    </h2>
+                    <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                        {[
+                            { icon: IndianRupee, title: 'Save 40% on Fare', desc: `Pay only ₹${fareEstimate} for the one-way distance. No return charges — that's up to 40% savings vs round-trip taxis.` },
+                            { icon: Shield, title: 'Verified & Safe', desc: 'Background-verified drivers, GPS-tracked vehicles, and 24/7 customer support for complete peace of mind.' },
+                            { icon: Clock, title: 'Flexible Timings', desc: `Available 24/7, 365 days. Book your ${from.name} to ${to.name} taxi for any time — early morning, late night, weekends, or holidays.` },
+                            { icon: Car, title: 'Multiple Car Options', desc: `Choose from Hatchback (₹${VEHICLE_TYPES[0].price}/km), Sedan, SUV, or Innova Crysta for your ${from.name} to ${to.name} trip.` },
+                            { icon: Phone, title: 'Instant Booking', desc: 'Book online in 30 seconds or call us 24/7. Get instant fare confirmation with no advance payment required.' },
+                            { icon: MapPin, title: 'Door-to-Door Service', desc: `Pickup from any location in ${from.name} — home, office, airport, or railway station. Drop at any point in ${to.name}.` },
+                        ].map((item, idx) => (
+                            <div key={idx} className="flex gap-4 p-4 rounded-xl bg-gray-50 border border-gray-100">
+                                <div className="w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center shrink-0">
+                                    <item.icon className="h-5 w-5 text-teal-700" />
+                                </div>
+                                <div>
+                                    <h3 className="font-bold text-gray-900 mb-1 text-sm">{item.title}</h3>
+                                    <p className="text-gray-600 text-sm leading-relaxed">{item.desc}</p>
+                                </div>
+                            </div>
+                        ))}
                     </div>
                 </div>
             </section>

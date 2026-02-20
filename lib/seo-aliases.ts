@@ -31,6 +31,10 @@ export const SEO_ALIASES: Record<string, string> = {
     'kakinada': 'kakinada',
     'nellore': 'nellore',
 
+    // Karnataka aliases
+    'bengaluru': 'bangalore',
+    'bangaluru': 'bangalore',
+
     // Telangana aliases
     'secunderabad': 'hyderabad',
     'cyberabad': 'hyderabad',

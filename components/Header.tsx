@@ -12,6 +12,7 @@ const states = [
     { name: 'Kerala', slug: 'kerala' },
     { name: 'Andhra Pradesh', slug: 'andhra-pradesh' },
     { name: 'Telangana', slug: 'telangana' },
+    { name: 'Karnataka', slug: 'karnataka' },
     { name: 'Pondicherry', slug: 'pondicherry' },
 ];
 

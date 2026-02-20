@@ -282,6 +282,19 @@ const telanganaDistricts: District[] = [
     popularRoutes: [r('Hyderabad','hyderabad',148,2072), r('Karimnagar','karimnagar',82,1148)] },
 ];
 
+// ─── Karnataka (key cities served) ──────────────────────────
+const KA_STATE = 'Karnataka';
+const KA_SLUG = 'karnataka';
+
+const karnatakaDistricts: District[] = [
+  { name: 'Bangalore', slug: 'bangalore', state: KA_STATE, stateSlug: KA_SLUG, tier: 1, lat: 12.9716, lng: 77.5946,
+    popularRoutes: [r('Chennai','chennai',346,4850), r('Mysore','mysore',150,2100), r('Hyderabad','hyderabad',570,7980), r('Coimbatore','coimbatore',365,5110), r('Tirupati','tirupati',252,3528), r('Madurai','madurai',438,6130), r('Ooty','ooty',270,3780), r('Pondicherry','pondicherry',310,4340), r('Kochi','kochi',555,7770), r('Salem','salem',210,2940)] },
+  { name: 'Mysore', slug: 'mysore', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 12.2958, lng: 76.6394,
+    popularRoutes: [r('Bangalore','bangalore',150,2100), r('Ooty','ooty',125,1750), r('Coimbatore','coimbatore',210,2940), r('Wayanad','wayanad',105,1470), r('Chennai','chennai',480,6720)] },
+  { name: 'Mangalore', slug: 'mangalore', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 12.9141, lng: 74.8560,
+    popularRoutes: [r('Bangalore','bangalore',350,4900), r('Kasaragod','kasaragod',50,700), r('Mysore','mysore',260,3640), r('Kochi','kochi',390,5460)] },
+];
+
 // ─── Pondicherry (4 districts) ──────────────────────────────
 const PY_STATE = 'Pondicherry';
 const PY_SLUG = 'pondicherry';
@@ -303,6 +316,7 @@ export const ALL_DISTRICTS: District[] = [
   ...keralaDistricts,
   ...andhraDistricts,
   ...telanganaDistricts,
+  ...karnatakaDistricts,
   ...pondicherryDistricts,
 ];
 

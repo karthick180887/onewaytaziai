@@ -2,7 +2,20 @@
   "permissions": {
     "allow": [
       "Bash(npx next build)",
-      "Bash(npm run build:*)"
+      "Bash(npm run build:*)",
+      "WebSearch",
+      "WebFetch(domain:ssdroptaxi.com)",
+      "WebFetch(domain:droptaxiinoneway.com)",
+      "WebFetch(domain:oneway.cab)",
+      "WebFetch(domain:onetriptaxi.com)",
+      "Bash(npx tsc:*)",
+      "Bash(./node_modules/.bin/tsc:*)",
+      "Bash(node_modules/.bin/next lint)",
+      "Bash(ls:*)",
+      "Bash(/c/Users/karth/onewaytaziai/onewaytaxi/node_modules/.bin/next build:*)",
+      "Bash(git stash:*)",
+      "Bash(NEXT_PRIVATE_WORKER_THREADS=false /c/Users/karth/onewaytaziai/onewaytaxi/node_modules/.bin/next build:*)",
+      "WebFetch(domain:github.com)"
     ]
   }
 }

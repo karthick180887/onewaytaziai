@@ -86,6 +86,16 @@ export default function Home() {
 
             <TrustBanner />
 
+            {/* Definition Block — optimized for AI citation (134-167 words) */}
+            <section className="py-12 bg-white" aria-label="About OneWayTaxi.ai">
+                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">What is OneWayTaxi.ai?</h2>
+                    <p className="text-gray-700 leading-relaxed text-lg">
+                        OneWayTaxi.ai is South India&apos;s leading one-way drop taxi service, operating across 120+ cities in Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. Unlike traditional round-trip taxis that charge passengers for the driver&apos;s return journey, OneWayTaxi.ai uses a one-way fare model where customers pay only for the distance they actually travel — saving up to 40% on intercity cab fares. Fares start at ₹13 per kilometer for a hatchback, ₹14/km for a sedan, ₹19/km for an SUV, and ₹22/km for an Innova Crysta. All fares include driver bata (allowance), toll charges, inter-state permits, and GST with no hidden costs. The service operates 24/7 with GPS-tracked, air-conditioned vehicles driven by background-verified drivers. Passengers can book online in 30 seconds or call +91 81244 76010 for instant confirmation.
+                    </p>
+                </div>
+            </section>
+
             <HowItWorks />
 
             {/* Features Section */}
@@ -205,6 +215,71 @@ export default function Home() {
                 </div>
             </section>
 
+            {/* Popular Cities — Internal Linking Hub */}
+            <section className="py-16 bg-white" aria-label="Service cities">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-12">
+                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">One Way Taxi Across 120+ Cities</h2>
+                        <p className="text-lg text-gray-600">Affordable drop taxi service covering every district in South India</p>
+                    </div>
+
+                    {/* Tier 1 Cities — prominent */}
+                    <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 mb-10">
+                        {[
+                            { name: 'Chennai', slug: 'chennai', state: 'Tamil Nadu' },
+                            { name: 'Bangalore', slug: 'bangalore', state: 'Karnataka' },
+                            { name: 'Hyderabad', slug: 'hyderabad', state: 'Telangana' },
+                            { name: 'Kochi', slug: 'kochi', state: 'Kerala' },
+                            { name: 'Coimbatore', slug: 'coimbatore', state: 'Tamil Nadu' },
+                            { name: 'Madurai', slug: 'madurai', state: 'Tamil Nadu' },
+                            { name: 'Tirupati', slug: 'tirupati', state: 'Andhra Pradesh' },
+                            { name: 'Trichy', slug: 'trichy', state: 'Tamil Nadu' },
+                            { name: 'Pondicherry', slug: 'pondicherry', state: 'Pondicherry' },
+                            { name: 'Vijayawada', slug: 'vijayawada', state: 'Andhra Pradesh' },
+                        ].map(city => (
+                            <Link
+                                key={city.slug}
+                                href={`/${city.slug}-drop-taxi`}
+                                title={`${city.name} Drop Taxi Service`}
+                                className="group flex flex-col items-center p-5 bg-gray-50 border border-gray-200 rounded-xl hover:border-teal-300 hover:shadow-md hover:bg-teal-50 transition-all"
+                            >
+                                <LucideIcons.MapPin className="h-6 w-6 text-teal-600 mb-2 group-hover:text-teal-700" />
+                                <span className="font-bold text-gray-900 group-hover:text-teal-800">{city.name}</span>
+                                <span className="text-xs text-gray-500">{city.state}</span>
+                            </Link>
+                        ))}
+                    </div>
+
+                    {/* Tier 2 Cities — compact grid */}
+                    <div className="border-t border-gray-100 pt-8">
+                        <h3 className="text-sm font-bold text-gray-400 uppercase tracking-wider mb-4 text-center">More Cities We Serve</h3>
+                        <div className="flex flex-wrap justify-center gap-2">
+                            {[
+                                { name: 'Salem', slug: 'salem' }, { name: 'Mysore', slug: 'mysore' },
+                                { name: 'Vellore', slug: 'vellore' }, { name: 'Ooty', slug: 'ooty' },
+                                { name: 'Kodaikanal', slug: 'kodaikanal' }, { name: 'Warangal', slug: 'warangal' },
+                                { name: 'Thanjavur', slug: 'thanjavur' }, { name: 'Kozhikode', slug: 'kozhikode' },
+                                { name: 'Thrissur', slug: 'thrissur' }, { name: 'Tirunelveli', slug: 'tirunelveli' },
+                                { name: 'Mangalore', slug: 'mangalore' }, { name: 'Kanyakumari', slug: 'kanyakumari' },
+                                { name: 'Trivandrum', slug: 'thiruvananthapuram' }, { name: 'Nellore', slug: 'nellore' },
+                                { name: 'Erode', slug: 'erode' }, { name: 'Tiruppur', slug: 'tiruppur' },
+                                { name: 'Rajahmundry', slug: 'rajahmundry' }, { name: 'Vizag', slug: 'visakhapatnam' },
+                                { name: 'Wayanad', slug: 'wayanad' }, { name: 'Alleppey', slug: 'alappuzha' },
+                            ].map(city => (
+                                <Link
+                                    key={city.slug}
+                                    href={`/${city.slug}-drop-taxi`}
+                                    title={`${city.name} Drop Taxi`}
+                                    className="px-3 py-1.5 text-sm text-gray-600 bg-gray-100 rounded-lg hover:bg-teal-50 hover:text-teal-800 transition-colors border border-transparent hover:border-teal-200"
+                                >
+                                    {city.name}
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
+
             {/* Homepage FAQ */}
             <section className="py-16 bg-white" aria-label="Frequently asked questions">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -255,61 +330,6 @@ export default function Home() {
             </main>
 
             <Footer />
-
-            {/* Organization Schema */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "Organization",
-                        "name": "OneWayTaxi.ai",
-                        "url": "https://onewaytaxi.ai",
-                        "logo": "https://onewaytaxi.ai/logo.png",
-                        "telephone": SUPPORT_PHONE.replace(/\s/g, ''),
-                        "email": "booking@onewaytaxi.ai",
-                        "sameAs": [
-                            GOOGLE_MAPS_URL,
-                            "https://www.facebook.com/onewaytaxi",
-                            "https://www.instagram.com/onewaytaxi",
-                            "https://twitter.com/onewaytaxi"
-                        ],
-                        "address": {
-                            "@type": "PostalAddress",
-                            "streetAddress": "123, Anna Nagar",
-                            "addressLocality": "Chennai",
-                            "addressRegion": "Tamil Nadu",
-                            "postalCode": "600040",
-                            "addressCountry": "IN"
-                        },
-                        "contactPoint": {
-                            "@type": "ContactPoint",
-                            "telephone": SUPPORT_PHONE.replace(/\s/g, ''),
-                            "contactType": "customer service",
-                            "areaServed": "IN",
-                            "availableLanguage": ["English", "Tamil", "Hindi", "Telugu", "Malayalam"]
-                        }
-                    })
-                }}
-            />
-
-            {/* WebSite Schema with SearchAction for Sitelinks */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "WebSite",
-                        "name": "OneWayTaxi.ai",
-                        "url": "https://onewaytaxi.ai",
-                        "description": "Book affordable one-way drop taxis across South India. 115+ cities covered.",
-                        "publisher": {
-                            "@type": "Organization",
-                            "name": "OneWayTaxi.ai"
-                        }
-                    })
-                }}
-            />
 
             {/* TaxiService Schema */}
             <script
