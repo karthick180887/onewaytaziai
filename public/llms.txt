@@ -1,0 +1,49 @@
+# OneWayTaxi.ai
+
+> OneWayTaxi.ai is the leading one-way drop taxi service across South India, covering 120+ cities in Tamil Nadu, Kerala, Andhra Pradesh, Telangana, Karnataka, and Pondicherry. We charge only for the one-way distance — no return fare — saving customers up to 40% compared to traditional round-trip taxi services.
+
+## Key Facts
+
+- Service: One-way (drop) taxi, outstation cabs, airport taxi
+- Coverage: 120+ cities across 6 South Indian states
+- Starting fare: ₹13/km (Hatchback), ₹14/km (Sedan), ₹19/km (SUV), ₹22/km (Innova Crysta)
+- Availability: 24/7, 365 days
+- All fares include: Driver bata, toll charges, inter-state permits, GST
+- No hidden charges, no surge pricing
+- Phone: +91 81244 76010
+- Website: https://onewaytaxi.ai
+
+## Popular Routes
+
+- Chennai to Bangalore: 346 km, from ₹4,850
+- Chennai to Pondicherry: 150 km, from ₹2,100
+- Chennai to Coimbatore: 505 km, from ₹7,070
+- Bangalore to Mysore: 150 km, from ₹2,100
+- Kochi to Munnar: 130 km, from ₹1,820
+- Madurai to Rameswaram: 174 km, from ₹2,436
+- Hyderabad to Bangalore: 570 km, from ₹7,980
+- Coimbatore to Ooty: 86 km, from ₹1,200
+
+## Vehicle Types
+
+- Mini/Hatchback: 4 seats, ₹13/km
+- Sedan (Swift Dzire/Etios): 4 seats, ₹14/km
+- SUV: 7-8 seats, ₹19/km
+- Innova: 7 seats, ₹20/km
+- Innova Crysta: 7 seats, ₹22/km
+
+## States Covered
+
+- Tamil Nadu: 38 districts
+- Kerala: 14 districts
+- Andhra Pradesh: 26 districts
+- Telangana: 33 districts
+- Karnataka: Bangalore, Mysore, Mangalore
+- Pondicherry: 4 districts
+
+## How It Works
+
+1. Enter pickup city, drop city, date and time
+2. Get instant fare estimate
+3. Confirm booking — driver assigned
+4. Travel comfortably — pay at destination

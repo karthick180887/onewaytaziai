@@ -1,9 +1,10 @@
-// lib/districts.ts — Central district data for all 5 South Indian states
+// lib/districts.ts — Central district data for all 6 South Indian states
 
-export type ServiceType = 'drop-taxi' | 'taxi-service' | 'outstation-cab' | 'airport-taxi';
+export type ServiceType = 'drop-taxi' | 'one-way-taxi' | 'taxi-service' | 'outstation-cab' | 'airport-taxi';
 
 export const SERVICE_TYPES: { id: ServiceType; label: string; keyword: string }[] = [
   { id: 'drop-taxi', label: 'Drop Taxi', keyword: 'drop taxi' },
+  { id: 'one-way-taxi', label: 'One Way Taxi', keyword: 'one way taxi' },
   { id: 'taxi-service', label: 'Taxi Service', keyword: 'taxi service' },
   { id: 'outstation-cab', label: 'Outstation Cab', keyword: 'outstation cab' },
   { id: 'airport-taxi', label: 'Airport Taxi', keyword: 'airport taxi' },
@@ -282,6 +283,75 @@ const telanganaDistricts: District[] = [
     popularRoutes: [r('Hyderabad','hyderabad',148,2072), r('Karimnagar','karimnagar',82,1148)] },
 ];
 
+// ─── Karnataka (31 districts) ───────────────────────────────
+const KA_STATE = 'Karnataka';
+const KA_SLUG = 'karnataka';
+
+const karnatakaDistricts: District[] = [
+  { name: 'Bangalore', slug: 'bangalore', state: KA_STATE, stateSlug: KA_SLUG, tier: 1, lat: 12.9716, lng: 77.5946,
+    popularRoutes: [r('Chennai','chennai',346,4850), r('Mysore','mysore',150,2100), r('Hyderabad','hyderabad',570,7980), r('Coimbatore','coimbatore',365,5110), r('Tirupati','tirupati',252,3528), r('Madurai','madurai',438,6130), r('Ooty','ooty',270,3780), r('Pondicherry','pondicherry',310,4340), r('Kochi','kochi',555,7770), r('Salem','salem',210,2940)] },
+  { name: 'Mysore', slug: 'mysore', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 12.2958, lng: 76.6394,
+    popularRoutes: [r('Bangalore','bangalore',150,2100), r('Ooty','ooty',125,1750), r('Coimbatore','coimbatore',210,2940), r('Wayanad','wayanad',105,1470), r('Chennai','chennai',480,6720)] },
+  { name: 'Mangalore', slug: 'mangalore', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 12.9141, lng: 74.8560,
+    popularRoutes: [r('Bangalore','bangalore',350,4900), r('Kasaragod','kasaragod',50,700), r('Mysore','mysore',260,3640), r('Kochi','kochi',390,5460)] },
+  { name: 'Hubli', slug: 'hubli', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 15.3647, lng: 75.1240,
+    popularRoutes: [r('Bangalore','bangalore',420,5880), r('Goa','goa',195,2730), r('Dharwad','dharwad',20,280), r('Belgaum','belgaum',94,1316)] },
+  { name: 'Belgaum', slug: 'belgaum', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 15.8497, lng: 74.4977,
+    popularRoutes: [r('Bangalore','bangalore',502,7028), r('Goa','goa',125,1750), r('Pune','pune',335,4690), r('Hubli','hubli',94,1316)] },
+  { name: 'Gulbarga', slug: 'gulbarga', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 17.3297, lng: 76.8343,
+    popularRoutes: [r('Hyderabad','hyderabad',220,3080), r('Bangalore','bangalore',615,8610), r('Bidar','bidar',110,1540)] },
+  { name: 'Davangere', slug: 'davangere', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 14.4644, lng: 75.9218,
+    popularRoutes: [r('Bangalore','bangalore',264,3696), r('Hubli','hubli',160,2240), r('Shimoga','shimoga',100,1400)] },
+  { name: 'Bellary', slug: 'bellary', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 15.1394, lng: 76.9214,
+    popularRoutes: [r('Bangalore','bangalore',310,4340), r('Hyderabad','hyderabad',370,5180), r('Hubli','hubli',190,2660)] },
+  { name: 'Shimoga', slug: 'shimoga', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 13.9299, lng: 75.5681,
+    popularRoutes: [r('Bangalore','bangalore',280,3920), r('Mangalore','mangalore',195,2730), r('Hubli','hubli',155,2170)] },
+  { name: 'Tumkur', slug: 'tumkur', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 13.3379, lng: 77.1173,
+    popularRoutes: [r('Bangalore','bangalore',70,980), r('Chitradurga','chitradurga',130,1820), r('Shimoga','shimoga',210,2940)] },
+  { name: 'Raichur', slug: 'raichur', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 16.2120, lng: 77.3439,
+    popularRoutes: [r('Hyderabad','hyderabad',310,4340), r('Bangalore','bangalore',405,5670), r('Gulbarga','gulbarga',160,2240)] },
+  { name: 'Bidar', slug: 'bidar', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 17.9104, lng: 77.5199,
+    popularRoutes: [r('Hyderabad','hyderabad',145,2030), r('Gulbarga','gulbarga',110,1540), r('Bangalore','bangalore',700,9800)] },
+  { name: 'Hassan', slug: 'hassan', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 13.0033, lng: 76.1004,
+    popularRoutes: [r('Bangalore','bangalore',187,2618), r('Mysore','mysore',118,1652), r('Mangalore','mangalore',175,2450)] },
+  { name: 'Dharwad', slug: 'dharwad', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 15.4589, lng: 75.0078,
+    popularRoutes: [r('Hubli','hubli',20,280), r('Bangalore','bangalore',440,6160), r('Goa','goa',175,2450), r('Belgaum','belgaum',74,1036)] },
+  { name: 'Udupi', slug: 'udupi', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 13.3409, lng: 74.7421,
+    popularRoutes: [r('Mangalore','mangalore',60,840), r('Bangalore','bangalore',400,5600), r('Goa','goa',280,3920)] },
+  { name: 'Mandya', slug: 'mandya', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 12.5244, lng: 76.8958,
+    popularRoutes: [r('Mysore','mysore',48,672), r('Bangalore','bangalore',100,1400)] },
+  { name: 'Chikmagalur', slug: 'chikmagalur', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 13.3161, lng: 75.7720,
+    popularRoutes: [r('Bangalore','bangalore',245,3430), r('Mangalore','mangalore',152,2128), r('Hassan','hassan',68,952)] },
+  { name: 'Kodagu', slug: 'coorg', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 12.3375, lng: 75.8069,
+    popularRoutes: [r('Mysore','mysore',110,1540), r('Bangalore','bangalore',260,3640), r('Mangalore','mangalore',135,1890)] },
+  { name: 'Chitradurga', slug: 'chitradurga', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 14.2251, lng: 76.3980,
+    popularRoutes: [r('Bangalore','bangalore',200,2800), r('Davangere','davangere',65,910), r('Hubli','hubli',225,3150)] },
+  { name: 'Kolar', slug: 'kolar', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 13.1360, lng: 78.1292,
+    popularRoutes: [r('Bangalore','bangalore',68,952), r('Chennai','chennai',280,3920), r('Tirupati','tirupati',185,2590)] },
+  { name: 'Gadag', slug: 'gadag', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 15.4166, lng: 75.6259,
+    popularRoutes: [r('Hubli','hubli',55,770), r('Bangalore','bangalore',475,6650)] },
+  { name: 'Haveri', slug: 'haveri', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 14.7951, lng: 75.4001,
+    popularRoutes: [r('Hubli','hubli',75,1050), r('Bangalore','bangalore',345,4830), r('Davangere','davangere',80,1120)] },
+  { name: 'Bagalkot', slug: 'bagalkot', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 16.1691, lng: 75.6615,
+    popularRoutes: [r('Hubli','hubli',110,1540), r('Bangalore','bangalore',530,7420), r('Belgaum','belgaum',120,1680)] },
+  { name: 'Chamarajanagar', slug: 'chamarajanagar', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 11.9261, lng: 76.9437,
+    popularRoutes: [r('Mysore','mysore',60,840), r('Bangalore','bangalore',210,2940)] },
+  { name: 'Koppal', slug: 'koppal', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 15.3547, lng: 76.1546,
+    popularRoutes: [r('Bangalore','bangalore',375,5250), r('Hubli','hubli',130,1820), r('Bellary','bellary',75,1050)] },
+  { name: 'Chikballapur', slug: 'chikballapur', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 13.4355, lng: 77.7315,
+    popularRoutes: [r('Bangalore','bangalore',57,798), r('Tirupati','tirupati',195,2730)] },
+  { name: 'Ramanagara', slug: 'ramanagara', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 12.7159, lng: 77.2810,
+    popularRoutes: [r('Bangalore','bangalore',50,700), r('Mysore','mysore',100,1400)] },
+  { name: 'Yadgir', slug: 'yadgir', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 16.7700, lng: 77.1380,
+    popularRoutes: [r('Gulbarga','gulbarga',80,1120), r('Raichur','raichur',75,1050), r('Hyderabad','hyderabad',280,3920)] },
+  { name: 'Vijayapura', slug: 'vijayapura', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 16.8302, lng: 75.7100,
+    popularRoutes: [r('Bangalore','bangalore',525,7350), r('Hubli','hubli',170,2380), r('Hyderabad','hyderabad',380,5320)] },
+  { name: 'Dakshina Kannada', slug: 'dakshina-kannada', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 12.8700, lng: 75.0000,
+    popularRoutes: [r('Mangalore','mangalore',15,210), r('Bangalore','bangalore',355,4970)] },
+  { name: 'Uttara Kannada', slug: 'uttara-kannada', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 14.6000, lng: 74.7500,
+    popularRoutes: [r('Goa','goa',95,1330), r('Hubli','hubli',135,1890), r('Bangalore','bangalore',485,6790)] },
+];
+
 // ─── Pondicherry (4 districts) ──────────────────────────────
 const PY_STATE = 'Pondicherry';
 const PY_SLUG = 'pondicherry';
@@ -303,6 +373,7 @@ export const ALL_DISTRICTS: District[] = [
   ...keralaDistricts,
   ...andhraDistricts,
   ...telanganaDistricts,
+  ...karnatakaDistricts,
   ...pondicherryDistricts,
 ];
 

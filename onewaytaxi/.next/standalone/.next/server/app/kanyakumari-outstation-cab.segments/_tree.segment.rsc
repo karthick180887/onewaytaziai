@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/82842b94a918f968.css","style"]
+:HL["/_next/static/media/1b99372b3eaef0c8-s.p.758e15a8.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["https://placehold.co/400x300/orange/white.png?text=Mini+Test","image"]
+:HL["/images/fleet/sedan.svg","image"]
+:HL["/images/fleet/etios.svg","image"]
+:HL["/images/fleet/sedan_no_cng.svg","image"]
+:HL["/images/fleet/suv.svg","image"]
+:HL["/images/fleet/innova.svg","image"]
+:HL["/images/fleet/crysta.svg","image"]
+0:{"buildId":"plJVFbP0B-CdrlLNMZLzV","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"slug","paramType":"d","paramKey":"kanyakumari-outstation-cab","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
