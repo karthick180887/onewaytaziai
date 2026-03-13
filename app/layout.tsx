@@ -34,7 +34,7 @@ export default function RootLayout({
         {children}
         <FloatingCTA />
         <Script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDrL9-n9B6VC3D9nfGJibVOCDkSWUyrdqo&libraries=places&loading=async"
+          src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places&loading=async`}
           strategy="afterInteractive"
         />
       </body>
