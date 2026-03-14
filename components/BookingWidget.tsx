@@ -41,7 +41,7 @@ export default function BookingWidget() {
                 const options = {
                     componentRestrictions: { country: "in" },
                     fields: ["address_components", "geometry", "icon", "name"],
-                    types: ["(cities)"],
+                    types: ["(regions)"],
                 };
 
                 const pickupAutocomplete = new (window as any).google.maps.places.Autocomplete(pickupRef.current, options);
