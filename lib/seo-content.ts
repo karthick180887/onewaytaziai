@@ -29,6 +29,7 @@ const SERVICE_LABELS: Record<ServiceType, string> = {
     'taxi-service': 'Taxi Service',
     'outstation-cab': 'Outstation Cab',
     'airport-taxi': 'Airport Taxi',
+    'one-way-taxi': 'One Way Taxi',
 };
 
 const SERVICE_VERBS: Record<ServiceType, string> = {
@@ -36,6 +37,7 @@ const SERVICE_VERBS: Record<ServiceType, string> = {
     'taxi-service': 'reliable taxi service',
     'outstation-cab': 'affordable outstation cab',
     'airport-taxi': 'convenient airport taxi',
+    'one-way-taxi': 'one-way taxi',
 };
 
 // ─── SEO Content Generators ─────────────────────────────────
@@ -54,6 +56,7 @@ export function getSEOContent(district: District, serviceType: ServiceType): SEO
         'taxi-service': `${dn} Taxi Service (${currentYear}) — Book @ ₹${VEHICLE_TYPES[0].price}/km`,
         'outstation-cab': `${dn} Outstation Cab — One Way Drops from ₹${VEHICLE_TYPES[0].price}/km`,
         'airport-taxi': `${dn} Airport Taxi — On-time Pickup from ₹${VEHICLE_TYPES[0].price}/km`,
+        'one-way-taxi': `${dn} One Way Taxi — Pay One Way from ₹${VEHICLE_TYPES[0].price}/km`,
     };
 
     // Meta Description: Optimized for <155 chars with CTA
@@ -63,6 +66,7 @@ export function getSEOContent(district: District, serviceType: ServiceType): SEO
         'taxi-service': `Best taxi service in ${dn}, ${district.state}. ${topRouteText}AC cabs from ₹${VEHICLE_TYPES[0].price}/km. 24/7 booking, verified drivers. Call now!`,
         'outstation-cab': `Book outstation cab from ${dn} at ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}One-way pricing, AC vehicles, verified drivers. Book online!`,
         'airport-taxi': `Reliable airport taxi in ${dn} from ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}On-time pickup, flight tracking, no surge. Book now!`,
+        'one-way-taxi': `Book one way taxi from ${dn} at ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}Pay only one-way fare, no return charges. Book now!`,
     };
 
     return {
@@ -130,6 +134,14 @@ What sets our ${dn} airport taxi apart: our drivers actively track your flight s
 
 ### Upfront Pricing
 Book your ${dn} airport taxi online and get an instant fare estimate. Popular airport transfer routes: ${routeText}. Available vehicle types include Hatchbacks (₹${VEHICLE_TYPES[0].price}/km), Sedans, SUVs, and Innova Crysta. All fares include driver bata, toll charges, parking fees, and GST. Our ${dn} airport taxi service operates 24/7.`,
+
+        'one-way-taxi': `Looking for a **one-way taxi in ${dn}**? OneWayTaxi.ai offers the best one-way taxi service from ${dn}, ${ds}. Pay only for the distance you travel — no return fare, no hidden charges. Save up to 40% compared to round-trip taxis.
+
+### Affordable One Way Taxi from ${dn}
+Our ${dn} one-way taxi fleet includes **Hatchbacks (₹${VEHICLE_TYPES[0].price}/km)**, Sedans (₹${VEHICLE_TYPES[1].price}/km), SUVs, and premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). Every vehicle is air-conditioned, GPS-tracked, and driven by verified drivers.
+
+### Popular One Way Routes
+Top one-way taxi routes from ${dn}: ${routeText}. All fares include driver bata, toll charges, permits, and GST. Book your ${dn} one-way taxi online or call us 24/7.`,
     };
 
     return descriptions[serviceType];
