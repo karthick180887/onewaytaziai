@@ -8,7 +8,7 @@ import { SUPPORT_PHONE, GOOGLE_MAPS_URL } from "@/lib/constants";
 
 const outfit = Outfit({
   variable: "--font-outfit",
-  subsets: ["latin"],
+  subsets: ["latin", "latin-ext"],
   display: "swap",
   weight: ["300", "400", "500", "600", "700"],
 });
