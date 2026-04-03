@@ -1,7 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Outfit } from "next/font/google";
 import "./globals.css";
-import FloatingCTA from "@/components/FloatingCTA";
+import WhatsAppFAB from "@/components/WhatsAppFAB";
+import MobileBottomBar from "@/components/MobileBottomBar";
 import Script from "next/script";
 import { SUPPORT_PHONE, GOOGLE_MAPS_URL } from "@/lib/constants";
 
@@ -83,7 +84,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${outfit.variable} antialiased selection:bg-teal-900 selection:text-white`}>
+      <body className={`${outfit.variable} antialiased selection:bg-teal-900 selection:text-white pb-16 md:pb-0`}>
         {/* Organization Schema — site-wide entity identity */}
         <script
           type="application/ld+json"
@@ -141,7 +142,8 @@ export default function RootLayout({
           }}
         />
         {children}
-        <FloatingCTA />
+        <WhatsAppFAB />
+        <MobileBottomBar />
         <Script
           src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=places&loading=async`}
           strategy="afterInteractive"

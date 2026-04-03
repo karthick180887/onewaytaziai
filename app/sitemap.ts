@@ -3,6 +3,19 @@ import { ALL_DISTRICTS, SERVICE_TYPES } from '@/lib/districts';
 import { getAllRoutes } from '@/lib/routes';
 import { getAllBlogSlugs } from '@/lib/blog-posts';
 
+const AIRPORT_SLUGS = [
+    'chennai-airport',
+    'bangalore-airport',
+    'hyderabad-airport',
+    'kochi-airport',
+    'coimbatore-airport',
+    'madurai-airport',
+    'trichy-airport',
+    'trivandrum-airport',
+    'mangalore-airport',
+    'calicut-airport',
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = 'https://onewaytaxi.ai';
     const now = new Date();
@@ -16,6 +29,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
             priority: 1.0,
         },
     ];
+
+    // State hub pages
+    const stateSlugs = ['tamil-nadu', 'kerala', 'karnataka', 'andhra-pradesh', 'telangana', 'pondicherry'];
+    for (const stateSlug of stateSlugs) {
+        routes.push({
+            url: `${baseUrl}/states/${stateSlug}`,
+            lastModified: now,
+            changeFrequency: 'weekly',
+            priority: 0.8,
+        });
+    }
 
     // District × Service pages
     for (const district of ALL_DISTRICTS) {
@@ -83,6 +107,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
             lastModified: now,
             changeFrequency: 'monthly',
             priority: 0.65,
+        });
+    }
+
+    // Airport taxi pages
+    for (const slug of AIRPORT_SLUGS) {
+        routes.push({
+            url: `${baseUrl}/airport-taxi/${slug}`,
+            lastModified: now,
+            changeFrequency: 'weekly',
+            priority: 0.85,
         });
     }
 
