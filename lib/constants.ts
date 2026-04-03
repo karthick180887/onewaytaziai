@@ -17,7 +17,7 @@ export const POPULAR_CITIES = [
 ];
 
 export const VEHICLE_TYPES = [
-    { id: 'mini', name: 'Mini (3+1)', price: 13, seat: 4, icon: 'Car', image: 'https://placehold.co/400x300/orange/white.png?text=Mini+Test' },
+    { id: 'mini', name: 'Mini (3+1)', price: 13, seat: 4, icon: 'Car', image: '/images/fleet/mini.svg' },
     { id: 'sedan', name: 'Sedan (4+1)', price: 14, seat: 4, icon: 'CarFront', image: '/images/fleet/sedan.svg' },
     { id: 'etios', name: 'Etios (4+1)', price: 14, seat: 5, icon: 'CarFront', image: '/images/fleet/etios.svg' },
     { id: 'sedan_no_cng', name: 'Sedan (Non-CNG)', price: 14, seat: 5, icon: 'CarFront', image: '/images/fleet/sedan_no_cng.svg' },

@@ -21,7 +21,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL("https://onewaytaxi.ai"),
   title: {
-    default: "OneWayTaxi.ai — #1 One Way Drop Taxi Service in South India",
+    default: "#1 One Way Drop Taxi South India | OneWayTaxi.ai",
     template: "%s | OneWayTaxi.ai",
   },
   description: "Book affordable one-way drop taxis across South India — Chennai, Bangalore, Coimbatore, Madurai & 115+ cities. Pay only for one way. Starting ₹13/km. 24/7 verified drivers. No hidden charges.",
@@ -40,15 +40,17 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: "OneWayTaxi.ai",
-    title: "OneWayTaxi.ai — #1 One Way Drop Taxi Service in South India",
+    title: "#1 One Way Drop Taxi South India | OneWayTaxi.ai",
     description: "Book affordable one-way drop taxis across South India. Pay only for one way — starting ₹13/km. 115+ cities, 24/7 service, verified drivers.",
     url: "https://onewaytaxi.ai",
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "OneWayTaxi.ai — One Way Drop Taxi Service" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "OneWayTaxi.ai — #1 One Way Drop Taxi in South India",
+    title: "#1 One Way Drop Taxi South India | OneWayTaxi.ai",
     description: "Book affordable one-way drop taxis across South India. Pay only for one way — starting ₹13/km. 24/7 service.",
     creator: "@onewaytaxi",
+    images: ["/opengraph-image"],
   },
   alternates: {
     canonical: "https://onewaytaxi.ai",
@@ -65,6 +67,10 @@ export const metadata: Metadata = {
     },
   },
   category: "Travel & Transportation",
+  icons: {
+    icon: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
