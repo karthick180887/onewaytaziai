@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     default: "#1 One Way Drop Taxi South India | OneWayTaxi.ai",
     template: "%s | OneWayTaxi.ai",
   },
-  description: "Book affordable one-way drop taxis across South India — Chennai, Bangalore, Coimbatore, Madurai & 115+ cities. Pay only for one way. Starting ₹13/km. 24/7 verified drivers. No hidden charges.",
+  description: "Book one-way drop taxis across South India — Chennai, Bangalore, Coimbatore & 120+ cities. Starting ₹13/km. Save 40%. 24/7 verified drivers.",
   keywords: ["one way taxi", "drop taxi", "outstation cab", "one way cab", "chennai taxi", "bangalore taxi", "airport taxi", "one way drop taxi south india", "cheap taxi booking"],
   authors: [{ name: "OneWayTaxi.ai" }],
   creator: "OneWayTaxi.ai",
@@ -54,6 +54,9 @@ export const metadata: Metadata = {
   },
   alternates: {
     canonical: "https://onewaytaxi.ai",
+    languages: {
+      "en-IN": "https://onewaytaxi.ai",
+    },
   },
   robots: {
     index: true,

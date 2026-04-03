@@ -11,7 +11,7 @@ import Link from "next/link";
 
 export const metadata: Metadata = {
     title: "#1 One Way Drop Taxi South India — ₹13/km | OneWayTaxi.ai",
-    description: "Book affordable one-way drop taxis across Chennai, Bangalore, Coimbatore, Madurai & 115+ South Indian cities. Starting ₹13/km. Pay only for one way — save up to 40%. 24/7 verified drivers, no hidden charges.",
+    description: "Book one-way drop taxis across Chennai, Bangalore, Coimbatore & 120+ cities. ₹13/km. Pay one way only — save 40%. Call +91 81244 76010!",
     alternates: {
         canonical: "https://onewaytaxi.ai",
     },
