@@ -142,7 +142,7 @@ export default function Home() {
                                 <div key={vehicle.id} className="bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition-all border border-gray-100">
                                     <div className="bg-gradient-to-br from-gray-100 to-gray-200 h-48 flex items-center justify-center p-6">
                                         {/* @ts-ignore */}
-                                        <img src={vehicle.image} alt={vehicle.name} className="w-full h-full object-contain hover:scale-105 transition-transform duration-500" />
+                                        <img src={vehicle.image} alt={vehicle.name} width={400} height={300} loading="lazy" className="w-full h-full object-contain hover:scale-105 transition-transform duration-500" />
                                     </div>
                                     <div className="p-6">
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">{vehicle.name}</h3>

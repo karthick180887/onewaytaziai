@@ -38,7 +38,7 @@ export default function PricingTable({ districtName }: PricingTableProps) {
                                     <td className="py-4 px-6">
                                         <div className="flex items-center gap-3">
                                             {/* @ts-ignore */}
-                                            <img src={v.image} alt={v.name} className="h-12 w-20 object-contain bg-gray-100/50 rounded-md p-1" />
+                                            <img src={v.image} alt={v.name} width={80} height={48} loading="lazy" className="h-12 w-20 object-contain bg-gray-100/50 rounded-md p-1" />
                                             <span className="font-semibold text-gray-900">{v.name}</span>
                                         </div>
                                     </td>
@@ -75,7 +75,7 @@ export default function PricingTable({ districtName }: PricingTableProps) {
                                     <div className="flex items-center gap-3">
                                         <div className="bg-teal-50 p-2 rounded-lg">
                                             {/* @ts-ignore */}
-                                            <img src={v.image} alt={v.name} className="h-10 w-16 object-contain" />
+                                            <img src={v.image} alt={v.name} width={64} height={40} loading="lazy" className="h-10 w-16 object-contain" />
                                         </div>
                                         <div>
                                             <div className="font-bold text-gray-900">{v.name}</div>

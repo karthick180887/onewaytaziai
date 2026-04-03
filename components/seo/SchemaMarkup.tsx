@@ -30,7 +30,7 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
         email: 'booking@onewaytaxi.ai',
         sameAs: [GOOGLE_MAPS_URL],
         hasMap: GOOGLE_MAPS_URL,
-        image: 'https://onewaytaxi.ai/logo.png',
+        image: 'https://onewaytaxi.ai/opengraph-image',
         areaServed: {
             "@type": "City",
             name: district.name,

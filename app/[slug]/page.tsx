@@ -47,11 +47,13 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             siteName: 'OneWayTaxi.ai',
             type: 'website',
             locale: 'en_IN',
+            images: [{ url: '/opengraph-image', width: 1200, height: 630, alt: `${district.name} ${serviceType.label} — OneWayTaxi.ai` }],
         },
         twitter: {
             card: 'summary_large_image',
             title: `${district.name} ${serviceType.label} — Book Now | OneWayTaxi.ai`,
             description: seo.metaDescription,
+            images: ['/opengraph-image'],
         },
         alternates: {
             canonical: `https://onewaytaxi.ai/${serviceType.id}-in-${district.slug}`,
