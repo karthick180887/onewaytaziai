@@ -44,6 +44,22 @@ export default function sitemap(): MetadataRoute.Sitemap {
         });
     }
 
+    // About page
+    routes.push({
+        url: `${baseUrl}/about`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+    });
+
+    // Contact page
+    routes.push({
+        url: `${baseUrl}/contact`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.7,
+    });
+
     // Fare calculator page
     routes.push({
         url: `${baseUrl}/fare-calculator`,
