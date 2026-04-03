@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Phone, Menu, X, Car, ChevronDown, MapPin, ChevronRight, Plane, Route, BookOpen, MessageCircle } from "lucide-react";
 import { clsx } from "clsx";
 import { APP_NAME, SUPPORT_PHONE } from "@/lib/constants";
-import { DISTRICTS_BY_STATE } from "@/lib/districts";
+import { DISTRICTS_BY_STATE, SERVICE_TYPES } from "@/lib/districts";
 
 const states = [
     { name: 'Tamil Nadu', slug: 'tamil-nadu' },
@@ -44,12 +44,14 @@ export default function Header() {
     const [isOpen, setIsOpen] = useState(false);
     const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
     const [activeState, setActiveState] = useState(states[0].slug);
+    const [activeService, setActiveService] = useState(SERVICE_TYPES[0].id);
     const [scrolled, setScrolled] = useState(false);
     const timeoutRef = useRef<NodeJS.Timeout | null>(null);
 
     // Mobile
     const [mobileSection, setMobileSection] = useState<string | null>(null);
     const [mobileState, setMobileState] = useState<string | null>(null);
+    const [mobileService, setMobileService] = useState(SERVICE_TYPES[0].id);
 
     useEffect(() => {
         const onScroll = () => setScrolled(window.scrollY > 10);
@@ -118,6 +120,25 @@ export default function Header() {
                                 activeDropdown === 'cities' ? "opacity-100 scale-y-100 pointer-events-auto" : "opacity-0 scale-y-95 pointer-events-none"
                             )}>
                                 <div className="max-w-7xl mx-auto px-6 py-5">
+                                    {/* Service Type Pills */}
+                                    <div className="flex items-center gap-1.5 mb-4 pb-3 border-b border-gray-100">
+                                        <span className="text-xs font-bold text-gray-400 uppercase tracking-wider mr-2 shrink-0">Service:</span>
+                                        {SERVICE_TYPES.map(st => (
+                                            <button
+                                                key={st.id}
+                                                onClick={() => setActiveService(st.id)}
+                                                className={clsx(
+                                                    "px-3 py-1.5 text-xs font-medium rounded-full transition-all",
+                                                    activeService === st.id
+                                                        ? "bg-teal-900 text-white"
+                                                        : "bg-gray-100 text-gray-600 hover:bg-teal-50 hover:text-teal-800"
+                                                )}
+                                            >
+                                                {st.label}
+                                            </button>
+                                        ))}
+                                    </div>
+
                                     <div className="flex gap-6">
                                         {/* State Tabs */}
                                         <div className="w-48 shrink-0 border-r border-gray-100 pr-4">
@@ -143,7 +164,7 @@ export default function Header() {
                                         <div className="flex-1 min-w-0">
                                             <div className="flex items-center justify-between mb-3">
                                                 <p className="text-sm font-bold text-gray-800">
-                                                    {states.find(s => s.slug === activeState)?.name} — {activeDistricts.length} cities
+                                                    {SERVICE_TYPES.find(s => s.id === activeService)?.label} in {states.find(s => s.slug === activeState)?.name}
                                                 </p>
                                                 <Link href={`/states/${activeState}`} className="text-xs text-teal-600 hover:text-teal-800 font-medium">
                                                     View all →
@@ -153,7 +174,7 @@ export default function Header() {
                                                 {activeDistricts.map(d => (
                                                     <Link
                                                         key={d.slug}
-                                                        href={`/drop-taxi-in-${d.slug}`}
+                                                        href={`/${activeService}-in-${d.slug}`}
                                                         className="flex items-center gap-1 px-2 py-1.5 rounded text-sm text-gray-600 hover:bg-teal-50 hover:text-teal-800 transition-all truncate"
                                                     >
                                                         {d.tier === 1 && <span className="w-1.5 h-1.5 rounded-full bg-amber-400 shrink-0" />}
@@ -257,7 +278,7 @@ export default function Header() {
                             {popularCities.map(c => (
                                 <Link
                                     key={c.slug}
-                                    href={`/drop-taxi-in-${c.slug}`}
+                                    href={`/${mobileService}-in-${c.slug}`}
                                     onClick={() => setIsOpen(false)}
                                     className="px-3 py-1.5 text-xs font-medium text-gray-700 bg-gray-100 rounded-full active:bg-teal-100 active:text-teal-900"
                                 >
@@ -290,6 +311,23 @@ export default function Header() {
 
                             {mobileSection === 'cities' && (
                                 <div className="ml-2 mt-1 border-l-2 border-teal-100 pl-2">
+                                    {/* Service type selector */}
+                                    <div className="flex flex-wrap gap-1.5 px-2 py-2 mb-2">
+                                        {SERVICE_TYPES.map(st => (
+                                            <button
+                                                key={st.id}
+                                                onClick={() => setMobileService(st.id)}
+                                                className={clsx(
+                                                    "px-2.5 py-1 text-[11px] font-medium rounded-full transition-all",
+                                                    mobileService === st.id
+                                                        ? "bg-teal-900 text-white"
+                                                        : "bg-gray-100 text-gray-600"
+                                                )}
+                                            >
+                                                {st.label}
+                                            </button>
+                                        ))}
+                                    </div>
                                     {states.map(s => {
                                         const districts = DISTRICTS_BY_STATE.get(s.slug) || [];
                                         const isOpen = mobileState === s.slug;
@@ -315,7 +353,7 @@ export default function Header() {
                                                             {tier12.map(d => (
                                                                 <Link
                                                                     key={d.slug}
-                                                                    href={`/drop-taxi-in-${d.slug}`}
+                                                                    href={`/${mobileService}-in-${d.slug}`}
                                                                     onClick={() => setIsOpen(false)}
                                                                     className="px-2 py-1.5 text-xs text-gray-600 active:bg-teal-50 active:text-teal-900 rounded truncate"
                                                                 >
