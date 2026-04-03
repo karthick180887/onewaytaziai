@@ -108,7 +108,7 @@ export default function Header() {
                                                     {activeDistricts.map(d => (
                                                         <Link
                                                             key={d.slug}
-                                                            href={`/${d.slug}-${st.id}`}
+                                                            href={`/${st.id}-in-${d.slug}`}
                                                             className="flex items-center justify-between px-3 py-2 rounded-md text-sm text-gray-600 hover:bg-teal-50 hover:text-teal-800 transition-all group border border-transparent hover:border-teal-100"
                                                         >
                                                             <span className="truncate mr-2">{d.name}</span>
@@ -198,7 +198,7 @@ export default function Header() {
                                                             {stateDistricts.map(d => (
                                                                 <Link
                                                                     key={d.slug}
-                                                                    href={`/${d.slug}-${st.id}`}
+                                                                    href={`/${st.id}-in-${d.slug}`}
                                                                     className="flex items-center gap-1.5 px-2 py-1.5 text-xs text-gray-500 hover:text-teal-800 rounded transition-colors truncate"
                                                                     onClick={() => setIsOpen(false)}
                                                                 >

@@ -15,12 +15,12 @@ export const metadata: Metadata = {
 };
 
 const popularRoutes = [
-    { label: 'Chennai Drop Taxi', href: '/chennai-drop-taxi' },
-    { label: 'Bangalore Taxi Service', href: '/bangalore-taxi-service' },
-    { label: 'Coimbatore Outstation Cab', href: '/coimbatore-outstation-cab' },
-    { label: 'Madurai Drop Taxi', href: '/madurai-drop-taxi' },
-    { label: 'Hyderabad Taxi Service', href: '/hyderabad-taxi-service' },
-    { label: 'Kochi Airport Taxi', href: '/kochi-airport-taxi' },
+    { label: 'Drop Taxi in Chennai', href: '/drop-taxi-in-chennai' },
+    { label: 'Taxi Service in Bangalore', href: '/taxi-service-in-bangalore' },
+    { label: 'Outstation Cabs in Coimbatore', href: '/outstation-cabs-in-coimbatore' },
+    { label: 'Drop Taxi in Madurai', href: '/drop-taxi-in-madurai' },
+    { label: 'Taxi Service in Hyderabad', href: '/taxi-service-in-hyderabad' },
+    { label: 'Cab Service in Kochi', href: '/cab-service-in-kochi' },
 ];
 
 export default function NotFound() {

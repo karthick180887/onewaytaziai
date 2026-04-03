@@ -1,13 +1,16 @@
 // lib/districts.ts — Central district data for all 6 South Indian states
 
-export type ServiceType = 'drop-taxi' | 'one-way-taxi' | 'taxi-service' | 'outstation-cab' | 'airport-taxi';
+import { tamilNaduSubDistricts } from './tamil-nadu-sub-districts';
+
+export type ServiceType = 'drop-taxi' | 'one-way-taxi' | 'taxi-service' | 'outstation-cabs' | 'cab-service' | 'call-taxi';
 
 export const SERVICE_TYPES: { id: ServiceType; label: string; keyword: string }[] = [
+  { id: 'taxi-service', label: 'Taxi Service', keyword: 'taxi service' },
   { id: 'drop-taxi', label: 'Drop Taxi', keyword: 'drop taxi' },
   { id: 'one-way-taxi', label: 'One Way Taxi', keyword: 'one way taxi' },
-  { id: 'taxi-service', label: 'Taxi Service', keyword: 'taxi service' },
-  { id: 'outstation-cab', label: 'Outstation Cab', keyword: 'outstation cab' },
-  { id: 'airport-taxi', label: 'Airport Taxi', keyword: 'airport taxi' },
+  { id: 'outstation-cabs', label: 'Outstation Cabs', keyword: 'outstation cabs' },
+  { id: 'cab-service', label: 'Cab Service', keyword: 'cab service' },
+  { id: 'call-taxi', label: 'Call Taxi', keyword: 'call taxi' },
 ];
 
 export interface PopularRoute {
@@ -370,6 +373,7 @@ const pondicherryDistricts: District[] = [
 // ─── Export all districts ───────────────────────────────────
 export const ALL_DISTRICTS: District[] = [
   ...tamilNaduDistricts,
+  ...tamilNaduSubDistricts,
   ...keralaDistricts,
   ...andhraDistricts,
   ...telanganaDistricts,
@@ -394,7 +398,7 @@ export function getAllSlugs(): string[] {
   const slugs: string[] = [];
   for (const d of ALL_DISTRICTS) {
     for (const st of SERVICE_TYPES) {
-      slugs.push(`${d.slug}-${st.id}`);
+      slugs.push(`${st.id}-in-${d.slug}`);
     }
   }
   return slugs;
@@ -403,8 +407,9 @@ export function getAllSlugs(): string[] {
 // Parse a slug into district + service type
 export function parseSlug(slug: string): { district: District; serviceType: typeof SERVICE_TYPES[number] } | null {
   for (const st of SERVICE_TYPES) {
-    if (slug.endsWith(`-${st.id}`)) {
-      const districtSlug = slug.slice(0, -(st.id.length + 1));
+    const prefix = `${st.id}-in-`;
+    if (slug.startsWith(prefix)) {
+      const districtSlug = slug.slice(prefix.length);
       const district = DISTRICT_BY_SLUG.get(districtSlug);
       if (district) return { district, serviceType: st };
     }

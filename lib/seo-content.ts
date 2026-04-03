@@ -27,17 +27,19 @@ interface ReviewData {
 const SERVICE_LABELS: Record<ServiceType, string> = {
     'drop-taxi': 'Drop Taxi',
     'taxi-service': 'Taxi Service',
-    'outstation-cab': 'Outstation Cab',
-    'airport-taxi': 'Airport Taxi',
+    'outstation-cabs': 'Outstation Cabs',
+    'cab-service': 'Cab Service',
     'one-way-taxi': 'One Way Taxi',
+    'call-taxi': 'Call Taxi',
 };
 
 const SERVICE_VERBS: Record<ServiceType, string> = {
     'drop-taxi': 'one-way drop taxi',
     'taxi-service': 'reliable taxi service',
-    'outstation-cab': 'affordable outstation cab',
-    'airport-taxi': 'convenient airport taxi',
+    'outstation-cabs': 'affordable outstation cabs',
+    'cab-service': 'convenient cab service',
     'one-way-taxi': 'one-way taxi',
+    'call-taxi': 'instant call taxi',
 };
 
 // ─── SEO Content Generators ─────────────────────────────────
@@ -54,25 +56,27 @@ export function getSEOContent(district: District, serviceType: ServiceType): SEO
     const TITLE_TEMPLATES: Record<ServiceType, string> = {
         'drop-taxi': `${dn} Drop Taxi Service — Flat ₹${VEHICLE_TYPES[0].price}/km | Save 40%`,
         'taxi-service': `${dn} Taxi Service (${currentYear}) — Book @ ₹${VEHICLE_TYPES[0].price}/km`,
-        'outstation-cab': `${dn} Outstation Cab — One Way Drops from ₹${VEHICLE_TYPES[0].price}/km`,
-        'airport-taxi': `${dn} Airport Taxi — On-time Pickup from ₹${VEHICLE_TYPES[0].price}/km`,
+        'outstation-cabs': `${dn} Outstation Cabs — One Way Drops from ₹${VEHICLE_TYPES[0].price}/km`,
+        'cab-service': `#1 ${dn} Cab Service — Book @ ₹${VEHICLE_TYPES[0].price}/km | 24/7`,
         'one-way-taxi': `${dn} One Way Taxi — Pay One Way from ₹${VEHICLE_TYPES[0].price}/km`,
+        'call-taxi': `Call Taxi in ${dn} — Instant Booking @ ₹${VEHICLE_TYPES[0].price}/km | 24/7`,
     };
 
     // Meta Description: Optimized for <155 chars with CTA
     const topRouteText = topRoute ? `${dn} to ${topRoute.to} ₹${topRoute.fareEstimate}. ` : '';
     const META_TEMPLATES: Record<ServiceType, string> = {
-        'drop-taxi': `Book ${dn} drop taxi from ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}Pay one-way fare only. No return charges. Verified drivers. Book now for ${currentYear}!`,
-        'taxi-service': `Best taxi service in ${dn}, ${district.state}. ${topRouteText}AC cabs from ₹${VEHICLE_TYPES[0].price}/km. 24/7 booking, verified drivers. Call now!`,
-        'outstation-cab': `Book outstation cab from ${dn} at ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}One-way pricing, AC vehicles, verified drivers. Book online!`,
-        'airport-taxi': `Reliable airport taxi in ${dn} from ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}On-time pickup, flight tracking, no surge. Book now!`,
-        'one-way-taxi': `Book one way taxi from ${dn} at ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}Pay only one-way fare, no return charges. Book now!`,
+        'drop-taxi': `Book ${dn} drop taxi from ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}Pay one-way fare only. No return charges. Verified drivers. Call +91 81244 76010!`,
+        'taxi-service': `Best taxi service in ${dn}, ${district.state}. ${topRouteText}AC cabs from ₹${VEHICLE_TYPES[0].price}/km. 24/7 booking, verified drivers. Call +91 81244 76010!`,
+        'outstation-cabs': `Book outstation cabs from ${dn} at ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}One-way pricing, AC vehicles, verified drivers. Call +91 81244 76010!`,
+        'cab-service': `Best cab service in ${dn}. ${topRouteText}AC cabs from ₹${VEHICLE_TYPES[0].price}/km. One-way & round trips. Verified drivers. Call +91 81244 76010!`,
+        'one-way-taxi': `Book one way taxi from ${dn} at ₹${VEHICLE_TYPES[0].price}/km. ${topRouteText}Pay only one-way fare, no return charges. Call +91 81244 76010!`,
+        'call-taxi': `Call taxi in ${dn} — instant booking, verified drivers, GPS tracking. ${topRouteText}AC cabs from ₹${VEHICLE_TYPES[0].price}/km. Call +91 81244 76010 now!`,
     };
 
     return {
         title: TITLE_TEMPLATES[serviceType],
         metaDescription: META_TEMPLATES[serviceType],
-        h1: `${dn} ${label} — Book Now & Save 40%`,
+        h1: `#1 ${dn} ${label} — Lowest Price Guaranteed | Save 40%`,
         subtitle: `Premium ${verb} in ${dn}, ${district.state}. Pay only for one way — no return fare, no hidden charges. Trusted by 50,000+ happy travelers in ${currentYear}.`,
         keywords: [
             `${dl} ${label.toLowerCase()}`,
@@ -119,21 +123,21 @@ What makes our ${dn} taxi service stand out? Transparent one-way pricing (no ret
 ### Destinations
 Popular destinations from ${dn}: ${routeText}. We also serve ${routeNames} and 115+ other cities across ${ds}, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana. Our ${dn} taxi service is available for one-way drops, round trips, multi-city tours, and corporate travel. Book online in 30 seconds or call our 24/7 helpline for instant confirmation.`,
 
-        'outstation-cab': `Planning an outstation trip from ${dn}? Book your **${verb}** with OneWayTaxi.ai and enjoy hassle-free intercity travel across ${ds} and all of South India. Our outstation cab service is designed for travelers who want the convenience of a private vehicle at the affordability of a one-way fare structure.
+        'outstation-cabs': `Planning an outstation trip from ${dn}? Book your **${verb}** with OneWayTaxi.ai and enjoy hassle-free intercity travel across ${ds} and all of South India. Our outstation cabs service is designed for travelers who want the convenience of a private vehicle at the affordability of a one-way fare structure.
 
 ### Save on Intercity Travel
 Why choose OneWayTaxi.ai for outstation cabs from ${dn}? We eliminate the traditional round-trip billing model — you pay only for the distance from ${dn} to your destination. This makes our outstation cabs up to 40% cheaper than regular taxi services. Your fare includes driver allowance, toll charges, state permits, and GST.
 
 ### Fleet & Routes
-Top outstation routes from ${dn}: ${routeText}. Our outstation cab fleet covers 115+ cities across 5 South Indian states with vehicles ranging from budget hatchbacks (₹${VEHICLE_TYPES[0].price}/km) to premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). All vehicles are air-conditioned, clean, GPS-tracked, and driven by experienced, verified drivers who know the best highway routes.`,
+Top outstation routes from ${dn}: ${routeText}. Our outstation cabs fleet covers 115+ cities across 5 South Indian states with vehicles ranging from budget hatchbacks (₹${VEHICLE_TYPES[0].price}/km) to premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). All vehicles are air-conditioned, clean, GPS-tracked, and driven by experienced, verified drivers who know the best highway routes.`,
 
-        'airport-taxi': `Need a reliable **${verb} in ${dn}**? OneWayTaxi.ai provides seamless airport transfer services with guaranteed on-time pickups and drop-offs. Whether you're arriving at or departing from ${dn} airport, our fleet of comfortable AC vehicles ensures a stress-free, hassle-free journey to or from the terminal.
+        'cab-service': `Looking for a **${verb} in ${dn}**? OneWayTaxi.ai is your go-to cab booking platform in ${dn}, ${ds}. Whether you need a local city ride, an outstation trip, or an airport transfer, our comprehensive cab service has you covered with well-maintained AC vehicles and professional, verified drivers.
 
-### Reliability First
-What sets our ${dn} airport taxi apart: our drivers actively track your flight status using real-time flight tracking. If your flight is delayed, your driver adjusts the pickup time automatically at no extra charge. We offer 30 minutes of free waiting time at the airport, so you don't need to rush through baggage claim. No surge pricing, no meter tampering.
+### Book Any Ride in ${dn}
+Our ${dn} cab service covers every travel need — local errands, one-way intercity drops, round-trip outstation journeys, and airport pickups & drop-offs. With our one-way pricing model, you save up to 40% compared to traditional round-trip cabs. All fares include driver bata, toll charges, permits, and GST — no hidden surprises.
 
-### Upfront Pricing
-Book your ${dn} airport taxi online and get an instant fare estimate. Popular airport transfer routes: ${routeText}. Available vehicle types include Hatchbacks (₹${VEHICLE_TYPES[0].price}/km), Sedans, SUVs, and Innova Crysta. All fares include driver bata, toll charges, parking fees, and GST. Our ${dn} airport taxi service operates 24/7.`,
+### Fleet & Popular Routes
+Top routes from ${dn}: ${routeText}. Choose from Hatchbacks (₹${VEHICLE_TYPES[0].price}/km), Sedans (₹${VEHICLE_TYPES[1].price}/km), SUVs, and premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). Every vehicle is air-conditioned, GPS-tracked, and regularly sanitized. Book your ${dn} cab online in 30 seconds or call us 24/7 at +91 81244 76010.`,
 
         'one-way-taxi': `Looking for a **one-way taxi in ${dn}**? OneWayTaxi.ai offers the best one-way taxi service from ${dn}, ${ds}. Pay only for the distance you travel — no return fare, no hidden charges. Save up to 40% compared to round-trip taxis.
 
@@ -142,6 +146,14 @@ Our ${dn} one-way taxi fleet includes **Hatchbacks (₹${VEHICLE_TYPES[0].price}
 
 ### Popular One Way Routes
 Top one-way taxi routes from ${dn}: ${routeText}. All fares include driver bata, toll charges, permits, and GST. Book your ${dn} one-way taxi online or call us 24/7.`,
+
+        'call-taxi': `Need a **${verb} in ${dn}**? OneWayTaxi.ai provides instant call taxi booking in ${dn}, ${ds}. Whether you need a quick local ride across the city, a pickup from ${dn} railway station, or a last-minute outstation trip — just call us at +91 81244 76010 or book online in 30 seconds. Your driver arrives at your doorstep, ready to go.
+
+### Why Call OneWayTaxi.ai in ${dn}?
+Unlike auto-rickshaws and app-based taxis that charge surge pricing during peak hours, rain, or festivals, our ${dn} call taxi fare stays **fixed and transparent**. No meter tampering, no surge, no bargaining. Our fleet includes AC Hatchbacks (₹${VEHICLE_TYPES[0].price}/km), Sedans (₹${VEHICLE_TYPES[1].price}/km), SUVs, and Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km) — all GPS-tracked and driven by verified, professional drivers.
+
+### Local & Outstation Coverage
+Popular routes from ${dn}: ${routeText}. Our ${dn} call taxi service covers local city rides, railway station pickups, hospital visits, shopping trips, and intercity travel to ${routeNames} and 115+ other cities. Available 24/7, 365 days. All fares include driver bata, tolls, and GST with zero hidden charges.`,
     };
 
     return descriptions[serviceType];
@@ -211,10 +223,15 @@ export function getFAQs(district: District, serviceType: ServiceType): FAQ[] {
             question: `Why is one-way drop taxi cheaper than round-trip in ${district.name}?`,
             answer: `With a round-trip taxi, you pay for the driver's return journey even though you only travel one way. Our ${district.name} drop taxi eliminates this inefficiency — you pay only for the distance YOU travel. This saves you up to 40% compared to round-trip fares. We match return rides for our drivers, making it economical for everyone.`,
         });
-    } else if (serviceType === 'airport-taxi') {
+    } else if (serviceType === 'call-taxi') {
         baseFAQs.push({
-            question: `Do ${district.name} airport taxi drivers track flight delays?`,
-            answer: `Yes, our ${district.name} airport taxi drivers actively monitor flight arrival times. If your flight is delayed, your driver will adjust pickup time automatically at no extra charge. We recommend booking at least 2 hours before your desired departure time for outgoing flights.`,
+            question: `How quickly can I get a call taxi in ${district.name}?`,
+            answer: `Our ${district.name} call taxi service provides instant booking. Once you call +91 81244 76010 or book online, a nearby driver is assigned within minutes. For pre-booked rides, drivers arrive 10-15 minutes before your scheduled pickup time. Available 24/7 including holidays.`,
+        });
+    } else if (serviceType === 'cab-service') {
+        baseFAQs.push({
+            question: `What types of rides does ${district.name} cab service cover?`,
+            answer: `Our ${district.name} cab service covers all types of rides — local city trips, one-way intercity drops, round-trip outstation journeys, and airport transfers. You can book any ride 24/7 through our website or by calling +91 81244 76010.`,
         });
     } else {
         baseFAQs.push({

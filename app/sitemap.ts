@@ -22,7 +22,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
         for (const st of SERVICE_TYPES) {
             const priority = district.tier === 1 ? 0.9 : district.tier === 2 ? 0.7 : 0.5;
             routes.push({
-                url: `${baseUrl}/${district.slug}-${st.id}`,
+                url: `${baseUrl}/${st.id}-in-${district.slug}`,
                 lastModified: now,
                 changeFrequency: 'weekly',
                 priority,

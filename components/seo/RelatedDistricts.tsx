@@ -27,7 +27,7 @@ export default function RelatedDistricts({ currentDistrict, currentServiceType }
                         {otherServices.map(st => (
                             <Link
                                 key={st.id}
-                                href={`/${currentDistrict.slug}-${st.id}`}
+                                href={`/${st.id}-in-${currentDistrict.slug}`}
                                 className="inline-flex items-center gap-2 px-5 py-3 bg-white border border-gray-200 rounded-xl text-gray-700 font-medium hover:border-teal-300 hover:text-teal-800 hover:shadow-sm transition-all"
                             >
                                 <MapPin className="h-4 w-4 text-teal-600" />
@@ -46,7 +46,7 @@ export default function RelatedDistricts({ currentDistrict, currentServiceType }
                         {related.map(d => (
                             <Link
                                 key={d.slug}
-                                href={`/${d.slug}-${currentServiceType}`}
+                                href={`/${currentServiceType}-in-${d.slug}`}
                                 className="group flex items-center gap-3 p-4 bg-white border border-gray-200 rounded-xl hover:border-teal-300 hover:shadow-md transition-all"
                             >
                                 <div className="shrink-0 w-10 h-10 bg-teal-100 rounded-lg flex items-center justify-center group-hover:bg-teal-600 transition-colors">

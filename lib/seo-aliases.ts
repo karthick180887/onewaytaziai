@@ -46,20 +46,20 @@ export const SEO_ALIASES: Record<string, string> = {
 
 /**
  * Resolve a slug, checking aliases first.
+ * Handles new URL pattern: {serviceType}-in-{districtSlug}
  * Returns the canonical slug if an alias matches, otherwise returns the input slug.
  */
 export function resolveAlias(slug: string): string {
-    // First check if it's a direct alias match (without service type suffix)
+    // Direct alias match (bare district slug)
     if (SEO_ALIASES[slug]) return SEO_ALIASES[slug];
 
-    // Check if the slug has a service-type suffix and the district part is an alias
-    const suffixes = ['-drop-taxi', '-taxi-service', '-outstation-cab', '-airport-taxi'];
-    for (const suffix of suffixes) {
-        if (slug.endsWith(suffix)) {
-            const districtPart = slug.slice(0, -suffix.length);
-            if (SEO_ALIASES[districtPart]) {
-                return SEO_ALIASES[districtPart] + suffix;
-            }
+    // New pattern: service-type-in-{districtSlug}
+    // Check if the district part (after "-in-") is an alias
+    const inIndex = slug.lastIndexOf('-in-');
+    if (inIndex !== -1) {
+        const districtPart = slug.slice(inIndex + 4);
+        if (SEO_ALIASES[districtPart]) {
+            return slug.slice(0, inIndex + 4) + SEO_ALIASES[districtPart];
         }
     }
 

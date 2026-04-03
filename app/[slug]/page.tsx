@@ -43,7 +43,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
         openGraph: {
             title: seo.title,
             description: seo.metaDescription,
-            url: `https://onewaytaxi.ai/${district.slug}-${serviceType.id}`,
+            url: `https://onewaytaxi.ai/${serviceType.id}-in-${district.slug}`,
             siteName: 'OneWayTaxi.ai',
             type: 'website',
             locale: 'en_IN',
@@ -54,7 +54,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
             description: seo.metaDescription,
         },
         alternates: {
-            canonical: `https://onewaytaxi.ai/${district.slug}-${serviceType.id}`,
+            canonical: `https://onewaytaxi.ai/${serviceType.id}-in-${district.slug}`,
         },
         robots: {
             index: true,
@@ -152,7 +152,7 @@ export default async function DistrictPage({ params }: { params: Promise<{ slug:
                 serviceLabel={serviceType.label}
                 faqs={faqs}
                 avgRating={avgRating}
-                reviewCount={reviews.length * 250}
+                reviewCount={reviews.length}
             />
 
 

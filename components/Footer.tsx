@@ -53,7 +53,7 @@ export default function Footer() {
                                         {districts.map(d => (
                                             <Link
                                                 key={d.slug}
-                                                href={`/${d.slug}-drop-taxi`}
+                                                href={`/drop-taxi-in-${d.slug}`}
                                                 className="text-sm text-gray-400 hover:text-teal-400 transition-colors truncate"
                                                 title={`${d.name} Drop Taxi`}
                                             >

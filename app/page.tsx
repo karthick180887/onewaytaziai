@@ -239,7 +239,7 @@ export default function Home() {
                         ].map(city => (
                             <Link
                                 key={city.slug}
-                                href={`/${city.slug}-drop-taxi`}
+                                href={`/drop-taxi-in-${city.slug}`}
                                 title={`${city.name} Drop Taxi Service`}
                                 className="group flex flex-col items-center p-5 bg-gray-50 border border-gray-200 rounded-xl hover:border-teal-300 hover:shadow-md hover:bg-teal-50 transition-all"
                             >
@@ -268,7 +268,7 @@ export default function Home() {
                             ].map(city => (
                                 <Link
                                     key={city.slug}
-                                    href={`/${city.slug}-drop-taxi`}
+                                    href={`/drop-taxi-in-${city.slug}`}
                                     title={`${city.name} Drop Taxi`}
                                     className="px-3 py-1.5 text-sm text-gray-600 bg-gray-100 rounded-lg hover:bg-teal-50 hover:text-teal-800 transition-colors border border-transparent hover:border-teal-200"
                                 >
@@ -377,10 +377,8 @@ export default function Home() {
                         },
                         "address": {
                             "@type": "PostalAddress",
-                            "streetAddress": "123, Anna Nagar",
                             "addressLocality": "Chennai",
                             "addressRegion": "Tamil Nadu",
-                            "postalCode": "600040",
                             "addressCountry": "IN"
                         },
                         "geo": {
@@ -393,24 +391,6 @@ export default function Home() {
                 }}
             />
 
-            {/* Homepage FAQ Schema */}
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        "@context": "https://schema.org",
-                        "@type": "FAQPage",
-                        "mainEntity": [
-                            { "@type": "Question", "name": "What is a one-way drop taxi?", "acceptedAnswer": { "@type": "Answer", "text": "A one-way drop taxi is a taxi service where you pay only for the distance from your pickup to your drop location. Unlike traditional round-trip taxis, there are no return charges. This saves you up to 40% on intercity travel." } },
-                            { "@type": "Question", "name": "How much does a one-way taxi cost?", "acceptedAnswer": { "@type": "Answer", "text": "One-way taxi fares at OneWayTaxi.ai start from just ₹13/km for a hatchback. Sedan rates start at ₹14/km, SUV at ₹19/km, and Innova Crysta at ₹22/km. All fares include driver bata, toll charges, state permits, and GST." } },
-                            { "@type": "Question", "name": "Which cities are covered by OneWayTaxi.ai?", "acceptedAnswer": { "@type": "Answer", "text": "OneWayTaxi.ai covers 115+ cities across 5 South Indian states — Tamil Nadu, Kerala, Andhra Pradesh, Telangana, and Pondicherry." } },
-                            { "@type": "Question", "name": "Is one-way taxi cheaper than Ola or Uber?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, one-way drop taxis from OneWayTaxi.ai are significantly cheaper than Ola/Uber for outstation travel. We charge only for the one-way distance, saving you up to 40%." } },
-                            { "@type": "Question", "name": "How do I book a one-way taxi online?", "acceptedAnswer": { "@type": "Answer", "text": "Enter your pickup city, drop city, date and time on OneWayTaxi.ai. You'll get an instant fare estimate. You can also call 24/7 at +91 81244 76010." } },
-                            { "@type": "Question", "name": "Are one-way taxi drivers verified and safe?", "acceptedAnswer": { "@type": "Answer", "text": "All OneWayTaxi.ai drivers are background-verified, GPS-tracked, and carry valid licenses. 4.8-star rating from 50,000+ customers." } },
-                        ]
-                    })
-                }}
-            />
         </div>
     );
 }

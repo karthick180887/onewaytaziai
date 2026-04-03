@@ -15,17 +15,9 @@ interface SchemaMarkupProps {
     reviewCount: number;
 }
 
-// Deterministic reviewer pool for SSG consistency
-const REVIEWERS = [
-    { name: 'Rajesh Kumar', date: '2025-11-10' },
-    { name: 'Priya Sharma', date: '2025-12-05' },
-    { name: 'Suresh Babu', date: '2026-01-08' },
-    { name: 'Lakshmi Narayanan', date: '2026-01-20' },
-    { name: 'Arun Prakash', date: '2026-02-02' },
-];
 
 export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs, avgRating, reviewCount }: SchemaMarkupProps) {
-    const pageUrl = `https://onewaytaxi.ai/${district.slug}-${serviceType}`;
+    const pageUrl = `https://onewaytaxi.ai/${serviceType}-in-${district.slug}`;
 
     const taxiServiceSchema = {
         '@context': 'https://schema.org',
@@ -73,26 +65,6 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
             bestRating: '5',
             worstRating: '1',
         },
-        review: REVIEWERS.map((reviewer, idx) => ({
-            '@type': 'Review',
-            author: { '@type': 'Person', name: reviewer.name },
-            datePublished: reviewer.date,
-            reviewRating: {
-                '@type': 'Rating',
-                ratingValue: idx === 2 ? '4' : '5',
-                bestRating: '5',
-                worstRating: '1',
-            },
-            reviewBody: idx === 0
-                ? `Excellent ${serviceLabel.toLowerCase()} from ${district.name}. Driver was punctual, vehicle clean, and fare was exactly as quoted. No hidden charges at all.`
-                : idx === 1
-                    ? `Best one-way pricing I have found — saved almost 40% compared to other taxi services in ${district.name}. Highly recommend OneWayTaxi.ai.`
-                    : idx === 2
-                        ? `Good ${serviceLabel.toLowerCase()} service in ${district.name}. Booking process was simple and the driver was professional. Slightly delayed pickup but overall satisfied.`
-                        : idx === 3
-                            ? `Booked a ${serviceLabel.toLowerCase()} from ${district.name} for a family trip. Spacious vehicle, experienced driver, and transparent billing. Will use again.`
-                            : `Very convenient ${serviceLabel.toLowerCase()} available 24/7 in ${district.name}. Easy online booking and the driver arrived early. Great experience.`,
-        })),
         geo: {
             '@type': 'GeoCoordinates',
             latitude: district.lat,
@@ -106,25 +78,13 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
         },
     };
 
-    const faqSchema = {
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: faqs.map(faq => ({
-            '@type': 'Question',
-            name: faq.question,
-            acceptedAnswer: {
-                '@type': 'Answer',
-                text: faq.answer,
-            },
-        })),
-    };
 
     const breadcrumbSchema = {
         '@context': 'https://schema.org',
         '@type': 'BreadcrumbList',
         itemListElement: [
             { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://onewaytaxi.ai/' },
-            { '@type': 'ListItem', position: 2, name: `${district.name} Drop Taxi`, item: `https://onewaytaxi.ai/${district.slug}-drop-taxi` },
+            { '@type': 'ListItem', position: 2, name: `Drop Taxi in ${district.name}`, item: `https://onewaytaxi.ai/drop-taxi-in-${district.slug}` },
             { '@type': 'ListItem', position: 3, name: serviceLabel, item: pageUrl },
         ],
     };
@@ -138,7 +98,7 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
             '@type': 'ListItem',
             position: idx + 1,
             name: `${district.name} to ${route.to}`,
-            url: `https://onewaytaxi.ai/${route.toSlug}-drop-taxi`,
+            url: `https://onewaytaxi.ai/drop-taxi-in-${route.toSlug}`,
         })),
     } : null;
 
@@ -177,7 +137,6 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
     return (
         <>
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(taxiServiceSchema) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
             <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
             {routeListSchema && (
                 <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(routeListSchema) }} />

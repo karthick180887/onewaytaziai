@@ -79,7 +79,7 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                     <ol className="flex items-center gap-1.5 text-sm text-gray-600 flex-wrap">
                         <li><Link href="/" className="hover:text-teal-700">Home</Link></li>
                         <li className="text-gray-400">/</li>
-                        <li><Link href={`/${from.slug}-drop-taxi`} className="hover:text-teal-700">{from.name}</Link></li>
+                        <li><Link href={`/drop-taxi-in-${from.slug}`} className="hover:text-teal-700">{from.name}</Link></li>
                         <li className="text-gray-400">/</li>
                         <li className="text-teal-800 font-medium">{from.name} to {to.name} Taxi</li>
                     </ol>
@@ -386,7 +386,7 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
 
                         {/* From city page */}
                         <Link
-                            href={`/${from.slug}-drop-taxi`}
+                            href={`/drop-taxi-in-${from.slug}`}
                             className="inline-flex items-center gap-2 px-5 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-700 font-medium hover:border-teal-300 transition-colors"
                         >
                             <MapPin className="h-4 w-4 text-teal-600" />
@@ -395,7 +395,7 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
 
                         {/* To city page */}
                         <Link
-                            href={`/${to.slug}-drop-taxi`}
+                            href={`/drop-taxi-in-${to.slug}`}
                             className="inline-flex items-center gap-2 px-5 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-700 font-medium hover:border-teal-300 transition-colors"
                         >
                             <MapPin className="h-4 w-4 text-teal-600" />
@@ -447,23 +447,9 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                         aggregateRating: {
                             '@type': 'AggregateRating',
                             ratingValue: '4.8',
-                            reviewCount: String(Math.round(distanceKm * 3)),
+                            reviewCount: '4',
                             bestRating: '5',
                         },
-                    }),
-                }}
-            />
-            <script
-                type="application/ld+json"
-                dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
-                        '@context': 'https://schema.org',
-                        '@type': 'FAQPage',
-                        mainEntity: faqs.map(faq => ({
-                            '@type': 'Question',
-                            name: faq.question,
-                            acceptedAnswer: { '@type': 'Answer', text: faq.answer },
-                        })),
                     }),
                 }}
             />
@@ -475,7 +461,7 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                         '@type': 'BreadcrumbList',
                         itemListElement: [
                             { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://onewaytaxi.ai/' },
-                            { '@type': 'ListItem', position: 2, name: `${from.name} Drop Taxi`, item: `https://onewaytaxi.ai/${from.slug}-drop-taxi` },
+                            { '@type': 'ListItem', position: 2, name: `Drop Taxi in ${from.name}`, item: `https://onewaytaxi.ai/drop-taxi-in-${from.slug}` },
                             { '@type': 'ListItem', position: 3, name: `${from.name} to ${to.name} Taxi`, item: `https://onewaytaxi.ai/route/${routeSlug}` },
                         ],
                     }),
