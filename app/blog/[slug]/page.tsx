@@ -79,6 +79,12 @@ export default async function BlogArticlePage(
                 url: 'https://onewaytaxi.ai/logo.png',
             },
         },
+        image: {
+            '@type': 'ImageObject',
+            url: 'https://onewaytaxi.ai/opengraph-image',
+            width: 1200,
+            height: 630,
+        },
         mainEntityOfPage: {
             '@type': 'WebPage',
             '@id': `https://onewaytaxi.ai/blog/${post.slug}`,
