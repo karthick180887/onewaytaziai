@@ -17,13 +17,13 @@ export const POPULAR_CITIES = [
 ];
 
 export const VEHICLE_TYPES = [
-    { id: 'mini', name: 'Mini (3+1)', price: 13, seat: 4, icon: 'Car', image: '/images/fleet/mini.svg' },
-    { id: 'sedan', name: 'Sedan (4+1)', price: 14, seat: 4, icon: 'CarFront', image: '/images/fleet/sedan.svg' },
-    { id: 'etios', name: 'Etios (4+1)', price: 14, seat: 5, icon: 'CarFront', image: '/images/fleet/etios.svg' },
-    { id: 'sedan_no_cng', name: 'Sedan (Non-CNG)', price: 14, seat: 5, icon: 'CarFront', image: '/images/fleet/sedan_no_cng.svg' },
-    { id: 'suv', name: 'SUV (7+1) Carrier', price: 19, seat: 8, icon: 'Bus', image: '/images/fleet/suv.svg' },
-    { id: 'innova', name: 'Innova (Carrier)', price: 20, seat: 7, icon: 'Bus', image: '/images/fleet/innova.svg' },
-    { id: 'innova_crysta', name: 'Innova Crysta', price: 22, seat: 7, icon: 'Bus', image: '/images/fleet/crysta.svg' },
+    { id: 'mini', name: 'Mini (3+1)', price: 13, seat: 4, icon: 'Car', image: '/images/fleet/mini.webp' },
+    { id: 'sedan', name: 'Sedan (4+1)', price: 14, seat: 4, icon: 'CarFront', image: '/images/fleet/sedan.webp' },
+    { id: 'etios', name: 'Etios (4+1)', price: 14, seat: 5, icon: 'CarFront', image: '/images/fleet/etios.webp' },
+    { id: 'sedan_no_cng', name: 'Sedan (Non-CNG)', price: 14, seat: 5, icon: 'CarFront', image: '/images/fleet/sedan_no_cng.webp' },
+    { id: 'suv', name: 'SUV (7+1) Carrier', price: 19, seat: 8, icon: 'Bus', image: '/images/fleet/suv.webp' },
+    { id: 'innova', name: 'Innova (Carrier)', price: 20, seat: 7, icon: 'Bus', image: '/images/fleet/innova.webp' },
+    { id: 'innova_crysta', name: 'Innova Crysta', price: 22, seat: 7, icon: 'Bus', image: '/images/fleet/crysta.webp' },
 ];
 
 export const FEATURES = [
