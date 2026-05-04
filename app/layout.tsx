@@ -72,8 +72,8 @@ export const metadata: Metadata = {
   },
   category: "Travel & Transportation",
   icons: {
-    icon: "/favicon.svg",
-    apple: "/favicon.svg",
+    icon: "/favicon.png",
+    apple: "/favicon.png",
   },
 };
 
