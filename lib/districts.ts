@@ -149,9 +149,16 @@ const keralaDistricts: District[] = [
   { name: 'Wayanad', slug: 'wayanad', state: KL_STATE, stateSlug: KL_SLUG, tier: 2, lat: 11.6854, lng: 76.1320,
     popularRoutes: [r('Kozhikode','kozhikode',85,1190), r('Mysore','mysore',105,1470), r('Bangalore','bangalore',280,3920), r('Ooty','ooty',120,1680)] },
   { name: 'Pathanamthitta', slug: 'pathanamthitta', state: KL_STATE, stateSlug: KL_SLUG, tier: 3, lat: 9.2648, lng: 76.7870,
-    popularRoutes: [r('Trivandrum','thiruvananthapuram',110,1540), r('Kochi','kochi',100,1400), r('Sabarimala','pathanamthitta',65,910)] },
+    popularRoutes: [r('Trivandrum','thiruvananthapuram',110,1540), r('Kochi','kochi',100,1400), r('Sabarimala','sabarimala',75,1050)] },
   { name: 'Kasaragod', slug: 'kasaragod', state: KL_STATE, stateSlug: KL_SLUG, tier: 3, lat: 12.4996, lng: 74.9869,
     popularRoutes: [r('Mangalore','mangalore',50,700), r('Kannur','kannur',110,1540), r('Bangalore','bangalore',380,5320)] },
+  // ─── Tourist & pilgrimage destinations (Kerala) ─────────────
+  { name: 'Munnar', slug: 'munnar', state: KL_STATE, stateSlug: KL_SLUG, tier: 2, lat: 10.0889, lng: 77.0595,
+    popularRoutes: [r('Kochi','kochi',130,1820), r('Coimbatore','coimbatore',170,2380), r('Madurai','madurai',160,2240), r('Bangalore','bangalore',470,6580), r('Chennai','chennai',590,8260), r('Thekkady','thekkady',90,1260), r('Alleppey','alappuzha',175,2450), r('Thiruvananthapuram','thiruvananthapuram',285,3990), r('Idukki','idukki',45,630), r('Kottayam','kottayam',100,1400)] },
+  { name: 'Thekkady', slug: 'thekkady', state: KL_STATE, stateSlug: KL_SLUG, tier: 2, lat: 9.5916, lng: 77.1603,
+    popularRoutes: [r('Madurai','madurai',140,1960), r('Kochi','kochi',190,2660), r('Munnar','munnar',90,1260), r('Bangalore','bangalore',505,7070), r('Thiruvananthapuram','thiruvananthapuram',235,3290), r('Alleppey','alappuzha',160,2240), r('Coimbatore','coimbatore',210,2940), r('Idukki','idukki',65,910)] },
+  { name: 'Sabarimala', slug: 'sabarimala', state: KL_STATE, stateSlug: KL_SLUG, tier: 2, lat: 9.4363, lng: 77.0825,
+    popularRoutes: [r('Kochi','kochi',180,2520), r('Thiruvananthapuram','thiruvananthapuram',175,2450), r('Madurai','madurai',235,3290), r('Coimbatore','coimbatore',310,4340), r('Chennai','chennai',700,9800), r('Bangalore','bangalore',640,8960), r('Pathanamthitta','pathanamthitta',75,1050), r('Alleppey','alappuzha',135,1890), r('Kottayam','kottayam',95,1330)] },
 ];
 
 // ─── Andhra Pradesh (26 districts) ──────────────────────────
@@ -353,6 +360,9 @@ const karnatakaDistricts: District[] = [
     popularRoutes: [r('Mangalore','mangalore',15,210), r('Bangalore','bangalore',355,4970)] },
   { name: 'Uttara Kannada', slug: 'uttara-kannada', state: KA_STATE, stateSlug: KA_SLUG, tier: 3, lat: 14.6000, lng: 74.7500,
     popularRoutes: [r('Goa','goa',95,1330), r('Hubli','hubli',135,1890), r('Bangalore','bangalore',485,6790)] },
+  // ─── Tourist & heritage destinations (Karnataka) ────────────
+  { name: 'Hampi', slug: 'hampi', state: KA_STATE, stateSlug: KA_SLUG, tier: 2, lat: 15.3350, lng: 76.4600,
+    popularRoutes: [r('Bangalore','bangalore',340,4760), r('Hubli','hubli',165,2310), r('Bellary','bellary',75,1050), r('Hyderabad','hyderabad',375,5250), r('Gulbarga','gulbarga',250,3500), r('Mangalore','mangalore',425,5950), r('Davangere','davangere',195,2730), r('Mysore','mysore',460,6440)] },
 ];
 
 // ─── Pondicherry (4 districts) ──────────────────────────────

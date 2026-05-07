@@ -14,6 +14,8 @@ export const SEO_ALIASES: Record<string, string> = {
     'rameshwaram': 'rameswaram',
     'ramanathapuram': 'rameswaram',
     'kumbakonam': 'kumbakonam',
+    'arunachalam': 'tiruvannamalai',
+    'arunachala': 'tiruvannamalai',
 
     // Kerala aliases
     'cochin': 'kochi',
