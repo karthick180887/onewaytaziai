@@ -156,7 +156,7 @@ export const tamilNaduSubDistricts: District[] = [
 
   // ─── Nagapattinam (2) ──────────────────────────────────────
   { name: 'Velankanni', slug: 'velankanni', state: TN_STATE, stateSlug: TN_SLUG, tier: 2, lat: 10.6824, lng: 79.8490,
-    popularRoutes: [r('Nagapattinam','nagapattinam',12,168), r('Thanjavur','thanjavur',70,980), r('Trichy','trichy',140,1960), r('Chennai','chennai',345,4830)] },
+    popularRoutes: [r('Nagapattinam','nagapattinam',12,168), r('Thanjavur','thanjavur',70,980), r('Trichy','trichy',140,1960), r('Chennai','chennai',345,4830), r('Pondicherry','pondicherry',170,2380)] },
   { name: 'Nagore', slug: 'nagore', state: TN_STATE, stateSlug: TN_SLUG, tier: 3, lat: 10.8220, lng: 79.8440,
     popularRoutes: [r('Nagapattinam','nagapattinam',8,112), r('Velankanni','velankanni',18,252), r('Thanjavur','thanjavur',80,1120)] },
 
@@ -226,7 +226,7 @@ export const tamilNaduSubDistricts: District[] = [
   { name: 'Manamadurai', slug: 'manamadurai', state: TN_STATE, stateSlug: TN_SLUG, tier: 3, lat: 9.8900, lng: 78.4700,
     popularRoutes: [r('Madurai','madurai',48,672), r('Sivaganga','sivaganga',28,392), r('Rameswaram','rameswaram',130,1820)] },
   { name: 'Kumily', slug: 'kumily', state: TN_STATE, stateSlug: TN_SLUG, tier: 2, lat: 9.6000, lng: 77.1700,
-    popularRoutes: [r('Madurai','madurai',145,2030), r('Kochi','kochi',135,1890), r('Munnar','munnar',90,1260), r('Thekkady','kumily',5,70)] },
+    popularRoutes: [r('Madurai','madurai',145,2030), r('Kochi','kochi',135,1890), r('Munnar','munnar',90,1260), r('Thekkady','thekkady',5,70)] },
   { name: 'Aruppukkottai', slug: 'aruppukkottai', state: TN_STATE, stateSlug: TN_SLUG, tier: 3, lat: 9.5132, lng: 78.0969,
     popularRoutes: [r('Madurai','madurai',68,952), r('Virudhunagar','virudhunagar',18,252), r('Tirunelveli','tirunelveli',110,1540)] },
   { name: 'Omalur', slug: 'omalur', state: TN_STATE, stateSlug: TN_SLUG, tier: 3, lat: 11.7400, lng: 78.0440,
