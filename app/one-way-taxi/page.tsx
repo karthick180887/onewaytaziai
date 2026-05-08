@@ -29,13 +29,19 @@ export const metadata: Metadata = {
 };
 
 const onewayFaqs = [
-    { q: "What is a one-way taxi?", a: "A one-way taxi is a cab booked for a single direction trip — from your pickup point to your drop location only. You don't pay for the return journey, making it 40-50% cheaper than traditional round-trip taxis. It's also called a 'drop taxi' in South India." },
-    { q: "How much does a one-way taxi cost?", a: `One-way taxi fare = distance (km) × per-km rate. Hatchback starts at ₹13/km, Sedan ₹14/km, SUV ₹19/km, Innova Crysta ₹22/km. For example, Chennai to Bangalore (346 km) is ₹4,850 in a sedan — all-inclusive of tolls, driver bata, and GST.` },
-    { q: "Why is one-way taxi cheaper than round-trip?", a: "In a round trip, you pay for both directions plus the driver's halt charges if you stay overnight. In a one-way taxi, the operator absorbs the return-trip cost by finding a return passenger. You save 40-50% by paying only for the kilometres you actually use." },
-    { q: "Is there a minimum distance for one-way taxi booking?", a: "Yes — outstation one-way trips have a 130-km minimum billing to cover the driver's deadhead return. For shorter distances, local taxi or per-trip pricing applies. Local one-way trips within a city start from ₹500 (sedan)." },
-    { q: "Can I book a one-way taxi at night or early morning?", a: "Absolutely. We operate 24/7. Early morning (3-6 AM) and late-night (after 10 PM) bookings attract a small night charge of ₹250-₹500, but service availability is the same as daytime hours." },
-    { q: "Do you offer one-way taxi to airports?", a: "Yes — one-way airport drops are one of our most common bookings. We serve Chennai, Bangalore, Hyderabad, Kochi, Coimbatore, Madurai, Trichy, Trivandrum, Mangalore, and Calicut airports with flight tracking and 60-minute free waiting." },
-    { q: "How do I pay for a one-way taxi?", a: "Pay by UPI, debit/credit card, net banking, or cash. A small advance may be required for confirmation; the balance is paid to the driver at trip end. GST invoices are available for corporate billing." },
+    { q: "What is a one-way taxi or drop taxi?", a: "A one-way taxi (also called a drop taxi in South India) is an outstation cab service where you pay only for the one-way distance from your pickup point to your destination. You don't pay for the driver's return journey — the operator takes on that risk and recoups the cost from a return passenger. The model saves customers 40-50% compared to traditional round-trip taxis on inter-city travel." },
+    { q: "How is the one-way taxi fare calculated?", a: "One-way fare = distance in km × per-km rate. Mini/hatchback ₹13/km, sedan (Etios/Dzire/Xcent) ₹14/km, SUV (Ertiga/Innova) ₹19/km, Innova Crysta ₹22/km. The fare includes tolls, ₹400/day driver bata, fuel, and 5% GST. Example: Chennai to Bangalore is 346 km × ₹14 = ₹4,850 in a sedan, all-inclusive. There is a 130 km minimum on outstation drops to cover the driver's deadhead return; below that, local-trip rates apply." },
+    { q: "How much do I save with one-way vs round-trip?", a: "Typical savings range from 40% to 55% on inter-city routes. Concrete example: Chennai to Bangalore round-trip in a traditional taxi costs ₹9,500-₹10,500 (driver runs both legs + ₹400 halt charge if overnight). Our one-way drop is ₹4,850 — 51% cheaper. The savings grow on longer corridors: Chennai to Coimbatore one-way ₹7,070 vs round-trip ~₹14,500, a 51% saving. Bangalore to Mysore one-way ₹2,100 vs round-trip ~₹4,500, a 53% saving." },
+    { q: "What cities and routes do you cover?", a: "We serve 220+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. The most-booked corridors are Chennai-Bangalore (346 km), Bangalore-Mysore (150 km via the new expressway), Chennai-Pondicherry (150 km via ECR), Bangalore-Coorg (260 km), Kochi-Munnar (130 km), Madurai-Rameswaram (174 km), Coimbatore-Ooty (86 km), and Salem-Yercaud (32 km). For any route inside our coverage, run an instant quote on our fare calculator." },
+    { q: "When is one-way taxi the right choice vs round-trip?", a: "Choose one-way when (1) you're moving cities, (2) dropping someone at an airport in another city, (3) attending a one-day business meeting where you don't need return transport, (4) doing a pilgrimage with a separate return plan, (5) starting a multi-city trip where you want flexibility for the return. Choose round-trip when (1) you need the same vehicle for sightseeing at the destination, (2) you're staying 1-3 days and need transport throughout, (3) you have a same-day medical or business appointment requiring the driver to wait. For 4+ day trips, often two separate one-ways beat a single long round-trip on cost." },
+    { q: "Is there a minimum distance for one-way taxi booking?", a: "Yes — outstation one-way drops have a 130 km minimum to cover the driver's deadhead return. For shorter distances inside a city or to nearby suburbs, local-trip pricing applies (typically ₹500-1,500 minimum depending on vehicle and route). The minimum doesn't apply to airport pickups within the same city — those are billed on actuals." },
+    { q: "What's included in the one-way taxi fare?", a: "Fuel, all national-highway tolls, ₹400/day driver bata, 5% GST, and the driver's deadhead return are all included. The displayed fare is what you pay — no surge, no festival multiplier, no surprise bill at the destination. Excluded items disclosed up-front: night charges (₹250-500 for trips between 10 PM-6 AM), inter-state permit fees on cross-state routes (₹150-500 typical), parking at destination, and waiting charges (₹150-250/hour) beyond the free 30-minute pickup wait." },
+    { q: "Can I book a one-way taxi at night or early morning?", a: "Absolutely. We operate 24/7, 365 days. Common night-booking patterns: 4-5 AM Tirupati pilgrim runs from Chennai, 10 PM-2 AM corporate runs on Bangalore-Chennai, overnight medical drops to Bangalore super-specialty hospitals. Night charges (₹250-500 depending on vehicle) apply for trips between 10 PM and 6 AM, fully disclosed at booking." },
+    { q: "Do you offer one-way taxi to airports?", a: "Yes — airport drops are one of our most-booked categories. We serve all 10 South Indian airports: Chennai (MAA), Bangalore (BLR), Hyderabad (HYD), Kochi (COK), Coimbatore (CJB), Madurai (IXM), Trichy (TRZ), Trivandrum (TRV), Mangalore (IXE), and Calicut (CCJ). Flight tracking is included; the first 60 minutes of waiting after touchdown are free. Both city-to-airport and airport-to-other-city drops are common." },
+    { q: "How do I pay for a one-way taxi?", a: "We accept UPI (PhonePe, Google Pay, Paytm), debit and credit cards, net banking, and cash. A small advance (10-20% of fare) may be required for confirmation on long-distance and Tempo Traveller bookings; the balance is paid to the driver at trip end. GST-compliant invoices are available for corporate billing on request — mention your company name and GSTIN at booking." },
+    { q: "What's the cancellation policy?", a: "Free cancellation more than 4 hours before pickup. Within 4 hours of pickup, a flat ₹200 service fee applies. After the driver reaches the pickup location, a ₹500 no-show fee applies. Reschedules are free up to 2 hours before pickup, subject to driver availability for the new slot. Refunds are processed within 3-5 working days to the original payment method (UPI refunds typically faster, within 24 hours)." },
+    { q: "What vehicle types are available for one-way taxi?", a: "Five categories: Mini/Hatchback (4 seats, ₹13/km, best for solo or 2 passengers with light luggage), Sedan (4 seats, ₹14/km — Etios/Dzire/Xcent — most-booked for 2-4 passengers), SUV (7 seats, ₹19/km — Ertiga/Innova classic — best for families and hill-station trips), Innova Crysta (7 seats, ₹22/km — premium with captain seats variant — best for elderly/long-distance comfort), and Tempo Traveller (12-17 seats, on request — for groups, weddings, college events). Diesel preferred for ghat routes; both work on flat highways." },
+    { q: "Are your drivers verified?", a: "Yes. Every driver in our network carries a valid commercial badge, has 3+ years of professional driving experience, and has been background-checked through our internal process. Driver name, photo, and badge number are shared with you 30-60 minutes before pickup. We assign drivers based on route experience — ghat-experienced drivers for hill stations, inter-state-experienced drivers for cross-border routes. Tamil-speaking drivers are default for South Indian routes; mention language preferences at booking." },
 ];
 
 const tier1And2 = ALL_DISTRICTS.filter(d => d.tier === 1 || d.tier === 2).sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
@@ -103,21 +109,54 @@ export default function OneWayTaxiHubPage() {
 
                 <section className="py-12 lg:py-16 bg-white">
                     <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-                        <h2 className="text-2xl lg:text-3xl font-bold text-teal-900 mb-6">Why one way taxi makes sense</h2>
+                        <h2 className="text-2xl lg:text-3xl font-bold text-teal-900 mb-6">What is a one-way drop taxi?</h2>
                         <div className="prose prose-lg max-w-none text-gray-700">
                             <p>
-                                A <strong>one way taxi</strong> service is the smartest choice for any single-direction trip — whether you&apos;re moving cities, dropping a family member at the airport in another city, attending a one-day business meeting, or making a pilgrimage trip where you don&apos;t need the same vehicle for the return.
+                                A <strong>one-way drop taxi</strong> is an outstation cab service where you pay only for the kilometres you actually travel from your pickup point to your destination — there is no return-journey charge. Unlike traditional round-trip taxis that bill you for both legs plus driver halt charges, the one-way model is built around an operator network that aggregates return-passenger demand on the same corridor. The operator (us) takes on the deadhead-return risk; you pay roughly half what a round-trip would cost.
                             </p>
                             <p>
-                                The math is simple: in a round-trip taxi you pay for both directions, plus the driver&apos;s halt charges if your trip extends overnight. In a one way taxi, you pay <strong>only for the actual one-way distance</strong>. The operator (us) bears the risk of finding a return passenger from your destination — usually possible because of the consistent two-way demand on most South Indian corridors.
+                                The model works because South India&apos;s major corridors — Chennai-Bangalore, Bangalore-Mysore, Chennai-Pondicherry, Coimbatore-Ooty — see consistent two-way travel demand. Our system matches return-leg passengers to drivers heading back, so the per-trip economics work without overcharging the outbound passenger. For routes with one-sided demand (typically pilgrim circuits like Madurai-Rameswaram during festival peaks), we may price slightly higher — but the customer always sees a fixed all-inclusive fare at booking.
                             </p>
                             <p>
-                                For perspective: a Chennai to Bangalore round trip in a sedan typically costs around ₹9,500-₹10,500 (with halt charges). The same one-way trip on our network is just ₹4,850 — roughly half the price for the same comfort, same vehicle, same driver standards.
+                                The math is straightforward: a Chennai to Bangalore <strong>round-trip</strong> in a sedan costs around ₹9,500-₹10,500 (driver runs both legs plus a ₹400-500 overnight halt charge). The same one-way trip on our network is just <strong>₹4,850</strong> — a 51% saving for identical vehicle quality, the same verified-driver standards, and the same fully-included tolls and bata. On longer corridors the savings grow: Chennai to Coimbatore one-way ₹7,070 versus round-trip ~₹14,500 (51% saving); Bangalore to Mysore one-way ₹2,100 versus round-trip ~₹4,500 (53% saving).
                             </p>
                             <p>
-                                We&apos;ve served over 50,000 one-way trips across 220+ cities. Our drivers are background-verified, our fleet is AC and GPS-tracked, and our pricing is transparent — you see the full all-inclusive fare at booking, with no surge pricing and no hidden charges.
+                                We&apos;ve served over 50,000 one-way drop trips across 220+ cities. Our fleet covers five vehicle categories — hatchback, sedan, SUV, Innova Crysta, and Tempo Traveller — all AC, GPS-tracked, and driven by background-verified drivers with 3+ years of professional experience. Pricing is transparent: tolls, ₹400/day driver bata, 5% GST, and the driver&apos;s deadhead return are all included in the displayed fare. There are no surge multipliers, no festival pricing, and no last-minute surprises.
                             </p>
                         </div>
+                    </div>
+                </section>
+
+                <section className="py-12 lg:py-16 bg-amber-50 border-y border-amber-200">
+                    <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl lg:text-3xl font-bold text-teal-900 mb-6">One-way vs round-trip — when to choose which</h2>
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <div className="bg-white rounded-2xl border border-gray-200 p-6">
+                                <h3 className="font-bold text-lg text-teal-900 mb-3">Choose one-way when…</h3>
+                                <ul className="space-y-2 text-sm text-gray-700">
+                                    <li>• <strong>You&apos;re moving cities</strong> — relocations, college admissions, new-job arrivals.</li>
+                                    <li>• <strong>One-way airport drop</strong> — dropping a family member at MAA, BLR, or HYD for a flight.</li>
+                                    <li>• <strong>Same-day business meeting</strong> in another city where you don&apos;t need return transport.</li>
+                                    <li>• <strong>Pilgrim drop with a separate return</strong> — you fly out from the destination or return on a different date.</li>
+                                    <li>• <strong>Multi-city trip</strong> — Chennai → Bangalore → Mysore → return; book three one-ways for flexibility.</li>
+                                    <li>• <strong>Hospital admission</strong> for an inpatient stay — drop the patient, return when discharge date is known.</li>
+                                </ul>
+                            </div>
+                            <div className="bg-white rounded-2xl border border-gray-200 p-6">
+                                <h3 className="font-bold text-lg text-teal-900 mb-3">Choose round-trip when…</h3>
+                                <ul className="space-y-2 text-sm text-gray-700">
+                                    <li>• <strong>Sightseeing at the destination</strong> — Munnar/Coorg/Mahabalipuram tours need the same vehicle for local trips.</li>
+                                    <li>• <strong>1-3 day stays</strong> where you need transport at the destination throughout.</li>
+                                    <li>• <strong>Same-day medical appointment</strong> requiring the driver to wait at the hospital.</li>
+                                    <li>• <strong>Wedding-day venue circuit</strong> — multi-stop transport for a guest or family.</li>
+                                    <li>• <strong>Day-trip pilgrimage</strong> like Tirupati or Rameswaram where a same-day return is the plan.</li>
+                                    <li>• <strong>Group offsite</strong> with a fixed return time and no separate destination transport.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p className="text-sm text-gray-700 mt-6 max-w-3xl mx-auto text-center">
+                            <strong>Rule of thumb:</strong> for trips of 4+ days at the destination, two separate one-ways often beat a single long round-trip on cost. Run a quick comparison on our <Link href="/fare-calculator" className="text-teal-700 underline">fare calculator</Link> for your specific route.
+                        </p>
                     </div>
                 </section>
 
