@@ -92,6 +92,74 @@ export default function sitemap(): MetadataRoute.Sitemap {
         priority: 0.8,
     });
 
+    // Book now — primary conversion page
+    routes.push({
+        url: `${baseUrl}/book-now`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: 0.95,
+    });
+
+    // Service category hubs
+    const serviceHubs: { slug: string; priority: number }[] = [
+        { slug: 'drop-taxi', priority: 0.85 },
+        { slug: 'one-way-taxi', priority: 0.85 },
+        { slug: 'outstation-cabs', priority: 0.85 },
+        { slug: 'round-trip-taxi', priority: 0.8 },
+        { slug: 'airport-taxi', priority: 0.85 },
+    ];
+    for (const hub of serviceHubs) {
+        routes.push({
+            url: `${baseUrl}/${hub.slug}`,
+            lastModified: now,
+            changeFrequency: 'weekly',
+            priority: hub.priority,
+        });
+    }
+
+    // Vehicle-type landing pages
+    const vehiclePages = [
+        'sedan-taxi',
+        'suv-taxi',
+        'innova-crysta-taxi',
+        'tempo-traveller',
+        'luxury-taxi',
+    ];
+    for (const slug of vehiclePages) {
+        routes.push({
+            url: `${baseUrl}/${slug}`,
+            lastModified: now,
+            changeFrequency: 'monthly',
+            priority: 0.75,
+        });
+    }
+
+    // Trust & conversion pages
+    routes.push({
+        url: `${baseUrl}/faq`,
+        lastModified: now,
+        changeFrequency: 'monthly',
+        priority: 0.65,
+    });
+    routes.push({
+        url: `${baseUrl}/reviews`,
+        lastModified: now,
+        changeFrequency: 'weekly',
+        priority: 0.65,
+    });
+    routes.push({
+        url: `${baseUrl}/terms-and-conditions`,
+        lastModified: now,
+        changeFrequency: 'yearly',
+        priority: 0.4,
+    });
+    routes.push({
+        url: `${baseUrl}/privacy-policy`,
+        lastModified: now,
+        changeFrequency: 'yearly',
+        priority: 0.4,
+    });
+
     // Blog listing page
     routes.push({
         url: `${baseUrl}/blog`,
