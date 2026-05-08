@@ -12,6 +12,10 @@ export interface BlogPost {
     excerpt: string;
     keywords: string[];
     content: string; // HTML string
+    /** Optional FAQs — when present, page emits FAQPage JSON-LD. */
+    faqs?: { q: string; a: string }[];
+    /** Optional extra JSON-LD schema blocks (HowTo, ItemList, etc.) emitted alongside Article + BreadcrumbList. */
+    additionalSchemas?: Record<string, unknown>[];
 }
 
 export const BLOG_POSTS: BlogPost[] = [
@@ -1175,6 +1179,210 @@ export const BLOG_POSTS: BlogPost[] = [
 
 <p>Calculate your exact fare and book in 30 seconds at <a href="https://onewaytaxi.ai">OneWayTaxi.ai</a> — one-way fares, all-inclusive, no surge, no hidden charges.</p>
 `,
+    },
+    {
+        slug: 'tirupati-to-arunachalam-distance-by-road',
+        title: 'Tirupati to Arunachalam Distance: Road, Train & Travel Guide (2026)',
+        metaTitle: 'Tirupati to Arunachalam Distance — 220 km Road, Travel Time & Taxi Fare | OneWayTaxi.ai',
+        metaDescription: 'Tirupati to Arunachalam (Tiruvannamalai) is approximately 220 km by road and takes 4-5 hours. Compare taxi, train, and bus options. Sedan fare from ₹3,080 — book now.',
+        category: 'Routes',
+        readTimeMinutes: 9,
+        publishedAt: '2026-05-08',
+        updatedAt: '2026-05-08',
+        excerpt:
+            'Pilgrims who finish Tirupati darshan often head straight for the Arunachaleswarar Temple at Tiruvannamalai. Here is the verified distance, travel time, taxi fare, and a side-by-side comparison of every way to make the journey.',
+        keywords: [
+            'tirupati to arunachalam distance',
+            'tirupati to arunachalam distance by road',
+            'tirupati to arunachalam by car',
+            'distance between tirupati and arunachalam',
+            'tirupati to tiruvannamalai distance',
+            'tirupati arunachalam taxi',
+        ],
+        content: `
+<p class="lead"><strong>Quick answer:</strong> Tirupati to Arunachalam (the Arunachaleswarar Temple at Tiruvannamalai) is approximately <strong>220 km by road via Chittoor and Vellore</strong>, a drive of about <strong>4 to 5 hours</strong> in light traffic. A one-way drop taxi costs around <strong>₹3,080 in a sedan, ₹4,180 in an SUV, and ₹4,620 in an Innova Crysta</strong>, all-inclusive of tolls, driver bata and GST. Trains run via Katpadi (5-7 hours) and direct buses take 5-6 hours.</p>
+
+<h2>What "Arunachalam" means in this context</h2>
+<p>Most pilgrims searching for "Tirupati to Arunachalam distance" mean the journey to <strong>Tiruvannamalai</strong> in northern Tamil Nadu, where the famous <strong>Arunachaleswarar Temple</strong> sits at the foot of the sacred Arunachala hill. The hill itself — Arunachala — is one of the five Pancha Bhoota Sthalams of Shiva, representing the element of fire (agni). The temple town and the hill are usually referred to interchangeably as "Arunachalam," especially in pilgrimage circles arriving from Andhra Pradesh.</p>
+<p>Knowing this matters: train and bus tickets are sold under "Tiruvannamalai" (TNM), while taxi quotes show up under both "Tiruvannamalai" and "Arunachalam." The distance and travel time are the same — only the booking name differs.</p>
+
+<h2>Tirupati to Arunachalam distance — by road</h2>
+<p>Two practical road routes connect Tirupati to Tiruvannamalai. The most-used route is also the shortest:</p>
+<table>
+  <thead><tr><th>Route</th><th>Distance</th><th>Travel time</th><th>Highway</th></tr></thead>
+  <tbody>
+    <tr><td>Tirupati → Chittoor → Vellore → Polur → Tiruvannamalai</td><td>~220 km</td><td>4-5 hrs</td><td>NH716 + NH40 + NH77</td></tr>
+    <tr><td>Tirupati → Renigunta → Puttur → Arani → Tiruvannamalai</td><td>~245 km</td><td>5-6 hrs</td><td>SH via Vellore bypass</td></tr>
+  </tbody>
+</table>
+<p>Most drivers and taxi operators take the Chittoor–Vellore route because the road quality is consistently better, especially the <strong>Vellore bypass</strong> which lets you skip city traffic entirely. The roughly 220 km figure is the standard quoted distance.</p>
+<p>Some online sources list shorter distances (180-190 km) — those typically reflect a straight-line measurement or an older route that bypasses Vellore through smaller state highways. For a comfortable taxi ride, the 220 km route is what you will actually drive.</p>
+
+<h2>Travel time and best departure window</h2>
+<p>Plan for <strong>4 hours 30 minutes to 5 hours</strong> in a sedan or SUV. Variation comes from three factors:</p>
+<ul>
+  <li><strong>Time of departure.</strong> Leaving Tirupati between 5 AM and 7 AM lets you reach Arunachalam by 10-11 AM — comfortably ahead of the temple's morning darshan rush. Departures after 9 AM run into Vellore traffic and can add 30-45 minutes.</li>
+  <li><strong>Day of week.</strong> Weekend pilgrim flow on the Vellore-Polur stretch slows things down. Weekday journeys are smoother.</li>
+  <li><strong>Festival season.</strong> Karthigai Deepam (November-December) sees enormous Arunachalam crowds. Plan for an extra 60-90 minutes if travelling during the Deepam week.</li>
+</ul>
+
+<h2>Tirupati to Arunachalam taxi fare (verified, 2026)</h2>
+<p>One-way drop taxi fares are calculated on the per-kilometre rate of your chosen vehicle, applied to the actual road distance, with tolls, driver bata and GST included.</p>
+<table>
+  <thead><tr><th>Vehicle</th><th>Per km</th><th>Indicative one-way fare (~220 km)</th><th>Best for</th></tr></thead>
+  <tbody>
+    <tr><td>Hatchback (Mini)</td><td>₹13</td><td>₹2,860</td><td>Solo or 2 passengers, light luggage</td></tr>
+    <tr><td>Sedan (Etios / Dzire / Xcent)</td><td>₹14</td><td>₹3,080</td><td>3-4 passengers with mid-size bags</td></tr>
+    <tr><td>SUV (Ertiga / Innova)</td><td>₹19</td><td>₹4,180</td><td>5-7 passengers, family pilgrimages</td></tr>
+    <tr><td>Innova Crysta</td><td>₹21</td><td>₹4,620</td><td>Premium 7-seat with captain seats; long-distance comfort</td></tr>
+  </tbody>
+</table>
+<p>The displayed fare includes <strong>fuel, tolls, ₹400/day driver bata, and 5% GST</strong>. Excluded items — disclosed at booking — are night charges (₹250-500 for trips between 10 PM and 6 AM), inter-state permit fees on the Andhra-Tamil Nadu border (typically ₹150-300), and parking fees at the destination. There is no separate return-journey charge: this is a one-way drop service.</p>
+<p>You can <a href="/route/tirupati-to-tiruvannamalai-taxi">book the Tirupati to Tiruvannamalai taxi route directly</a> with instant fare confirmation, or run a custom quote on our <a href="/fare-calculator">fare calculator</a>.</p>
+
+<h2>Train options — Tirupati to Tiruvannamalai</h2>
+<p>There is no direct train between Tirupati and Tiruvannamalai. The standard rail route requires a connection at <strong>Katpadi (KPD)</strong>, near Vellore.</p>
+<ul>
+  <li><strong>Tirupati (TPTY) → Katpadi (KPD)</strong>: ~95 km, multiple trains daily, 1.5-2 hours.</li>
+  <li><strong>Katpadi (KPD) → Tiruvannamalai (TNM)</strong>: ~85 km, fewer daily services (typically 2-3), 2.5-3 hours.</li>
+</ul>
+<p>Door-to-door, the rail route takes 5-7 hours including the changeover wait. Sleeper class fares range ₹150-220, AC tiers up to ₹1,400 in First Class. The Tiruvannamalai railway station is about 2 km from the Arunachaleswarar Temple, requiring a short auto-rickshaw or local taxi ride.</p>
+<p>For most pilgrims with a fixed darshan plan, the train route's connection wait makes it slower than driving — but it is the cheapest option if you don't mind the change.</p>
+
+<h2>Bus options — Tirupati to Tiruvannamalai</h2>
+<p>Several state-run and private operators run direct buses between the two pilgrimage centres:</p>
+<ul>
+  <li><strong>APSRTC and TNSTC</strong> run direct services in both directions. Travel time 5-6 hours, fares ₹250-450 in non-AC, ₹450-750 in semi-sleeper / AC seater.</li>
+  <li><strong>Private operators</strong> (Parveen, KPN, IntrCity SmartBus) offer overnight Volvo services with arrival in Tiruvannamalai by sunrise — convenient for pilgrims wanting to start early-morning darshan.</li>
+</ul>
+<p>Buses depart from <strong>Sri Padmavathi Bus Stand</strong> in Tirupati and arrive at the <strong>Tiruvannamalai New Bus Stand</strong>, about 1.5 km from the temple. Frequency thins outside the morning and evening windows.</p>
+
+<h2>Comparison: taxi vs train vs bus</h2>
+<table>
+  <thead><tr><th>Mode</th><th>Total time</th><th>Cost (one-way, 1 person)</th><th>Convenience</th></tr></thead>
+  <tbody>
+    <tr><td>One-way drop taxi (sedan)</td><td>~4.5 hrs</td><td>₹3,080 (split among 4 = ~₹770 each)</td><td>Door to door, group-friendly, flexible departure</td></tr>
+    <tr><td>SUV / Crysta taxi</td><td>~4.5 hrs</td><td>₹4,180-₹4,620 (~₹600-660 per head for 7)</td><td>Best for families with elderly pilgrims</td></tr>
+    <tr><td>Direct bus (non-AC)</td><td>5-6 hrs</td><td>₹250-450</td><td>Cheapest; departures concentrated morning/night</td></tr>
+    <tr><td>Volvo / AC bus</td><td>5-6 hrs</td><td>₹450-750</td><td>Comfortable seating; limited daily slots</td></tr>
+    <tr><td>Train via Katpadi</td><td>5-7 hrs</td><td>₹150-1,400 (sleeper to 1AC)</td><td>Cheapest seated option but requires connection</td></tr>
+  </tbody>
+</table>
+<p>For a family of 3-4 pilgrims, the one-way drop taxi is usually the best value because the per-head cost falls below the AC bus rate and the door-to-door convenience eliminates the auto-rickshaw legs at both ends.</p>
+
+<h2>What to do at Arunachalam</h2>
+<p>The Arunachaleswarar Temple opens at 5:30 AM and closes briefly during the afternoon (12:30 PM-3:30 PM), reopening for evening darshan until 9:30 PM. Pilgrims arriving from Tirupati typically plan around the morning or evening windows. The most-visited rituals at Arunachalam are:</p>
+<ul>
+  <li><strong>Girivalam</strong> (circumambulation of Arunachala hill) — a 14 km barefoot walk traditionally completed on full-moon nights.</li>
+  <li><strong>Inner shrine darshan</strong> at the Arunachaleswarar sannidhi.</li>
+  <li><strong>Skandasramam and Virupaksha Cave</strong> — meditation caves on the hill associated with Sri Ramana Maharshi.</li>
+  <li><strong>Sri Ramanasramam</strong> — the ashram at the foot of Arunachala, open daily.</li>
+</ul>
+<p>Most pilgrims combine the visit with darshan at <strong>Kanchipuram</strong> (en route, ~110 km from Tiruvannamalai), making it a Tirupati → Arunachalam → Kanchipuram circuit over 2-3 days.</p>
+
+<h2>Tips for first-time travellers on this route</h2>
+<ul>
+  <li><strong>Carry temple-appropriate clothing.</strong> Both Tirupati and Arunachalam follow strict dress codes (no shorts, no Western wear in inner sanctums). Pack a veshti or saree for at-temple wear.</li>
+  <li><strong>Pre-book the Arunachaleswarar darshan</strong> on the official TN HRCE website during peak weeks (Karthigai, Pradosham, full-moon nights) to avoid 3-4 hour queues.</li>
+  <li><strong>Eat at Vellore.</strong> The Vellore-Polur stretch has the best driver-friendly biryani and meals stops on the route — especially around Ambur. Beyond Polur, restaurants thin out.</li>
+  <li><strong>Inter-state permit.</strong> Andhra Pradesh-registered taxis require a Tamil Nadu border permit for the trip; we handle this end-to-end at booking. Self-drive renters should clarify with the rental.</li>
+  <li><strong>Plan a same-day return only if you start by 5 AM.</strong> A round-trip in one day is doable but tight; most pilgrims prefer a one-way drop with overnight halt at Arunachalam.</li>
+</ul>
+
+<h2>Booking your Tirupati to Arunachalam taxi</h2>
+<p>OneWayTaxi.ai operates this route 24/7 with verified Andhra and Tamil Nadu drivers familiar with both the Vellore bypass and the inter-state permit process. Confirmation comes within 5 minutes by phone or WhatsApp, with the driver assigned 30-60 minutes before pickup.</p>
+<p>For pilgrim families travelling with elderly relatives, we recommend the <a href="/innova-crysta-taxi">Innova Crysta taxi</a> — captain seats in the second row, climate control, and a noticeably smoother ride on the Vellore-Polur stretch reduce fatigue on a 4.5-hour drive. For a 1-2 person trip, the standard sedan at ₹14/km handles the route comfortably.</p>
+<p>If your trip extends to Kanchipuram or back to Tirupati, mention this at booking — we can quote a multi-stop package or a round-trip drop that often works out cheaper than two one-ways.</p>
+`,
+        faqs: [
+            {
+                q: 'How many kilometres is Tirupati to Arunachalam?',
+                a: 'Tirupati to Arunachalam (Tiruvannamalai) is approximately 220 km by road via the most-used Chittoor → Vellore → Polur route. An alternate path through Renigunta and Arani runs about 245 km. The Vellore route is faster and better surfaced, so taxi operators almost always choose it.',
+            },
+            {
+                q: 'How long does the drive take from Tirupati to Arunachalam?',
+                a: 'Plan for 4 hours 30 minutes to 5 hours in a sedan or SUV at typical traffic. Departing Tirupati between 5 AM and 7 AM gets you to Arunachalam by 10-11 AM and avoids Vellore city congestion. Festival weeks (Karthigai Deepam) can add 60-90 minutes.',
+            },
+            {
+                q: 'How much does a Tirupati to Arunachalam taxi cost?',
+                a: 'A one-way sedan drop taxi costs around ₹3,080 (220 km × ₹14/km), an SUV around ₹4,180, and an Innova Crysta around ₹4,620 — all-inclusive of tolls, ₹400/day driver bata and GST. Inter-state permit (typically ₹150-300) and night charges (₹250-500 between 10 PM and 6 AM) are extras when applicable.',
+            },
+            {
+                q: 'Is there a direct train from Tirupati to Tiruvannamalai?',
+                a: 'No direct train. The rail route requires a connection at Katpadi (KPD): Tirupati to Katpadi is ~95 km (1.5-2 hours), then Katpadi to Tiruvannamalai is ~85 km (2.5-3 hours). Total door-to-door time is 5-7 hours including the changeover wait. Sleeper class fares start at ₹150-220.',
+            },
+            {
+                q: 'Can I visit Arunachalam after Tirupati on the same day?',
+                a: 'Yes, if you finish Tirupati Balaji darshan by 9-10 AM. A typical same-day plan: 5-7 AM Tirupati darshan, 8 AM departure, 12-1 PM arrival in Arunachalam, evening darshan. Most pilgrims prefer to keep the second day for Arunachalam to avoid rushing the rituals — book a one-way taxi rather than a same-day round trip.',
+            },
+            {
+                q: 'Is Uber or Ola available for Tirupati to Arunachalam?',
+                a: 'Uber Intercity and Ola Outstation cover this route on demand but with limited availability outside metro pickup zones. For guaranteed assignment with a verified inter-state-permit driver, dedicated drop-taxi operators like OneWayTaxi.ai offer better service quality on the Tirupati-Arunachalam corridor.',
+            },
+            {
+                q: 'What is the best time of day to travel from Tirupati to Arunachalam?',
+                a: 'Early morning departure (5-7 AM) is the consensus best window. The drive is cooler, traffic is light through Vellore, and you arrive in Arunachalam in time for the morning darshan window before the temple closes from 12:30-3:30 PM. Late-night departures (after 10 PM) attract a small night charge but offer the smoothest run.',
+            },
+            {
+                q: 'How much fuel does a sedan use on the Tirupati to Arunachalam route?',
+                a: 'A typical petrol sedan returns 16-18 kmpl on this route, so 220 km consumes around 12-14 litres of fuel — roughly ₹1,200-1,400 at current prices. Diesel SUVs at 14-16 kmpl burn 14-16 litres. This is for self-drive comparison only — taxi fares already include fuel cost.',
+            },
+            {
+                q: 'Are there toll plazas on the Tirupati to Arunachalam route?',
+                a: 'Yes — typically 2-3 FASTag-eligible toll plazas on the Chittoor-Vellore-Polur route (₹100-180 cumulative for a sedan). Tolls are already included in our displayed taxi fare; you do not pay separately. Self-drivers should keep FASTag credit topped up.',
+            },
+            {
+                q: 'Can the taxi wait at the temple while I do darshan?',
+                a: 'For one-way drops, the driver completes the trip at the temple gate. For multi-hour temple visits, book a round-trip or a multi-stop package — driver halts at the temple and returns when you finish. Mention temple halt time at booking so we can quote driver bata correctly.',
+            },
+        ],
+        additionalSchemas: [
+            {
+                '@context': 'https://schema.org',
+                '@type': 'HowTo',
+                name: 'How to travel from Tirupati to Arunachalam',
+                description:
+                    'Step-by-step guide for travelling from Tirupati Balaji temple to the Arunachaleswarar temple at Tiruvannamalai by taxi, train, or bus.',
+                totalTime: 'PT4H30M',
+                supply: [
+                    { '@type': 'HowToSupply', name: 'Confirmed taxi booking, train ticket, or bus ticket' },
+                    { '@type': 'HowToSupply', name: 'Temple-appropriate clothing (veshti / saree)' },
+                    { '@type': 'HowToSupply', name: 'ID proof and FASTag (for self-drivers)' },
+                ],
+                step: [
+                    {
+                        '@type': 'HowToStep',
+                        position: 1,
+                        name: 'Choose your mode of transport',
+                        text: 'Pick taxi (4.5 hours, ₹3,080+ for sedan), bus (5-6 hours, ₹250-750), or train via Katpadi connection (5-7 hours, ₹150-1,400).',
+                    },
+                    {
+                        '@type': 'HowToStep',
+                        position: 2,
+                        name: 'Book and confirm departure',
+                        text: 'Reserve a one-way drop taxi via OneWayTaxi.ai with vehicle category and pickup address, or buy your bus/train ticket on APSRTC, TNSTC, or IRCTC.',
+                    },
+                    {
+                        '@type': 'HowToStep',
+                        position: 3,
+                        name: 'Depart between 5 AM and 7 AM',
+                        text: 'Early start avoids Vellore traffic and gets you to Arunachalam by 10-11 AM, comfortably ahead of the temple closure window.',
+                    },
+                    {
+                        '@type': 'HowToStep',
+                        position: 4,
+                        name: 'Travel via Chittoor-Vellore-Polur',
+                        text: 'The standard 220 km route takes NH716, NH40 (Vellore bypass), and NH77 to Tiruvannamalai. Plan a meal stop at Vellore or Ambur.',
+                    },
+                    {
+                        '@type': 'HowToStep',
+                        position: 5,
+                        name: 'Reach Arunachaleswarar Temple',
+                        text: 'Drop at the temple gate or your booked accommodation. The Tiruvannamalai railway and bus stations are 1.5-2 km from the temple.',
+                    },
+                ],
+            },
+        ],
     },
 ];
 

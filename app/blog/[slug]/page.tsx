@@ -105,6 +105,19 @@ export default async function BlogArticlePage(
         ],
     };
 
+    // Optional FAQPage schema (when post defines `faqs`)
+    const faqSchema = post.faqs && post.faqs.length > 0
+        ? {
+            '@context': 'https://schema.org',
+            '@type': 'FAQPage',
+            mainEntity: post.faqs.map(f => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: { '@type': 'Answer', text: f.a },
+            })),
+        }
+        : null;
+
     const CATEGORY_COLORS: Record<string, string> = {
         'Guide': 'bg-teal-100 text-teal-800',
         'Comparison': 'bg-blue-100 text-blue-800',
@@ -113,8 +126,14 @@ export default async function BlogArticlePage(
 
     return (
         <div className="min-h-screen bg-gray-50">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema).replace(/</g, '\\u003c') }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') }} />
+            {faqSchema && (
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema).replace(/</g, '\\u003c') }} />
+            )}
+            {post.additionalSchemas?.map((s, i) => (
+                <script key={`extra-schema-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s).replace(/</g, '\\u003c') }} />
+            ))}
             <Header />
             <main>
                 {/* Breadcrumb */}
@@ -184,6 +203,24 @@ export default async function BlogArticlePage(
                                     prose-strong:text-gray-900"
                                 dangerouslySetInnerHTML={{ __html: post.content }}
                             />
+
+                            {/* Visible FAQs (mirrors FAQPage schema for rich results) */}
+                            {post.faqs && post.faqs.length > 0 && (
+                                <section className="mt-10 pt-8 border-t border-gray-100" aria-label="Frequently asked questions">
+                                    <h2 className="text-2xl font-bold text-gray-900 mb-5">Frequently asked questions</h2>
+                                    <div className="space-y-3">
+                                        {post.faqs.map((f, i) => (
+                                            <details key={i} className="group bg-gray-50 rounded-xl border border-gray-200 hover:border-teal-300">
+                                                <summary className="cursor-pointer list-none p-4 flex items-start justify-between gap-4">
+                                                    <span className="font-semibold text-gray-900 group-open:text-teal-800">{f.q}</span>
+                                                    <span aria-hidden className="text-teal-700 mt-0.5 transition-transform group-open:rotate-90 shrink-0">→</span>
+                                                </summary>
+                                                <div className="px-4 pb-4 text-gray-700 leading-relaxed">{f.a}</div>
+                                            </details>
+                                        ))}
+                                    </div>
+                                </section>
+                            )}
 
                             {/* Article Tags */}
                             <div className="mt-10 pt-6 border-t border-gray-100">
