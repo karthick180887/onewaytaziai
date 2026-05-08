@@ -108,7 +108,25 @@ Book your Coimbatore taxi in under three minutes via:
 Same-day bookings work fine for sedans inside Coimbatore city (1-2 hour notice). For SUV and Crysta categories during peak weekends (Friday evening, Saturday morning), we recommend at least 4-6 hours advance notice. For long weekends, Pongal, and December-January peak season, book 24-48 hours ahead — vehicles are limited at festival edges.
 
 ### Frequently chosen for
-Our Coimbatore taxi customers most often book us for these specific use cases: **Coimbatore airport-to-Ooty transfers** (especially from international flights), **Coimbatore to Bangalore corporate runs**, **Coimbatore to Munnar weekend getaways** for 5-7 person family groups, **medical drops to Bangalore and Chennai super-specialty hospitals**, and **wedding-season multi-day Tempo Traveller bookings** for guest movement between Coimbatore and Tiruppur venues.`,
+Our Coimbatore taxi customers most often book us for these specific use cases: **Coimbatore airport-to-Ooty transfers** (especially from international flights), **Coimbatore to Bangalore corporate runs**, **Coimbatore to Munnar weekend getaways** for 5-7 person family groups, **medical drops to Bangalore and Chennai super-specialty hospitals**, and **wedding-season multi-day Tempo Traveller bookings** for guest movement between Coimbatore and Tiruppur venues.
+
+### Coimbatore Junction railway station — pickup logistics
+Coimbatore Junction (CBE) sees over 100,000 daily passengers across its 6 platforms and is the route's busiest pickup point after CJB airport. We monitor your train's actual arrival via IRCTC and adjust the driver's positioning. The station has two main exits: the **North side (Ukkadam direction)** is best for cabs heading to Pollachi, Madurai, Munnar, and Kerala; the **South side (Gandhipuram direction)** is best for cabs to Bangalore, Salem, Chennai, and Tiruppur. Mention your platform and exit at booking and we slot the driver to the closer side — saves 5-10 minutes of cross-station walking.
+
+### Saravanampatti and Tidel Park — IT cluster transfers
+Coimbatore's IT corridor at **Saravanampatti and Tidel Park** has a steady flow of conference attendees, vendor visits, and weekend home-runs. We handle late-evening drops to Bangalore and Chennai (most-booked: Friday 7-9 PM Saravanampatti pickups for Bangalore arrival by 4 AM Saturday). Corporate accounts get GST invoices, monthly billing on request, and dedicated drivers for repeat routes. For multi-stop conference logistics — picking up speakers from CJB and dropping them at Le Meridien, Vivanta, or Sangam — we run a small bench of sedan + Crysta combinations.
+
+### Tiruppur knitwear cluster — buyer pickup specifics
+**Tiruppur** is 50 km east of Coimbatore and the destination of many international knitwear buyers. We routinely run CJB-to-Tiruppur transfers for European and US visitors who fly into CJB and head straight to factory inspections. The standard route is via NH544 / Avinashi Road — 1 hour 15 minutes including the Avinashi toll. For multi-day buyer visits, we offer fixed-driver assignment so the same vehicle and driver covers factory rounds across Tiruppur, Erode, and Coimbatore over 3-5 days.
+
+### Wedding-season multi-day Tempo Traveller bookings
+Coimbatore's wedding season concentrates around **November-March** with major venues at the **Coimbatore-Pollachi belt** (Codissia Trade Fair, Sangam Convention Hall, Vijaya Mahal) and the Tiruppur direction (Sri Vasavi Tex hall, Chettinad-style heritage venues). For 50-150 guest weddings, we run Tempo Traveller bookings with multiple vehicles ferrying guests between hotels (Le Meridien, Vivanta, Hyatt, Lemon Tree), the muhurat venue, and reception locations. Wedding bookings are typically locked 30-60 days ahead with a 30% advance; mention your guest count and venue list at booking for an integrated multi-vehicle quote.
+
+### Sai Mandir, Marudhamalai, Perur — local pilgrim routes
+Coimbatore is a religious node for several day-trip pilgrim circuits: **Marudhamalai** (12 km from Gandhipuram, hilltop Murugan temple), **Perur Pateeswarar Temple** (8 km from RS Puram, ancient Shiva temple), **Sri Sai Mandir Avinashi Road** (15 km, Shirdi Sai), and the **Coimbatore Anna Centenary Library** (rare-book pilgrimage in itself). We offer per-trip quotes for these local circuits — most are 4-6 hour round trips at sedan rates of ₹600-₹1,200.
+
+### Highway routing intelligence — Coimbatore corridors
+The two Bangalore-bound highways from Coimbatore are **NH544 via Salem** (365 km, 7-8 hours, well-maintained) and the longer alternate via **Mysore-Bandipur** (470 km, 9-10 hours, scenic but slower due to night-time forest closure 9 PM-6 AM). Our drivers default to NH544 unless you specifically request the Bandipur route for the wildlife corridor experience. For Chennai (505 km), the standard route is **NH544 + NH48 via Salem** (8-9 hours); the alternate via Tiruchirappalli adds 80 km but is preferred during Salem-area traffic events.`,
         customFaqs: [
             {
                 question: "Which taxi is cheapest in Coimbatore?",

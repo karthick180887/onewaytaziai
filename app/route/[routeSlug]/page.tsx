@@ -250,6 +250,65 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                 </section>
             )}
 
+            {override?.foodStops && override.foodStops.length > 0 && (
+                <section className="py-12 bg-white" aria-label="Food and rest stops along the route">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Food and rest stops along the route</h2>
+                        <div className="space-y-4">
+                            {override.foodStops.map((stop, i) => (
+                                <div key={i} className="border-l-4 border-teal-300 pl-4">
+                                    <h3 className="font-bold text-gray-900">{stop.title}</h3>
+                                    <p className="text-gray-700 leading-relaxed mt-1">{stop.detail}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            {override?.vehicleGuidance && (
+                <section className="py-12 bg-gray-50" aria-label="Vehicle recommendation for this route">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Choosing the right vehicle for this route</h2>
+                        <p className="text-gray-700 leading-relaxed text-lg" dangerouslySetInnerHTML={{ __html: override.vehicleGuidance }} />
+                    </div>
+                </section>
+            )}
+
+            {override?.monsoonAdvisory && (
+                <section className="py-12 bg-amber-50 border-y border-amber-200" aria-label="Monsoon and weather advisory">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-amber-900 mb-4">Monsoon and weather advisory</h2>
+                        <p className="text-amber-900 leading-relaxed" dangerouslySetInnerHTML={{ __html: override.monsoonAdvisory }} />
+                    </div>
+                </section>
+            )}
+
+            {override?.multiDayPackage && (
+                <section className="py-12 bg-white" aria-label="Multi-day package option">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Multi-day package option</h2>
+                        <p className="text-gray-700 leading-relaxed text-lg" dangerouslySetInnerHTML={{ __html: override.multiDayPackage }} />
+                    </div>
+                </section>
+            )}
+
+            {override?.destinationGuide && override.destinationGuide.length > 0 && (
+                <section className="py-12 bg-gray-50" aria-label={`Things to do at ${to.name}`}>
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Things to do at {to.name}</h2>
+                        <div className="space-y-4">
+                            {override.destinationGuide.map((item, i) => (
+                                <article key={i} className="bg-white border border-gray-200 rounded-xl p-5">
+                                    <h3 className="font-bold text-teal-900 mb-2">{item.title}</h3>
+                                    <p className="text-sm text-gray-700 leading-relaxed">{item.detail}</p>
+                                </article>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
+
             {/* Vehicle-wise Pricing */}
             <section className="py-16 bg-white" aria-label="Vehicle pricing">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

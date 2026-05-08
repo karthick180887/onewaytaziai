@@ -1218,6 +1218,20 @@ export const BLOG_POSTS: BlogPost[] = [
 <p>Most drivers and taxi operators take the Chittoor–Vellore route because the road quality is consistently better, especially the <strong>Vellore bypass</strong> which lets you skip city traffic entirely. The roughly 220 km figure is the standard quoted distance.</p>
 <p>Some online sources list shorter distances (180-190 km) — those typically reflect a straight-line measurement or an older route that bypasses Vellore through smaller state highways. For a comfortable taxi ride, the 220 km route is what you will actually drive.</p>
 
+<h3>The Chittoor-Vellore-Polur stretch in detail</h3>
+<p>The first leg out of Tirupati climbs gently onto the southern Andhra plateau. You exit the temple town past <strong>Alipiri</strong> (the foot of the Tirumala hills, where most pilgrims start their darshan) and pick up <strong>NH716</strong>, locally called the Tirupati-Tiruttani road for its first stretch. After about 75 km you reach <strong>Chittoor</strong> — the district headquarters and the last major Andhra town before the state border. Most drivers stop briefly at one of the dhabas on the Chittoor bypass for tiffin (idli, dosa, vada) or chai. From here NH40 turns south-east, crossing into Tamil Nadu near <strong>Pichanur</strong>.</p>
+<p>The 35-km Chittoor-to-Vellore stretch is the smoothest part of the drive — four-laned with wide shoulders, minimal village crossings, and a steady 70-80 km/h cruise possible. At <strong>Vellore</strong> (170 km mark), you encounter the only traffic snag of the route: the city's CMC Hospital corridor and Katpadi Junction. Taxi drivers route around this via the <strong>Vellore bypass</strong> — a flyover-and-ring-road combination that saves 25-30 minutes versus driving through Vellore Fort area.</p>
+<p>Past Vellore, the road narrows to NH77 — two lanes for most of the final 50 km, threading through the tamarind belt around <strong>Polur</strong>. This is where the landscape shifts visibly: red earth replaces the Andhra grey, palmyra palms appear, and you start seeing the granite hills of Javadi range on the right. <strong>Arunachala hill itself becomes visible from about 8 km out</strong> — a sudden, freestanding cone-shaped mass rising 800 metres above the plains. Many first-time pilgrims pause for a roadside namaskaram at this first sighting.</p>
+
+<h3>Toll plazas and FASTag along the route</h3>
+<p>Expect 2-3 FASTag-eligible toll plazas on the standard route. Plazas and approximate one-way charges for a sedan (subject to NHAI revisions):</p>
+<ul>
+  <li><strong>Chittoor toll plaza</strong> on NH40 — approximately ₹70-90 for a car.</li>
+  <li><strong>Vellore-Krishnagiri toll plaza</strong> (if routing via NH48) — ₹65-85.</li>
+  <li><strong>Polur-Tiruvannamalai stretch</strong> on NH77 — typically toll-free; small state-highway maintenance levy may apply.</li>
+</ul>
+<p>Total tolls round to ₹150-180 one-way for a sedan and ₹220-260 for a Crysta. These are <strong>included in our taxi fare</strong> — you don't pay separately at any plaza. Self-drivers should keep FASTag credit topped up; cash lanes are slow during weekend pilgrim peaks.</p>
+
 <h2>Travel time and best departure window</h2>
 <p>Plan for <strong>4 hours 30 minutes to 5 hours</strong> in a sedan or SUV. Variation comes from three factors:</p>
 <ul>
@@ -1270,24 +1284,52 @@ export const BLOG_POSTS: BlogPost[] = [
 </table>
 <p>For a family of 3-4 pilgrims, the one-way drop taxi is usually the best value because the per-head cost falls below the AC bus rate and the door-to-door convenience eliminates the auto-rickshaw legs at both ends.</p>
 
+<h2>The mythology and significance of Arunachalam</h2>
+<p>Arunachala is one of the <strong>Pancha Bhoota Sthalams</strong> — the five Shiva temples in South India representing the five elements (air, water, fire, earth, and ether). Arunachalam represents <strong>agni</strong> (fire). The Saiva-Siddhantam tradition holds that Arunachala hill is itself the Shiva linga, manifested as an infinite column of fire that Brahma (as a swan) and Vishnu (as a boar) once tried and failed to find the ends of. This origin story — recounted in the Arunachala Mahatmya and the Skanda Purana — is what makes circumambulating the hill (Girivalam) a religious act in itself, distinct from the Arunachaleswarar Temple at its base.</p>
+<p>Modern pilgrims also come to Arunachalam because of <strong>Sri Ramana Maharshi</strong> (1879-1950), the silent sage who lived on the hill from age 17 until his death. His meditation caves — <strong>Virupaksha Cave</strong> and <strong>Skandasramam</strong> — are 30-45 minute hikes up the hill from the temple base. Sri Ramanasramam, the ashram he founded, sits at the foot of the hill and welcomes pilgrims of all faiths year-round. Visitors arriving from Tirupati often spend their first half-day at the temple and second half-day at the ashram and caves — a natural circuit.</p>
+<p>The biggest annual draw is <strong>Karthikai Deepam</strong> (November-December full moon), when a giant fire — using around 1,000 kg of ghee in a copper cauldron — is lit at the summit of Arunachala and blazes for 11 days. The Deepam is visible from a 30 km radius and draws over a million pilgrims to Tiruvannamalai during the festival week. If you plan a trip during Karthikai Deepam, book your taxi 30-45 days ahead and expect 60-90 minutes of additional travel time on Vellore-Polur.</p>
+
 <h2>What to do at Arunachalam</h2>
 <p>The Arunachaleswarar Temple opens at 5:30 AM and closes briefly during the afternoon (12:30 PM-3:30 PM), reopening for evening darshan until 9:30 PM. Pilgrims arriving from Tirupati typically plan around the morning or evening windows. The most-visited rituals at Arunachalam are:</p>
 <ul>
-  <li><strong>Girivalam</strong> (circumambulation of Arunachala hill) — a 14 km barefoot walk traditionally completed on full-moon nights.</li>
-  <li><strong>Inner shrine darshan</strong> at the Arunachaleswarar sannidhi.</li>
-  <li><strong>Skandasramam and Virupaksha Cave</strong> — meditation caves on the hill associated with Sri Ramana Maharshi.</li>
-  <li><strong>Sri Ramanasramam</strong> — the ashram at the foot of Arunachala, open daily.</li>
+  <li><strong>Girivalam</strong> (circumambulation of Arunachala hill) — a 14 km barefoot walk traditionally completed on full-moon nights (<strong>Pournami</strong>). On Pournami nights the route is illuminated and lined with sadhus, food sevas, and bhajan groups; allow 5-7 hours including stops.</li>
+  <li><strong>Inner shrine darshan</strong> at the Arunachaleswarar sannidhi. Free darshan queues run 1-3 hours; the ₹100 quick-darshan ticket cuts the wait to 20-40 minutes.</li>
+  <li><strong>Skandasramam and Virupaksha Cave</strong> — meditation caves on the hill associated with Sri Ramana Maharshi. Both involve a 30-45 minute uphill hike from the temple base; carry water and avoid mid-day heat.</li>
+  <li><strong>Sri Ramanasramam</strong> — the ashram at the foot of Arunachala, open daily 5 AM-9 PM. Free meditation halls, library, and samadhi shrine.</li>
+  <li><strong>Pavalakundru</strong> — a smaller hill with the boyhood meditation rock of Sri Ramana, popular as an alternative if Girivalam is too long for elderly relatives.</li>
 </ul>
-<p>Most pilgrims combine the visit with darshan at <strong>Kanchipuram</strong> (en route, ~110 km from Tiruvannamalai), making it a Tirupati → Arunachalam → Kanchipuram circuit over 2-3 days.</p>
+<p>Most pilgrims combine the visit with darshan at <strong>Kanchipuram</strong> (en route on the return, ~110 km from Tiruvannamalai), making it a Tirupati → Arunachalam → Kanchipuram circuit over 2-3 days. A larger circuit adds <strong>Mahabalipuram</strong> and <strong>Chennai</strong>, turning a single drop into a 4-5 day pilgrim package.</p>
+
+<h2>Choosing the right vehicle for this route</h2>
+<p>The 220 km Tirupati-Arunachalam route is mostly flat highway with one ghat-free climb into the southern Andhra plateau and a gentle descent into Tamil Nadu. Vehicle choice depends less on terrain and more on group size and pilgrim profile:</p>
+<ul>
+  <li><strong>2 adults, light luggage</strong> — <strong>Sedan (Etios/Dzire)</strong> at ₹3,080 is the optimal pick. Comfortable for the 4.5-hour drive, parks easily at the temple peripheries.</li>
+  <li><strong>4-5 adults including elderly relatives</strong> — <strong>SUV (Ertiga or older Innova)</strong> at ₹4,180 gives more legroom on the Vellore stretch and easier ingress for older pilgrims at temple stops. Worth the upgrade.</li>
+  <li><strong>6-7 adults, multi-day pilgrimage with luggage</strong> — <strong>Innova Crysta</strong> at ₹4,620. The captain-seat second row (where it's available in the Crysta variant) makes the return leg after a tiring darshan day genuinely restful. Most pilgrim families opting for the Tirupati-Arunachalam-Kanchipuram circuit choose Crysta.</li>
+  <li><strong>8-12 adults (extended families or temple groups)</strong> — <strong>Tempo Traveller</strong> on request. Mention dates and we quote a 2-3 day pilgrim package with the same driver and vehicle throughout — better value than separate one-way bookings.</li>
+</ul>
+<p>For pilgrims with back issues, joint pain, or surgery recovery, the <strong>Crysta is strongly preferred</strong> over older Innova or Ertiga — the suspension is calibrated for highway comfort and you feel the road less on the Polur-Tiruvannamalai stretch. The ₹540 difference between SUV and Crysta is small over a 220 km drive.</p>
 
 <h2>Tips for first-time travellers on this route</h2>
 <ul>
-  <li><strong>Carry temple-appropriate clothing.</strong> Both Tirupati and Arunachalam follow strict dress codes (no shorts, no Western wear in inner sanctums). Pack a veshti or saree for at-temple wear.</li>
-  <li><strong>Pre-book the Arunachaleswarar darshan</strong> on the official TN HRCE website during peak weeks (Karthigai, Pradosham, full-moon nights) to avoid 3-4 hour queues.</li>
-  <li><strong>Eat at Vellore.</strong> The Vellore-Polur stretch has the best driver-friendly biryani and meals stops on the route — especially around Ambur. Beyond Polur, restaurants thin out.</li>
-  <li><strong>Inter-state permit.</strong> Andhra Pradesh-registered taxis require a Tamil Nadu border permit for the trip; we handle this end-to-end at booking. Self-drive renters should clarify with the rental.</li>
-  <li><strong>Plan a same-day return only if you start by 5 AM.</strong> A round-trip in one day is doable but tight; most pilgrims prefer a one-way drop with overnight halt at Arunachalam.</li>
+  <li><strong>Carry temple-appropriate clothing.</strong> Both Tirupati and Arunachalam follow strict dress codes (no shorts, no Western wear in inner sanctums). Pack a veshti or saree for at-temple wear. Tirupati is stricter than Arunachalam; both expect modesty.</li>
+  <li><strong>Pre-book the Arunachaleswarar darshan</strong> on the official TN HRCE website during peak weeks (Karthikai, Pradosham, full-moon nights) to avoid 3-4 hour queues. The ₹100 quick-darshan ticket is the single best time-saver.</li>
+  <li><strong>Eat at Vellore or Ambur.</strong> The Vellore-Polur stretch has the best driver-friendly biryani and meals stops on the route. <strong>Ambur biryani</strong> (around 30 km west of Vellore on the parallel NH48) is famously the route's culinary detour — many drivers willingly add 25 minutes for it. Beyond Polur, restaurants thin out fast; Tiruvannamalai itself has good vegetarian options near the temple but expect crowds at meal times.</li>
+  <li><strong>Phone storage at temples.</strong> Mobile phones, leather goods, and shoes are not allowed inside either temple's inner sanctum. Cloakrooms (₹10-50 per item) are at both. Plan for this — your driver can hold valuables in a locked car if cloakroom queues are long.</li>
+  <li><strong>Inter-state permit.</strong> Andhra Pradesh-registered taxis require a Tamil Nadu border permit for the trip (typically ₹150-300, valid for 7 days); we handle this end-to-end at booking and the cost is included in the displayed fare. Self-drive renters should clarify with the rental — being stopped at the border without a permit is a 30-90 minute delay.</li>
+  <li><strong>Plan a same-day return only if you start by 5 AM.</strong> A round-trip in one day is doable but tight; most pilgrims prefer a one-way drop with overnight halt at Arunachalam, then return via Kanchipuram or directly to Chennai/Bangalore the next day.</li>
+  <li><strong>Pournami and Pradosham crowd planning.</strong> Full-moon nights (Pournami) and the 13th day of each fortnight (Pradosham) draw exceptional crowds at Arunachalam. If you can shift your trip by 24 hours either way, you get a calmer temple experience and faster Girivalam.</li>
+  <li><strong>Carry small cash for street vendors.</strong> Vendors near both temples sell prasadam containers, flower garlands, brass lamps, and rudraksha — most accept UPI but some are cash-only. ₹500-1,000 in small notes covers typical pilgrim purchases.</li>
 </ul>
+
+<h2>Festival seasonality and when to avoid the route</h2>
+<p>Three pilgrim seasons dominate the Tirupati-Arunachalam corridor and influence both road traffic and accommodation availability at Tiruvannamalai:</p>
+<ul>
+  <li><strong>Brahmotsavam at Tirupati (September-October, 9 days).</strong> Tirupati gets crowded but the road south is smoother because most pilgrims are returning to Andhra, not heading to Tamil Nadu.</li>
+  <li><strong>Karthikai Deepam at Arunachalam (November-December full moon week).</strong> The biggest crowd of the year. Vellore-Polur traffic doubles. Tiruvannamalai accommodation is booked out 30-45 days ahead. If you must travel during this window, book taxi early and be prepared for 6-7 hour drives instead of 4.5.</li>
+  <li><strong>Mahashivratri (February-March).</strong> One-night festival at the temple. Crowd is intense for 12 hours but normal the next day.</li>
+</ul>
+<p>The calmest months for this route are <strong>July-September</strong> (post-monsoon), <strong>January-mid-February</strong> (post-Pongal), and <strong>April-May</strong> (pre-summer break). Weekday departures (Tuesday-Thursday) consistently beat weekend traffic.</p>
 
 <h2>Booking your Tirupati to Arunachalam taxi</h2>
 <p>OneWayTaxi.ai operates this route 24/7 with verified Andhra and Tamil Nadu drivers familiar with both the Vellore bypass and the inter-state permit process. Confirmation comes within 5 minutes by phone or WhatsApp, with the driver assigned 30-60 minutes before pickup.</p>

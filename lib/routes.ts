@@ -161,6 +161,11 @@ export type RouteOverride = {
     sampleTimeline?: { time: string; activity: string }[];
     dropPoints?: string[]; // popular drop locations at the destination
     routeHighlights?: { title: string; detail: string }[];
+    foodStops?: { title: string; detail: string }[]; // notable food/rest halts en route
+    vehicleGuidance?: string; // route-specific vehicle recommendation (markdown-light HTML)
+    monsoonAdvisory?: string; // weather/seasonal warnings + alt-route guidance
+    multiDayPackage?: string; // multi-day itinerary suggestion when destination warrants 2-3 days
+    destinationGuide?: { title: string; detail: string }[]; // what to do once you arrive
     customFaqs?: { question: string; answer: string }[];
 };
 
@@ -169,17 +174,9 @@ const ROUTE_OVERRIDES: Record<string, RouteOverride> = {
         snippetLede:
             "Kochi to Munnar by taxi is approximately 130 km via NH85 through Kothamangalam, Adimali and Neriamangalam. The drive takes 3.5 to 4.5 hours depending on traffic on the ghat section. One-way drop taxi fares start at ₹1,820 for a sedan, ₹2,470 for an SUV and ₹2,730 for an Innova Crysta — all-inclusive of tolls, driver bata and GST.",
         intro:
-            "The Kochi to Munnar route is one of South India's most-booked outstation drives. Travellers landing at Kochi airport, on a backwaters break in Alleppey, or visiting family in Ernakulam often head straight up to Munnar's tea-clad hills. The route climbs steadily from sea level at Kochi to about 1,600 metres at Munnar, with the steepest gradients in the final 40 km between Adimali and Munnar town.",
+            "The Kochi to Munnar route is one of South India's most-booked outstation drives. Travellers landing at Kochi airport, on a backwaters break in Alleppey, or visiting family in Ernakulam often head straight up to Munnar's tea-clad hills. The route climbs steadily from sea level at Kochi to about 1,600 metres at Munnar, with the steepest gradients in the final 40 km between Adimali and Munnar town. Munnar itself is a relatively young town in tourism terms — its modern identity dates to the 1870s when British planter John Daniel Munro leased the High Range from the Poonjar royal family for tea cultivation. The Kannan Devan Hills Plantations (KDHP) — now Tata-owned — still operate most of the estates you drive past in the final 30 km. The town sits at the trijunction of three streams (Muthirapuzha, Nallathanni, and Kundaly), which is the literal meaning of 'Munnar' (mun-aru: three rivers) in Malayalam.",
         bestTime:
             "Start from Kochi between 7 AM and 9 AM to reach Munnar by lunchtime, beat the afternoon mist on the ghat, and have a full evening for tea-estate sightseeing. Avoid arriving after 6 PM — the last 30 km from Adimali to Munnar has limited streetlights and the ghat curves get visibility-tricky after sundown. June through September is monsoon season; the route is open but ghat road can be slippery — leave 30-45 minutes earlier than dry-season planning.",
-        sampleTimeline: [
-            { time: "Departure", activity: "Pickup from Kochi (airport, Ernakulam Junction, Fort Kochi or your hotel)" },
-            { time: "+1.5 hrs", activity: "Reach Kothamangalam — last major town before the ghat begins. Tea/coffee stop." },
-            { time: "+2.5 hrs", activity: "Pass Neriamangalam bridge, enter the dramatic Idamalayar valley road." },
-            { time: "+3 hrs", activity: "Cheeyappara and Valara waterfalls visible from the road — 5-min photo halt if not in a rush." },
-            { time: "+3.5 hrs", activity: "Reach Adimali — base of the final climb to Munnar. Restaurants and clean restrooms." },
-            { time: "+4 to 4.5 hrs", activity: "Arrive Munnar town. Drop at hotel, Mattupetty Dam, Tata Tea Museum, or your booked address." },
-        ],
         dropPoints: [
             "Munnar town centre (Old Munnar bus stand)",
             "KDHP Tea Museum (Tata Tea estate)",
@@ -189,10 +186,44 @@ const ROUTE_OVERRIDES: Record<string, RouteOverride> = {
             "Resorts at Chinnakanal, Suryanelli, Anachal",
         ],
         routeHighlights: [
-            { title: "NH85 ghat road", detail: "Smooth 4-lane ghat with regular guardrails — a modern upgrade from the older two-lane road. Most cars cruise at 40-60 km/h on the climb." },
-            { title: "Cheeyappara and Valara waterfalls", detail: "Two roadside waterfalls between Neriamangalam and Adimali. Best views during and just after monsoon (July-November). Visible from the highway with safe pull-over spots." },
-            { title: "Spice plantations near Adimali", detail: "Pepper, cardamom and clove gardens line the approach to Munnar. Several shops let you sample fresh spices and oils en route." },
-            { title: "Tea estate viewpoints", detail: "From 5 km before Munnar town, the tea estates open up dramatically. Most drivers pull over for a 10-minute photo stop on request." },
+            { title: "NH85 ghat road", detail: "Smooth 4-lane ghat with regular guardrails — a modern upgrade from the older two-lane road that was the only access until 2019. Most cars cruise at 40-60 km/h on the climb. The road surface is excellent except for a 5 km stretch near Adimali that gets patchy after heavy monsoon." },
+            { title: "Cheeyappara waterfalls", detail: "First major waterfall, about 8 km after Neriamangalam. Drops in seven tiers and is visible right from the highway. Best volume from July through November (post-monsoon). Designated parking pull-over and photo viewpoint." },
+            { title: "Valara waterfalls", detail: "About 3 km past Cheeyappara — narrower than its neighbour but with a cleaner cascade. A small tea-stall complex at the viewpoint serves quick refreshments. Five-minute halt typical." },
+            { title: "Idamalayar valley", detail: "The dramatic valley road between Neriamangalam and Adimali — bounded by forested ridges with the Periyar River at the base. Photo stops aren't sanctioned (narrow shoulders) but the cinematic stretch lasts ~20 km." },
+            { title: "Spice plantations near Adimali", detail: "Pepper, cardamom and clove gardens line the approach to Munnar. Several roadside shops let you sample fresh spices, essential oils, and home-made chocolate. Most drivers know the trustworthy ones — KDHP-licensed shops carry genuine highland spices." },
+            { title: "Cardamom County / Old Munnar tea estates", detail: "From 12 km before Munnar town, the landscape transitions from cardamom belts to the tea-clad slopes that the region is famous for. The change is sudden and photographable." },
+            { title: "Tea estate viewpoints", detail: "From 5 km before Munnar town, the manicured Tata Tea estates open up dramatically. Most drivers pull over for a 10-minute photo stop on request — the panoramas at the Lockhart Tea Museum approach are the most-photographed in Munnar." },
+            { title: "Power House waterfall (alternate stretch)", detail: "If your driver routes via the alternate Pallivasal stretch, you pass this hydroelectric-station waterfall. Smaller than Cheeyappara but always running because it's fed from the dam." },
+        ],
+        foodStops: [
+            { title: "Kothamangalam (1.5 hours from Kochi)", detail: "Best-equipped town for a full meal. Kerala-Christian cuisine specialty: beef fry, appam-stew, fish moilee. Also strong vegetarian options. Many drivers' default lunch halt." },
+            { title: "Neriamangalam roadside dhabas", detail: "Quick chai and parippu vada (lentil fritters) stops at the river-bridge area. Five-minute breaks. Clean restrooms at the larger restaurants near the bridge." },
+            { title: "Adimali (3.5 hours from Kochi)", detail: "Last major town before the final climb. Saravana Bhavan-style vegetarian restaurants and Kerala biryani spots. Best for tea, snacks, and clean restrooms before the steep section. Avoid heavy meals here — the climb to Munnar is windy." },
+            { title: "Pallivasal hydropower viewpoint", detail: "Small chai shops with a valley view. Ten-minute photo halt territory rather than a meal stop." },
+            { title: "Devikulam (just before Munnar)", detail: "Tea-and-snacks halts overlooking Munnar town. If you arrive late and Munnar restaurants are closed, Devikulam has a few late-evening options." },
+        ],
+        vehicleGuidance:
+            "The Kochi-Munnar climb has 80 km of continuous gradient between Kothamangalam and Munnar — manageable in any of our vehicles, but the comfort difference is real on the way up. <strong>Sedans (Etios/Dzire)</strong> handle the route fine for 2-3 passengers, but the engine works harder on the final 30 km and you may notice fading on long downhill brake applications during the return. <strong>SUVs (Ertiga, older Innova)</strong> are the sweet spot for 4-7 passengers — better torque on the climb, more cabin headroom for the bumpier sections. <strong>Innova Crysta</strong> is the smoothest ride for elderly passengers and longer-distance comfort: the 2.4L diesel has surplus torque, the suspension is calibrated for ghats, and the captain seats (where the variant has them) recline meaningfully on the descent. <strong>Tempo Travellers</strong> handle the route but require an experienced driver — request 'experienced TT driver' at booking for ghat-road comfort. Diesel variants are universally preferred over petrol for this route because the climb consumes 25-30% more fuel than highway driving.",
+        monsoonAdvisory:
+            "Munnar's two monsoons (Southwest June-August, Northeast October-December) make the route operational year-round but conditions vary substantially. <strong>June-August</strong> brings heavy intermittent rain, occasional landslides on the Adimali-Munnar stretch (KSEB and PWD usually clear within 4-12 hours), and reduced visibility on ghat curves after 4 PM. <strong>October-December</strong> is gentler but the Kochi-Kothamangalam section can flood during cyclone events. We monitor IMD and KSDMA advisories daily during monsoon; on landslide-warning days we reschedule rather than route-around. <strong>Kerala-Tamil Nadu border via Marayoor (alternate route)</strong> is sometimes used during landslide closures — adds 35 km but bypasses the Adimali bottleneck. <strong>What to pack:</strong> warm layer (Munnar drops to 12-15°C even in monsoon), umbrella, microfibre towel, plastic-bag for camera. Drivers experienced on this route carry a charged jumper-cable kit and emergency torch year-round.",
+        multiDayPackage:
+            "If your trip allows 2-3 days at Munnar instead of a one-day visit, our <strong>multi-day Munnar package</strong> works out cheaper than two separate one-way bookings. The package includes the same driver and vehicle for the duration, daily 250 km kilometre allowance (covers all standard sightseeing), driver bata (₹400/day), one night halt charge per night (₹250-500), and tolls. <strong>Day 1:</strong> Kochi pickup → Munnar arrival → Mattupetty Dam, KFDC Tea Museum. <strong>Day 2:</strong> Eravikulam National Park (Rajamala) → Top Station → Echo Point → Kundala Lake. <strong>Day 3:</strong> Pothamedu viewpoint → spice plantation visit → Kochi drop. Sedan package starts at ₹11,500 for 3 days, SUV at ₹15,800, Innova Crysta at ₹17,200 — request a quote at booking with your exact dates and pickup/drop addresses.",
+        destinationGuide: [
+            { title: "Eravikulam National Park (Rajamala)", detail: "12 km from Munnar town. Home to the Nilgiri Tahr — a near-threatened mountain goat species — and dense shola grasslands. Open 7 AM-5 PM (entry closes 4 PM); shuttle bus from gate to viewing zone. Best months: October-March. Closed Feb-Mar during calving season; check before visiting. Tickets ₹125 per adult, ₹95 children." },
+            { title: "Mattupetty Dam and Lake", detail: "13 km from Munnar town on the Top Station road. Concrete arch dam with a placid lake suitable for boating and a Indo-Swiss dairy farm visit nearby. Speed boats and shikara rides available; expect 30-60 minute waits during weekends. The dam wall is a popular sunrise photo point." },
+            { title: "Top Station and Kolukkumalai", detail: "32 km from Munnar — the highest point on the road, marking the Kerala-Tamil Nadu border. Top Station gives panoramic views of the Western Ghats; Kolukkumalai (further on) is the world's highest organic tea estate at 2,200m. The road from Suryanelli to Kolukkumalai is jeep-only and adds 1.5 hours; book a local jeep transfer rather than ask your taxi driver to attempt it." },
+            { title: "KDHP Tea Museum (Tata Tea)", detail: "Inside Munnar town. Working tea-processing facility with 1-hour guided tours covering plucking, withering, rolling, fermenting, and grading. The on-site tea-tasting bar lets you sample white, green, and CTC black varieties. Open 9 AM-4 PM, closed Mondays. Tickets ₹85 per adult." },
+            { title: "Echo Point and Kundala Lake", detail: "15 km from Munnar on the Top Station road. Lake-adjacent vantage where natural acoustics give a 4-5 second echo. Pedal boats and small wooden boats available. The drive itself — through the Kundala Tea Estate — is the highlight; budget 30 minutes for the road experience alone." },
+            { title: "Pothamedu Viewpoint", detail: "5 km from Munnar town on the Adimali road (return-side). Panoramic vista of tea estates with a stone-walled viewpoint and roadside chai vendors. Best at sunrise (6-7 AM) for the cloud-clearing-from-valleys phenomenon. Free entry." },
+            { title: "Tata Tea Plantation walks", detail: "Pre-bookable estate walks through the Lockhart and Lethem divisions — guided 90-minute tours covering tea-plucking demos, factory visit, and a strict-on-quality afternoon tea on the manager's bungalow lawn. ₹500-800 per person depending on tour. Worth the booking for tea enthusiasts." },
+        ],
+        sampleTimeline: [
+            { time: "6:00 AM", activity: "Pickup from Kochi (airport, Ernakulam Junction, Fort Kochi or your hotel). Driver with name placard waits at terminal exit / station gate." },
+            { time: "7:30 AM (+1.5 hrs)", activity: "Reach Kothamangalam — last major town before the ghat begins. 20-minute breakfast stop at a Kerala restaurant. Toilets, idli/dosa, beef fry options for non-veg eaters." },
+            { time: "8:30 AM (+2.5 hrs)", activity: "Pass Neriamangalam bridge over the Periyar River; enter the dramatic Idamalayar valley road. Photo halts limited (narrow shoulders) but the cinematic stretch lasts 20 km." },
+            { time: "9:00 AM (+3 hrs)", activity: "Cheeyappara waterfalls visible from the road — 5-minute photo halt at the designated viewpoint. Valara waterfalls 3 km further; second halt optional." },
+            { time: "9:30 AM (+3.5 hrs)", activity: "Reach Adimali — base of the final climb to Munnar. Restaurants, spice shops, and clean restrooms. Recommended halt: tea + parippu vada for energy on the climb." },
+            { time: "10:30-11:00 AM (+4.5 hrs)", activity: "Arrive Munnar town. Drop at hotel, KDHP Tea Museum, Mattupetty Dam, or your booked address. Time to unpack, lunch, and start your first afternoon attraction." },
         ],
         customFaqs: [
             {
