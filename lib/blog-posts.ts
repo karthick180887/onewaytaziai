@@ -1181,6 +1181,187 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
     },
     {
+        slug: 'best-tourist-places-in-chennai',
+        title: 'Best Tourist Places to Visit in Chennai (2026 Guide)',
+        metaTitle: 'Best Tourist Places in Chennai 2026 | 20 Must-Visit Spots | OneWayTaxi.ai',
+        metaDescription: 'Complete guide to the best tourist places in Chennai — Marina Beach, Mylapore, Fort St. George, Mahabalipuram and 16 more. Timings, entry fees, taxi fare from city centre. Plan your Chennai trip.',
+        category: 'Routes',
+        readTimeMinutes: 18,
+        publishedAt: '2026-05-08',
+        updatedAt: '2026-05-08',
+        excerpt:
+            'Chennai mixes 400-year colonial port history, ancient Dravidian temples, three of South India\'s longest urban beaches, and a heritage-village arc that runs along the East Coast Road. Here are the 20 best tourist places in Chennai with what to see, when to visit, entry fees, and how to reach each one.',
+        keywords: [
+            'tourist places in chennai',
+            'best tourist places in chennai',
+            'chennai tourist places',
+            'places to visit in chennai',
+            'famous places in chennai',
+            'chennai tourism',
+            'chennai sightseeing',
+        ],
+        content: `
+<p class="lead"><strong>Chennai's must-visit attractions, in priority order:</strong> Marina Beach (the world's second-longest urban beach), the Kapaleeswarar Temple at Mylapore, Fort St. George (where modern India effectively began), San Thome Cathedral, the Government Museum at Egmore, the Theosophical Society at Adyar, the Mahabalipuram UNESCO heritage site (60 km south on the ECR), and DakshinaChitra heritage village. The list expands to 20 attractions covering temples, beaches, museums, planetariums, zoos, and the Marina-ECR scenic axis. Allow 3-4 days for a complete Chennai experience.</p>
+
+<h2>Why Chennai? A quick overview</h2>
+<p>Chennai (formerly Madras) is South India's largest cultural and commercial gateway — a 400-year-old port city that began life as a British East India Company trading post in 1639 and became the capital of the Madras Presidency, the seat of South India during the colonial era. Today it's the capital of Tamil Nadu, home to about 11 million people in the metropolitan region, and the cultural heartland of Tamil literature, music (Carnatic), and dance (Bharatanatyam). For visitors, the city offers four distinct experience layers — <strong>colonial port heritage</strong> (Fort St. George, San Thome, the High Court), <strong>ancient Dravidian temples</strong> (Mylapore, Triplicane, Tiruvanmiyur), <strong>beachfront</strong> (Marina, Elliot's, Thiruvanmiyur), and the <strong>East Coast Road heritage arc</strong> running south to Mahabalipuram and Pondicherry.</p>
+
+<h2>Best time to visit Chennai</h2>
+<p>The most comfortable months are <strong>November through February</strong> — temperatures range 22-29°C with clear skies and low humidity. Pongal (mid-January) is the city's biggest cultural festival; the Margazhi music season (December-January) draws Carnatic music enthusiasts worldwide. <strong>March-May</strong> is hot (32-40°C) and humid; outdoor sightseeing is best at sunrise and after sunset. <strong>June-September</strong> is the Southwest monsoon edge with short showers and 28-32°C — generally pleasant but watch for cyclone advisories. <strong>October-December</strong> is the Northeast monsoon — Chennai's primary rainfall window with heavy intermittent rain that can flood low-lying neighbourhoods.</p>
+
+<h2>How to reach Chennai</h2>
+<p><strong>By air:</strong> Chennai International Airport (MAA, Meenambakkam) — South India's third-busiest airport. Direct flights from all major Indian cities and 30+ international destinations. The airport is 16 km south-west of central Chennai.</p>
+<p><strong>By train:</strong> Chennai Central (MAS) handles long-distance trains; Chennai Egmore (MS) handles southern-state trains; Tambaram and Beach stations are key suburban nodes.</p>
+<p><strong>By road:</strong> NH48 (formerly NH4) connects Bangalore (346 km) and the broader north Indian network; NH45 (now NH38) connects Madurai/Tirunelveli; the East Coast Road runs to Pondicherry and beyond. Most outstation visitors arriving by road book a one-way drop taxi to their Chennai hotel — see our <a href="/route/bangalore-to-chennai-taxi">Bangalore to Chennai taxi guide</a> for the most-booked corridor.</p>
+
+<h2>1. Marina Beach</h2>
+<p><strong>Location:</strong> South Beach Road (Kamarajar Salai), running from Fort St. George to Foreshore Estate. <strong>Entry:</strong> Free. <strong>Best time:</strong> 5:30 AM-7:30 AM for sunrise; 5 PM-8 PM for the crowd-watching evening.</p>
+<p>At <strong>13 km long</strong>, Marina is the world's second-longest urban beach (second only to Cox's Bazaar in Bangladesh). The Marina is more than a beach — it's Chennai's social fulcrum. The 19th-century lighthouse at the southern end, the Vivekananda House (where Swami Vivekananda stayed in 1897), the colonial Senate House and Madras University buildings, the MGR and Anna memorials at the centre, and the always-busy fishermen's village at the northern end together make a 4-hour walking circuit. Avoid swimming — Marina has dangerous undertow. Try beachside bhajji, sundal, and street food at the southern parking-lot stalls.</p>
+
+<h2>2. Kapaleeswarar Temple (Mylapore)</h2>
+<p><strong>Location:</strong> Mylapore, central Chennai. <strong>Entry:</strong> Free; ₹50 special darshan. <strong>Timings:</strong> 5 AM-12:30 PM, 4 PM-9:30 PM.</p>
+<p>The 7th-century Pallava-era Shiva temple — Chennai's most-visited Hindu site. The 37-metre east gopuram with its 1,000+ stucco figures is the photographable signature. The annual <strong>Brahmotsavam festival</strong> (March-April) sees the temple chariot pulled through Mylapore's streets — one of South India's most spectacular festival processions. Combine with a walk through Mylapore's heritage neighbourhood — the Kapaleeswarar tank, the Mylapore Sanskrit school, the heritage food joint Karpagambal Mess, and the Mylapore Saturday flower-and-vegetable market.</p>
+
+<h2>3. Fort St. George and St. Mary's Church</h2>
+<p><strong>Location:</strong> Rajaji Salai, near the harbour. <strong>Entry:</strong> ₹15 (Indians), ₹200 (foreigners). <strong>Timings:</strong> 9 AM-5 PM, closed Fridays.</p>
+<p>The starting point of British India. Built in 1640 by the East India Company, this is where modern India effectively began as a colonial enterprise. <strong>St. Mary's Church</strong> inside the fort (1680) is the oldest Anglican church east of Suez and the oldest British building in India. The <strong>Fort Museum</strong> houses Robert Clive's writing desk, palanquins, weapons, and a remarkable collection of East India Company memorabilia. The <strong>Tamil Nadu Legislative Assembly</strong> still functions inside the fort. Allow 2 hours minimum.</p>
+
+<h2>4. San Thome Cathedral Basilica</h2>
+<p><strong>Location:</strong> San Thome High Road, beside Marina Beach. <strong>Entry:</strong> Free. <strong>Timings:</strong> 6 AM-9 PM.</p>
+<p>One of only three churches in the world built over the tomb of an Apostle of Jesus (alongside St. Peter's Basilica in Rome and Santiago de Compostela). St. Thomas is believed to have been martyred at nearby St. Thomas Mount in 72 CE; this 16th-century Portuguese cathedral, rebuilt in Neo-Gothic style by the British in 1893, marks his burial site. The underground chapel housing the relics is open to all. Sunday Mass and Christmas midnight Mass draw thousands.</p>
+
+<h2>5. Government Museum and Connemara Public Library (Egmore)</h2>
+<p><strong>Location:</strong> Pantheon Road, Egmore. <strong>Entry:</strong> ₹15 (Indians), ₹250 (foreigners). <strong>Timings:</strong> 9:30 AM-5 PM, closed Fridays.</p>
+<p>India's second-oldest museum (1851). The <strong>Bronze Gallery</strong> houses one of the world's finest collections of South Indian Chola-era bronzes — the dancing Nataraja statues that became Tamil culture's global iconography. The <strong>Numismatic Section</strong> has 1,000+ years of South Indian coins. The Museum Theatre hosts Bharatanatyam recitals seasonally. The neighbouring <strong>Connemara Public Library</strong> (1896) is one of the four National Library Depositories in India and a Grade-1 heritage building.</p>
+
+<h2>6. Theosophical Society (Adyar)</h2>
+<p><strong>Location:</strong> Adyar, southern Chennai. <strong>Entry:</strong> Free. <strong>Timings:</strong> 8 AM-12 PM, 2 PM-5 PM, closed Sundays and major holidays.</p>
+<p>The 100-hectare global headquarters of the Theosophical Society, founded 1882. The grounds include the <strong>500-year-old Banyan Tree</strong> (one of India's largest, with a canopy spread of 60 metres), Annie Besant's residence, the Adyar River-front bird sanctuary, and the Theosophical Society's library of esoteric and theological texts. A peaceful 2-hour green-walk experience just minutes from the Adyar IT corridor.</p>
+
+<h2>7. Birla Planetarium and Periyar Science Park</h2>
+<p><strong>Location:</strong> Kotturpuram. <strong>Entry:</strong> ₹35 adult, ₹20 child. <strong>Timings:</strong> 10 AM-5:45 PM.</p>
+<p>One of India's most-visited planetariums — modern dome theatre with multimedia astronomy shows in Tamil and English. The adjoining <strong>Periyar Science and Technology Park</strong> has interactive exhibits on physics, life sciences, and Indian technological history. Best for families with school-age children; allow 3 hours.</p>
+
+<h2>8. Vivekananda House (Vivekanandar Illam)</h2>
+<p><strong>Location:</strong> Marina Beach Road, near the Senate House. <strong>Entry:</strong> ₹10. <strong>Timings:</strong> 10 AM-12 PM, 3 PM-7 PM, closed Mondays.</p>
+<p>The 19th-century Ice House where Swami Vivekananda stayed for 9 days in 1897 after his Western tour. The building has been preserved as a Vivekananda museum with extensive photographs, manuscripts, and a 3D narrative on his life. Adjoins the Marina; combine with a beach walk.</p>
+
+<h2>9. Elliot's Beach (Besant Nagar)</h2>
+<p><strong>Location:</strong> Besant Nagar, southern Chennai. <strong>Entry:</strong> Free. <strong>Best time:</strong> 5 PM-8 PM.</p>
+<p>Chennai's quieter, cleaner beach — popular with Adyar-Besant Nagar locals. The Karl Schmidt Memorial (the Dutch sailor who drowned saving locals from the 1930 cyclone) and the small Elliott's Beach lighthouse mark the centre. The <strong>Ashtalakshmi Temple</strong> at the southern end — eight-shrine temple in a unique stacked-storey design — is a popular sunset photography spot.</p>
+
+<h2>10. Mahabalipuram (60 km south on ECR)</h2>
+<p><strong>Location:</strong> 58 km from Chennai via the East Coast Road. <strong>Entry:</strong> ₹40 (Indians), ₹600 (foreigners) for the monument cluster. <strong>Timings:</strong> 6 AM-6 PM.</p>
+<p>UNESCO World Heritage Site — the 7th-8th century Pallava-era port city. The <strong>Shore Temple</strong> (the only structural temple from the Pallava era to survive intact), the <strong>Pancha Rathas</strong> (five chariot-shaped monolithic temples), <strong>Arjuna's Penance</strong> (a 27-metre relief panel depicting the descent of Ganga), and <strong>Krishna's Butter Ball</strong> (a 250-tonne balanced rock that has defied gravity for 1,300 years) are the must-sees. Most Chennai-based visitors combine Mahabalipuram with a Pondicherry overnight; <a href="/route/chennai-to-pondicherry-taxi">our Chennai-Pondicherry taxi route</a> includes a Mahabalipuram halt.</p>
+
+<h2>11. DakshinaChitra (heritage village)</h2>
+<p><strong>Location:</strong> ECR, 25 km from Chennai. <strong>Entry:</strong> ₹120 (Indians), ₹360 (foreigners). <strong>Timings:</strong> 10 AM-6 PM, closed Tuesdays.</p>
+<p>An open-air museum showcasing the architecture and crafts of all four South Indian states (Tamil Nadu, Kerala, Karnataka, Andhra Pradesh). <strong>18 reconstructed heritage homes</strong> from across the southern peninsula, live craft demonstrations, traditional Chettinad cuisine at the on-site restaurant, and the South India Folk Museum. Excellent half-day for first-time visitors to South India.</p>
+
+<h2>12. Madras Crocodile Bank Trust</h2>
+<p><strong>Location:</strong> ECR, 40 km from Chennai. <strong>Entry:</strong> ₹100 (Indians), ₹500 (foreigners). <strong>Timings:</strong> 9 AM-5:30 PM, closed Mondays.</p>
+<p>One of Asia's oldest reptile breeding parks (1976). Houses 14 species of crocodiles and alligators, gharials, snakes, and turtles. The <strong>night safari</strong> (8 PM-10 PM, advance booking) gives a rare close look at active reptiles. Educational signage; popular with families and schools. Combine with Mahabalipuram (15 km further south).</p>
+
+<h2>13. Guindy National Park and Snake Park</h2>
+<p><strong>Location:</strong> Sardar Patel Road, Guindy. <strong>Entry:</strong> ₹15 (Indians). <strong>Timings:</strong> 9 AM-5:30 PM, closed Tuesdays.</p>
+<p>One of the smallest urban national parks in the world (2.7 sq km) inside Chennai city limits. Home to blackbuck, spotted deer, jackals, and 130+ bird species. The adjoining <strong>Guindy Snake Park</strong> houses 30+ snake species in glass-fronted enclosures and is one of South India's primary venom-extraction centres. Half-day visit with kids.</p>
+
+<h2>14. Valluvar Kottam</h2>
+<p><strong>Location:</strong> Nungambakkam High Road. <strong>Entry:</strong> ₹2. <strong>Timings:</strong> 8 AM-6 PM.</p>
+<p>The memorial to Tamil saint-poet Thiruvalluvar, author of the Thirukkural. The 39-metre granite temple-chariot replica is the most photographed structure; the auditorium can seat 4,000 for cultural events. The Thirukkural couplets are inscribed in 133 chapters across the corridor walls. Allow 60 minutes.</p>
+
+<h2>15. ISKCON Chennai (Sri Sri Radha Krishna Temple)</h2>
+<p><strong>Location:</strong> ECR, near the Akkarai junction. <strong>Entry:</strong> Free. <strong>Timings:</strong> 4:30 AM-1 PM, 4 PM-8:30 PM.</p>
+<p>One of South India's largest ISKCON temples, on the East Coast Road 17 km south of central Chennai. The Vedic Cultural Centre adjacent runs daily Bhagavad Gita classes. The on-site Govinda's restaurant serves vegetarian South Indian buffets daily.</p>
+
+<h2>16. MGR Memorial House</h2>
+<p><strong>Location:</strong> Marina Beach (between MGR and Anna memorials). <strong>Entry:</strong> Free. <strong>Timings:</strong> 9 AM-7 PM.</p>
+<p>Memorial to MG Ramachandran, Tamil cinema legend and former Tamil Nadu Chief Minister. The pavilion houses a small collection of his films, awards, and personal items. Of cultural-historical interest to Tamil cinema fans; combines with the Marina walk.</p>
+
+<h2>17. Parthasarathy Temple (Triplicane)</h2>
+<p><strong>Location:</strong> Triplicane, central Chennai. <strong>Entry:</strong> Free. <strong>Timings:</strong> 6 AM-12 PM, 4 PM-9 PM.</p>
+<p>An 8th-century Vaishnavite temple — Chennai's oldest existing temple, dedicated to Krishna in his role as Arjuna's charioteer (Parthasarathy = 'Arjuna's charioteer'). The Pallava-era stone work, the rectangular tank, and the Brahmotsavam festival processions are highlights. Combine with a Triplicane walk past the Wallajah Mosque (1795) and the heritage Ratna Café (heritage breakfast spot).</p>
+
+<h2>18. Arignar Anna Zoological Park (Vandalur Zoo)</h2>
+<p><strong>Location:</strong> Vandalur, 35 km from central Chennai on NH45. <strong>Entry:</strong> ₹50 adult, ₹30 child. <strong>Timings:</strong> 9 AM-5:30 PM, closed Tuesdays.</p>
+<p>India's first public zoo (originally established in Chennai in 1855, moved to Vandalur in 1985). 510 hectares of forested zoo with 2,500+ animals across 180 species. The lion safari, butterfly park, and reptile house are the highlights. Full-day visit; stays open year-round.</p>
+
+<h2>19. VGP Universal Kingdom and VGP Marine Kingdom</h2>
+<p><strong>Location:</strong> ECR, 30 km from central Chennai. <strong>Entry:</strong> ₹500-800 depending on age and add-ons. <strong>Timings:</strong> 11 AM-7 PM.</p>
+<p>South India's largest amusement park complex — water rides, roller coasters, the VGP Marine Kingdom aquarium (with the country's longest acrylic underwater tunnel), and themed live shows. Best with families; full-day visit. Common combined with a Mahabalipuram drop.</p>
+
+<h2>20. Chennai's heritage neighbourhoods walk</h2>
+<p><strong>Location:</strong> Mylapore, Triplicane, George Town, and Egmore. <strong>Entry:</strong> Free for the walks; small museum entry fees apply.</p>
+<p>Chennai rewards slow walking. Mylapore at sunset (Kapaleeswarar tank, Saturday market, Mylapore Karpagambal Mess for filter coffee), Triplicane in the morning (Parthasarathy Temple, Wallajah Mosque, Ratna Café), George Town for the spice market and the Madras Bank Road colonial buildings, and Egmore for the Government Museum + the heritage Egmore station are the four most-recommended walks. Allow half a day per neighbourhood.</p>
+
+<h2>Suggested Chennai itineraries</h2>
+<h3>1-day Chennai whirlwind</h3>
+<ul>
+  <li>6 AM: Marina Beach sunrise + Vivekananda House.</li>
+  <li>9 AM: Kapaleeswarar Temple (Mylapore) + Mylapore neighbourhood walk + Karpagambal Mess breakfast.</li>
+  <li>12 PM: Fort St. George + St. Mary's Church + Fort Museum.</li>
+  <li>3 PM: Government Museum (Egmore) + Connemara Library.</li>
+  <li>6 PM: Elliot's Beach (Besant Nagar) sunset + Ashtalakshmi Temple.</li>
+  <li>8 PM: Dinner at Buhari (heritage Tamil-Muslim cuisine) or Murugan Idli Shop.</li>
+</ul>
+<h3>2-day Chennai + ECR heritage</h3>
+<ul>
+  <li>Day 1: Above 1-day itinerary.</li>
+  <li>Day 2: ECR drive — DakshinaChitra (10 AM), Crocodile Bank (12 PM), Mahabalipuram (2 PM-5 PM), return to Chennai by 7 PM.</li>
+</ul>
+<h3>3-day Chennai + Pondicherry</h3>
+<ul>
+  <li>Day 1: Chennai city tour (above).</li>
+  <li>Day 2: Mahabalipuram + DakshinaChitra → continue to Pondicherry → Promenade Beach evening.</li>
+  <li>Day 3: Pondicherry French Quarter + Auroville → return to Chennai.</li>
+</ul>
+
+<h2>Where to stay in Chennai</h2>
+<p><strong>Luxury:</strong> ITC Grand Chola (most-awarded hotel in Chennai), Taj Coromandel (Nungambakkam heritage), The Leela Palace Chennai (Adyar), Hyatt Regency Chennai (T Nagar). <strong>Mid-range:</strong> The Park Chennai (heritage on Anna Salai), Trident Chennai (near airport), Welcomhotel by ITC (Cathedral Road). <strong>Budget:</strong> Hotel Mylapore Inn, Hotel Pandian (Egmore), and dozens of mid-tier options across Tambaram, Velachery, and OMR. <strong>For business travellers:</strong> hotels along Anna Salai and OMR (IT corridor) are most convenient.</p>
+
+<h2>Local food and where to eat</h2>
+<p>Chennai's food scene is dense with heritage spots. Must-try food experiences:</p>
+<ul>
+  <li><strong>Murugan Idli Shop</strong> (multiple locations) — the city's most-iconic idli-vada-dosa breakfast.</li>
+  <li><strong>Karpagambal Mess</strong> (Mylapore) — heritage filter-coffee and breakfast.</li>
+  <li><strong>Buhari</strong> (Anna Salai) — Tamil-Muslim biryani and parotta heritage spot.</li>
+  <li><strong>Saravana Bhavan</strong> (multiple locations) — South Indian thali standard.</li>
+  <li><strong>Ratna Café</strong> (Triplicane) — heritage filter-coffee and rava idli.</li>
+  <li><strong>Anjappar / Junior Kuppanna</strong> — Chettinad non-veg specialty (mutton sukka, kozhi varuval).</li>
+  <li><strong>Cream Centre / Murugan Mahaboothi</strong> — modern dining at heritage venues.</li>
+</ul>
+<p>For sit-down fine dining: Peshawri at ITC Grand Chola, Southern Spice at Taj Coromandel, Madras Pavilion at ITC Park Sheraton.</p>
+
+<h2>Local transport and our taxi tour packages</h2>
+<p>Within Chennai, options are: app-based taxis (Uber/Ola), the Chennai Metro (Blue and Green lines covering airport, central, and tech-park areas), MTC buses, suburban trains (Beach-Tambaram-Chengalpattu line is fastest for OMR-CMBT-Beach axis), and our private taxi service for sightseeing.</p>
+<p>For visitors wanting a single private taxi for sightseeing across multiple days, our <strong>Chennai sightseeing packages</strong> use the same vehicle and driver throughout: half-day city tour (4 hours, ₹1,500 sedan / ₹2,000 SUV / ₹2,200 Crysta), full-day city tour (8 hours, ₹2,800 sedan / ₹3,800 SUV / ₹4,200 Crysta), full-day Mahabalipuram-DakshinaChitra ECR tour (10 hours, ₹3,500 sedan / ₹4,800 SUV / ₹5,200 Crysta), and 2-day Chennai + Pondicherry packages (₹6,800 sedan upwards).</p>
+<p>For arriving in Chennai from another city, see our individual route guides — <a href="/route/bangalore-to-chennai-taxi">Bangalore to Chennai</a>, <a href="/route/chennai-to-pondicherry-taxi">Chennai to Pondicherry</a>, <a href="/drop-taxi-in-chennai">Chennai drop taxi</a> — each with verified fares and route details.</p>
+
+<h2>Travel tips for Chennai visitors</h2>
+<ul>
+  <li><strong>Dress modestly for temples</strong> — no shorts at Kapaleeswarar, Parthasarathy, or San Thome. Pack a stole/dupatta if visiting in summer outfits.</li>
+  <li><strong>Carry small cash for entry fees</strong> — ₹500-1,000 in small notes covers most museum and monument tickets, though most accept UPI now.</li>
+  <li><strong>Hydrate aggressively</strong> — Chennai's humidity year-round is intense; carry a 1L water bottle wherever you go.</li>
+  <li><strong>Avoid afternoon outdoor sightseeing</strong> April-July — early morning (6-10 AM) and evening (5-8 PM) are the only comfortable outdoor windows.</li>
+  <li><strong>Always book a taxi to/from MAA airport</strong> — Chennai's airport-to-city auto-rickshaws and unmetered taxis routinely overcharge; private operators give a flat fare you can verify.</li>
+  <li><strong>Friday is closure day</strong> for many Chennai museums (Government Museum, Fort St. George); plan accordingly.</li>
+  <li><strong>Cyclone season is October-December</strong> — check IMD warnings for major outdoor plans.</li>
+</ul>
+`,
+        faqs: [
+            { q: "What are the top tourist places in Chennai?", a: "Marina Beach, Kapaleeswarar Temple (Mylapore), Fort St. George, San Thome Cathedral, Government Museum (Egmore), the Theosophical Society (Adyar), Mahabalipuram (60 km south on ECR), DakshinaChitra heritage village, the Birla Planetarium, and Elliot's Beach are the top 10 most-visited attractions in and around Chennai. The full list of 20 includes additional temples, museums, the Vandalur Zoo, and the ECR heritage arc." },
+            { q: "How many days are needed to see Chennai properly?", a: "1 day covers the central must-see attractions (Marina + Mylapore + Fort St. George + Government Museum + Elliot's Beach). 2 days adds the ECR heritage arc (DakshinaChitra + Crocodile Bank + Mahabalipuram). 3 days adds Pondicherry as a side trip. Cultural enthusiasts wanting Margazhi music or Brahmotsavam festival depth can spend a full week." },
+            { q: "What is the best time to visit Chennai?", a: "November to February — temperatures 22-29°C, dry, comfortable for outdoor sightseeing. December has the Margazhi music season and the Pongal festival in mid-January. March-May is hot (32-40°C); June-September is monsoon edge with showers; October-December is the Northeast monsoon with the heaviest rainfall." },
+            { q: "Is Marina Beach worth visiting?", a: "Yes — Marina is the world's second-longest urban beach (13 km) and Chennai's social fulcrum. Best at sunrise (5:30-7:30 AM) for quiet walks and at sunset for the family-and-vendor crowd-watching. The Vivekananda House, MGR/Anna memorials, and the colonial Madras University buildings line the beach. Avoid swimming — strong undertow." },
+            { q: "How far is Mahabalipuram from Chennai?", a: "Mahabalipuram is 58 km south of central Chennai via the East Coast Road (ECR). The drive takes 1.5 to 2 hours depending on traffic. Most visitors combine it with DakshinaChitra (25 km from Chennai) and the Crocodile Bank (40 km) for a full-day ECR heritage tour. See our Chennai-Pondicherry route guide for combined heritage day-trips." },
+            { q: "What is the most famous temple in Chennai?", a: "Kapaleeswarar Temple at Mylapore — a 7th-century Pallava-era Shiva temple with Chennai's tallest temple gopuram (37 metres) and the city's most-attended Brahmotsavam festival (March-April). The Parthasarathy Temple at Triplicane (8th century, dedicated to Krishna) is older but smaller in scale." },
+            { q: "Are there any beaches in Chennai besides Marina?", a: "Yes — Elliot's Beach at Besant Nagar is the cleaner, quieter alternative popular with locals. Thiruvanmiyur Beach further south is similar. Covelong Beach (40 km south on ECR) is Chennai's surfing beach. Akkarai and Neelankarai beaches are quieter ECR alternatives. Avoid swimming at any open Chennai beach due to undertow." },
+            { q: "Is Chennai safe for solo female travellers?", a: "Generally yes — Chennai has lower violent-crime rates than most Indian metros and a strong family-tourism culture. Standard precautions apply: avoid late-night walks at deserted beaches, use Uber/Ola or pre-booked taxis after 10 PM, dress modestly at temples and traditional neighbourhoods. Solo female-traveller hostels and hotels are well-established in T Nagar and Mylapore." },
+            { q: "What's the best way to get around Chennai?", a: "App-based taxis (Uber, Ola) are convenient for short city rides. The Chennai Metro covers airport-to-central and select IT-park areas. Suburban trains are fast for Beach-Tambaram-Chengalpattu axis. For sightseeing across multiple attractions, a private taxi for the day is the most-efficient — our half-day and full-day Chennai sightseeing packages keep the same vehicle and driver throughout." },
+            { q: "What food is Chennai famous for?", a: "Idli, dosa, vada, sambar, filter coffee — South Indian staples at their best. Heritage spots: Murugan Idli Shop, Saravana Bhavan, Karpagambal Mess (Mylapore filter coffee), Ratna Café (Triplicane), Buhari (heritage Tamil-Muslim biryani), Anjappar/Junior Kuppanna (Chettinad non-veg). Margazhi season (Dec-Jan) sees special temple-prasadam menus across the city." },
+        ],
+    },
+    {
         slug: 'tirupati-to-arunachalam-distance-by-road',
         title: 'Tirupati to Arunachalam Distance: Road, Train & Travel Guide (2026)',
         metaTitle: 'Tirupati to Arunachalam Distance — 220 km Road, Travel Time & Taxi Fare | OneWayTaxi.ai',
