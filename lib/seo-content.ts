@@ -55,6 +55,99 @@ type CityOverride = {
 };
 
 const CITY_OVERRIDES: Record<string, CityOverride> = {
+    "chennai-drop-taxi": {
+        serviceDescription: `OneWayTaxi.ai operates one of Chennai's largest one-way drop taxi networks, serving every part of metropolitan Chennai — from Velachery and OMR's IT corridor to T Nagar's heritage core, from Tambaram's southern suburbs to the airport at Meenambakkam. Whether you need an airport drop on a 4 AM international flight, a Chennai-Bangalore corporate run on the new NH48 expressway, a pilgrim drop to Tirupati for early-morning darshan, or a weekend escape to Pondicherry along the East Coast Road, our drop taxi service gives you a fixed all-inclusive fare from **₹13/km** with no return-trip charge.
+
+### Chennai drop taxi fare per km (2026)
+Our pricing is the same flat per-kilometre rate every booking — no surge pricing, no festival multiplier, no app-based fluctuation. The fare you see at booking is what you pay.
+
+- **Mini / Hatchback (4-seat AC)** — ₹13/km. Best for solo travellers, couples, and short outstation drops up to 250 km.
+- **Sedan (4-seat AC: Dzire / Etios / Xcent)** — ₹14/km. The most-booked category in Chennai for 2-4 passengers with mid-size luggage.
+- **SUV (7-seat AC: Ertiga / Innova classic)** — ₹19/km. Right for families, hill-station trips to Yelagiri/Yercaud/Kodaikanal, and group bookings.
+- **Innova Crysta (7-seat premium AC, captain seats)** — ₹22/km. Premium long-distance comfort with the smoothest ride for elderly travellers and corporate executives.
+- **Tempo Traveller (12-17 seater AC)** — on request. Wedding parties, college tours, corporate offsites.
+
+All fares include **fuel, tolls, ₹400/day driver bata, and 5% GST**. Excluded items disclosed up-front: night charges (₹250-500 between 10 PM and 6 AM), inter-state permit fees on Karnataka/Andhra/Pondicherry border crossings (₹150-500 typical), and parking at the destination.
+
+### Pickup neighbourhoods in Chennai
+We pick up from any address inside the Chennai Metropolitan Region. The most-booked pickup zones for our drivers are **T Nagar, Adyar, Velachery, Anna Nagar, Mylapore, Nungambakkam, Egmore, Kilpauk, Royapettah, Tambaram, Chromepet, Pallavaram, Porur, Vadapalani, K K Nagar, Saidapet, Guindy, OMR (Sholinganallur, Thoraipakkam, Perungudi, Navalur), and ECR (Thiruvanmiyur, Neelankarai, Akkarai)**. We also pick up from **Chennai International Airport (MAA)** with flight tracking, **Chennai Central** and **Chennai Egmore** railway stations at any platform exit, and **CMBT (Koyambedu)** bus stand for bus-to-cab transfers. Mention your exact pickup address at booking — we route the driver to your gate, not a 'nearest pickup point'.
+
+### Top outstation routes from Chennai
+Chennai's location at the head of the East Coast Road and the start of NH48 makes it the launch point for South India's busiest outstation corridors. Indicative one-way sedan fares (₹14/km × distance from our route data):
+
+- **Chennai to Bangalore** — 346 km, ₹4,850, 6-7 hours via NH48 (Sriperumbudur-Vellore-Krishnagiri-Hosur).
+- **Chennai to Pondicherry** — 150 km, ₹2,100, 3-3.5 hours via the scenic East Coast Road (ECR) past Mahabalipuram.
+- **Chennai to Tirupati** — 135 km, ₹1,890, 2.5-3 hours via NH48 + NH71. Most-booked early-morning pilgrim run.
+- **Chennai to Vellore** — 136 km, ₹1,904, 2.5 hours via NH48. Heavy CMC Hospital appointment traffic.
+- **Chennai to Madurai** — 462 km, ₹6,470, 8-9 hours via NH45 through Trichy.
+- **Chennai to Coimbatore** — 505 km, ₹7,070, 8-9 hours via Salem.
+- **Chennai to Trichy** — 332 km, ₹4,650, 5.5-6 hours via NH45.
+- **Chennai to Salem** — 340 km, ₹4,760, 6 hours via NH48.
+- **Chennai to Kanchipuram** — 72 km, ₹1,008, 1.5 hours. Day-trip pilgrimage circuit.
+- **Chennai to Mahabalipuram** — 58 km, ₹812, 1.5 hours via ECR. Half-day heritage trip.
+- **Chennai to Rameswaram** — 578 km, ₹8,090, 10-11 hours via NH45 + NH87.
+- **Chennai to Kodaikanal** — 530 km, ₹7,420, 10-11 hours via Madurai.
+- **Chennai to Velankanni** — 360 km, ₹5,040, 6.5-7 hours. Pilgrim run.
+- **Chennai to Kochi** — 688 km, ₹9,630, 12-13 hours.
+
+For any route not listed, run an instant quote on our [fare calculator](/fare-calculator) — we cover 220+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana and Pondicherry.
+
+### Chennai Airport (MAA) drop taxi service
+MAA is one of South India's busiest airports and our most-frequent pickup-and-drop point. We offer:
+
+- **Flight-tracked airport pickups** with the first 60 minutes of waiting after touchdown free.
+- **Most-booked airport drops:** MAA-to-Bangalore (₹5,070), MAA-to-Pondicherry (₹2,100), MAA-to-Tirupati (₹1,890), MAA-to-Vellore CMC (₹1,904), MAA-to-Mahabalipuram (₹812).
+- **Same-airport transfers** (MAA-to-CMBT, MAA-to-Chennai Central, MAA-to-Mylapore) for short city legs at ₹500-700.
+- **24/7 international arrival pickup** with name placards available on request — common for elderly relatives and first-time visitors.
+
+### What makes our Chennai drop taxi service different
+Three things that competitors don't consistently deliver in Chennai:
+
+- **Tamil-speaking drivers by default.** All our Chennai drivers speak fluent Tamil and Hindi; most are conversational in English. For Karnataka/Andhra outstation drops, we assign drivers comfortable with destination-state languages too.
+- **Verified driver badges.** Every Chennai driver in our network carries a valid commercial badge, has 3+ years of professional experience, and is background-checked. Driver name, photo, and badge number are shared with you 30-60 minutes before pickup.
+- **GST-compliant invoices for corporate billing.** Mention your company name and GSTIN at booking — useful for the IT cluster on OMR/Sholinganallur, the Sriperumbudur manufacturing belt, and Chennai's broader corporate base.
+
+### Booking — three ways, three minutes
+Book your Chennai drop taxi in under three minutes via:
+
+1. **Online** — fill our booking widget on this page. You see an instant quote; confirmation comes within 5 minutes by SMS and WhatsApp.
+2. **Phone** — call our 24/7 helpline at **+91 81244 76010**. Voice booking with a human agent takes about 90 seconds.
+3. **WhatsApp** — message us with your route and time. Driver assignment is shared 30-60 minutes before pickup.
+
+### Chennai Central, Egmore, and CMBT — station-to-cab logistics
+Chennai's three major transit nodes have specific pickup logic that experienced drivers know:
+
+- **Chennai Central (MAS):** the main entrance is on Periyar Salai (East). Suburban exit at the West side. Specify which side at booking.
+- **Chennai Egmore (MS):** main entrance on Gandhi Irwin Salai. Egmore taxis cluster on the east side; we slot driver to the south exit for smaller crowds.
+- **CMBT Koyambedu:** the city's largest bus terminal — we pick up at the eastern entry where private taxis are permitted (not the auto-stand congested western side).
+
+### IT corridor commutes — OMR and Sholinganallur weekend escapes
+The Old Mahabalipuram Road (OMR) tech corridor runs from Tidel Park / Taramani to Mahabalipuram. We routinely run weekend bookings from OMR addresses (Sholinganallur, Navalur, Siruseri SIPCOT) to weekend destinations: Pondicherry (3 hours via ECR), Mahabalipuram (1.5 hours), Yelagiri Hills (4 hours), or back to home cities (Hyderabad, Bangalore via Chennai-Bangalore corridor). Late-Friday and early-Saturday pickups from OMR are our most-booked corporate weekend pattern; book 24-48 hours ahead during long-weekend peaks.
+
+### Pilgrim drops — Tirupati, Velankanni, Madurai
+Chennai is the launch point for several major pilgrim circuits. Most-booked patterns:
+
+- **Tirupati darshan** (135 km, 3 hours) — 4-5 AM Chennai departure for first-batch darshan. Sedan or SUV most common; Crysta for elderly travellers.
+- **Velankanni Marian shrine** (360 km, 6.5 hours) — typically a 2-night trip. Multi-day package available.
+- **Madurai Meenakshi** (462 km, 8-9 hours) — often combined with Rameswaram and Kanyakumari into a 3-4 day pilgrim package.
+
+For any of these, we can quote a multi-stop or multi-day package — usually 20-30% cheaper than booking separate one-way trips.
+
+### Frequently chosen for
+Our Chennai taxi customers most often book us for these specific use cases: **MAA airport-to-Bangalore corporate transfers** (especially for international transit), **Chennai-Pondicherry weekend escapes** for IT couples, **Chennai-Tirupati early-morning pilgrim trips** for elderly families, **medical drops to Vellore CMC and Bangalore super-specialty hospitals**, **wedding-season multi-day Tempo Traveller bookings** for guest movement around Chennai's heritage venues, and **OMR-IT-corridor late-evening drops** to home cities.`,
+        customFaqs: [
+            { question: "What is the cheapest Chennai drop taxi service?", answer: "OneWayTaxi.ai offers the lowest per-km rates for Chennai outstation: ₹13/km hatchback, ₹14/km sedan, ₹19/km SUV, ₹22/km Innova Crysta — all-inclusive of tolls, driver bata, GST. App-based services like Uber and Ola charge surge pricing during peak hours and festivals; our flat rate stays the same any day, any time." },
+            { question: "How do I book a drop taxi in Chennai?", answer: "Three ways: (1) book online via our widget for instant quote and 5-minute confirmation, (2) call +91 81244 76010 24/7 — a human agent confirms in 90 seconds, or (3) message us on WhatsApp. Driver name, photo, and badge number are shared 30-60 minutes before pickup." },
+            { question: "How much per km for a Chennai drop taxi?", answer: "Per-km rates: ₹13 mini, ₹14 sedan, ₹19 SUV, ₹22 Innova Crysta. Tempo Traveller (12-17 seats) is quoted on request. All rates include fuel, tolls, ₹400/day driver bata, 5% GST. Outstation drops have a 130 km minimum to cover the driver's deadhead return." },
+            { question: "What is the Chennai to Bangalore taxi fare?", answer: "Chennai-Bangalore via NH48 is 346 km. Sedan ₹4,850, SUV ₹6,580, Innova Crysta ₹7,270 — all-inclusive of inter-state permit (~₹500), tolls, driver bata, GST. Drive time 6-7 hours. The most-booked outstation route from Chennai." },
+            { question: "Do you provide airport pickup at MAA Chennai Airport?", answer: "Yes — we offer flight-tracked pickup at Chennai International Airport (MAA) 24/7. The first 60 minutes after touchdown are free waiting time. Most-booked MAA drops: MAA-to-Bangalore (₹5,070), MAA-to-Pondicherry (₹2,100), MAA-to-Tirupati (₹1,890), MAA-to-Vellore CMC (₹1,904)." },
+            { question: "Are Chennai drop taxis available 24/7?", answer: "Yes. Our Chennai network operates 24/7, 365 days. Late-night (10 PM-6 AM) bookings attract a small night charge of ₹250-500 disclosed up-front. Common 4 AM and 5 AM bookings: airport drops, hospital transfers, Tirupati pilgrim trips." },
+            { question: "Can I get a GST invoice for my Chennai taxi booking?", answer: "Yes. Mention your company name and GSTIN at booking and we issue a GST-compliant invoice within 24 hours. Useful for IT corridor (OMR/Sholinganallur) corporate billing, Sriperumbudur manufacturing visits, and broader Chennai corporate accounts." },
+            { question: "What's the best vehicle for a Chennai-to-Bangalore trip?", answer: "For 1-3 passengers with light luggage: sedan (Etios/Dzire) at ₹4,850 is best value. For 4-7 family travellers: SUV (Ertiga/Innova) at ₹6,580. For corporate executives or elderly: Innova Crysta at ₹7,270 — quieter cabin, captain seats, smoothest 6-7 hour ride." },
+            { question: "Do you provide drop taxis to Vellore CMC Hospital?", answer: "Yes — Chennai-to-Vellore (CMC) is one of our most-booked medical routes. 136 km via NH48, 2.5 hours. Sedan ₹1,904, SUV ₹2,584, Crysta ₹2,856. Many CMC patients book Crysta for the elderly comfort. Round-trip same-day appointment patterns are common; mention 'CMC drop' at booking for direct routing to the hospital gate." },
+            { question: "What's the cancellation policy for a Chennai taxi booking?", answer: "Free cancellation more than 4 hours before pickup. Within 4 hours: flat ₹200 service fee. After driver reaches pickup: ₹500 no-show fee. Reschedules free up to 2 hours before pickup. Refunds processed within 3-5 working days to the original payment method." },
+        ],
+    },
     "coimbatore-taxi-service": {
         serviceDescription: `OneWayTaxi.ai operates the most-booked outstation taxi service in **Coimbatore (Kovai)** — the textile capital of South India and the gateway to the Western Ghats. Whether you're catching a connection from Coimbatore International Airport (CJB), heading up to Ooty for a weekend, dropping a family member at Bangalore on the morning shift, or making a one-way move to Kochi, our drop-taxi network gives you a fixed all-inclusive fare from **₹13/km** with no return-trip charge.
 
