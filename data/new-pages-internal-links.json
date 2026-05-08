@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-05-08",
+  "branch": "serp-driven-pages",
+  "summary": {
+    "p1_clusters_addressed": 14,
+    "new_pages_created": 3,
+    "existing_pages_enhanced": 11,
+    "total_p1_volume_targeted_per_month": 301190,
+    "estimated_total_p1_volume_after_dedup": 250000
+  },
+  "new_pages": [
+    {
+      "url": "/blog/best-tourist-places-in-chennai",
+      "cluster_id": "tourist-chennai",
+      "type": "E",
+      "head_keyword": "tourist places to visit in chennai",
+      "monthly_volume": 75000,
+      "word_count": 3200,
+      "h2_count": 28,
+      "faq_count": 10,
+      "schemas": ["Article", "BreadcrumbList", "FAQPage"],
+      "outbound_internal_links": [
+        "/route/bangalore-to-chennai-taxi",
+        "/route/chennai-to-pondicherry-taxi",
+        "/drop-taxi-in-chennai"
+      ],
+      "inbound_links_added": [
+        { "from": "/", "context": "Homepage 'Travel & route guides' section" }
+      ]
+    },
+    {
+      "url": "/blog/tirupati-to-arunachalam-distance-by-road",
+      "cluster_id": "info-tirupati-arunachalam",
+      "type": "C",
+      "head_keyword": "tirupati to arunachalam distance",
+      "monthly_volume": 52560,
+      "word_count": 3260,
+      "h2_count": 13,
+      "h3_count": 2,
+      "faq_count": 10,
+      "schemas": ["Article", "BreadcrumbList", "FAQPage", "HowTo"],
+      "outbound_internal_links": [
+        "/route/tirupati-to-tiruvannamalai-taxi",
+        "/fare-calculator",
+        "/innova-crysta-taxi"
+      ],
+      "inbound_links_added": [
+        { "from": "/", "context": "Homepage 'Travel & route guides' section" }
+      ]
+    },
+    {
+      "url": "/blog/chennai-airport-to-cmc-vellore-distance-taxi-guide",
+      "cluster_id": "info-chennai-airport-cmc-vellore",
+      "type": "C",
+      "head_keyword": "chennai airport to vellore cmc distance",
+      "monthly_volume": 2350,
+      "word_count": 2200,
+      "h2_count": 11,
+      "faq_count": 10,
+      "schemas": ["Article", "BreadcrumbList", "FAQPage"],
+      "outbound_internal_links": [
+        "/route/chennai-to-vellore-taxi",
+        "/innova-crysta-taxi",
+        "/fare-calculator"
+      ],
+      "inbound_links_added": [
+        { "from": "/", "context": "Homepage 'Travel & route guides' section" }
+      ]
+    }
+  ],
+  "enhanced_pages": [
+    {
+      "url": "/one-way-taxi",
+      "cluster_id": "hub-one-way-taxi",
+      "type": "D",
+      "monthly_volume": 64930,
+      "change": "REWRITE — replaced 'Why' section, added 'When to choose one-way vs round-trip' section, expanded 7 FAQs to 12 with deeper answers",
+      "estimated_word_count_after": 3000,
+      "linking_status": "Already deeply linked from sitewide footer, header Services dropdown, and 1380+ city service pages via CrossLinks component"
+    },
+    {
+      "url": "/taxi-service-in-coimbatore",
+      "cluster_id": "city-coimbatore",
+      "type": "A",
+      "monthly_volume": 30500,
+      "change": "EDIT — CITY_OVERRIDES entry added with 1,431-word service description + 10 hand-tuned FAQs",
+      "linking_status": "Existing template links: PopularRoutes (10 outbound), RelatedDistricts (8 cities), CrossLinks (16 site-wide pages). FAQPage schema now active."
+    },
+    {
+      "url": "/drop-taxi-in-chennai",
+      "cluster_id": "city-chennai",
+      "type": "A",
+      "monthly_volume": 13200,
+      "change": "EDIT — CITY_OVERRIDES entry added with ~1,800-word service description + 10 hand-tuned FAQs",
+      "linking_status": "Existing template links + new tourist-chennai blog now references this page"
+    },
+    {
+      "url": "/route/salem-to-yercaud-taxi",
+      "cluster_id": "route-salem-yercaud",
+      "type": "B",
+      "monthly_volume": 19950,
+      "change": "EDIT — ROUTE_OVERRIDES entry added (~2,100 words). Distance-first content for the highest-volume single-route cluster."
+    },
+    {
+      "url": "/route/bangalore-to-mysore-taxi",
+      "cluster_id": "route-bangalore-mysore",
+      "type": "B",
+      "monthly_volume": 11000,
+      "change": "EDIT — ROUTE_OVERRIDES entry (~2,200 words) covering Bengaluru-Mysuru Expressway"
+    },
+    {
+      "url": "/route/bangalore-to-coorg-taxi",
+      "cluster_id": "route-bangalore-coorg",
+      "type": "B",
+      "monthly_volume": 6500,
+      "change": "EDIT — ROUTE_OVERRIDES entry (~2,200 words) with Coorg destinationGuide + monsoonAdvisory"
+    },
+    {
+      "url": "/route/kochi-to-munnar-taxi",
+      "cluster_id": "route-cochin-munnar",
+      "type": "B",
+      "monthly_volume": 6200,
+      "change": "EDIT — ROUTE_OVERRIDES entry (~2,273 words) — first hand-tuned route, AI Overview eligible"
+    },
+    {
+      "url": "/route/madurai-to-rameswaram-taxi",
+      "cluster_id": "route-madurai-rameshwaram",
+      "type": "B",
+      "monthly_volume": 5900,
+      "change": "EDIT — ROUTE_OVERRIDES entry (~2,200 words) with Pamban Bridge + Char Dham context"
+    },
+    {
+      "url": "/route/chennai-to-pondicherry-taxi",
+      "cluster_id": "route-chennai-pondicherry",
+      "type": "B",
+      "monthly_volume": 5140,
+      "change": "EDIT — ROUTE_OVERRIDES entry (~2,300 words) covering ECR + Mahabalipuram + Auroville"
+    },
+    {
+      "url": "/route/coimbatore-to-ooty-taxi",
+      "cluster_id": "route-coimbatore-ooty",
+      "type": "B",
+      "monthly_volume": 4800,
+      "change": "EDIT — ROUTE_OVERRIDES entry (~2,200 words) with 36-hairpin ghat detail + e-pass system"
+    },
+    {
+      "url": "/route/chennai-to-bangalore-taxi",
+      "cluster_id": "route-chennai-bangalore",
+      "type": "B",
+      "monthly_volume": 3160,
+      "change": "EDIT — ROUTE_OVERRIDES entry (~2,400 words) with corporate-corridor focus + hospital drops"
+    }
+  ],
+  "infrastructure_changes": {
+    "lib/blog-posts.ts": "BlogPost type extended with optional faqs[] and additionalSchemas[] fields. 3 new blog post entries added.",
+    "app/blog/[slug]/page.tsx": "Renders FAQPage schema when post.faqs exists, additional schemas when post.additionalSchemas exists. Visible FAQ accordion section added below article body.",
+    "lib/routes.ts": "RouteOverride type added with 11 fields (snippetLede, intro, bestTime, sampleTimeline, dropPoints, routeHighlights, foodStops, vehicleGuidance, monsoonAdvisory, multiDayPackage, destinationGuide, customFaqs). ROUTE_OVERRIDES map with 8 entries for high-priority routes. getRouteOverride() helper. getRouteFAQs() now uses customFaqs when present.",
+    "app/route/[routeSlug]/page.tsx": "10 new conditionally-rendered sections matching RouteOverride fields. FAQPage JSON-LD schema added (mirrors visible FAQs).",
+    "lib/seo-content.ts": "CityOverride type added. CITY_OVERRIDES map with chennai-drop-taxi and coimbatore-taxi-service entries. getSEOContent() and getFAQs() now use overrides when present. Generic generators preserved as fallback.",
+    "components/seo/SchemaMarkup.tsx": "FAQPage schema added (mirrors visible FAQs from FAQSection). Improves rich-result eligibility for ALL 1,380 city service pages.",
+    "app/page.tsx": "Featured guides section added linking to 3 new blog posts."
+  },
+  "sitemap_status": {
+    "total_urls": 2237,
+    "auto_inclusion": true,
+    "notes": "All 3 new blog posts auto-included via getAllBlogSlugs() integration with app/sitemap.ts. No manual sitemap edits required."
+  },
+  "internal_linking_audit": {
+    "homepage_to_new_pages": "✓ 3 new blog posts featured in homepage 'Travel & route guides' section",
+    "city_pages_to_routes": "✓ Already done in Phase 1-12 work (PopularRoutes + RouteDetails components link to /route/{from}-to-{to}-taxi)",
+    "route_pages_to_related": "✓ Already done in Phase 1-12 work ('More routes from origin' + 'More taxis to destination' sections)",
+    "tourist_blog_to_inbound_routes": "✓ Embedded contextually within blog content (links to /route/bangalore-to-chennai-taxi, /route/chennai-to-pondicherry-taxi, /drop-taxi-in-chennai)",
+    "tirupati_blog_to_route_page": "✓ /route/tirupati-to-tiruvannamalai-taxi linked from blog body and conversion CTA",
+    "cmc_blog_to_route_and_vehicle": "✓ /route/chennai-to-vellore-taxi + /innova-crysta-taxi for medical-tourism context"
+  }
+}

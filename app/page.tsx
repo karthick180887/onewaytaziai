@@ -117,6 +117,46 @@ export default function Home() {
                             <span aria-hidden>→</span>
                         </Link>
                     </div>
+
+                    {/* Featured travel & route guides — links to flagship blog posts */}
+                    <div className="mt-12 pt-10 border-t border-gray-200">
+                        <div className="text-center mb-6">
+                            <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">Travel & route guides</h2>
+                            <p className="text-gray-600">In-depth distance, fare, and itinerary guides for the most-asked South Indian routes.</p>
+                        </div>
+                        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                            <Link
+                                href="/blog/best-tourist-places-in-chennai"
+                                className="group bg-white hover:bg-teal-50 hover:border-teal-300 hover:shadow-md rounded-2xl border border-gray-200 p-5 transition-all"
+                            >
+                                <div className="text-xs font-semibold text-teal-700 mb-1 uppercase tracking-wide">Chennai · 18 min read</div>
+                                <div className="font-bold text-gray-900 group-hover:text-teal-800 mb-1">Best Tourist Places in Chennai (2026)</div>
+                                <div className="text-sm text-gray-600">20 must-visit spots — Marina, Mylapore, Fort St George, Mahabalipuram, ECR heritage arc.</div>
+                            </Link>
+                            <Link
+                                href="/blog/tirupati-to-arunachalam-distance-by-road"
+                                className="group bg-white hover:bg-teal-50 hover:border-teal-300 hover:shadow-md rounded-2xl border border-gray-200 p-5 transition-all"
+                            >
+                                <div className="text-xs font-semibold text-teal-700 mb-1 uppercase tracking-wide">Routes · 9 min read</div>
+                                <div className="font-bold text-gray-900 group-hover:text-teal-800 mb-1">Tirupati to Arunachalam Distance Guide</div>
+                                <div className="text-sm text-gray-600">220 km via Vellore. Travel time, taxi fare, train and bus comparison.</div>
+                            </Link>
+                            <Link
+                                href="/blog/chennai-airport-to-cmc-vellore-distance-taxi-guide"
+                                className="group bg-white hover:bg-teal-50 hover:border-teal-300 hover:shadow-md rounded-2xl border border-gray-200 p-5 transition-all"
+                            >
+                                <div className="text-xs font-semibold text-teal-700 mb-1 uppercase tracking-wide">Routes · 11 min read</div>
+                                <div className="font-bold text-gray-900 group-hover:text-teal-800 mb-1">Chennai Airport to CMC Vellore</div>
+                                <div className="text-sm text-gray-600">145 km medical-tourism guide — wheelchair-accessible vehicles, same-day return.</div>
+                            </Link>
+                        </div>
+                        <div className="text-center mt-5">
+                            <Link href="/blog" className="inline-flex items-center gap-1.5 text-teal-700 hover:text-teal-900 font-semibold text-sm">
+                                Browse all guides
+                                <span aria-hidden>→</span>
+                            </Link>
+                        </div>
+                    </div>
                 </div>
             </section>
 
