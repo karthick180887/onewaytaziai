@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, Menu, X, Car, ChevronDown, MapPin, ChevronRight, Plane, Route, BookOpen, MessageCircle, Sparkles } from "lucide-react";
 import { clsx } from "clsx";
 import { APP_NAME, SUPPORT_PHONE } from "@/lib/constants";
@@ -110,13 +111,15 @@ export default function Header() {
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
                     {/* Logo */}
-                    <Link href="/" className="flex items-center gap-2 group shrink-0">
-                        <div className="bg-teal-900 p-1.5 rounded-lg group-hover:bg-teal-800 transition-colors">
-                            <Car className="h-5 w-5 text-white" />
-                        </div>
-                        <span className="text-lg sm:text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-teal-900 to-teal-600">
-                            {APP_NAME}
-                        </span>
+                    <Link href="/" className="flex items-center group shrink-0" aria-label={APP_NAME}>
+                        <Image
+                            src="/logo.png"
+                            alt={APP_NAME}
+                            width={1400}
+                            height={480}
+                            priority
+                            className="h-9 sm:h-11 w-auto"
+                        />
                     </Link>
 
                     {/* ─── Desktop Nav ─── */}
