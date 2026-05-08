@@ -1,7 +1,7 @@
 import { notFound, redirect } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllRouteSlugs, parseRouteSlug, getRouteSEOContent, getRouteFAQs, getAllRoutes } from '@/lib/routes';
+import { getAllRouteSlugs, parseRouteSlug, getRouteSEOContent, getRouteFAQs, getAllRoutes, getRouteOverride } from '@/lib/routes';
 import { VEHICLE_TYPES, SUPPORT_PHONE } from '@/lib/constants';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -77,6 +77,9 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
 
     // Check if reverse route exists
     const reverseSlug = `${to.slug}-to-${from.slug}-taxi`;
+
+    // Per-route hand-tuned override (only set for high-priority SERP routes)
+    const override = getRouteOverride(route);
 
     // Related routes — same origin or same destination as this route
     const allRoutes = getAllRoutes();
@@ -164,17 +167,88 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
 
             <TrustBanner />
 
-            {/* Definition Block — AI-citeable summary passage */}
+            {/* Definition Block — AI-citeable summary passage (snippet-eligible lede) */}
             <section className="py-10 bg-white" aria-label={`${from.name} to ${to.name} taxi summary`}>
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
                         {from.name} to {to.name} One Way Taxi
                     </h2>
                     <p className="text-gray-700 leading-relaxed text-lg">
-                        The {from.name} to {to.name} one-way taxi fare starts at ₹{fareEstimate} for a hatchback, covering {distanceKm} km{seo.highway ? ` via ${seo.highway.highway}` : ' by road'}. The journey takes approximately {seo.durationText} depending on traffic. OneWayTaxi.ai offers door-to-door pickup from any location in {from.name} with drop at any point in {to.name}. All vehicles are air-conditioned, GPS-tracked, and driven by verified drivers. Fares include driver bata (allowance), toll charges, inter-state permits, and GST — no hidden costs, no return fare. Vehicle options: Hatchback (₹{VEHICLE_TYPES[0].price}/km), Sedan (₹{VEHICLE_TYPES[1].price}/km), SUV (₹{VEHICLE_TYPES[4].price}/km), and Innova Crysta (₹{VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). Book online in 30 seconds at onewaytaxi.ai or call +91 81244 76010 for 24/7 instant confirmation.
+                        {override?.snippetLede ?? (
+                            <>The {from.name} to {to.name} one-way taxi fare starts at ₹{fareEstimate} for a hatchback, covering {distanceKm} km{seo.highway ? ` via ${seo.highway.highway}` : ' by road'}. The journey takes approximately {seo.durationText} depending on traffic. OneWayTaxi.ai offers door-to-door pickup from any location in {from.name} with drop at any point in {to.name}. All vehicles are air-conditioned, GPS-tracked, and driven by verified drivers. Fares include driver bata (allowance), toll charges, inter-state permits, and GST — no hidden costs, no return fare. Vehicle options: Hatchback (₹{VEHICLE_TYPES[0].price}/km), Sedan (₹{VEHICLE_TYPES[1].price}/km), SUV (₹{VEHICLE_TYPES[4].price}/km), and Innova Crysta (₹{VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). Book online in 30 seconds at onewaytaxi.ai or call +91 81244 76010 for 24/7 instant confirmation.</>
+                        )}
                     </p>
                 </div>
             </section>
+
+            {/* Per-route enriched content (only renders when route has a hand-tuned override) */}
+            {override?.intro && (
+                <section className="py-12 bg-gray-50" aria-label={`About the ${from.name} to ${to.name} route`}>
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">About this route</h2>
+                        <p className="text-gray-700 leading-relaxed text-lg">{override.intro}</p>
+                    </div>
+                </section>
+            )}
+
+            {override?.bestTime && (
+                <section className="py-12 bg-white" aria-label="Best time to travel">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Best time to start the trip</h2>
+                        <p className="text-gray-700 leading-relaxed">{override.bestTime}</p>
+                    </div>
+                </section>
+            )}
+
+            {override?.routeHighlights && override.routeHighlights.length > 0 && (
+                <section className="py-12 bg-gray-50" aria-label="Route highlights">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">What to see along the way</h2>
+                        <div className="grid sm:grid-cols-2 gap-5">
+                            {override.routeHighlights.map((h, i) => (
+                                <div key={i} className="bg-white border border-gray-200 rounded-xl p-5">
+                                    <h3 className="font-bold text-teal-900 mb-1.5">{h.title}</h3>
+                                    <p className="text-sm text-gray-700 leading-relaxed">{h.detail}</p>
+                                </div>
+                            ))}
+                        </div>
+                    </div>
+                </section>
+            )}
+
+            {override?.sampleTimeline && override.sampleTimeline.length > 0 && (
+                <section className="py-12 bg-white" aria-label="Sample journey timeline">
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Sample journey timeline</h2>
+                        <ol className="relative border-l-2 border-teal-200 ml-3 space-y-5">
+                            {override.sampleTimeline.map((step, i) => (
+                                <li key={i} className="ml-6">
+                                    <span className="absolute -left-[9px] mt-1 w-4 h-4 rounded-full bg-teal-600 ring-2 ring-white" aria-hidden />
+                                    <p className="text-sm font-bold text-teal-800">{step.time}</p>
+                                    <p className="text-gray-700">{step.activity}</p>
+                                </li>
+                            ))}
+                        </ol>
+                    </div>
+                </section>
+            )}
+
+            {override?.dropPoints && override.dropPoints.length > 0 && (
+                <section className="py-12 bg-gray-50" aria-label={`Drop locations in ${to.name}`}>
+                    <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                        <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Popular drop points in {to.name}</h2>
+                        <p className="text-gray-700 mb-5">We drop at any address in and around {to.name}. The most-requested locations are:</p>
+                        <ul className="grid sm:grid-cols-2 gap-2">
+                            {override.dropPoints.map((p, i) => (
+                                <li key={i} className="flex items-start gap-2 text-gray-700">
+                                    <span className="text-teal-600 mt-1.5 shrink-0">●</span>
+                                    <span>{p}</span>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+                </section>
+            )}
 
             {/* Vehicle-wise Pricing */}
             <section className="py-16 bg-white" aria-label="Vehicle pricing">
@@ -537,7 +611,22 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                             { '@type': 'ListItem', position: 2, name: `Drop Taxi in ${from.name}`, item: `https://onewaytaxi.ai/drop-taxi-in-${from.slug}` },
                             { '@type': 'ListItem', position: 3, name: `${from.name} to ${to.name} Taxi`, item: `https://onewaytaxi.ai/route/${routeSlug}` },
                         ],
-                    }),
+                    }).replace(/</g, '\\u003c'),
+                }}
+            />
+            {/* FAQPage schema — mirrors the visible FAQ section for rich-result eligibility */}
+            <script
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify({
+                        '@context': 'https://schema.org',
+                        '@type': 'FAQPage',
+                        mainEntity: faqs.map(f => ({
+                            '@type': 'Question',
+                            name: f.question,
+                            acceptedAnswer: { '@type': 'Answer', text: f.answer },
+                        })),
+                    }).replace(/</g, '\\u003c'),
                 }}
             />
         </div>
