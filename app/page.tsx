@@ -4,10 +4,10 @@ import Footer from "@/components/Footer";
 import BookingWidget from "@/components/BookingWidget";
 import { FEATURES, VEHICLE_TYPES, SUPPORT_PHONE, GOOGLE_MAPS_URL } from "@/lib/constants";
 import * as LucideIcons from "lucide-react";
-import { clsx } from "clsx";
 import TrustBanner from "@/components/seo/TrustBanner";
 import HowItWorks from "@/components/seo/HowItWorks";
 import Link from "next/link";
+import Image from "next/image";
 
 export const metadata: Metadata = {
     title: "#1 One Way Drop Taxi South India — ₹13/km | OneWayTaxi.ai",
@@ -143,7 +143,7 @@ export default function Home() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
                         {FEATURES.map((feature, idx) => {
                             // Dynamically access Lucide icons
-                            // @ts-ignore
+                            // @ts-expect-error -- LucideIcons is indexed by string from constants; types don't allow arbitrary keys
                             const Icon = LucideIcons[feature.icon] || LucideIcons.Check;
 
                             return (
@@ -175,8 +175,7 @@ export default function Home() {
                             return (
                                 <div key={vehicle.id} className="bg-white rounded-2xl shadow-sm overflow-hidden hover:shadow-lg transition-all border border-gray-100">
                                     <div className="bg-gradient-to-br from-gray-100 to-gray-200 h-48 flex items-center justify-center p-6">
-                                        {/* @ts-ignore */}
-                                        <img src={vehicle.image} alt={vehicle.name} width={400} height={300} loading="lazy" className="w-full h-full object-contain hover:scale-105 transition-transform duration-500" />
+                                        <Image src={vehicle.image} alt={vehicle.name} width={400} height={300} loading="lazy" className="w-full h-full object-contain hover:scale-105 transition-transform duration-500" />
                                     </div>
                                     <div className="p-6">
                                         <h3 className="text-xl font-bold text-gray-900 mb-2">{vehicle.name}</h3>
