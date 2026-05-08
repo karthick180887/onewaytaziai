@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CrossLinks from "@/components/seo/CrossLinks";
 import { DISTRICTS_BY_STATE, type District } from "@/lib/districts";
 import { SUPPORT_PHONE } from "@/lib/constants";
 import { MapPin, Phone, Car, IndianRupee, ChevronRight, Star, Shield, Clock, Navigation } from "lucide-react";
@@ -573,6 +574,7 @@ export default async function StateHubPage({
                         </div>
                     </div>
                 </section>
+                <CrossLinks />
             </main>
 
             <Footer />

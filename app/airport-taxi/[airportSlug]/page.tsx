@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import CrossLinks from '@/components/seo/CrossLinks';
 import { VEHICLE_TYPES, SUPPORT_PHONE } from '@/lib/constants';
 import { Plane, MapPin, Clock, IndianRupee, Phone, Shield, Star, ChevronRight, Users, CarFront, MessageCircle } from 'lucide-react';
 
@@ -648,6 +649,7 @@ export default async function AirportTaxiPage({ params }: { params: Promise<{ ai
                         </div>
                     </div>
                 </section>
+                <CrossLinks citySlug={airport.citySlug} cityName={airport.city} />
             </main>
             <Footer />
             <AirportSchemaMarkup airport={airport} />

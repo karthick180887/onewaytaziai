@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { ALL_DISTRICTS, getAllSlugs, parseSlug, SERVICE_TYPES } from '@/lib/districts';
+import { getAllSlugs, parseSlug } from '@/lib/districts';
 import { resolveAlias } from '@/lib/seo-aliases';
 import { getSEOContent, getFAQs, getReviews, getComparisonData, getSafetyFeatures, getWhyChooseUs } from '@/lib/seo-content';
 import Header from '@/components/Header';
@@ -18,6 +18,7 @@ import ComparisonTable from '@/components/seo/ComparisonTable';
 import SafetyFeatures from '@/components/seo/SafetyFeatures';
 import RouteDetails from '@/components/seo/RouteDetails';
 import TrustBanner from '@/components/seo/TrustBanner';
+import CrossLinks from '@/components/seo/CrossLinks';
 
 // ... (existing imports and code)
 
@@ -140,13 +141,14 @@ export default async function DistrictPage({ params }: { params: Promise<{ slug:
                 <TrustBanner />
 
                 <PricingTable districtName={district.name} />
-                <PopularRoutes districtName={district.name} routes={district.popularRoutes} />
+                <PopularRoutes districtName={district.name} districtSlug={district.slug} routes={district.popularRoutes} />
                 <RouteDetails district={district} serviceLabel={serviceType.label} />
                 <ServiceHighlights features={whyChooseUs} />
                 <ComparisonTable data={comparisonData} />
                 <FAQSection districtName={district.name} serviceLabel={serviceType.label} faqs={faqs} />
                 <ReviewsSection districtName={district.name} reviews={reviews} />
                 <RelatedDistricts currentDistrict={district} currentServiceType={serviceType.id} />
+                <CrossLinks citySlug={district.slug} cityName={district.name} />
             </main>
             <Footer />
             <SchemaMarkup

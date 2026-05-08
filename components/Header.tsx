@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef } from "react";
 import Link from "next/link";
-import { Phone, Menu, X, Car, ChevronDown, MapPin, ChevronRight, Plane, Route, BookOpen, MessageCircle } from "lucide-react";
+import { Phone, Menu, X, Car, ChevronDown, MapPin, ChevronRight, Plane, Route, BookOpen, MessageCircle, Sparkles } from "lucide-react";
 import { clsx } from "clsx";
 import { APP_NAME, SUPPORT_PHONE } from "@/lib/constants";
 import { DISTRICTS_BY_STATE, SERVICE_TYPES } from "@/lib/districts";
@@ -36,6 +36,26 @@ const airports = [
     { name: 'Kochi', slug: 'kochi-airport', code: 'COK' },
     { name: 'Coimbatore', slug: 'coimbatore-airport', code: 'CJB' },
     { name: 'Madurai', slug: 'madurai-airport', code: 'IXM' },
+    { name: 'Trichy', slug: 'trichy-airport', code: 'TRZ' },
+    { name: 'Trivandrum', slug: 'trivandrum-airport', code: 'TRV' },
+    { name: 'Mangalore', slug: 'mangalore-airport', code: 'IXE' },
+    { name: 'Calicut', slug: 'calicut-airport', code: 'CCJ' },
+];
+
+const serviceHubs = [
+    { label: 'Drop Taxi', href: '/drop-taxi', desc: 'Pay only one-way' },
+    { label: 'One Way Taxi', href: '/one-way-taxi', desc: 'No return charges' },
+    { label: 'Outstation Cabs', href: '/outstation-cabs', desc: 'Inter-city travel' },
+    { label: 'Round Trip Taxi', href: '/round-trip-taxi', desc: 'Same vehicle, both ways' },
+    { label: 'Airport Taxi', href: '/airport-taxi', desc: '10 South India airports' },
+];
+
+const vehiclePages = [
+    { label: 'Sedan Taxi', href: '/sedan-taxi', desc: '₹14/km · 4-seat' },
+    { label: 'SUV Taxi', href: '/suv-taxi', desc: '₹19/km · 7-seat' },
+    { label: 'Innova Crysta', href: '/innova-crysta-taxi', desc: '₹22/km · premium' },
+    { label: 'Tempo Traveller', href: '/tempo-traveller', desc: '12-17 seater' },
+    { label: 'Luxury Taxi', href: '/luxury-taxi', desc: 'Mercedes / BMW' },
 ];
 
 const WHATSAPP_URL = 'https://wa.me/918124476010?text=Hi%2C%20I%20want%20to%20book%20a%20one-way%20taxi.';
@@ -183,6 +203,75 @@ export default function Header() {
                                                 ))}
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        {/* Services Dropdown */}
+                        <div
+                            className="relative"
+                            onMouseEnter={() => openDropdown('services')}
+                            onMouseLeave={closeDropdown}
+                        >
+                            <button className={clsx(
+                                "flex items-center gap-1 px-3 py-2 text-sm font-medium rounded-lg transition-all",
+                                activeDropdown === 'services' ? "text-teal-900 bg-teal-50" : "text-gray-600 hover:text-teal-900 hover:bg-teal-50"
+                            )}>
+                                <Sparkles className="h-3.5 w-3.5" />
+                                Services <ChevronDown className={clsx("h-3.5 w-3.5 transition-transform", activeDropdown === 'services' && "rotate-180")} />
+                            </button>
+
+                            <div className={clsx(
+                                "absolute left-0 top-full mt-1 w-[640px] bg-white rounded-xl shadow-xl border border-gray-100 transition-all duration-200 origin-top-left",
+                                activeDropdown === 'services' ? "opacity-100 scale-100 pointer-events-auto" : "opacity-0 scale-95 pointer-events-none"
+                            )}>
+                                <div className="grid grid-cols-2 divide-x divide-gray-100">
+                                    <div className="p-4">
+                                        <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">By Service</p>
+                                        <div className="space-y-0.5">
+                                            {serviceHubs.map(s => (
+                                                <Link
+                                                    key={s.href}
+                                                    href={s.href}
+                                                    className="flex items-start justify-between gap-3 px-3 py-2 rounded-lg hover:bg-teal-50 transition-all group"
+                                                >
+                                                    <div>
+                                                        <div className="text-sm font-semibold text-gray-800 group-hover:text-teal-900">{s.label}</div>
+                                                        <div className="text-xs text-gray-500">{s.desc}</div>
+                                                    </div>
+                                                    <ChevronRight className="h-4 w-4 text-gray-300 group-hover:text-teal-600 mt-0.5 shrink-0" />
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </div>
+                                    <div className="p-4">
+                                        <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">By Vehicle</p>
+                                        <div className="space-y-0.5">
+                                            {vehiclePages.map(v => (
+                                                <Link
+                                                    key={v.href}
+                                                    href={v.href}
+                                                    className="flex items-start justify-between gap-3 px-3 py-2 rounded-lg hover:bg-teal-50 transition-all group"
+                                                >
+                                                    <div>
+                                                        <div className="text-sm font-semibold text-gray-800 group-hover:text-teal-900">{v.label}</div>
+                                                        <div className="text-xs text-gray-500">{v.desc}</div>
+                                                    </div>
+                                                    <ChevronRight className="h-4 w-4 text-gray-300 group-hover:text-teal-600 mt-0.5 shrink-0" />
+                                                </Link>
+                                            ))}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="border-t border-gray-100 p-3 bg-gray-50 rounded-b-xl flex items-center justify-between">
+                                    <Link href="/book-now" className="text-sm font-semibold text-teal-700 hover:text-teal-900 flex items-center gap-1">
+                                        Book Now <ChevronRight className="h-4 w-4" />
+                                    </Link>
+                                    <div className="flex items-center gap-3 text-xs">
+                                        <Link href="/faq" className="text-gray-600 hover:text-teal-700">FAQ</Link>
+                                        <Link href="/reviews" className="text-gray-600 hover:text-teal-700">Reviews</Link>
+                                        <Link href="/fare-calculator" className="text-gray-600 hover:text-teal-700">Calculator</Link>
                                     </div>
                                 </div>
                             </div>
@@ -373,6 +462,50 @@ export default function Header() {
                                             </div>
                                         );
                                     })}
+                                </div>
+                            )}
+                        </div>
+
+                        {/* Services & Vehicles */}
+                        <div>
+                            <button
+                                onClick={() => setMobileSection(mobileSection === 'services' ? null : 'services')}
+                                className={clsx(
+                                    "w-full flex items-center justify-between px-4 py-3 rounded-xl font-medium",
+                                    mobileSection === 'services' ? "bg-teal-50 text-teal-900" : "text-gray-700"
+                                )}
+                            >
+                                <span className="flex items-center gap-3">
+                                    <Sparkles className="h-4 w-4 text-teal-600" /> Services & Vehicles
+                                </span>
+                                <ChevronDown className={clsx("h-4 w-4 transition-transform", mobileSection === 'services' && "rotate-180")} />
+                            </button>
+                            {mobileSection === 'services' && (
+                                <div className="ml-2 mt-1 border-l-2 border-teal-100 pl-2 pb-2">
+                                    <p className="text-[11px] font-bold text-gray-400 uppercase tracking-wider px-3 py-1.5 mt-1">By Service</p>
+                                    {serviceHubs.map(s => (
+                                        <Link
+                                            key={s.href}
+                                            href={s.href}
+                                            onClick={() => setIsOpen(false)}
+                                            className="flex items-center justify-between px-3 py-2 text-sm text-gray-600 active:bg-teal-50 rounded-lg"
+                                        >
+                                            <span>{s.label}</span>
+                                            <ChevronRight className="h-3 w-3 text-gray-400" />
+                                        </Link>
+                                    ))}
+                                    <p className="text-[11px] font-bold text-gray-400 uppercase tracking-wider px-3 py-1.5 mt-2">By Vehicle</p>
+                                    {vehiclePages.map(v => (
+                                        <Link
+                                            key={v.href}
+                                            href={v.href}
+                                            onClick={() => setIsOpen(false)}
+                                            className="flex items-center justify-between px-3 py-2 text-sm text-gray-600 active:bg-teal-50 rounded-lg"
+                                        >
+                                            <span>{v.label}</span>
+                                            <ChevronRight className="h-3 w-3 text-gray-400" />
+                                        </Link>
+                                    ))}
                                 </div>
                             )}
                         </div>

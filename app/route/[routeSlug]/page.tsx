@@ -8,6 +8,7 @@ import Footer from '@/components/Footer';
 import BookingWidget from '@/components/BookingWidget';
 import FAQSection from '@/components/seo/FAQSection';
 import TrustBanner from '@/components/seo/TrustBanner';
+import CrossLinks from '@/components/seo/CrossLinks';
 import { MapPin, Clock, IndianRupee, ArrowRight, ArrowLeftRight, Phone, Shield, Car, Route, Navigation, Lightbulb, CheckCircle } from 'lucide-react';
 
 // ─── Static Params (SSG for all route pages) ─────────────────
@@ -481,6 +482,8 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                 serviceLabel="One Way Taxi"
                 faqs={faqs}
             />
+
+            <CrossLinks citySlug={from.slug} cityName={from.name} />
             </main>
 
             <Footer />

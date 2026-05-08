@@ -4,10 +4,11 @@ import { MapPin, ArrowRight } from 'lucide-react';
 
 interface PopularRoutesProps {
     districtName: string;
+    districtSlug: string;
     routes: PopularRoute[];
 }
 
-export default function PopularRoutes({ districtName, routes }: PopularRoutesProps) {
+export default function PopularRoutes({ districtName, districtSlug, routes }: PopularRoutesProps) {
     if (!routes.length) return null;
 
     return (
@@ -26,7 +27,7 @@ export default function PopularRoutes({ districtName, routes }: PopularRoutesPro
                     {routes.slice(0, 10).map((route) => (
                         <Link
                             key={route.toSlug}
-                            href={`/${route.toSlug}-drop-taxi`}
+                            href={`/route/${districtSlug}-to-${route.toSlug}-taxi`}
                             title={`${districtName} to ${route.to} drop taxi — ₹${route.fareEstimate}`}
                             className="group bg-white rounded-xl border border-gray-200 p-5 hover:shadow-lg hover:border-teal-200 transition-all duration-300 block"
                         >

@@ -1,6 +1,7 @@
+import Link from 'next/link';
 import { District } from '@/lib/districts';
 import { VEHICLE_TYPES } from '@/lib/constants';
-import { MapPin, Clock, IndianRupee } from 'lucide-react';
+import { MapPin, Clock, IndianRupee, ArrowRight } from 'lucide-react';
 
 interface RouteDetailsProps {
     district: District;
@@ -29,14 +30,17 @@ export default function RouteDetails({ district, serviceLabel }: RouteDetailsPro
                         const durationText = durationHrs > 0
                             ? `${durationHrs}h ${durationMins > 0 ? `${durationMins}m` : ''}`
                             : `${durationMins}m`;
+                        const routeHref = `/route/${district.slug}-to-${route.toSlug}-taxi`;
 
                         return (
                             <article
                                 key={route.toSlug}
-                                className="border border-gray-200 rounded-xl p-6 hover:border-teal-200 transition-colors"
+                                className="border border-gray-200 rounded-xl p-6 hover:border-teal-300 hover:shadow-md transition-all"
                             >
                                 <h3 className="text-xl font-bold text-gray-900 mb-3">
-                                    {district.name} to {route.to} {serviceLabel} — ₹{route.fareEstimate} Onwards
+                                    <Link href={routeHref} className="hover:text-teal-700 transition-colors">
+                                        {district.name} to {route.to} {serviceLabel} — ₹{route.fareEstimate} Onwards
+                                    </Link>
                                 </h3>
 
                                 <div className="flex flex-wrap gap-4 mb-4 text-sm text-gray-600">
@@ -63,7 +67,7 @@ export default function RouteDetails({ district, serviceLabel }: RouteDetailsPro
                                     All fares include driver allowance, toll charges, permit fees, and GST with zero hidden costs.
                                 </p>
 
-                                <div className="flex flex-wrap gap-2">
+                                <div className="flex flex-wrap gap-2 mb-4">
                                     {VEHICLE_TYPES.slice(0, 4).map(v => (
                                         <span
                                             key={v.id}
@@ -73,6 +77,14 @@ export default function RouteDetails({ district, serviceLabel }: RouteDetailsPro
                                         </span>
                                     ))}
                                 </div>
+
+                                <Link
+                                    href={routeHref}
+                                    className="inline-flex items-center gap-1.5 text-teal-700 hover:text-teal-900 font-semibold text-sm"
+                                >
+                                    View {district.name} to {route.to} route details
+                                    <ArrowRight className="h-4 w-4" />
+                                </Link>
                             </article>
                         );
                     })}
