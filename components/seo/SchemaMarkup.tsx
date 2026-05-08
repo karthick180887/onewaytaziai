@@ -134,15 +134,43 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
         ],
     } : null;
 
+    // FAQPage schema mirrors the visible FAQs (rendered by FAQSection on the page)
+    const faqPageSchema = faqs.length > 0 ? {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: faqs.map(f => ({
+            '@type': 'Question',
+            name: f.question,
+            acceptedAnswer: { '@type': 'Answer', text: f.answer },
+        })),
+    } : null;
+
+    const escape = (json: string) => json.replace(/</g, '\\u003c');
+
     return (
         <>
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(taxiServiceSchema) }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+            {/*
+              JSON-LD structured data. Inputs are entirely server-controlled
+              (District/ServiceType/FAQ data from lib/districts.ts and
+              lib/seo-content.ts — no user input). escape() converts "<" to
+              "<" so no string field can break out of the <script> tag.
+              Standard Next.js pattern for JSON-LD.
+            */}
+            {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(taxiServiceSchema)) }} />
+            {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(breadcrumbSchema)) }} />
             {routeListSchema && (
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(routeListSchema) }} />
+                /* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(routeListSchema)) }} />
             )}
             {tripSchema && (
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(tripSchema) }} />
+                /* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(tripSchema)) }} />
+            )}
+            {faqPageSchema && (
+                /* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(faqPageSchema)) }} />
             )}
         </>
     );

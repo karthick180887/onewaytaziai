@@ -42,6 +42,125 @@ const SERVICE_VERBS: Record<ServiceType, string> = {
     'call-taxi': 'instant call taxi',
 };
 
+// ─── Per-city hand-tuned overrides for high-priority SERP cities ───────
+// When a city/serviceType combination has an override, the rich serviceDescription
+// + custom FAQ list replace the generic auto-generated versions. Other Type A pages
+// continue with the auto-generated content unchanged.
+//
+// Key format: "{citySlug}-{serviceType}" (e.g. "coimbatore-taxi-service").
+// A bare "{citySlug}" key applies to ALL service types for that city.
+type CityOverride = {
+    serviceDescription?: string;
+    customFaqs?: FAQ[];
+};
+
+const CITY_OVERRIDES: Record<string, CityOverride> = {
+    "coimbatore-taxi-service": {
+        serviceDescription: `OneWayTaxi.ai operates the most-booked outstation taxi service in **Coimbatore (Kovai)** — the textile capital of South India and the gateway to the Western Ghats. Whether you're catching a connection from Coimbatore International Airport (CJB), heading up to Ooty for a weekend, dropping a family member at Bangalore on the morning shift, or making a one-way move to Kochi, our drop-taxi network gives you a fixed all-inclusive fare from **₹13/km** with no return-trip charge.
+
+### Coimbatore taxi fare per km (2026)
+Our pricing is the same flat per-kilometre rate every booking — no surge pricing, no festival multiplier, no app-based fluctuation. The fare you see at booking is what you pay.
+
+- **Mini / Hatchback (4-seat AC)** — ₹13/km. Ideal for solo travellers, couples, and short outstation drops up to 250 km.
+- **Sedan (4-seat AC, Dzire / Etios / Xcent)** — ₹14/km. The most-booked category for 2-4 passengers with mid-size luggage.
+- **SUV (7-seat AC, Ertiga / Innova classic)** — ₹19/km. Right for families, hill-station trips to Ooty/Kodaikanal, and group bookings.
+- **Innova Crysta (7-seat premium AC, captain seats)** — ₹21/km. Premium long-distance comfort with the smoothest ride on ghat sections.
+- **Tempo Traveller (12-17 seater AC)** — on request. Wedding parties, college tours, and corporate offsites.
+
+All fares include **fuel, tolls, ₹400/day driver bata, and 5% GST**. Excluded items disclosed up-front: night charges (₹250-500 between 10 PM and 6 AM), inter-state permit fees on Karnataka/Kerala border crossings, and parking at the destination.
+
+### Pickup points in Coimbatore (door-to-door)
+We pick up from any address inside Coimbatore municipality and the Coimbatore-Tiruppur metropolitan region. The most-booked pickup neighbourhoods for our drivers are **Gandhipuram, RS Puram, Saibaba Colony, Saravanampatti, Peelamedu, Singanallur, Ukkadam, Race Course, Avinashi Road, and Trichy Road**. We also pick up from **Coimbatore International Airport (CJB)** with flight tracking, **Coimbatore Junction railway station** at any platform exit, and the **Gandhipuram and Ukkadam bus stands** for bus-to-cab transfers. Mention your exact pickup address at booking — we will not redirect you to a "nearest pickup point."
+
+### Top outstation routes from Coimbatore
+Coimbatore's location at the foothills of the Nilgiris and at the centre of South India's road grid makes it a launch point for some of the most-booked outstation routes on our network. Indicative one-way sedan fares (₹14/km × distance):
+
+- **Coimbatore to Bangalore** — 365 km, ₹5,110, ~7-8 hours via NH544 + NH948.
+- **Coimbatore to Chennai** — 505 km, ₹7,070, ~8-9 hours via Salem.
+- **Coimbatore to Ooty** — 86 km, ₹1,200, ~3 hours via NH181 (36 hairpin bends).
+- **Coimbatore to Kodaikanal** — 175 km, ₹2,450, ~5 hours via Palani.
+- **Coimbatore to Munnar** — 170 km, ₹2,380, ~4.5 hours via Pollachi-Marayoor.
+- **Coimbatore to Madurai** — 218 km, ₹3,050, ~5 hours via NH85.
+- **Coimbatore to Kochi** — 196 km, ₹2,744, ~5 hours via Walayar.
+- **Coimbatore to Coonoor** — 70 km, ₹980, ~2.5 hours.
+- **Coimbatore to Trichy** — 213 km, ₹2,982, ~5 hours.
+- **Coimbatore to Tirupur** — 50 km, ₹700, ~1 hour. Common daily commute booking.
+- **Coimbatore to Salem** — 160 km, ₹2,240, ~3.5 hours.
+- **Coimbatore to Palakkad** — 55 km, ₹770, ~1.5 hours.
+
+For any route not listed, run an instant quote on our [fare calculator](/fare-calculator) — we cover 220+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana and Pondicherry.
+
+### What makes our Coimbatore taxi service different
+Three things that competitors don't consistently deliver in Coimbatore:
+
+- **Tamil-speaking drivers by default.** All our Coimbatore drivers speak fluent Tamil and Hindi; most are conversational in English. For Karnataka or Kerala drops, we assign drivers comfortable with both source and destination languages — important for elderly passengers travelling solo.
+- **Verified driver badges.** Every Coimbatore driver in our network carries a valid commercial badge, has 3+ years of professional experience, and is background-checked through our internal process. The driver name and badge number are shared with you 30-60 minutes before pickup.
+- **GST invoices for corporate billing.** Mention your company name and GSTIN at booking and you receive a GST-compliant invoice within 24 hours. Useful for the Coimbatore textile, engineering, and IT clusters at SIDCO and Saravanampatti.
+
+### Booking — three ways, three minutes
+Book your Coimbatore taxi in under three minutes via:
+
+1. **Online** — fill our booking widget on this page or the homepage. You see an instant quote; confirmation comes within 5 minutes by SMS and WhatsApp.
+2. **Phone** — call our 24/7 helpline at **+91 81244 76010**. Voice booking with a human agent takes about 90 seconds.
+3. **WhatsApp** — message us with your route and time. Driver assignment is shared 30-60 minutes before pickup.
+
+### When to book in advance vs. same-day
+Same-day bookings work fine for sedans inside Coimbatore city (1-2 hour notice). For SUV and Crysta categories during peak weekends (Friday evening, Saturday morning), we recommend at least 4-6 hours advance notice. For long weekends, Pongal, and December-January peak season, book 24-48 hours ahead — vehicles are limited at festival edges.
+
+### Frequently chosen for
+Our Coimbatore taxi customers most often book us for these specific use cases: **Coimbatore airport-to-Ooty transfers** (especially from international flights), **Coimbatore to Bangalore corporate runs**, **Coimbatore to Munnar weekend getaways** for 5-7 person family groups, **medical drops to Bangalore and Chennai super-specialty hospitals**, and **wedding-season multi-day Tempo Traveller bookings** for guest movement between Coimbatore and Tiruppur venues.`,
+        customFaqs: [
+            {
+                question: "Which taxi is cheapest in Coimbatore?",
+                answer: "OneWayTaxi.ai offers the lowest per-kilometre rates for outstation Coimbatore taxis: ₹13/km for a hatchback, ₹14/km for a sedan, ₹19/km for an SUV, and ₹21/km for an Innova Crysta — all-inclusive of tolls, driver bata and GST. App-based services like Uber and Ola charge surge pricing during peak hours; our flat rate stays the same any day, any time.",
+            },
+            {
+                question: "How do I book a taxi in Coimbatore?",
+                answer: "Three ways: (1) book online via our booking widget for instant quote and 5-minute confirmation, (2) call +91 81244 76010 24/7 — a human agent confirms in 90 seconds, or (3) message us on WhatsApp with your pickup, drop and time. Driver details are shared 30-60 minutes before pickup.",
+            },
+            {
+                question: "How much per km for a taxi in Coimbatore?",
+                answer: "Per-km rates: ₹13 (mini/hatchback, 4 seats), ₹14 (sedan, 4 seats), ₹19 (SUV, 7 seats), ₹21 (Innova Crysta, 7 seats). Tempo Traveller (12-17 seats) is quoted on request. All rates include fuel, tolls, ₹400/day driver bata and 5% GST. Outstation drops have a 130 km minimum to cover the driver's deadhead return.",
+            },
+            {
+                question: "Is Ola or Uber available in Coimbatore?",
+                answer: "Both Ola and Uber operate in Coimbatore but with limited outstation availability and surge pricing during peak hours, festivals or rain. For a guaranteed fixed-fare outstation booking with a verified Tamil-speaking driver, dedicated drop-taxi operators like OneWayTaxi.ai give better consistency — especially on Coimbatore-to-Ooty, Coimbatore-to-Bangalore and airport routes.",
+            },
+            {
+                question: "What is the Coimbatore to Ooty taxi fare?",
+                answer: "Coimbatore to Ooty is 86 km via NH181. One-way sedan fare is approximately ₹1,200, SUV ₹1,640, Innova Crysta ₹1,810 — all-inclusive. Travel time is 2.5-3 hours including the 36 hairpin bends. We recommend an early-morning (before 9 AM) departure to avoid afternoon ghat-road mist.",
+            },
+            {
+                question: "Do you provide airport pickup at Coimbatore Airport (CJB)?",
+                answer: "Yes — we offer flight-tracked pickup at Coimbatore International Airport (CJB) 24/7. The first 60 minutes of waiting after touchdown are free. Most popular CJB transfers: airport-to-city (₹500 minimum), CJB-to-Ooty (₹1,200), CJB-to-Coonoor (₹980), CJB-to-Pollachi (₹910), CJB-to-Tiruppur (₹700).",
+            },
+            {
+                question: "Are Coimbatore taxis available 24/7?",
+                answer: "Yes. Our Coimbatore network operates 24/7, 365 days. Late-night (10 PM-6 AM) bookings attract a small night charge of ₹250-500 depending on vehicle, disclosed up-front. Common 4 AM and 5 AM bookings: airport drops, hospital transfers, and outstation pilgrimage trips to Madurai/Rameswaram.",
+            },
+            {
+                question: "Can I get a GST invoice for my Coimbatore taxi booking?",
+                answer: "Yes. Mention your company name and GSTIN at booking time and we issue a GST-compliant invoice within 24 hours. Useful for Coimbatore's textile, engineering, IT and exporter clusters where employee travel is reimbursed against tax invoice.",
+            },
+            {
+                question: "What vehicle should I book for a Coimbatore-to-Bangalore trip?",
+                answer: "For 1-3 passengers with light luggage, a sedan (Etios/Dzire) at ₹5,110 is the best value for the 365 km route. For 4-7 passengers or families with heavy luggage and elderly travellers, the Innova Crysta at ₹7,665 is more comfortable for the 7-8 hour drive. SUV (Ertiga) at ₹6,935 is the middle option.",
+            },
+            {
+                question: "Can I cancel my Coimbatore taxi booking?",
+                answer: "Yes. Free cancellation more than 4 hours before pickup. Within 4 hours, a flat ₹200 service fee applies. After driver reaches the pickup location, a ₹500 no-show fee applies. Reschedules are free up to 2 hours before pickup. Refunds are processed within 3-5 working days.",
+            },
+        ],
+    },
+};
+
+function getCityOverride(district: District, serviceType: ServiceType): CityOverride | null {
+    const k1 = `${district.slug}-${serviceType}`;
+    if (CITY_OVERRIDES[k1]) return CITY_OVERRIDES[k1];
+    if (CITY_OVERRIDES[district.slug]) return CITY_OVERRIDES[district.slug];
+    return null;
+}
+
 // ─── SEO Content Generators ─────────────────────────────────
 
 export function getSEOContent(district: District, serviceType: ServiceType): SEOContent {
@@ -93,12 +212,12 @@ export function getSEOContent(district: District, serviceType: ServiceType): SEO
             `${dl} drop taxi contact number`,
             `call taxi ${dl}`,
         ],
-        serviceDescription: generateServiceDescription(district, serviceType),
+        serviceDescription: getCityOverride(district, serviceType)?.serviceDescription
+            ?? generateServiceDescription(district, serviceType),
     };
 }
 
 function generateServiceDescription(district: District, serviceType: ServiceType): string {
-    const label = SERVICE_LABELS[serviceType];
     const verb = SERVICE_VERBS[serviceType];
     const dn = district.name;
     const ds = district.state;
@@ -182,6 +301,12 @@ export function getWhyChooseUs(district: District) {
 // ─── FAQ Generator ──────────────────────────────────────────
 
 export function getFAQs(district: District, serviceType: ServiceType): FAQ[] {
+    // Hand-tuned FAQs override generic ones for high-priority cities.
+    const override = getCityOverride(district, serviceType);
+    if (override?.customFaqs && override.customFaqs.length > 0) {
+        return override.customFaqs;
+    }
+
     const label = SERVICE_LABELS[serviceType];
     const topRoute = district.popularRoutes[0];
     const cheapestRate = VEHICLE_TYPES[0].price;
