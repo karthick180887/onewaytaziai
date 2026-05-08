@@ -1,0 +1,2104 @@
+[
+  {
+    "cluster_id": "city-coimbatore",
+    "type": "A",
+    "priority": "P1",
+    "target_url": "/taxi-service-in-coimbatore",
+    "alt_urls": [
+      "/call-taxi-in-coimbatore",
+      "/drop-taxi-in-coimbatore",
+      "/cab-service-in-coimbatore"
+    ],
+    "head_keyword": "taxi coimbatore",
+    "total_volume": 30500,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi coimbatore",
+        "vol": 3600,
+        "kd": 16,
+        "comp": "go2",
+        "rank": 23
+      },
+      {
+        "kw": "coimbatore taxi services",
+        "vol": 2900,
+        "kd": 19,
+        "comp": "go2",
+        "rank": 44
+      },
+      {
+        "kw": "go taxi coimbatore number",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 12
+      },
+      {
+        "kw": "go taxi coimbatore no",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "go taxi coimbatore phone number",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 18
+      },
+      {
+        "kw": "go taxi phone number coimbatore",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      },
+      {
+        "kw": "go taxi number in coimbatore",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 23
+      },
+      {
+        "kw": "go taxi coimbatore",
+        "vol": 1900,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "coimbatore go taxi",
+        "vol": 1900,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 27
+      },
+      {
+        "kw": "taxi at coimbatore",
+        "vol": 1900,
+        "kd": 11,
+        "comp": "go2",
+        "rank": 22
+      },
+      {
+        "kw": "taxi in coimbatore",
+        "vol": 1900,
+        "kd": 18,
+        "comp": "go2",
+        "rank": 22
+      },
+      {
+        "kw": "taxis in coimbatore",
+        "vol": 1900,
+        "kd": 13,
+        "comp": "go2",
+        "rank": 22
+      },
+      {
+        "kw": "cabs in coimbatore",
+        "vol": 1900,
+        "kd": 12,
+        "comp": "go2",
+        "rank": 26
+      },
+      {
+        "kw": "call taxi coimbatore",
+        "vol": 1600,
+        "kd": 11,
+        "comp": "go2",
+        "rank": 32
+      },
+      {
+        "kw": "coimbatore call taxi",
+        "vol": 1600,
+        "kd": 36,
+        "comp": "go2",
+        "rank": 32
+      },
+      {
+        "kw": "city call taxi coimbatore",
+        "vol": 1600,
+        "kd": 13,
+        "comp": "go2",
+        "rank": 54
+      },
+      {
+        "kw": "call taxi in coimbatore city",
+        "vol": 1600,
+        "kd": 4,
+        "comp": "go2",
+        "rank": 48
+      },
+      {
+        "kw": "taxi number coimbatore",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 38
+      },
+      {
+        "kw": "coimbatore taxi number",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 59
+      },
+      {
+        "kw": "drop taxi in coimbatore",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 14
+      },
+      {
+        "kw": "cab booking coimbatore",
+        "vol": 1300,
+        "kd": 20,
+        "comp": "go2",
+        "rank": 39
+      },
+      {
+        "kw": "book taxi coimbatore",
+        "vol": 1300,
+        "kd": 28,
+        "comp": "go2",
+        "rank": 51
+      },
+      {
+        "kw": "one way drop taxi coimbatore",
+        "vol": 590,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      }
+    ],
+    "notes": "'go taxi' branded queries (~12K volume) are partly competitor brand — treat as ambiguous local intent and capture by ranking the city page well."
+  },
+  {
+    "cluster_id": "city-chennai",
+    "type": "A",
+    "priority": "P1",
+    "target_url": "/drop-taxi-in-chennai",
+    "alt_urls": [
+      "/taxi-service-in-chennai",
+      "/call-taxi-in-chennai",
+      "/one-way-taxi-in-chennai"
+    ],
+    "head_keyword": "drop taxi chennai",
+    "total_volume": 13200,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "drop taxi chennai",
+        "vol": 5400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      },
+      {
+        "kw": "drop taxi chennai tamil nadu",
+        "vol": 5400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 19
+      },
+      {
+        "kw": "call taxi at chennai",
+        "vol": 2400,
+        "kd": 21,
+        "comp": "ow.com",
+        "rank": 61
+      },
+      {
+        "kw": "one way taxi chennai",
+        "vol": 1300,
+        "kd": 21,
+        "comp": "ow.com",
+        "rank": 7
+      },
+      {
+        "kw": "taxi booking chennai",
+        "vol": 1300,
+        "kd": 21,
+        "comp": "ow.com",
+        "rank": 40
+      },
+      {
+        "kw": "one way drop taxi chennai",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      },
+      {
+        "kw": "oneway drop taxi chennai",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-tirupur",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/taxi-service-in-tirupur",
+    "alt_urls": [
+      "/call-taxi-in-tirupur"
+    ],
+    "head_keyword": "call taxi in tirupur",
+    "total_volume": 10100,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "call taxi in tirupur",
+        "vol": 4400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 10
+      },
+      {
+        "kw": "tirupur call taxi",
+        "vol": 4400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 13
+      },
+      {
+        "kw": "taxi in tirupur",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      },
+      {
+        "kw": "tirupur taxi phone number",
+        "vol": 590,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 20
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-trichy",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/drop-taxi-in-trichy",
+    "alt_urls": [
+      "/taxi-service-in-trichy"
+    ],
+    "head_keyword": "drop taxi trichy",
+    "total_volume": 8460,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "drop taxi trichy",
+        "vol": 1900,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      },
+      {
+        "kw": "drop taxi in trichy",
+        "vol": 1900,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      },
+      {
+        "kw": "taxi trichy",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 20
+      },
+      {
+        "kw": "trichy cabs",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 42
+      },
+      {
+        "kw": "cab trichy",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 54
+      },
+      {
+        "kw": "taxis in trichy",
+        "vol": 880,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 21
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-salem",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/taxi-service-in-salem",
+    "alt_urls": [],
+    "head_keyword": "taxi in salem",
+    "total_volume": 6910,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi in salem",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      },
+      {
+        "kw": "taxis in salem",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      },
+      {
+        "kw": "taxi at salem",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "taxi service salem",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 18
+      },
+      {
+        "kw": "cab in salem",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 18
+      },
+      {
+        "kw": "taxi services in salem",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 19
+      },
+      {
+        "kw": "cabs in salem",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 20
+      },
+      {
+        "kw": "salem taxi services",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 28
+      },
+      {
+        "kw": "taxi salem",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 14
+      },
+      {
+        "kw": "taxi salem or",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-pondicherry",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/taxi-service-in-pondicherry",
+    "alt_urls": [],
+    "head_keyword": "taxi in pondicherry",
+    "total_volume": 3060,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "pondicherry cabs",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 49
+      },
+      {
+        "kw": "taxi in pondicherry",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 22
+      },
+      {
+        "kw": "taxis in pondicherry",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 31
+      },
+      {
+        "kw": "drop taxi pondicherry",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-erode",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/taxi-service-in-erode",
+    "alt_urls": [
+      "/call-taxi-in-erode"
+    ],
+    "head_keyword": "call taxi erode",
+    "total_volume": 2950,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi erode",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "taxi in erode",
+        "vol": 480,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 13
+      },
+      {
+        "kw": "taxi services in erode",
+        "vol": 480,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 20
+      },
+      {
+        "kw": "call taxi number in erode",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 12
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-vellore",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/drop-taxi-in-vellore",
+    "alt_urls": [],
+    "head_keyword": "drop taxi in vellore",
+    "total_volume": 2080,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "drop taxi in vellore",
+        "vol": 880,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      },
+      {
+        "kw": "drop taxi vellore",
+        "vol": 880,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      },
+      {
+        "kw": "vellore drop taxi",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 4
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-madurai",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/drop-taxi-in-madurai",
+    "alt_urls": [],
+    "head_keyword": "drop taxi madurai",
+    "total_volume": 1600,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "drop taxi madurai",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-kodaikanal",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-kodaikanal",
+    "alt_urls": [],
+    "head_keyword": "call taxi kodaikanal",
+    "total_volume": 1170,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi kodaikanal",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 4
+      },
+      {
+        "kw": "kodaikanal call taxi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      },
+      {
+        "kw": "call taxi in kodaikanal",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-udumalpet",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-udumalpet",
+    "alt_urls": [],
+    "head_keyword": "call taxi in udumalpet",
+    "total_volume": 1170,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "taxi udumalpet",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 10
+      },
+      {
+        "kw": "udumalpet call taxi",
+        "vol": 260,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 6
+      },
+      {
+        "kw": "call taxi udumalpet",
+        "vol": 260,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 6
+      },
+      {
+        "kw": "call taxi in udumalpet",
+        "vol": 260,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 6
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-pollachi",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-pollachi",
+    "alt_urls": [],
+    "head_keyword": "call taxi in pollachi",
+    "total_volume": 780,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi in pollachi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      },
+      {
+        "kw": "pollachi call taxi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-karaikudi",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-karaikudi",
+    "alt_urls": [],
+    "head_keyword": "call taxi karaikudi",
+    "total_volume": 780,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi karaikudi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 10
+      },
+      {
+        "kw": "karaikudi call taxi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 15
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-tuticorin",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-tuticorin",
+    "alt_urls": [],
+    "head_keyword": "call taxi in tuticorin",
+    "total_volume": 780,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi in tuticorin",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 12
+      },
+      {
+        "kw": "call taxi tuticorin",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-theni",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-theni",
+    "alt_urls": [],
+    "head_keyword": "call taxi in theni",
+    "total_volume": 390,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi in theni",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-tindivanam",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-tindivanam",
+    "alt_urls": [],
+    "head_keyword": "call taxi tindivanam",
+    "total_volume": 210,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi tindivanam",
+        "vol": 210,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-palladam",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-palladam",
+    "alt_urls": [],
+    "head_keyword": "call taxi palladam",
+    "total_volume": 260,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "call taxi palladam",
+        "vol": 260,
+        "kd": 6,
+        "comp": "go2",
+        "rank": 8
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-perambalur",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/call-taxi-in-perambalur",
+    "alt_urls": [],
+    "head_keyword": "call taxi in perambalur",
+    "total_volume": 320,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "call taxi in perambalur",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-tiruvannamalai",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/drop-taxi-in-tiruvannamalai",
+    "alt_urls": [],
+    "head_keyword": "tiruvannamalai drop taxi",
+    "total_volume": 710,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "tiruvannamalai drop taxi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 14
+      },
+      {
+        "kw": "drop taxi tiruvannamalai",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-villupuram",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/drop-taxi-in-villupuram",
+    "alt_urls": [],
+    "head_keyword": "villupuram drop taxi",
+    "total_volume": 320,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "villupuram drop taxi",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-thanjavur",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/drop-taxi-in-thanjavur",
+    "alt_urls": [],
+    "head_keyword": "drop taxi thanjavur",
+    "total_volume": 260,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "drop taxi thanjavur",
+        "vol": 260,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-bangalore",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/drop-taxi-in-bangalore",
+    "alt_urls": [],
+    "head_keyword": "drop taxi bangalore",
+    "total_volume": 1390,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "drop taxi bangalore",
+        "vol": 590,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      },
+      {
+        "kw": "drop taxi in bangalore",
+        "vol": 590,
+        "kd": 1,
+        "comp": "go2",
+        "rank": 10
+      },
+      {
+        "kw": "one way drop taxi bangalore",
+        "vol": 210,
+        "kd": 21,
+        "comp": "go2",
+        "rank": 8
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "city-hosur",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/call-taxi-in-hosur",
+    "alt_urls": [],
+    "head_keyword": "hosur call taxi",
+    "total_volume": 3600,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "hosur call taxi",
+        "vol": 3600,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 92
+      }
+    ],
+    "notes": "Single 3.6K volume keyword, we currently rank #92 — very easy improvement."
+  },
+  {
+    "cluster_id": "city-trivandrum",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/taxi-service-in-trivandrum",
+    "alt_urls": [
+      "/taxi-service-in-thiruvananthapuram"
+    ],
+    "head_keyword": "taxi services trivandrum",
+    "total_volume": 3600,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi services trivandrum",
+        "vol": 3600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 89
+      }
+    ],
+    "notes": "trivandrum is a known alias for thiruvananthapuram in seo-aliases.ts"
+  },
+  {
+    "cluster_id": "city-ooty",
+    "type": "A",
+    "priority": "P3",
+    "target_url": "/taxi-service-in-ooty",
+    "alt_urls": [],
+    "head_keyword": "taxi in ooty",
+    "total_volume": 590,
+    "page_exists": true,
+    "existing_page_path": "app/[slug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi in ooty",
+        "vol": 590,
+        "kd": 21,
+        "comp": "go2",
+        "rank": 13
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "airport-cochin",
+    "type": "A",
+    "priority": "P2",
+    "target_url": "/airport-taxi/kochi-airport",
+    "alt_urls": [],
+    "head_keyword": "cochin airport taxi",
+    "total_volume": 3790,
+    "page_exists": true,
+    "existing_page_path": "app/airport-taxi/[airportSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi cochin airport",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 28
+      },
+      {
+        "kw": "cochin airport taxi",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 42
+      },
+      {
+        "kw": "cochin airport cabs",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 38
+      },
+      {
+        "kw": "cochin airport taxi service",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      },
+      {
+        "kw": "taxi service in cochin airport",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      }
+    ],
+    "notes": "cochin is a Kochi alias"
+  },
+  {
+    "cluster_id": "route-bangalore-mysore",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/bangalore-to-mysore-taxi",
+    "alt_urls": [],
+    "head_keyword": "bangalore to mysore taxi booking",
+    "total_volume": 11000,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "bangalore to mysore taxi booking",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 22
+      },
+      {
+        "kw": "taxi from bangalore to mysore",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 33
+      },
+      {
+        "kw": "cab booking bangalore to mysore",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 39
+      },
+      {
+        "kw": "taxi booking from bangalore to mysore",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 43
+      },
+      {
+        "kw": "cab from bangalore to mysore",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 56
+      },
+      {
+        "kw": "book taxi from bangalore to mysore",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 58
+      },
+      {
+        "kw": "taxi to mysore",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 49
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-bangalore-coorg",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/bangalore-to-coorg-taxi",
+    "alt_urls": [],
+    "head_keyword": "bangalore to coorg taxi",
+    "total_volume": 6500,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi bangalore to coorg",
+        "vol": 1300,
+        "kd": 1,
+        "comp": "go2",
+        "rank": 29
+      },
+      {
+        "kw": "bangalore to coorg taxi",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 33
+      },
+      {
+        "kw": "bangalore to coorg cab",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 48
+      },
+      {
+        "kw": "bangalore to coorg cab booking",
+        "vol": 1300,
+        "kd": 1,
+        "comp": "go2",
+        "rank": 49
+      },
+      {
+        "kw": "cab charges from bangalore to coorg",
+        "vol": 1300,
+        "kd": 1,
+        "comp": "go2",
+        "rank": 51
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-mysore-coorg",
+    "type": "B",
+    "priority": "P2",
+    "target_url": "/route/mysore-to-coorg-taxi",
+    "alt_urls": [],
+    "head_keyword": "taxi mysore to coorg",
+    "total_volume": 1760,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi mysore to coorg",
+        "vol": 880,
+        "kd": 1,
+        "comp": "go2",
+        "rank": 28
+      },
+      {
+        "kw": "mysore to coorg cab",
+        "vol": 880,
+        "kd": 8,
+        "comp": "go2",
+        "rank": 37
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-cochin-munnar",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/kochi-to-munnar-taxi",
+    "alt_urls": [],
+    "head_keyword": "kochi to munnar taxi",
+    "total_volume": 6200,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi cochin to munnar",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "cochin to munnar cab",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 41
+      },
+      {
+        "kw": "taxi from kochi to munnar",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 50
+      },
+      {
+        "kw": "kochi to munnar taxi",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 51
+      },
+      {
+        "kw": "kochi to munnar cab",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 51
+      }
+    ],
+    "notes": "cochin alias resolves to kochi automatically"
+  },
+  {
+    "cluster_id": "route-madurai-rameshwaram",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/madurai-to-rameswaram-taxi",
+    "alt_urls": [],
+    "head_keyword": "cabs from madurai to rameshwaram",
+    "total_volume": 5900,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "cabs from madurai to rameshwaram",
+        "vol": 1900,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 74
+      },
+      {
+        "kw": "taxi charges from madurai to rameshwaram",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 26
+      },
+      {
+        "kw": "cab fare from madurai to rameshwaram",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 42
+      },
+      {
+        "kw": "madurai to rameshwaram taxi fare",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 43
+      }
+    ],
+    "notes": "rameshwaram alias resolves to rameswaram"
+  },
+  {
+    "cluster_id": "route-madurai-kodaikanal",
+    "type": "B",
+    "priority": "P2",
+    "target_url": "/route/madurai-to-kodaikanal-taxi",
+    "alt_urls": [],
+    "head_keyword": "taxi from madurai to kodaikanal",
+    "total_volume": 1180,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi from madurai to kodaikanal",
+        "vol": 590,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 16
+      },
+      {
+        "kw": "madurai to kodaikanal cab",
+        "vol": 590,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 20
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-chennai-bangalore",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/chennai-to-bangalore-taxi",
+    "alt_urls": [],
+    "head_keyword": "chennai to bangalore taxi",
+    "total_volume": 3160,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "chennai to bangalore cab",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "chennai to bangalore taxi",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "chennai to bangalore cabs",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 18
+      },
+      {
+        "kw": "taxi bangalore to chennai",
+        "vol": 1000,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 30
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-chennai-pondicherry",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/chennai-to-pondicherry-taxi",
+    "alt_urls": [],
+    "head_keyword": "chennai pondicherry cab",
+    "total_volume": 5140,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "chennai pondicherry cab",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 90
+      },
+      {
+        "kw": "taxi to pondicherry",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 21
+      },
+      {
+        "kw": "pondicherry to chennai taxi",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "taxi from pondicherry to chennai",
+        "vol": 720,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 19
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-chennai-coimbatore",
+    "type": "B",
+    "priority": "P2",
+    "target_url": "/route/chennai-to-coimbatore-taxi",
+    "alt_urls": [],
+    "head_keyword": "chennai to coimbatore taxi",
+    "total_volume": 1280,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "chennai to coimbatore taxi",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      },
+      {
+        "kw": "chennai to coimbatore cabs",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      },
+      {
+        "kw": "taxi chennai to coimbatore",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      },
+      {
+        "kw": "taxi from chennai to coimbatore",
+        "vol": 320,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-chennai-trichy",
+    "type": "B",
+    "priority": "P3",
+    "target_url": "/route/chennai-to-trichy-taxi",
+    "alt_urls": [],
+    "head_keyword": "chennai to trichy taxi",
+    "total_volume": 390,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "chennai to trichy taxi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 13
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-chennai-madurai",
+    "type": "B",
+    "priority": "P3",
+    "target_url": "/route/chennai-to-madurai-taxi",
+    "alt_urls": [],
+    "head_keyword": "chennai to madurai drop taxi",
+    "total_volume": 650,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "chennai to madurai drop taxi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 15
+      },
+      {
+        "kw": "madurai to chennai cabs",
+        "vol": 260,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-chennai-vellore",
+    "type": "B",
+    "priority": "P3",
+    "target_url": "/route/chennai-to-vellore-taxi",
+    "alt_urls": [],
+    "head_keyword": "chennai to vellore taxi",
+    "total_volume": 960,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "chennai to vellore taxi",
+        "vol": 480,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 18
+      },
+      {
+        "kw": "vellore to chennai drop taxi",
+        "vol": 480,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 19
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "route-coimbatore-ooty",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/coimbatore-to-ooty-taxi",
+    "alt_urls": [],
+    "head_keyword": "coimbatore to ooty cab",
+    "total_volume": 4800,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "coimbatore to ooty cab",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 53
+      },
+      {
+        "kw": "cbe to ooty cab",
+        "vol": 1600,
+        "kd": 5,
+        "comp": "ow.com",
+        "rank": 55
+      },
+      {
+        "kw": "cab booking from coimbatore to ooty",
+        "vol": 1600,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 61
+      }
+    ],
+    "notes": "cbe is informal short form for Coimbatore"
+  },
+  {
+    "cluster_id": "route-salem-yercaud",
+    "type": "B",
+    "priority": "P1",
+    "target_url": "/route/salem-to-yercaud-taxi",
+    "alt_urls": [],
+    "head_keyword": "salem to yercaud distance",
+    "total_volume": 19950,
+    "page_exists": true,
+    "existing_page_path": "app/route/[routeSlug]/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "salem to yercaud distance",
+        "vol": 8100,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 13
+      },
+      {
+        "kw": "yercaud distance from salem",
+        "vol": 8100,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 24
+      },
+      {
+        "kw": "salem yercaud distance",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 15
+      },
+      {
+        "kw": "taxi from salem to yercaud",
+        "vol": 480,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 6
+      },
+      {
+        "kw": "salem to yercaud taxi",
+        "vol": 480,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      },
+      {
+        "kw": "salem to yercaud cab",
+        "vol": 480,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 9
+      }
+    ],
+    "notes": "Highest single-route cluster. Distance queries dominate. Page must heavily emphasize distance + travel time + taxi fare."
+  },
+  {
+    "cluster_id": "info-tirupati-arunachalam",
+    "type": "C",
+    "priority": "P1",
+    "target_url": "/blog/tirupati-to-arunachalam-distance-by-road",
+    "alt_urls": [],
+    "head_keyword": "tirupati to arunachalam distance",
+    "total_volume": 52560,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "tirupati to arunachalam distance",
+        "vol": 49500,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 5
+      },
+      {
+        "kw": "tirupati to arunachalam distance by road",
+        "vol": 1300,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 6
+      },
+      {
+        "kw": "distance between tirupati and arunachalam",
+        "vol": 880,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      },
+      {
+        "kw": "tirupati to arunachalam distance by car",
+        "vol": 590,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      },
+      {
+        "kw": "tirupati arunachalam distance",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 15
+      }
+    ],
+    "notes": "FLAGSHIP. 49.5K volume, KD 0, competitor at #5. Build the best page on the internet. Conversion CTA -> /route/tirupati-to-tiruvannamalai-taxi."
+  },
+  {
+    "cluster_id": "info-calicut-wayanad",
+    "type": "C",
+    "priority": "P2",
+    "target_url": "/blog/calicut-to-wayanad-distance-guide",
+    "alt_urls": [],
+    "head_keyword": "calicut to wayanad distance",
+    "total_volume": 16200,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "calicut wayanad distance",
+        "vol": 8100,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 32
+      },
+      {
+        "kw": "calicut to wayanad distance",
+        "vol": 8100,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 39
+      }
+    ],
+    "notes": "calicut = kozhikode in our data"
+  },
+  {
+    "cluster_id": "info-dindigul-kodaikanal",
+    "type": "C",
+    "priority": "P2",
+    "target_url": "/blog/dindigul-to-kodaikanal-distance-guide",
+    "alt_urls": [],
+    "head_keyword": "distance from dindigul to kodaikanal",
+    "total_volume": 8100,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "distance from dindigul to kodaikanal",
+        "vol": 8100,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 51
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "info-salem-madurai",
+    "type": "C",
+    "priority": "P2",
+    "target_url": "/blog/salem-to-madurai-distance-and-taxi-guide",
+    "alt_urls": [],
+    "head_keyword": "salem to madurai distance",
+    "total_volume": 6600,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "salem to madurai distance",
+        "vol": 6600,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 53
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "info-thekkady-munnar",
+    "type": "C",
+    "priority": "P2",
+    "target_url": "/blog/thekkady-to-munnar-distance-and-taxi",
+    "alt_urls": [],
+    "head_keyword": "thekkady and munnar distance",
+    "total_volume": 4400,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "thekkady and munnar distance",
+        "vol": 4400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 95
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "info-kochi-sabarimala",
+    "type": "C",
+    "priority": "P2",
+    "target_url": "/blog/kochi-to-sabarimala-distance-and-taxi",
+    "alt_urls": [],
+    "head_keyword": "kochi to sabarimala distance",
+    "total_volume": 1900,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "kochi to sabarimala distance",
+        "vol": 1900,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 45
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "cluster_id": "info-chennai-airport-cmc-vellore",
+    "type": "C",
+    "priority": "P1",
+    "target_url": "/blog/chennai-airport-to-cmc-vellore-distance-taxi-guide",
+    "alt_urls": [],
+    "head_keyword": "chennai airport to vellore cmc distance",
+    "total_volume": 2350,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "chennai airport to vellore cmc distance",
+        "vol": 880,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 6
+      },
+      {
+        "kw": "chennai airport to cmc vellore distance",
+        "vol": 880,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      },
+      {
+        "kw": "cmc vellore nearest airport",
+        "vol": 590,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 18
+      }
+    ],
+    "notes": "Medical tourism (CMC = Christian Medical College). High LTV. Emphasize wheelchair-accessible vehicles, direct route, fare to CMC main gate, return-trip option."
+  },
+  {
+    "cluster_id": "hub-one-way-taxi",
+    "type": "D",
+    "priority": "P1",
+    "target_url": "/one-way-taxi",
+    "alt_urls": [],
+    "head_keyword": "one way drop taxi",
+    "total_volume": 64930,
+    "page_exists": true,
+    "existing_page_path": "app/one-way-taxi/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "one way drop taxi",
+        "vol": 18100,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 23
+      },
+      {
+        "kw": "oneway drop taxi",
+        "vol": 18100,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 17
+      },
+      {
+        "kw": "one way cabs",
+        "vol": 12100,
+        "kd": 12,
+        "comp": "go2",
+        "rank": 24
+      },
+      {
+        "kw": "one way cab",
+        "vol": 12100,
+        "kd": 21,
+        "comp": "ow.com",
+        "rank": 30
+      },
+      {
+        "kw": "one way taxi",
+        "vol": 9900,
+        "kd": 14,
+        "comp": "go2",
+        "rank": 10
+      },
+      {
+        "kw": "oneway cab",
+        "vol": 5400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 37
+      },
+      {
+        "kw": "one way taxi service",
+        "vol": 2400,
+        "kd": 34,
+        "comp": "ow.com",
+        "rank": 20
+      },
+      {
+        "kw": "one drop taxi",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 8
+      },
+      {
+        "kw": "one way cabs booking",
+        "vol": 1600,
+        "kd": 39,
+        "comp": "ow.com",
+        "rank": 21
+      },
+      {
+        "kw": "one way cab booking",
+        "vol": 1600,
+        "kd": 33,
+        "comp": "ow.com",
+        "rank": 27
+      },
+      {
+        "kw": "one way trip",
+        "vol": 1000,
+        "kd": 1,
+        "comp": "go2",
+        "rank": 18
+      },
+      {
+        "kw": "one way trip taxi",
+        "vol": 720,
+        "kd": 27,
+        "comp": "ow.com",
+        "rank": 17
+      },
+      {
+        "kw": "one way trip cab",
+        "vol": 720,
+        "kd": 31,
+        "comp": "ow.com",
+        "rank": 24
+      },
+      {
+        "kw": "one way taxi service near me",
+        "vol": 590,
+        "kd": 31,
+        "comp": "ow.com",
+        "rank": 19
+      },
+      {
+        "kw": "one 2 one taxi",
+        "vol": 390,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 11
+      },
+      {
+        "kw": "best one way taxi",
+        "vol": 260,
+        "kd": 1,
+        "comp": "go2",
+        "rank": 11
+      },
+      {
+        "kw": "one way taxi tariff",
+        "vol": 210,
+        "kd": 0,
+        "comp": "go2",
+        "rank": 7
+      }
+    ],
+    "notes": "FLAGSHIP. Owns the master service term. ~50K dedup volume. Existing /one-way-taxi page from Task 5 — REWRITE to maximize ranking."
+  },
+  {
+    "cluster_id": "hub-vehicle-sedan",
+    "type": "D",
+    "priority": "P3",
+    "target_url": "/sedan-taxi",
+    "alt_urls": [],
+    "head_keyword": "taxi sedan",
+    "total_volume": 1300,
+    "page_exists": true,
+    "existing_page_path": "app/sedan-taxi/page.tsx",
+    "all_keywords": [
+      {
+        "kw": "taxi sedan",
+        "vol": 1300,
+        "kd": 18,
+        "comp": "ow.com",
+        "rank": 44
+      }
+    ],
+    "notes": "Existing /sedan-taxi page from Task 6"
+  },
+  {
+    "cluster_id": "tourist-chennai",
+    "type": "E",
+    "priority": "P1",
+    "target_url": "/blog/best-tourist-places-in-chennai",
+    "alt_urls": [],
+    "head_keyword": "tourist places to visit in chennai",
+    "total_volume": 75000,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "tourist places chennai city",
+        "vol": 49500,
+        "kd": 1,
+        "comp": "ow.com",
+        "rank": 68
+      },
+      {
+        "kw": "tourist places to visit in chennai",
+        "vol": 49500,
+        "kd": 11,
+        "comp": "ow.com",
+        "rank": 73
+      },
+      {
+        "kw": "chennai tourism spot",
+        "vol": 49500,
+        "kd": 11,
+        "comp": "ow.com",
+        "rank": 73
+      },
+      {
+        "kw": "tourist places of chennai city",
+        "vol": 49500,
+        "kd": 16,
+        "comp": "ow.com",
+        "rank": 72
+      },
+      {
+        "kw": "tourist places at chennai city",
+        "vol": 49500,
+        "kd": 12,
+        "comp": "ow.com",
+        "rank": 77
+      },
+      {
+        "kw": "chennai tourist places to visit",
+        "vol": 49500,
+        "kd": 11,
+        "comp": "ow.com",
+        "rank": 80
+      },
+      {
+        "kw": "chennai city tourist places",
+        "vol": 49500,
+        "kd": 12,
+        "comp": "ow.com",
+        "rank": 84
+      },
+      {
+        "kw": "tourist place of chennai",
+        "vol": 49500,
+        "kd": 16,
+        "comp": "ow.com",
+        "rank": 84
+      },
+      {
+        "kw": "tourist places chennai",
+        "vol": 49500,
+        "kd": 11,
+        "comp": "ow.com",
+        "rank": 85
+      },
+      {
+        "kw": "tourist locations in chennai",
+        "vol": 49500,
+        "kd": 11,
+        "comp": "ow.com",
+        "rank": 89
+      },
+      {
+        "kw": "tourist attractions of chennai",
+        "vol": 49500,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 89
+      },
+      {
+        "kw": "tourist destination in chennai",
+        "vol": 49500,
+        "kd": 6,
+        "comp": "ow.com",
+        "rank": 90
+      },
+      {
+        "kw": "in chennai tourist places",
+        "vol": 49500,
+        "kd": 2,
+        "comp": "ow.com",
+        "rank": 105
+      },
+      {
+        "kw": "best tourist places in chennai",
+        "vol": 14800,
+        "kd": 12,
+        "comp": "ow.com",
+        "rank": 73
+      },
+      {
+        "kw": "famous tourist places chennai",
+        "vol": 12100,
+        "kd": 23,
+        "comp": "ow.com",
+        "rank": 93
+      },
+      {
+        "kw": "chennai tourist places list",
+        "vol": 4400,
+        "kd": 11,
+        "comp": "ow.com",
+        "rank": 87
+      },
+      {
+        "kw": "chennai top 10 tourist places",
+        "vol": 4400,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 107
+      }
+    ],
+    "notes": "Existing page rank 68-107. 17 variants of same query (Google groups them). Estimated unique volume ~75K/mo. REWRITE existing if it exists, otherwise CREATE."
+  },
+  {
+    "cluster_id": "tourist-coimbatore",
+    "type": "E",
+    "priority": "P2",
+    "target_url": "/blog/tourist-places-to-visit-in-coimbatore",
+    "alt_urls": [],
+    "head_keyword": "tourist places to visit in coimbatore",
+    "total_volume": 51900,
+    "page_exists": false,
+    "existing_page_path": null,
+    "all_keywords": [
+      {
+        "kw": "tourist places to visit in coimbatore",
+        "vol": 49500,
+        "kd": 5,
+        "comp": "ow.com",
+        "rank": 70
+      },
+      {
+        "kw": "list of tourist places in coimbatore",
+        "vol": 2400,
+        "kd": 0,
+        "comp": "ow.com",
+        "rank": 66
+      }
+    ],
+    "notes": ""
+  }
+]

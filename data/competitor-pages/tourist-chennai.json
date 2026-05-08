@@ -1,0 +1,368 @@
+{
+  "cluster_id": "tourist-chennai",
+  "pages": [
+    {
+      "url": "https://www.tripadvisor.in/Attractions-g304556-Activities-Chennai_Madras_Chennai_District_Tamil_Nadu.html",
+      "fetched_at": "2026-05-08T02:24:45.253Z",
+      "rank": 2,
+      "fetch_status": 403,
+      "fetch_ok": false,
+      "fetch_error": "HTTP 403",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/",
+      "fetched_at": "2026-05-08T02:24:46.717Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "30 Amazingly Beautiful Tourist Places to Visit in Chennai Within 200 Km - Treebo Blog",
+      "title_length": 85,
+      "meta_description": "Chennai is one of those places which hold many destinations that can impress travelers of all age groups. You might get short of time while traveling and",
+      "meta_description_length": 153,
+      "canonical": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/",
+      "h1": [
+        "30 Amazingly Beautiful Tourist Places to Visit in Chennai Within 200 Km"
+      ],
+      "h2": [
+        "List of Top 30 Places to Visit in Chennai Within 200 Km"
+      ],
+      "h3": [
+        "1. Cholamandal Artist&#8217;s Village",
+        "2. V.G.P. Golden Beach",
+        "3. Nettukuppam",
+        "4. Muttukadu and Dakshina Chitra",
+        "5. Covelong Beach",
+        "6. Arignar Anna Zoological Park",
+        "7. Tiruvallur",
+        "8. Mahabalipuram",
+        "9. Sadras Beach Resort",
+        "10. Nagalapuram",
+        "11. Tirukalukundram",
+        "12. Kanchipuram",
+        "13. Thiruthani",
+        "14. Vedanthangal Bird Sanctuary",
+        "15. Kailasakona Waterfalls",
+        "16. Ubbalamadugu Waterfalls",
+        "17. Pulicat Lake",
+        "18. Srikalahasti",
+        "19. Tirupati",
+        "20. Vellore",
+        "21. Chandragiri",
+        "22. Balamurugan Temple",
+        "23. Tirumala",
+        "24. Gingee Fort",
+        "25. Pondicherry",
+        "26. Nellore",
+        "27. Kanipakam",
+        "28. Talakona Waterfalls",
+        "29. Arunachala Temple",
+        "30. Thiruvannamalai",
+        "Arun Midha",
+        "Leave a Reply Cancel reply",
+        "Related Articles",
+        "24 Super Exciting Things to do in Chennai",
+        "24 Refreshingly Good Cafes in Chennai",
+        "Things to do in Marina Beach: The Coastal Paradise of Chennai",
+        "8 Amazing Places to Explore in Chennai at Night",
+        "Discover Hotels and Places Nearby"
+      ],
+      "word_count": 4820,
+      "internal_link_count": 340,
+      "external_link_count": 18,
+      "image_count": 52,
+      "schema_types": [],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/",
+              "url": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/",
+              "name": "30 Amazingly Beautiful Tourist Places to Visit in Chennai Within 200 Km - Treebo Blog",
+              "isPartOf": {
+                "@id": "https://www.treebo.com/blog/#website"
+              },
+              "primaryImageOfPage": {
+                "@id": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/#primaryimage"
+              },
+              "image": {
+                "@id": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/#primaryimage"
+              },
+              "thumbnailUrl": "https://www.treebo.com/blog/wp-content/uploads/2018/06/Webp.net-compress-image-1-3.jpg",
+              "datePublished": "2018-06-29T13:13:57+00:00",
+              "dateModified": "2025-06-02T12:07:58+00:00",
+              "author": {
+                "@id": "https://www.treebo.com/blog/#/schema/person/c539d5103c3982ba2ac2860da20f73bf"
+              },
+              "description": "Chennai is one of those places which hold many destinations that can impress travelers of all age groups. You might get short of time while traveling and",
+              "breadcrumb": {
+                "@id": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/#breadcrumb"
+              },
+              "inLanguage": "en-US",
+              "potentialAction": [
+                {
+                  "@type": "ReadAction",
+                  "target": [
+                    "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/"
+                  ]
+                }
+              ]
+            },
+            {
+              "@type": "ImageObject",
+              "inLanguage": "en-US",
+              "@id": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/#primaryimage",
+              "url": "https://www.treebo.com/blog/wp-content/uploads/2018/06/Webp.net-compress-image-1-3.jpg",
+              "contentUrl": "https://www.treebo.com/blog/wp-content/uploads/2018/06/Webp.net-compress-image-1-3.jpg",
+              "width": 1349,
+              "height": 900,
+              "caption": "Places to visit in Chennai within 200 km"
+            },
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://www.treebo.com/blog/places-to-visit-in-chennai-within-200-km/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home - www.treebo.com",
+                  "item": "https://www.treebo.com/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Home",
+                  "item": "https://www.treebo.com/blog/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "name": "30 Amazingly Beautiful Tourist Places to Visit in Chennai Within 200 Km"
+                }
+              ]
+            },
+            {
+              "@type": "WebSite",
+              "@id": "https://www.treebo.com/blog/#website",
+              "url": "https://www.treebo.com/blog/",
+              "name": "Treebo Hospitality Ventures Private Limited",
+              "description": "",
+              "alternateName": "Treebo Hotels",
+              "potentialAction": [
+                {
+                  "@type": "SearchAction",
+                  "target": {
+                    "@type": "EntryPoint",
+                    "urlTemplate": "https://www.treebo.com/blog/?s={search_term_string}"
+                  },
+                  "query-input": {
+                    "@type": "PropertyValueSpecification",
+                    "valueRequired": true,
+                    "valueName": "search_term_string"
+                  }
+                }
+              ],
+              "inLanguage": "en-US"
+            },
+            {
+              "@type": "Person",
+              "@id": "https://www.treebo.com/blog/#/schema/person/c539d5103c3982ba2ac2860da20f73bf",
+              "name": "Arun Midha",
+              "image": {
+                "@type": "ImageObject",
+                "inLanguage": "en-US",
+                "@id": "https://www.treebo.com/blog/#/schema/person/image/",
+                "url": "https://secure.gravatar.com/avatar/ee5885068eb8372c13281c7b76fe828914af7a57dd1dc92a6e308748510f459d?s=96&d=mm&r=g",
+                "contentUrl": "https://secure.gravatar.com/avatar/ee5885068eb8372c13281c7b76fe828914af7a57dd1dc92a6e308748510f459d?s=96&d=mm&r=g",
+                "caption": "Arun Midha"
+              },
+              "description": "Arun Midha works in the world of technology but has a deep passion for travel and storytelling. From bustling cities to peaceful coastal towns, he enjoys exploring destinations and turning those experiences into engaging travel stories. Through his writing, Arun hopes to inspire readers to travel deeper, taste local flavours, and experience India beyond the usual tourist trails. When not writing, he enjoys movies, tech experiments, and planning his next adventure.",
+              "url": "https://www.treebo.com/blog/author/arun/"
+            }
+          ]
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://www.incredibleindia.gov.in/en/tamil-nadu/chennai",
+      "fetched_at": "2026-05-08T02:24:47.131Z",
+      "rank": 6,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Chennai | Tourist Attractions &amp; Places | Incredible India",
+      "title_length": 61,
+      "meta_description": "Explore the best of Chennai with our list of top tourist attractions, nearby places, &amp; things to do. View the best cultural sites, historical monuments &amp; more.",
+      "meta_description_length": 167,
+      "canonical": "https://www.incredibleindia.gov.in/en/tamil-nadu/chennai",
+      "h1": [
+        "Create an account",
+        "Password reset initiated?"
+      ],
+      "h2": [
+        "Incredible India",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Bihar",
+        "Chhattisgarh",
+        "Goa",
+        "Gujarat",
+        "Haryana",
+        "Himachal Pradesh",
+        "Jharkhand",
+        "Karnataka",
+        "Kerala",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Manipur",
+        "Meghalaya",
+        "Mizoram",
+        "Nagaland",
+        "Odisha",
+        "Punjab",
+        "Rajasthan",
+        "Sikkim",
+        "Tamil Nadu",
+        "Telangana",
+        "Tripura",
+        "Uttar Pradesh",
+        "Uttarakhand",
+        "West Bengal",
+        "Andaman and Nicobar Islands",
+        "Chandigarh",
+        "Dadra and Nagar Haveli and Daman and Diu",
+        "Delhi",
+        "Jammu and Kashmir",
+        "Ladakh",
+        "Lakshadweep",
+        "Puducherry",
+        "Andaman and Nicobar Islands",
+        "Andhra Pradesh",
+        "Arunachal Pradesh",
+        "Assam",
+        "Goa",
+        "Gujarat",
+        "Himachal Pradesh",
+        "Jammu and Kashmir",
+        "Jharkhand",
+        "Karnataka",
+        "Kerala",
+        "Ladakh",
+        "Madhya Pradesh",
+        "Maharashtra",
+        "Mizoram",
+        "Odisha",
+        "Punjab",
+        "Rajasthan",
+        "Sikkim",
+        "Telangana",
+        "Uttarakhand",
+        "West Bengal",
+        "Chennai",
+        "State/UT :",
+        "Embracing tradition, embracing tomorrow",
+        "Attractions",
+        "Mettur Dam",
+        "Tirupati Devasthanam Balaji",
+        "St Mary&#39;s Church",
+        "Madras Crocodile Bank Trust and Centre for Herpetology",
+        "Guindy National Park",
+        "Fort Museum",
+        "Vadapalani Murugan Temple",
+        "Marina Beach",
+        "Government Museum",
+        "Thol Isai Kalanjiyam",
+        "BM Birla Planetarium",
+        "Ashtalakshmi Temple",
+        "Annai Velankanni Church",
+        "Kapaleeswarar Temple",
+        "Valluvar Kottam Kodambakkam",
+        "Arignar Anna Zoological Park",
+        "Adyar Eco Park",
+        "San Thome Basilica",
+        "Parthasarathy Temple",
+        "Kalikambal Kamadeswarar Temple",
+        "Dr. MGR Memorial House",
+        "Fort St. George",
+        "Dakshinachitra Museum",
+        "Higginbotham’s",
+        "Madras War Cemetery",
+        "Chennai Rail Museum",
+        "Cholamandal Artists’ Village",
+        "A trove of",
+        "A trove of",
+        "Experiences",
+        "Itineraries",
+        "Chennai",
+        "Destinations Nearby",
+        "Places to stay"
+      ],
+      "h3": [
+        "Explore",
+        "Plan your trip",
+        "Tamil Nadu",
+        "18.9 - 31.6 °C",
+        "19.8 - 33.5 °C",
+        "21.8 - 35.8 °C",
+        "24.1 - 37.7 °C",
+        "24.7 - 41.7 °C",
+        "23.9 - 40.3 °C",
+        "23.4 - 38.7 °C",
+        "23.1 - 37.6 °C",
+        "22.8 - 37.0 °C",
+        "22.6 - 35.9 °C",
+        "20.8 - 33.0 °C",
+        "19.6 - 31.2 °C",
+        "worth a thousand stories",
+        "fascinating facts",
+        "fascinating facts",
+        "for every passion",
+        "that beckon every traveller",
+        "Map of",
+        "Follow us",
+        "Download App Now",
+        "Quick links",
+        "Follow us",
+        "Scan to chat",
+        "Scan to Download App",
+        "{{cityTitle}}",
+        "{{title}}"
+      ],
+      "word_count": 3872,
+      "internal_link_count": 447,
+      "external_link_count": 28,
+      "image_count": 154,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    }
+  ]
+}

@@ -1,0 +1,1078 @@
+{
+  "cluster_id": "city-coimbatore",
+  "pages": [
+    {
+      "url": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+      "fetched_at": "2026-05-08T02:16:34.755Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Rental Taxi Services in Coimbatore - Online Cab Booking",
+      "title_length": 55,
+      "meta_description": "Book Cab With Red Taxi. Get Outstation Taxi Services in Coimbatore With Affordable Prices. We Offers Cab Booking Through Mobile App for Android and iOS Support",
+      "meta_description_length": 159,
+      "canonical": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+      "h1": [
+        "Coimbatore Cab Booking"
+      ],
+      "h2": [
+        "Reach Us, We are here to help you",
+        "One-Way Trip Fare",
+        "Taxi Services in Coimbatore",
+        "Outstation Cabs from Coimbatore",
+        "Journey Through Coimbatore: Tourist Spots You Can't Miss",
+        "Fares & Tourist Spots"
+      ],
+      "h3": [
+        "Ooty",
+        "Black Thunder",
+        "Aliyar Dam",
+        "Athirappilly",
+        "Palani",
+        "Isha",
+        "Coimbatore to Ooty-Coonoor-Kotagiri",
+        "Coimbatore to Munnar",
+        "Coimbatore to Kodaikanal",
+        "Coimbatore to Guruvayoor",
+        "Coimbatore to Valparai",
+        "Coimbatore to Palani",
+        "Coimbatore to Madurai",
+        "Coimbatore to Topslip (Pollachi)",
+        "Coimbatore to Athirappilly Water Falls",
+        "Coimbatore to Yercaud",
+        "Coimbatore to Mysore",
+        "Coimbatore to Isha Yoga Center & Kovai Kutralam",
+        "Coimbatore to Aliyar Dam (Pollachi)",
+        "Coimbatore to Kodiveri Dam",
+        "Coimbatore to Malampuzha Dam (Palakkad)",
+        "Trips",
+        "Corporate",
+        "Cab Types",
+        "Become a Partner",
+        "Become a Driver",
+        "Contact Us",
+        "Careers",
+        "Cabs",
+        "Cabs",
+        "Bike Taxi",
+        "Quick Links",
+        "Become a Partner",
+        "Become a Driver",
+        "Contact Us",
+        "Careers"
+      ],
+      "word_count": 1449,
+      "internal_link_count": 91,
+      "external_link_count": 19,
+      "image_count": 60,
+      "schema_types": [
+        "Organization",
+        "Product",
+        "LocalBusiness"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://www.redtaxi.co.in",
+          "name": "Red Taxi",
+          "alternateName": "Red Taxi",
+          "url": "https://www.redtaxi.co.in/",
+          "logo": "https://www.redtaxi.co.in/images/red-taxi-logo.webp",
+          "description": "Book a Cab Online near your location. Red Taxi offers Tours, Taxi, Travels, Cabs, Car Rentals, Hire Services & Local or Outstation Packages at affordable prices",
+          "brand": {
+            "@type": "Brand",
+            "name": "Red Taxi"
+          },
+          "slogan": "Comfortable Rides, Anytime, Anywhere",
+          "knowsAbout": [
+            "Taxi Service",
+            "Cab Booking",
+            "Airport Taxi Service",
+            "Outstation Cabs",
+            "Local City Taxi",
+            "Corporate Taxi Service",
+            "24x7 Taxi Booking",
+            "Premium Cab Service",
+            "Affordable Taxi Service",
+            "Online Cab Booking"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1226, Magudam Towers, Mettupalayam Rd, Saibaba Colony",
+            "addressLocality": "Coimbatore",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "641043",
+            "addressCountry": "IN"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "0422 4567890",
+              "email": "customersupport@redtaxi.co.in",
+              "contactType": "Customer Support",
+              "areaServed": "IN",
+              "availableLanguage": [
+                "English"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/redtaxi.ind",
+            "https://www.instagram.com/redtaxicabs/",
+            "https://x.com/REDTaxiInd"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "TaxiService",
+              "@id": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+              "name": "Rental Taxi Services in Coimbatore - Online Cab Booking",
+              "url": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+              "description": "Book a cab with RedTaxi for city rides, outstation trips, and airport transfers in Coimbatore. Enjoy affordable fares and 24x7 service through our mobile app for Android and iOS.",
+              "mainEntityOfPage": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+              "serviceType": [
+                "Oneway Trip",
+                "Round Trip",
+                "Hourly Rental",
+                "Bulk Booking"
+              ],
+              "areaServed": {
+                "@type": "Place",
+                "name": "Coimbatore, Tamil Nadu, India"
+              },
+              "provider": {
+                "@type": "LocalBusiness",
+                "name": "RedTaxi",
+                "image": "https://www.redtaxi.co.in/images/red-taxi-logo.webp",
+                "url": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+                "telephone": "0422 4567890",
+                "address": {
+                  "@type": "PostalAddress",
+                  "streetAddress": "#1226, Magudam Towers, Mettupalayam Road, Saibaba Colony",
+                  "addressLocality": "Coimbatore",
+                  "addressRegion": "Tamil Nadu",
+                  "postalCode": "641043",
+                  "addressCountry": "IN"
+                },
+                "openingHours": "Mo-Su 00:00-23:59",
+                "sameAs": [
+                  "https://www.facebook.com/redtaxi.ind",
+                  "https://www.instagram.com/redtaxicabs/",
+                  "https://x.com/REDTaxiInd"
+                ]
+              },
+              "hasOfferCatalog": {
+                "@type": "OfferCatalog",
+                "name": "Trip Fares from Coimbatore",
+                "itemListElement": [
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Ooty-Coonoor-Kotagiri",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "4525",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "4275",
+                        "priceCurrency": " INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Munnar",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "6375",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "6045",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Kodaikanal",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "6375",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "6045",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Guruvayoor",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "4505",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "4275",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Valparai",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "4725",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "4495",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Palani",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "4075",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "3895",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Madurai",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "6225",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "5895",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Topslip (Pollachi)",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "3755",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "3525",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Athirappilly Water Falls",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "6225",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "5905",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Yercaud",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "5955",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "5635",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Mysore",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "6305",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "5985",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Isha Yoga Center & Kovai Kutralam",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "1795",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "1695",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Aliyar Dam (Pollachi)",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "2665",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "2505",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Kodiveri Dam",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "3675",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "3445",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  },
+                  {
+                    "@type": "Service",
+                    "name": "Coimbatore to Malampuzha Dam (Palakkad)",
+                    "offers": [
+                      {
+                        "@type": "Offer",
+                        "name": "Sedan",
+                        "price": "2365",
+                        "priceCurrency": "INR"
+                      },
+                      {
+                        "@type": "Offer",
+                        "name": "Mini",
+                        "price": "2245",
+                        "priceCurrency": "INR"
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "@type": "FAQPage",
+              "@id": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+              "mainEntity": [
+                {
+                  "@type": "Question",
+                  "name": "How can I book a RedTaxi cab in Coimbatore?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "You can easily book a cab through the RedTaxi mobile app or visit our Coimbatore cab booking page to schedule your ride instantly."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Do you offer outstation cabs from Coimbatore?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, RedTaxi provides outstation cab services from Coimbatore to popular destinations such as Ooty, Munnar, and Kotagiri at affordable fares."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Are RedTaxi cabs available 24x7 in Coimbatore?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, RedTaxi operates round-the-clock in Coimbatore. You can book a cab anytime using our website or mobile app."
+                  }
+                },
+                {
+                  "@type": "Question",
+                  "name": "Can I book a taxi for corporate or bulk travel in Coimbatore?",
+                  "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely. RedTaxi offers corporate and bulk cab booking solutions for businesses in Coimbatore. You can contact our customer support team for customized quotes."
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Taxi Service in Coimbatore",
+          "url": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+          "description": "Book a Cab With Red Taxi. Get Outstation Taxi Services in Coimbatore With Affordable Prices. We offer cab Booking Through a Mobile App for Android and iOS Support.",
+          "sku": "InStock",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "3.9",
+            "ratingCount": "4613",
+            "bestRating": "5",
+            "worstRating": "1"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "@id": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+          "name": "Red Taxi",
+          "alternateName": "Red Taxi",
+          "image": "https://www.redtaxi.co.in/images/red-taxi-logo.webp",
+          "url": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+          "logo": "https://www.redtaxi.co.in/images/red-taxi-logo.webp",
+          "description": "Book Cab With Red Taxi. Get Outstation Taxi Services in Coimbatore With Affordable Prices. We Offers Cab Booking Through Mobile App for Android and iOS Support.",
+          "slogan": "Comfortable Rides, Anytime, Anywhere",
+          "telephone": "04224567890",
+          "priceRange": "$",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1226, Magudam Towers, Mettupalayam Rd, Saibaba Colony",
+            "addressLocality": "Coimbatore",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "641043",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": "11.02674381180228",
+            "longitude": "76.9511422549062"
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          ],
+          "areaServed": {
+            "@type": "Place",
+            "name": "Coimbatore, Tamil Nadu, India"
+          },
+          "sameAs": [
+            "https://www.facebook.com/redtaxi.ind",
+            "https://www.instagram.com/redtaxicabs/",
+            "https://x.com/REDTaxiInd/"
+          ],
+          "knowsAbout": [
+            "Taxi Service",
+            "Outstation Trips",
+            "Airport Transfers",
+            "Hourly Rentals",
+            "City Rides"
+          ],
+          "brand": {
+            "@type": "Brand",
+            "@id": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+            "name": "Red Taxi",
+            "logo": "https://www.redtaxi.co.in/images/red-taxi-logo.webp",
+            "url": "https://www.redtaxi.co.in/coimbatore-cab-booking"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5",
+            "reviewCount": "1",
+            "bestRating": "5",
+            "worstRating": "1"
+          },
+          "review": [
+            {
+              "@type": "Review",
+              "author": {
+                "@type": "Person",
+                "name": "Saran Vignesh"
+              },
+              "datePublished": "2024-08-10",
+              "reviewBody": "Star Rating",
+              "name": "One of the best cabs ..... their service, booking timings and driver behaviours are the best. And the drivers don't ask for extra money.... their prices are better than auto rates for sure",
+              "reviewRating": {
+                "@type": "Rating",
+                "ratingValue": "5",
+                "bestRating": "5",
+                "worstRating": "1"
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+              "url": "https://www.redtaxi.co.in/coimbatore-cab-booking",
+              "name": "Taxi Services in Coimbatore – Red Taxi",
+              "description": "Book Cab With Red Taxi. Get Outstation Taxi Services in Coimbatore With Affordable Prices. We Offers Cab Booking Through Mobile App for Android and iOS Support.",
+              "inLanguage": "en",
+              "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.redtaxi.co.in",
+                "name": "Red Taxi",
+                "url": "https://www.redtaxi.co.in",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.redtaxi.co.in/images/red-taxi-logo.webp"
+                },
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Red Taxi",
+                  "url": "https://www.redtaxi.co.in/"
+                }
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.redtaxi.co.in/"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Taxi Services in Coimbatore – Red Taxi",
+                  "item": "https://www.redtaxi.co.in/coimbatore-cab-booking"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://fasttrackcalltaxi.in/coimbatore",
+      "fetched_at": "2026-05-08T02:16:35.676Z",
+      "rank": 5,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Coimbatore Taxi Services | FastTrack Cabs - Get ₹50 OFF | Fasttrack Call Taxi",
+      "title_length": 77,
+      "meta_description": "Book reliable and cheapest cab services in Coimbatore with FastTrack Call Taxi. Enjoy on-time pickups, 24/7 availability from Coimbatore",
+      "meta_description_length": 136,
+      "canonical": "https://fasttrackcalltaxi.in/coimbatore",
+      "h1": [
+        "Best Cab Services in Coimbatore - FastTrack"
+      ],
+      "h2": [
+        "Top Outstation Route Fares from Coimbatore",
+        "Why FastTrack Cabs",
+        "Top Outstation Routes in Coimbatore",
+        "Best cab service in Coimbatore - FastTrack Call Taxi",
+        "Best Coimbatore Cab Services in 2026",
+        "Top Tourist Places to Visit in Coimbatore",
+        "Faster than you think"
+      ],
+      "h3": [
+        "₹1,400",
+        "₹1,540",
+        "₹1,400",
+        "₹2,600",
+        "₹5,820",
+        "₹5,380",
+        "₹2,050",
+        "₹1,900",
+        "₹1,400",
+        "₹1,540",
+        "₹3,090",
+        "₹2,860",
+        "₹2,570",
+        "₹2,380",
+        "₹1,400",
+        "₹2,600",
+        "₹3,090",
+        "₹2,860",
+        "Popular Outstation Destinations",
+        "FastTrack Call Taxi Coimbatore Number",
+        "FastTrack Call Taxi in Coimbatore – Book a Cab Anytime",
+        "Cheapest Cab Service in Coimbatore",
+        "Why People Use FastTrack Cab Services in Coimbatore",
+        "What Our Customers Say About Cab Services in Coimbatore",
+        "Popular Routes from Coimbatore",
+        "Cab Booking In Coimbatore – How It Works",
+        "Ride Smart, Ride Fast! Download the FastTrack App Today!"
+      ],
+      "word_count": 1205,
+      "internal_link_count": 104,
+      "external_link_count": 6,
+      "image_count": 8,
+      "schema_types": [
+        "Organization",
+        "LocalBusiness",
+        "Service"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "name": "Fasttrack Call Taxi",
+          "url": "https://fasttrackcalltaxi.in",
+          "logo": "https://fasttrackcalltaxi.in/web-app-icon.png",
+          "sameAs": [
+            "https://www.facebook.com/fasttracktaxi",
+            "https://www.instagram.com/fasttracktaxi/",
+            "https://x.com/TaxiFastTrack?lang=en",
+            "https://www.linkedin.com/company/fasttracktaxi"
+          ],
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+9104428889999",
+              "contactType": "customer service",
+              "areaServed": "IN",
+              "availableLanguage": [
+                "en",
+                "ta"
+              ]
+            }
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "No.234/236, Opp. Ram Theater, Arcot Road, Kodambakkam",
+            "addressLocality": "Chennai",
+            "addressRegion": "TN",
+            "postalCode": "600024",
+            "addressCountry": "IN"
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "LocalBusiness",
+          "name": "FastTrack Call Taxi - Coimbatore",
+          "url": "https://fasttrackcalltaxi.in/coimbatore",
+          "telephone": "+9104222888999",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "159,7th street Extension Near CSR Hospital, near Hotel Royal Castle Inn, Gandhipuram",
+            "addressLocality": "Coimbatore",
+            "addressRegion": "TN",
+            "postalCode": "641012",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 11.021592200924989,
+            "longitude": 76.96614519663038
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday",
+                "Sunday"
+              ],
+              "opens": "00:00",
+              "closes": "23:59"
+            }
+          ],
+          "servesCuisine": "Taxi Services",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingCount": 459902
+          }
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Service",
+          "name": "Cab Service in Coimbatore",
+          "description": "Reliable cab booking in Coimbatore",
+          "image": "https://fasttrackcalltaxi.in/images/logo.png",
+          "brand": {
+            "@type": "Brand",
+            "name": "FastTrack Call Taxi"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.8",
+            "ratingCount": 241383
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "lowPrice": "14",
+            "priceCurrency": "INR",
+            "url": "https://fasttrackcalltaxi.in/coimbatore",
+            "offerCount": 1,
+            "seller": {
+              "@type": "Organization",
+              "name": "FastTrack Call Taxi"
+            },
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "applicableCountry": "IN",
+              "returnPolicyCategory": "https://schema.org/NoReturns"
+            },
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "priceCurrency": "INR"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "IN"
+              }
+            }
+          }
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": true,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://www.uber.com/in/en/r/cities/taxi/coimbatore-north-tamil-nadu-in/",
+      "fetched_at": "2026-05-08T02:16:38.238Z",
+      "rank": 6,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Coimbatore North Taxi Cab Service Near Me | Book a Ride 24x7 | Uber",
+      "title_length": 67,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [
+        "Need taxi cab service in Coimbatore North?"
+      ],
+      "h2": [
+        "Taxi services in Coimbatore North, Tamil Nadu with Uber",
+        "Get the Uber app to request a ride",
+        "Looking for taxis near you? Try these ride options instead",
+        "Uber Go rates",
+        "Nearby ride services",
+        "Frequently asked questions",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out"
+      ],
+      "h3": [
+        "Browser not supported",
+        "24x7 requesting",
+        "Helpful safety features",
+        "Upfront price estimates",
+        "4-seaters",
+        "6-seaters",
+        "On average, rides lasting 26 minutes in Coimbatore North cost ₹300.",
+        "24x7 Coimbatore North rides",
+        "Business travel",
+        "Airport transportation",
+        "About",
+        "About"
+      ],
+      "word_count": 1536,
+      "internal_link_count": 95,
+      "external_link_count": 84,
+      "image_count": 7,
+      "schema_types": [
+        "BreadcrumbList",
+        "FAQPage"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Coimbatore North",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/coimbatore-north-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Taxi Coimbatore North",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Coimbatore North",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/coimbatore-north-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Taxi Coimbatore North",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Coimbatore North",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/coimbatore-north-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Taxi Coimbatore North",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>While you can’t request a cab using Uber in Coimbatore North, you can request a trip with Uber Go directly from the Uber app. To get started, open the Uber app, enter your pickup and dropoff locations, then select Uber Go from the list of ride options. You’ll be matched with a driver to assist you with your trip.</p>\n"
+              },
+              "name": "How do I request cab service in Coimbatore North with Uber?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Yes. You can use the Uber app to provide a tip, and giving cash directly to your driver is also an option (100% of your in-app tip goes directly to the driver).</p>\n"
+              },
+              "name": "Can I tip my driver in Coimbatore North?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Safety is a top priority for every ride with Uber. With the Uber app, we bring global enhanced ridecheck safety features to Indian markets. Share trip details with contacts, access the emergency assistance button to call local authorities, and explore more safety features, all from the Uber app.</p>\n"
+              },
+              "name": "Is it safe to request a ride with Uber in Coimbatore North?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>With the Uber app, you can request a ride 24x7 to connect with a driver, enjoy upfront prices, and access in-app safety features to help you stay protected while you ride.</p>\n"
+              },
+              "name": "What is the difference between requesting a ride in Coimbatore North with Uber and contacting a taxi company directly?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>With the Uber app, you can explore ride options that have rider limits ranging between 4 and 6 people. The passenger limit for a taxi in your area varies by vehicle and jurisdiction.</p>\n"
+              },
+              "name": "How many passengers can ride in a taxi compared with Uber Go in Coimbatore North?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Yes, you can change your trip details after requesting a ride in Coimbatore North with Uber.</p>\n"
+              },
+              "name": "Can I change my trip after requesting a ride in Coimbatore North with Uber?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can use the Uber app to contact the driver regarding the lost item. To get started, visit the Uber app and go to the Account section. Choose Trips, then select the trip on which you forgot the item. Next, choose Find Lost Item and follow the in-app instructions. </p>\n"
+              },
+              "name": "What do I do if I forget an item in a ride with Uber?"
+            }
+          ]
+        }
+      ],
+      "faq_count": 7,
+      "faq_questions": [
+        "How do I request cab service in Coimbatore North with Uber?",
+        "Can I tip my driver in Coimbatore North?",
+        "Is it safe to request a ride with Uber in Coimbatore North?",
+        "What is the difference between requesting a ride in Coimbatore North with Uber and contacting a taxi company directly?",
+        "How many passengers can ride in a taxi compared with Uber Go in Coimbatore North?",
+        "Can I change my trip after requesting a ride in Coimbatore North with Uber?",
+        "What do I do if I forget an item in a ride with Uber?"
+      ],
+      "has_pricing_table": true,
+      "has_distance_info": false
+    }
+  ]
+}

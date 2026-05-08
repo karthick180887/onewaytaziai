@@ -1,0 +1,400 @@
+{
+  "cluster_id": "route-bangalore-mysore",
+  "pages": [
+    {
+      "url": "https://www.makemytrip.com/car-rental/bangalore-mysore-cab-services.html",
+      "fetched_at": "2026-05-08T02:19:12.291Z",
+      "rank": 2,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.uber.com/in/en/r/intercity/bangalore-karnataka-to-mysore-karnataka/",
+      "fetched_at": "2026-05-08T02:19:12.397Z",
+      "rank": 3,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Bangalore to Mysore Cabs @ 2192 (up to 500 off) | Uber Intercity",
+      "title_length": 64,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [
+        "Book Bangalore to Mysore cabs at ₹1757 (up to ₹500 off)"
+      ],
+      "h2": [
+        "Bangalore to Mysore outstation cab options",
+        "Need help choosing the right intercity ride? Call 0522-4665220—no app required.",
+        "Why book Bangalore to Mysore cabs with Uber Intercity",
+        "Transportation options",
+        "Frequently asked questions",
+        "Popular nearby intercity routes",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out"
+      ],
+      "h3": [
+        "Browser not supported",
+        "Average travel time",
+        "Average route distance",
+        "Average route price",
+        "Uber Go Intercity",
+        "1-4 seats",
+        "Uber Sedan Intercity",
+        "1-4 seats",
+        "UberXL Intercity",
+        "1-6 seats",
+        "Affordable one-way fares",
+        "24x7 availability",
+        "In-app safety features",
+        "Cabs from Bangalore",
+        "About",
+        "About"
+      ],
+      "word_count": 1765,
+      "internal_link_count": 92,
+      "external_link_count": 82,
+      "image_count": 6,
+      "schema_types": [
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Bangalore",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/bangalore-south-karnataka-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Bangalore to Mysore cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Bangalore",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/bangalore-south-karnataka-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Bangalore to Mysore cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Bangalore",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/bangalore-south-karnataka-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Bangalore to Mysore cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Bangalore to Mysore outstation cab",
+          "image": "https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,h_1152,w_1152/v1729199487/assets/22/f40fc4-04d6-440b-be79-572c59f31de3/original/Uber_Intercity_Small2x.svg",
+          "description": "Bangalore to Mysore outstation cab",
+          "offers": {
+            "@type": "AggregateOffer",
+            "offerCount": 3,
+            "lowPrice": 1757,
+            "highPrice": 1757,
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Uber Intercity helps you conveniently book comfortable cars online or from the Uber app so you can travel outstation. Whether you want to travel from Bangalore to Mysore or to another destination, there’s a vehicle for your travel needs. Enjoy door-to-door pickup and dropoff every time. </p>\n"
+              },
+              "name": "What is Uber Intercity? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>While signed in to your Uber account, open the Uber app, then enter the pickup and dropoff addresses in the “Where to?” box. From there, select your preferred Intercity ride option to confirm your trip from Bangalore to Mysore. </p>\n<p>You can also book outstation cabs online. First sign in to your Uber account, enter your pickup and dropoff locations, then select one of the Uber Intercity options to request an outstation cab to take you from Bangalore to Mysore.  </p>\n"
+              },
+              "name": "How do I request a ride for outstation travel from Bangalore to Mysore? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Several ride options are available to help you get from Bangalore to Mysore. For groups with up to 4 people, select Go Intercity or Sedan Intercity. If you’re travelling with up to 6 people, select UberXL Intercity as your ride option.</p>\n"
+              },
+              "name": "What ride options are available to get from Bangalore to Mysore?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p> On average, it costs ₹1757 to travel from Bangalore to Mysore with Uber Intercity. Prices may vary due to weather, traffic, and other factors.</p>\n"
+              },
+              "name": "How much does a cab cost to get from Bangalore to Mysore?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>On average, it takes 3 hours  to travel from Bangalore to Mysore with Uber Intercity. Duration may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "How much time does it take to get from Bangalore to Mysore?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can cancel your ride from Bangalore to Mysore at any time with Uber Intercity. Cancellation fees depend on the overall distance and time that a driver travelled while picking up the rider for a cancelled trip.</p>\n"
+              },
+              "name": "What is the cancellation policy for cabs booked from Bangalore to Mysore? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can use cash, Paytm, Amazon Pay, and Uber for Business payment methods to pay for your trip from Bangalore to Mysore with Uber Intercity. </p>\n"
+              },
+              "name": "How can I pay for my trip from Bangalore to Mysore with Uber Intercity?  "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The most affordable ride option to book to get from Bangalore to Mysore is Uber Go Intercity. </p>\n"
+              },
+              "name": "What is the most affordable ride option to book to get from Bangalore to Mysore?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Safety is a priority for rides booked with Uber Intercity. You can access in-app safety features such as Share My Trip so that someone always knows where you are while travelling from Bangalore to Mysore or another destination.</p>\n"
+              },
+              "name": "Is it safe to book outstation cabs with Uber Intercity?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The average distance from Bangalore to Mysore by outstation cab is 151 kilometers. The average distance may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "What is the distance from Bangalore to Mysore by outstation cab?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Yes, you can request a round-trip ride with Uber Intercity. Check in the app to see if round-trip rides are available from Bangalore to Mysore.</p>\n"
+              },
+              "name": "Can I book a round-trip ride from Bangalore to Mysore?"
+            }
+          ]
+        }
+      ],
+      "faq_count": 11,
+      "faq_questions": [
+        "What is Uber Intercity? ",
+        "How do I request a ride for outstation travel from Bangalore to Mysore? ",
+        "What ride options are available to get from Bangalore to Mysore?",
+        "How much does a cab cost to get from Bangalore to Mysore?",
+        "How much time does it take to get from Bangalore to Mysore?",
+        "What is the cancellation policy for cabs booked from Bangalore to Mysore? ",
+        "How can I pay for my trip from Bangalore to Mysore with Uber Intercity?  ",
+        "What is the most affordable ride option to book to get from Bangalore to Mysore?",
+        "Is it safe to book outstation cabs with Uber Intercity?",
+        "What is the distance from Bangalore to Mysore by outstation cab?",
+        "Can I book a round-trip ride from Bangalore to Mysore?"
+      ],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://quickride.in/bangalore-to-mysore-cabs.php",
+      "fetched_at": "2026-05-08T02:19:13.557Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Bangalore to Mysore Cabs Taxi at ₹2031 | Quick Ride",
+      "title_length": 51,
+      "meta_description": "Bangalore to Mysore Oneway cabs & Round trip cabs at lowest rates on Quick Ride. Book Taxi Online starting ₹2031. Get 10% Off on Advance Booking.",
+      "meta_description_length": 145,
+      "canonical": null,
+      "h1": [
+        "Bangalore to Mysore Cabs at lowest fares"
+      ],
+      "h2": [
+        "Book Cab/Taxi at the best prices with Quick Ride",
+        "Oneway Taxi from Bengaluru starts at ₹1,500/-",
+        "Book Cabs Bangalore to Mysore at lowest price. Book outstation taxi in advance & get the taxi on-time at 5-10% cheaper fares.",
+        "Outstation Cabs in Bangalore at lowest fares",
+        "Why Book Bangalore to Mysore Cabs from Quick Ride",
+        "Quick Ride Outstation Cabs is Bengaluru's Most Realiable Outstation Taxi",
+        "Car Options and Fare from Bangalore to Mysore Cabs",
+        "Why travel Bangalore to Mysore by Road",
+        "Places to visit in Mysore",
+        "Popular Outstation cabs from Bangalore",
+        "Quick Ride Outstation Taxi Vehicle Types and Km Charges",
+        "What our customers are saying",
+        "about their Outstation Taxi experience...",
+        "FAQs of Quick Ride",
+        "Why I should choose Quick Ride for Bangalore to Mysore Travels?",
+        "Can I book Bangalore to Mysore Outstation Taxi in Advance?",
+        "How do I pay and when to pay? What are the different ways to make payment ?",
+        "Intercity Travel Fares are less for me, but what will the drivers get?",
+        "What are the cancellation charges?",
+        "Is toll, state tax, and other charges included in the fare?",
+        "How to pay for the rides?",
+        "How much is the advance payment I should make for the booking Bangalore to Mysore taxi?",
+        "Before how many hours I should make Bangalore to Mysore Cab booking?",
+        "What is the Min. KM per day?",
+        "Looking for a Local & Airport Taxi?",
+        "Quick Ride offers Local & Airport Taxi Service Bangalore at 10% lowest fares than other Taxi Services in bangalore.",
+        "Download the Quick Ride app to book the Airport and Outstation Taxi."
+      ],
+      "h3": [
+        "• On Time Pick up and Drop",
+        "• 10% Lesser Fare",
+        "• Professional Drivers and Clean Cars",
+        "• Free Upgrade to Sedan",
+        "• Transparent Billing",
+        "• 24x7 Customer Support",
+        "Bangalore to Chennai",
+        "Bangalore to Ooty",
+        "Bangalore to Coorg",
+        "Bangalore to Hyderabad",
+        "Bangalore to Pondicherry",
+        "Bangalore to Mangalore"
+      ],
+      "word_count": 1318,
+      "internal_link_count": 8,
+      "external_link_count": 1,
+      "image_count": 9,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": true,
+      "has_distance_info": true
+    }
+  ]
+}

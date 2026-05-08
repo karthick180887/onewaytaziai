@@ -1,0 +1,409 @@
+{
+  "cluster_id": "route-chennai-pondicherry",
+  "pages": [
+    {
+      "url": "https://www.makemytrip.com/car-rental/chennai-pondicherry-cab-services.html",
+      "fetched_at": "2026-05-08T02:20:51.386Z",
+      "rank": 2,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.onewaydroptaxi.com/chennai-to-pondicherry-one-way-taxi-service.html?srsltid=AfmBOorIps4_w_JOyAlcwjKwBG0A6I9xnCov5BC_aU5E9hCYNaaf5GgR",
+      "fetched_at": "2026-05-08T02:20:51.885Z",
+      "rank": 3,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Chennai to Pondicherry Taxi Service | Chennai to Pondicherry Cab Service",
+      "title_length": 72,
+      "meta_description": "One way drop taxi provides one way taxi from chennai to pondicherry with inculdes the pick from anywhere in chennai and pondicherry.Get all types of cheap taxi booking services at lowest fare.",
+      "meta_description_length": 192,
+      "canonical": "https://www.onewaydroptaxi.com/chennai-to-pondicherry-one-way-taxi-service.html",
+      "h1": [
+        "Chennai to Pondicherry Taxi Fare"
+      ],
+      "h2": [
+        "Outstation Cabs from",
+        "Chennai to Pondicherry",
+        "Chennai to Pondicherry One Way & Round Trip tariff PLAN",
+        "Why book taxi online for outstation at one way drop taxi"
+      ],
+      "h3": [
+        "Quick Booking APP",
+        "Safe and Secure",
+        "24/7 Customer Service",
+        "Vehicle Option",
+        "Save money",
+        "Advance Booking"
+      ],
+      "word_count": 667,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 11,
+      "schema_types": [
+        "corporation"
+      ],
+      "schemas": [
+        {
+          "@context": "http://schema.org",
+          "@type": "corporation",
+          "name": "One way drop taxi",
+          "url": "https://www.onewaydroptaxi.com/",
+          "logo": "https://www.onewaydroptaxi.com/images/one-way-drop-taxi.png",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": " 30, srinagar main road,Anna salai",
+            "addressLocality": " Poonamallee,Chennai",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "600056",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "telephone": "+919040091009",
+            "email": "Support@onewaydroptaxi.com"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "ratingCount": "488"
+          }
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://www.uber.com/in/en/r/intercity/chennai-tamil-nadu-to-puducherry-puducherry/",
+      "fetched_at": "2026-05-08T02:20:52.489Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Chennai to Puducherry Cabs @ ₹2438 (up to ₹500 off) | Uber Intercity | Chennai to Puducherry Distance 142 km",
+      "title_length": 108,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [
+        "Book Chennai to Puducherry cabs at ₹2338 (up to ₹500 off)"
+      ],
+      "h2": [
+        "Chennai to Puducherry outstation cab options",
+        "Need help choosing the right intercity ride? Call 0522-4665220—no app required.",
+        "Why book Chennai to Puducherry cabs with Uber Intercity",
+        "Transportation options",
+        "What to know when visiting Puducherry, Puducherry",
+        "Frequently asked questions",
+        "Popular nearby intercity routes",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out"
+      ],
+      "h3": [
+        "Browser not supported",
+        "Average travel time",
+        "Average route distance",
+        "Average route price",
+        "Uber Go Intercity",
+        "1-4 seats",
+        "Uber Sedan Intercity",
+        "1-4 seats",
+        "UberXL Intercity",
+        "1-6 seats",
+        "Affordable one-way fares",
+        "24x7 availability",
+        "In-app safety features",
+        "Overview and Atmosphere",
+        "Climate and Best Time to Visit",
+        "Top Attractions",
+        "Cabs from Chennai",
+        "About",
+        "About"
+      ],
+      "word_count": 2001,
+      "internal_link_count": 92,
+      "external_link_count": 82,
+      "image_count": 6,
+      "schema_types": [
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Chennai",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/chennai-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Chennai to Puducherry cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Chennai",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/chennai-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Chennai to Puducherry cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Chennai",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/chennai-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Chennai to Puducherry cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Chennai to Puducherry outstation cab",
+          "image": "https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,h_1152,w_1152/v1729199487/assets/22/f40fc4-04d6-440b-be79-572c59f31de3/original/Uber_Intercity_Small2x.svg",
+          "description": "Chennai to Puducherry outstation cab",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.7,
+            "reviewCount": 1864
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "offerCount": 3,
+            "lowPrice": 2338,
+            "highPrice": 2338,
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Uber Intercity helps you conveniently book comfortable cars online or from the Uber app so you can travel outstation. Whether you want to travel from Chennai to Puducherry or to another destination, there’s a vehicle for your travel needs. Enjoy door-to-door pickup and dropoff every time. </p>\n"
+              },
+              "name": "What is Uber Intercity? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>While signed in to your Uber account, open the Uber app, then enter the pickup and dropoff addresses in the “Where to?” box. From there, select your preferred Intercity ride option to confirm your trip from Chennai to Puducherry. </p>\n<p>You can also book outstation cabs online. First sign in to your Uber account, enter your pickup and dropoff locations, then select one of the Uber Intercity options to request an outstation cab to take you from Chennai to Puducherry.  </p>\n"
+              },
+              "name": "How do I request a ride for outstation travel from Chennai to Puducherry? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Several ride options are available to help you get from Chennai to Puducherry. For groups with up to 4 people, select Go Intercity or Sedan Intercity. If you’re travelling with up to 6 people, select UberXL Intercity as your ride option.</p>\n"
+              },
+              "name": "What ride options are available to get from Chennai to Puducherry?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p> On average, it costs ₹2338 to travel from Chennai to Puducherry with Uber Intercity. Prices may vary due to weather, traffic, and other factors.</p>\n"
+              },
+              "name": "How much does a cab cost to get from Chennai to Puducherry?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>On average, it takes 3 hours  to travel from Chennai to Puducherry with Uber Intercity. Duration may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "How much time does it take to get from Chennai to Puducherry?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can cancel your ride from Chennai to Puducherry at any time with Uber Intercity. Cancellation fees depend on the overall distance and time that a driver travelled while picking up the rider for a cancelled trip.</p>\n"
+              },
+              "name": "What is the cancellation policy for cabs booked from Chennai to Puducherry? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can use cash, Paytm, Amazon Pay, and Uber for Business payment methods to pay for your trip from Chennai to Puducherry with Uber Intercity. </p>\n"
+              },
+              "name": "How can I pay for my trip from Chennai to Puducherry with Uber Intercity?  "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The most affordable ride option to book to get from Chennai to Puducherry is Uber Go Intercity. </p>\n"
+              },
+              "name": "What is the most affordable ride option to book to get from Chennai to Puducherry?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Safety is a priority for rides booked with Uber Intercity. You can access in-app safety features such as Share My Trip so that someone always knows where you are while travelling from Chennai to Puducherry or another destination.</p>\n"
+              },
+              "name": "Is it safe to book outstation cabs with Uber Intercity?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The average distance from Chennai to Puducherry by outstation cab is 142 kilometers. The average distance may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "What is the distance from Chennai to Puducherry by outstation cab?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Yes, you can request a round-trip ride with Uber Intercity. Check in the app to see if round-trip rides are available from Chennai to Puducherry.</p>\n"
+              },
+              "name": "Can I book a round-trip ride from Chennai to Puducherry?"
+            }
+          ]
+        }
+      ],
+      "faq_count": 11,
+      "faq_questions": [
+        "What is Uber Intercity? ",
+        "How do I request a ride for outstation travel from Chennai to Puducherry? ",
+        "What ride options are available to get from Chennai to Puducherry?",
+        "How much does a cab cost to get from Chennai to Puducherry?",
+        "How much time does it take to get from Chennai to Puducherry?",
+        "What is the cancellation policy for cabs booked from Chennai to Puducherry? ",
+        "How can I pay for my trip from Chennai to Puducherry with Uber Intercity?  ",
+        "What is the most affordable ride option to book to get from Chennai to Puducherry?",
+        "Is it safe to book outstation cabs with Uber Intercity?",
+        "What is the distance from Chennai to Puducherry by outstation cab?",
+        "Can I book a round-trip ride from Chennai to Puducherry?"
+      ],
+      "has_pricing_table": true,
+      "has_distance_info": false
+    }
+  ]
+}

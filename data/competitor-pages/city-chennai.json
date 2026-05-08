@@ -1,0 +1,193 @@
+{
+  "cluster_id": "city-chennai",
+  "pages": [
+    {
+      "url": "https://www.droptaxi.in/",
+      "fetched_at": "2026-05-08T02:16:32.140Z",
+      "rank": 1,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "DropTaxi",
+      "title_length": 8,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [
+        "Get a drop taxi booking for just Rs.14/km",
+        "Available vehicles!",
+        "Confirm Your Booking",
+        "Why Choose Us?",
+        "Popular Cities",
+        "Popular Routes",
+        "DOWNLOAD OUR APP NOW!",
+        "What Our Customers Say"
+      ],
+      "h2": [
+        "Trichy",
+        "Pondicherry",
+        "Bangalore",
+        "Chennai",
+        "Madurai",
+        "Kumbakonam",
+        "Vellore",
+        "Thiruvannamalai",
+        "Thanjavur",
+        "Salem",
+        "Tirunelveli",
+        "Coimbatore",
+        "Ooty",
+        "Rameshwaram",
+        "Karaikudi"
+      ],
+      "h3": [
+        "Booking Summary -",
+        "Request a Callback"
+      ],
+      "word_count": 1633,
+      "internal_link_count": 15,
+      "external_link_count": 15,
+      "image_count": 98,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": true,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://onewaydroptaxi.com/?srsltid=AfmBOorCFLJr4Big6kMjO-fQhBoY6WamLK6QHPvjqBcOyMke83Em0iqG",
+      "fetched_at": "2026-05-08T02:16:32.622Z",
+      "rank": 5,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Book Online Outstation Taxi Service| 9040091009 | OneWayDropTaxi.Com @ One\r\n      Way Fare",
+      "title_length": 90,
+      "meta_description": "If you are looking for reliable outstation taxi services in tamilnadu, bangalore, pondicherry, kerala, andhra pradesh. one way drop taxi service provide one way and round trip outstation taxi service at affordable price.",
+      "meta_description_length": 220,
+      "canonical": "https://onewaydroptaxi.com",
+      "h1": [],
+      "h2": [
+        "Welcome to",
+        "Oneway Drop Taxi",
+        "Book Online Outstation Cab At One Way Fare"
+      ],
+      "h3": [
+        "Why Choose Us?",
+        "Testimonials",
+        "Booking Tariff",
+        "Book an One Way Drop Taxi from the App",
+        "Airport Outstation Taxi",
+        "One Way Outstation Trip",
+        "One Way Outstation Trip",
+        "One Way Outstation Trip"
+      ],
+      "word_count": 780,
+      "internal_link_count": 0,
+      "external_link_count": 7,
+      "image_count": 25,
+      "schema_types": [
+        "corporation"
+      ],
+      "schemas": [
+        {
+          "@context": "http://schema.org",
+          "@type": "corporation",
+          "name": "One way drop taxi",
+          "url": "https://www.onewaydroptaxi.com/",
+          "logo": "https://www.onewaydroptaxi.com/images/one-way-drop-taxi.png",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": " 30, srinagar main road,Anna salai",
+            "addressLocality": " Poonamallee,Chennai",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "600056",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "telephone": "+919040091009",
+            "email": "Support@onewaydroptaxi.com"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "ratingCount": "488"
+          }
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://play.google.com/store/apps/details?id=com.droptaxi.clientappnew&hl=en_IN",
+      "fetched_at": "2026-05-08T02:16:33.829Z",
+      "rank": 7,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "droptaxi – Apps on Google Play",
+      "title_length": 30,
+      "meta_description": "Trusted intercity drop taxi service across South India. Pay Just for the drop !",
+      "meta_description_length": 79,
+      "canonical": "https://play.google.com/store/apps/details?id=com.droptaxi.clientappnew&amp;hl=en_IN",
+      "h1": [
+        "droptaxi"
+      ],
+      "h2": [
+        "About this app",
+        "Data safety",
+        "Ratings and reviews",
+        "App support",
+        "Similar apps"
+      ],
+      "h3": [],
+      "word_count": 1355,
+      "internal_link_count": 25,
+      "external_link_count": 17,
+      "image_count": 27,
+      "schema_types": [
+        "SoftwareApplication"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "SoftwareApplication",
+          "name": "droptaxi",
+          "url": "https://play.google.com/store/apps/details/droptaxi?id=com.droptaxi.clientappnew&hl=en_IN",
+          "description": "Trusted intercity drop taxi service across South India. Pay Just for the drop !",
+          "operatingSystem": "ANDROID",
+          "applicationCategory": "TRAVEL_AND_LOCAL",
+          "image": "https://play-lh.googleusercontent.com/oXEcUQfLtQxTsYk2fr3WL3uDQl4dmdlkXYbFzE_yg-LK2BVfCoBxyp7-p8KqptLkS4LAAcKC5LO351joHmj74_M",
+          "contentRating": "Rated for 3+",
+          "author": {
+            "@type": "Person",
+            "name": "DropTaxi",
+            "url": "http://www.droptaxi.in"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6954545974731445",
+            "ratingCount": "2263"
+          },
+          "offers": [
+            {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock"
+            }
+          ]
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    }
+  ]
+}

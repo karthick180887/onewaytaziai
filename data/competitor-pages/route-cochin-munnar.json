@@ -1,0 +1,3189 @@
+{
+  "cluster_id": "route-cochin-munnar",
+  "pages": [
+    {
+      "url": "https://www.makemytrip.com/car-rental/cochin-munnar-cab-services.html",
+      "fetched_at": "2026-05-08T02:21:25.419Z",
+      "rank": 2,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.uber.com/in/en/r/intercity/kochi-kerala-to-munnar-kerala/",
+      "fetched_at": "2026-05-08T02:21:25.740Z",
+      "rank": 3,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Kochi to Munnar Cabs @ ₹2269 (up to ₹500 off) | Uber Intercity | Kochi to Munnar Distance 101 km",
+      "title_length": 96,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [
+        "Book Kochi to Munnar cabs at ₹1890 (up to ₹500 off)"
+      ],
+      "h2": [
+        "Kochi to Munnar outstation cab options",
+        "Need help choosing the right intercity ride? Call 0522-4665220—no app required.",
+        "Why book Kochi to Munnar cabs with Uber Intercity",
+        "Transportation options",
+        "Frequently asked questions",
+        "Popular nearby intercity routes",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out"
+      ],
+      "h3": [
+        "Browser not supported",
+        "Average travel time",
+        "Average route distance",
+        "Average route price",
+        "Uber Go Intercity",
+        "1-4 seats",
+        "Uber Sedan Intercity",
+        "1-4 seats",
+        "UberXL Intercity",
+        "1-6 seats",
+        "Affordable one-way fares",
+        "24x7 availability",
+        "In-app safety features",
+        "Cabs from Kochi",
+        "About",
+        "About"
+      ],
+      "word_count": 1728,
+      "internal_link_count": 92,
+      "external_link_count": 82,
+      "image_count": 6,
+      "schema_types": [
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Kochi",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/kochi-kerala-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Kochi to Munnar cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Kochi",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/kochi-kerala-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Kochi to Munnar cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Kochi",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/kochi-kerala-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Kochi to Munnar cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Kochi to Munnar outstation cab",
+          "image": "https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,h_1152,w_1152/v1729199487/assets/22/f40fc4-04d6-440b-be79-572c59f31de3/original/Uber_Intercity_Small2x.svg",
+          "description": "Kochi to Munnar outstation cab",
+          "offers": {
+            "@type": "AggregateOffer",
+            "offerCount": 3,
+            "lowPrice": 1890,
+            "highPrice": 1890,
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Uber Intercity helps you conveniently book comfortable cars online or from the Uber app so you can travel outstation. Whether you want to travel from Kochi to Munnar or to another destination, there’s a vehicle for your travel needs. Enjoy door-to-door pickup and dropoff every time. </p>\n"
+              },
+              "name": "What is Uber Intercity? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>While signed in to your Uber account, open the Uber app, then enter the pickup and dropoff addresses in the “Where to?” box. From there, select your preferred Intercity ride option to confirm your trip from Kochi to Munnar. </p>\n<p>You can also book outstation cabs online. First sign in to your Uber account, enter your pickup and dropoff locations, then select one of the Uber Intercity options to request an outstation cab to take you from Kochi to Munnar.  </p>\n"
+              },
+              "name": "How do I request a ride for outstation travel from Kochi to Munnar? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Several ride options are available to help you get from Kochi to Munnar. For groups with up to 4 people, select Go Intercity or Sedan Intercity. If you’re travelling with up to 6 people, select UberXL Intercity as your ride option.</p>\n"
+              },
+              "name": "What ride options are available to get from Kochi to Munnar?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p> On average, it costs ₹1890 to travel from Kochi to Munnar with Uber Intercity. Prices may vary due to weather, traffic, and other factors.</p>\n"
+              },
+              "name": "How much does a cab cost to get from Kochi to Munnar?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>On average, it takes 4 hours  to travel from Kochi to Munnar with Uber Intercity. Duration may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "How much time does it take to get from Kochi to Munnar?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can cancel your ride from Kochi to Munnar at any time with Uber Intercity. Cancellation fees depend on the overall distance and time that a driver travelled while picking up the rider for a cancelled trip.</p>\n"
+              },
+              "name": "What is the cancellation policy for cabs booked from Kochi to Munnar? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can use cash, Paytm, Amazon Pay, and Uber for Business payment methods to pay for your trip from Kochi to Munnar with Uber Intercity. </p>\n"
+              },
+              "name": "How can I pay for my trip from Kochi to Munnar with Uber Intercity?  "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The most affordable ride option to book to get from Kochi to Munnar is Uber Go Intercity. </p>\n"
+              },
+              "name": "What is the most affordable ride option to book to get from Kochi to Munnar?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Safety is a priority for rides booked with Uber Intercity. You can access in-app safety features such as Share My Trip so that someone always knows where you are while travelling from Kochi to Munnar or another destination.</p>\n"
+              },
+              "name": "Is it safe to book outstation cabs with Uber Intercity?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The average distance from Kochi to Munnar by outstation cab is 101 kilometers. The average distance may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "What is the distance from Kochi to Munnar by outstation cab?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Yes, you can request a round-trip ride with Uber Intercity. Check in the app to see if round-trip rides are available from Kochi to Munnar.</p>\n"
+              },
+              "name": "Can I book a round-trip ride from Kochi to Munnar?"
+            }
+          ]
+        }
+      ],
+      "faq_count": 11,
+      "faq_questions": [
+        "What is Uber Intercity? ",
+        "How do I request a ride for outstation travel from Kochi to Munnar? ",
+        "What ride options are available to get from Kochi to Munnar?",
+        "How much does a cab cost to get from Kochi to Munnar?",
+        "How much time does it take to get from Kochi to Munnar?",
+        "What is the cancellation policy for cabs booked from Kochi to Munnar? ",
+        "How can I pay for my trip from Kochi to Munnar with Uber Intercity?  ",
+        "What is the most affordable ride option to book to get from Kochi to Munnar?",
+        "Is it safe to book outstation cabs with Uber Intercity?",
+        "What is the distance from Kochi to Munnar by outstation cab?",
+        "Can I book a round-trip ride from Kochi to Munnar?"
+      ],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/",
+      "fetched_at": "2026-05-08T02:21:26.856Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Book Kochi Munnar Taxi Package (3 days) at &#8377;9,300 | Blue Bird Travels",
+      "title_length": 75,
+      "meta_description": "Explore the scenic beauty of Kerala with Blue Bird Travels 3-day Kochi to Munnar taxi package. Enjoy the stunning views and cultural attractions. Book now!",
+      "meta_description_length": 155,
+      "canonical": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/",
+      "h1": [
+        "Kochi Munnar Taxi Package (3 days)"
+      ],
+      "h2": [
+        "Your benefits of booking with us",
+        "Munnar",
+        "Munnar Taxi Package",
+        "Kochi Munnar Kochi Itinerary",
+        "Kochi to Munnar Taxi Packages (3 Days) Taxi Fare",
+        "What’s Included in the Fare?",
+        "Premium Hotels In Munnar",
+        "You may also be interested in:",
+        "Popular Questions",
+        "Additional information",
+        "You May Also Like"
+      ],
+      "h3": [
+        "For free travel consultation through WhatsApp. Contact us now.",
+        "Options: Swift DZire, Innova, Tempo Traveller (12 to 19 Seater), Coaches.",
+        "For free travel consultation through WhatsApp. Contact us now.",
+        "Options: Swift DZire, Innova, Tempo Traveller (12 to 19 Seater), Coaches.",
+        "Day 1: Cheeyappara Waterfalls",
+        "Day 2: Munnar Sightseeing",
+        "Day 3: Munnar &#8211; Kochi",
+        "For free travel consultation through WhatsApp. Contact us now.",
+        "Options: Swift DZire, Innova, Tempo Traveller (12 to 19 Seater), Coaches.",
+        "Munnar Thekkady Cab",
+        "Cochin Munnar Alleppey Taxi",
+        "Munnar Kumarakom Taxi",
+        "Munnar Tour Package",
+        "For free travel consultation through WhatsApp. Contact us now.",
+        "Options: Swift DZire, Innova, Tempo Traveller (12 to 19 Seater), Coaches.",
+        "Tour Reviews",
+        "Leave a Review",
+        "Cancel reply",
+        "Kochi–Munnar–Cherai–Kochi Taxi Tour Package",
+        "Kochi Airport to Kollam Taxi",
+        "Kochi to Kasaragod Taxi",
+        "Book the tour",
+        "Products"
+      ],
+      "word_count": 3163,
+      "internal_link_count": 55,
+      "external_link_count": 11,
+      "image_count": 36,
+      "schema_types": [],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/#sso/product/21988",
+              "@context": "https://schema.org",
+              "@type": "Product",
+              "mainEntityOfPage": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/",
+              "sameAs": [
+                "https://www.bluebirdtravels.in/?p=21988"
+              ],
+              "name": "Book Kochi Munnar Taxi Package (3 days) at &ndash; Blue Bird Travels",
+              "description": "Best deal on Kochi Munnar Taxi Package. Book over WhatsApp &#x1f4ac; 94476 23456 &#x2705; Transparent fares &#x2705; Professional drivers &#x2705; Guaranteed Pickup &#x2705; 24x7 Support &#x1f44d; Easy Online Booking&#x1f31e; Free Cancellation &#x1f496; Trusted since 1992&#x1f3c6; 1 Lac+ Happy Customers",
+              "aggregateRating": {
+                "@id": "/product/kochi-munnar-taxi-package-3-days/#sso/product/21988/rating-aggregate/4-75/103/1/5/103"
+              },
+              "review": [
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-11/#sso/review/56721"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-11/#sso/review/56706"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-11/#sso/review/56634"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56715"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56681"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56665"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56682"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56680"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56650"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56711"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56660"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56714"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56694"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56646"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56722"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56689"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56661"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56636"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56664"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56699"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56653"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56676"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56713"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56670"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56728"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56630"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56709"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56688"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56675"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56695"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56654"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56685"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56716"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56631"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56633"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56667"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56672"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56691"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56696"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56674"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56677"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56645"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56686"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56723"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56657"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56707"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56627"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56720"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56692"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56693"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56628"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56655"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56629"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56647"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56710"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56724"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56649"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56697"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56642"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56662"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56639"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56729"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56712"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56656"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56678"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56673"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56658"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56687"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56641"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56700"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56668"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56702"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56635"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56638"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56669"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56726"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56684"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56640"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56652"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56690"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56719"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56679"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56683"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56666"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56708"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56637"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56644"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56717"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56643"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56648"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56727"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56704"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56703"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56632"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56718"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56725"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56651"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56705"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56698"
+                },
+                {
+                  "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56701"
+                }
+              ],
+              "sku": "BBT-277249",
+              "itemCondition": "https://schema.org/NewCondition",
+              "image": [
+                {
+                  "@id": "/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x1200-cropped.jpg#sso/image-object"
+                },
+                {
+                  "@id": "/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x900-cropped.jpg#sso/image-object"
+                },
+                {
+                  "@id": "/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x675-cropped.jpg#sso/image-object"
+                }
+              ],
+              "offers": {
+                "@context": "https://schema.org",
+                "@type": "Offer",
+                "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/",
+                "name": "Book Kochi Munnar Taxi Package (3 days) at &ndash; Blue Bird Travels",
+                "description": "Best deal on Kochi Munnar Taxi Package. Book over WhatsApp &#x1f4ac; 94476 23456 &#x2705; Transparent fares &#x2705; Professional drivers &#x2705; Guaranteed Pickup &#x2705; 24x7 Support &#x1f44d; Easy Online Booking&#x1f31e; Free Cancellation &#x1f496; Trusted since 1992&#x1f3c6; 1 Lac+ Happy Customers",
+                "sku": "BBT-277249",
+                "availability": "https://schema.org/InStock",
+                "itemCondition": "https://schema.org/NewCondition",
+                "price": "9300",
+                "priceCurrency": "INR",
+                "priceValidUntil": "2027-05-07T04:58:23+00:00",
+                "priceSpecification": [
+                  {
+                    "@context": "https://schema.org",
+                    "@type": "UnitPriceSpecification",
+                    "priceType": "https://schema.org/ListPrice",
+                    "price": "9300",
+                    "priceCurrency": "INR",
+                    "valueAddedTaxIncluded": false,
+                    "validThrough": "2026-06-06T04:58:23+00:00"
+                  }
+                ],
+                "seller": {
+                  "@id": "https://bluebirdtravels.in#sso/organization/site/org-logo-url"
+                }
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/#sso/product/21988/rating-aggregate/4-75/103/1/5/103",
+              "@context": "https://schema.org",
+              "@type": "AggregateRating",
+              "ratingValue": 4.75,
+              "ratingCount": 103,
+              "worstRating": 1,
+              "bestRating": 5,
+              "reviewCount": 103
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-11/#sso/review/56721",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-11/#comment-56721",
+              "dateCreated": "2021-06-29T07:33:56+05:30",
+              "name": "Review by Townie on June 29, 2021",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Townie"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-11/#sso/review/56706",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-11/#comment-56706",
+              "dateCreated": "2021-02-04T12:25:33+05:30",
+              "name": "Review by Tally on February 4, 2021",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Tally"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-11/#sso/review/56634",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-11/#comment-56634",
+              "dateCreated": "2020-04-15T04:18:03+05:30",
+              "name": "Review by Grant Boriston on April 15, 2020",
+              "description": "Excellent Trip",
+              "text": "Excellent Trip",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Grant Boriston"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56715",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56715",
+              "dateCreated": "2019-09-21T11:24:28+05:30",
+              "name": "Review by Elizabet on September 21, 2019",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Elizabet"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56681",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56681",
+              "dateCreated": "2019-05-21T09:23:41+05:30",
+              "name": "Review by Parvaze Ahemad on May 21, 2019",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Parvaze Ahemad"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56665",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56665",
+              "dateCreated": "2018-12-10T21:50:26+05:30",
+              "name": "Review by Trilok Modi on December 10, 2018",
+              "description": "supeer",
+              "text": "supeer",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Trilok Modi"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56682",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56682",
+              "dateCreated": "2018-10-30T23:40:46+05:30",
+              "name": "Review by Sundar on October 30, 2018",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sundar"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56680",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56680",
+              "dateCreated": "2017-12-02T05:13:25+05:30",
+              "name": "Review by Hotel in Ranchi on December 2, 2017",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Hotel in Ranchi"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56650",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56650",
+              "dateCreated": "2017-06-22T07:00:55+05:30",
+              "name": "Review by Abhishesk on June 22, 2017",
+              "description": "I am really very satisfied with services of Blue Bird Travels",
+              "text": "I am really very satisfied with services of Blue Bird Travels",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Abhishesk"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56711",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56711",
+              "dateCreated": "2017-06-14T18:24:19+05:30",
+              "name": "Review by Stevana on June 14, 2017",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Stevana"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56660",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56660",
+              "dateCreated": "2016-10-11T06:28:12+05:30",
+              "name": "Review by Tushar mali on October 11, 2016",
+              "description": "Super",
+              "text": "Super",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Tushar mali"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56714",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56714",
+              "dateCreated": "2016-07-12T22:54:54+05:30",
+              "name": "Review by Bianka on July 12, 2016",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Bianka"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-10/#sso/review/56694",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-10/#comment-56694",
+              "dateCreated": "2016-05-05T18:01:38+05:30",
+              "name": "Review by Caterina on May 5, 2016",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Caterina"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56646",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56646",
+              "dateCreated": "2016-05-01T11:51:44+05:30",
+              "name": "Review by Shoshana Michael on May 1, 2016",
+              "description": "Great Support",
+              "text": "Great Support",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Shoshana Michael"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56722",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56722",
+              "dateCreated": "2016-03-31T11:38:41+05:30",
+              "name": "Review by Lian on March 31, 2016",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Lian"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56689",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56689",
+              "dateCreated": "2015-08-04T22:35:49+05:30",
+              "name": "Review by Oswald on August 4, 2015",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Oswald"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56661",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56661",
+              "dateCreated": "2015-07-25T18:52:59+05:30",
+              "name": "Review by Supriya murthy on July 25, 2015",
+              "description": "Nice Blog! thanks for sharing.",
+              "text": "Nice Blog! thanks for sharing.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Supriya murthy"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56636",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56636",
+              "dateCreated": "2015-05-07T13:17:33+05:30",
+              "name": "Review by Ilyse Korba on May 7, 2015",
+              "description": "Well orgainsed",
+              "text": "Well orgainsed",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ilyse Korba"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56664",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56664",
+              "dateCreated": "2015-03-07T08:28:11+05:30",
+              "name": "Review by Nidhi Tiwari on March 7, 2015",
+              "description": "Great",
+              "text": "Great",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Nidhi Tiwari"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56699",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56699",
+              "dateCreated": "2015-01-09T16:19:56+05:30",
+              "name": "Review by Chaddie on January 9, 2015",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Chaddie"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56653",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56653",
+              "dateCreated": "2014-05-27T01:05:32+05:30",
+              "name": "Review by Bushan on May 27, 2014",
+              "description": "The service of Blue Bird Travels was great.",
+              "text": "The service of Blue Bird Travels was great.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Bushan"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56676",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56676",
+              "dateCreated": "2014-05-04T15:05:45+05:30",
+              "name": "Review by Rakesh on May 4, 2014",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Rakesh"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-9/#sso/review/56713",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-9/#comment-56713",
+              "dateCreated": "2014-04-02T16:45:28+05:30",
+              "name": "Review by Roselle on April 2, 2014",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Roselle"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56670",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56670",
+              "dateCreated": "2014-02-17T10:49:23+05:30",
+              "name": "Review by Apoorv Chaturvedi on February 17, 2014",
+              "description": "Thanks",
+              "text": "Thanks",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Apoorv Chaturvedi"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56728",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56728",
+              "dateCreated": "2014-02-06T02:33:10+05:30",
+              "name": "Review by Goldie on February 6, 2014",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Goldie"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56630",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56630",
+              "dateCreated": "2014-01-02T06:41:06+05:30",
+              "name": "Review by Ashley on January 2, 2014",
+              "description": "Was a great trip",
+              "text": "Was a great trip",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ashley"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56709",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56709",
+              "dateCreated": "2013-10-09T21:45:43+05:30",
+              "name": "Review by Ashlen on October 9, 2013",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ashlen"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56688",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56688",
+              "dateCreated": "2013-08-12T00:14:36+05:30",
+              "name": "Review by Duky on August 12, 2013",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Duky"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56675",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56675",
+              "dateCreated": "2013-03-22T19:11:32+05:30",
+              "name": "Review by Pramod chelak on March 22, 2013",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Pramod chelak"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56695",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56695",
+              "dateCreated": "2012-02-09T02:32:17+05:30",
+              "name": "Review by Betteanne on February 9, 2012",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Betteanne"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56654",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56654",
+              "dateCreated": "2011-12-02T17:09:08+05:30",
+              "name": "Review by Chandrasekhar on December 2, 2011",
+              "description": "Driver shibu is very polite..took us very safely on hills ..he was very nice and helped us in communicating and&hellip;",
+              "text": "Driver shibu is very polite..took us very safely on hills ..he was very nice and helped us in communicating and can understand and speak english and hindi very nicely ..we liked him ...if we come kerala next time we wanna hire him again",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Chandrasekhar"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56685",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56685",
+              "dateCreated": "2011-09-17T02:17:04+05:30",
+              "name": "Review by Joe on September 17, 2011",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Joe"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-8/#sso/review/56716",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-8/#comment-56716",
+              "dateCreated": "2011-01-06T14:05:37+05:30",
+              "name": "Review by Martino on January 6, 2011",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Martino"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56631",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56631",
+              "dateCreated": "2010-03-28T14:51:55+05:30",
+              "name": "Review by Travers Sobieski on March 28, 2010",
+              "description": "Thanks for the trip",
+              "text": "Thanks for the trip",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Travers Sobieski"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56633",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56633",
+              "dateCreated": "2010-02-20T05:08:29+05:30",
+              "name": "Review by Ambur Idel on February 20, 2010",
+              "description": "Superb",
+              "text": "Superb",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ambur Idel"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56667",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56667",
+              "dateCreated": "2009-12-28T11:11:25+05:30",
+              "name": "Review by Chetan Tandel on December 28, 2009",
+              "description": "Excellent tour",
+              "text": "Excellent tour",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Chetan Tandel"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56672",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56672",
+              "dateCreated": "2009-11-20T21:42:12+05:30",
+              "name": "Review by Arjun Ms on November 20, 2009",
+              "description": "superb",
+              "text": "superb",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Arjun Ms"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56691",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56691",
+              "dateCreated": "2009-10-25T18:04:44+05:30",
+              "name": "Review by Hoebart on October 25, 2009",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Hoebart"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56696",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56696",
+              "dateCreated": "2008-11-20T08:06:47+05:30",
+              "name": "Review by Deina on November 20, 2008",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Deina"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56674",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56674",
+              "dateCreated": "2008-06-29T13:19:33+05:30",
+              "name": "Review by Harsh on June 29, 2008",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Harsh"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56677",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56677",
+              "dateCreated": "2007-09-08T04:06:25+05:30",
+              "name": "Review by Gayatri on September 8, 2007",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Gayatri"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56645",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56645",
+              "dateCreated": "2007-05-27T08:52:34+05:30",
+              "name": "Review by Farrah Buck on May 27, 2007",
+              "description": "Well maintained cab",
+              "text": "Well maintained cab",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Farrah Buck"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-7/#sso/review/56686",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-7/#comment-56686",
+              "dateCreated": "2007-05-04T19:39:35+05:30",
+              "name": "Review by Mehta on May 4, 2007",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Mehta"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56723",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56723",
+              "dateCreated": "2007-03-22T01:43:54+05:30",
+              "name": "Review by Ottilie on March 22, 2007",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ottilie"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56657",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56657",
+              "dateCreated": "2007-01-16T01:36:14+05:30",
+              "name": "Review by Aftab on January 16, 2007",
+              "description": "We booked Blue Bird for 4 days and we had a great experience throughout our journey. Our driver Sujith took&hellip;",
+              "text": "We booked Blue Bird for 4 days and we had a great experience throughout our journey. Our driver Sujith took great efforts in terms of safety, comfort and getting us to the right place for pure vegetarian food. He is very friendly and keep on guiding us on the things to do as per our interest. Will definitely recommend Blue Bird Travels Keep up the good work! Like",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Aftab"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56707",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56707",
+              "dateCreated": "2006-09-20T19:58:39+05:30",
+              "name": "Review by Maggi on September 20, 2006",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Maggi"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56627",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56627",
+              "dateCreated": "2006-06-10T11:26:04+05:30",
+              "name": "Review by Pawans on June 10, 2006",
+              "description": "Superb service",
+              "text": "Superb service",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Pawans"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56720",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56720",
+              "dateCreated": "2006-04-23T04:38:19+05:30",
+              "name": "Review by Hedvig on April 23, 2006",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Hedvig"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56692",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56692",
+              "dateCreated": "2006-03-02T23:57:22+05:30",
+              "name": "Review by Noelle on March 2, 2006",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Noelle"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56693",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56693",
+              "dateCreated": "2006-01-01T20:17:36+05:30",
+              "name": "Review by Erinn on January 1, 2006",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Erinn"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56628",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56628",
+              "dateCreated": "2005-12-22T08:36:21+05:30",
+              "name": "Review by Abhishesks on December 22, 2005",
+              "description": "Was a great tour",
+              "text": "Was a great tour",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Abhishesks"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56655",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56655",
+              "dateCreated": "2005-12-04T11:32:30+05:30",
+              "name": "Review by Raman Swamy on December 4, 2005",
+              "description": "I had a memorable experience with Blue Bird Travels",
+              "text": "I had a memorable experience with Blue Bird Travels",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Raman Swamy"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-6/#sso/review/56629",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-6/#comment-56629",
+              "dateCreated": "2005-06-16T23:38:51+05:30",
+              "name": "Review by Mohit on June 16, 2005",
+              "description": "Will come back again",
+              "text": "Will come back again",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Mohit"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56647",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56647",
+              "dateCreated": "2005-05-07T05:12:09+05:30",
+              "name": "Review by Kuame Witt on May 7, 2005",
+              "description": "Trustworthy services",
+              "text": "Trustworthy services",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Kuame Witt"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56710",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56710",
+              "dateCreated": "2004-12-25T16:48:30+05:30",
+              "name": "Review by Norrie on December 25, 2004",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Norrie"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56724",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56724",
+              "dateCreated": "2004-10-15T23:51:16+05:30",
+              "name": "Review by Sam on October 15, 2004",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sam"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56649",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56649",
+              "dateCreated": "2004-03-08T19:11:17+05:30",
+              "name": "Review by Kylynn Martin on March 8, 2004",
+              "description": "enjoyed our holiday trip",
+              "text": "enjoyed our holiday trip",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Kylynn Martin"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56697",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56697",
+              "dateCreated": "2003-03-12T04:10:22+05:30",
+              "name": "Review by Alyse on March 12, 2003",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Alyse"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56642",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56642",
+              "dateCreated": "2002-12-12T04:16:45+05:30",
+              "name": "Review by Bishnu Mitra on December 12, 2002",
+              "description": "Appreciate the services provided",
+              "text": "Appreciate the services provided",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Bishnu Mitra"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56662",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56662",
+              "dateCreated": "2002-12-07T12:06:18+05:30",
+              "name": "Review by Milan Limbasiya on December 7, 2002",
+              "description": "Thankss",
+              "text": "Thankss",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Milan Limbasiya"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56639",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56639",
+              "dateCreated": "2002-10-06T16:57:50+05:30",
+              "name": "Review by Kushal Pradeep Dash on October 6, 2002",
+              "description": "Swami Saranam",
+              "text": "Swami Saranam",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Kushal Pradeep Dash"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56729",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56729",
+              "dateCreated": "2002-08-21T17:45:34+05:30",
+              "name": "Review by Sharl on August 21, 2002",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sharl"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-5/#sso/review/56712",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-5/#comment-56712",
+              "dateCreated": "2002-03-23T09:51:31+05:30",
+              "name": "Review by Phil on March 23, 2002",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Phil"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56656",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56656",
+              "dateCreated": "2002-02-10T19:34:41+05:30",
+              "name": "Review by Rahul on February 10, 2002",
+              "description": "They have trained and experienced drivers who can speak English, Hindi and local language. Very cooperative with personal touch. I&hellip;",
+              "text": "They have trained and experienced drivers who can speak English, Hindi and local language. Very cooperative with personal touch. I searched for many cab services for kerala trip but i found Blue Bird Travels as authentic, trustworthy and reasonable having well maintained cab and experienced drivers",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Rahul"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56678",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56678",
+              "dateCreated": "2001-10-11T17:41:48+05:30",
+              "name": "Review by Saranya on October 11, 2001",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Saranya"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56673",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56673",
+              "dateCreated": "2001-07-23T06:51:24+05:30",
+              "name": "Review by Prashant Bhosale on July 23, 2001",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Prashant Bhosale"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56658",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56658",
+              "dateCreated": "2000-10-06T19:12:10+05:30",
+              "name": "Review by Remana on October 6, 2000",
+              "description": "Good quality.",
+              "text": "Good quality.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Remana"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56687",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56687",
+              "dateCreated": "2000-10-04T12:26:28+05:30",
+              "name": "Review by Ramnarine on October 4, 2000",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ramnarine"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56641",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56641",
+              "dateCreated": "2000-07-12T11:04:41+05:30",
+              "name": "Review by Heer Kaul on July 12, 2000",
+              "description": "Highly recommended for peacefull trip at peacefull Kerala.... Excellent experience with friendly driver Mr Manoj kumar...",
+              "text": "Highly recommended for peacefull trip at peacefull Kerala.... Excellent experience with friendly driver Mr Manoj kumar...",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Heer Kaul"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56700",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56700",
+              "dateCreated": "2000-06-16T01:20:33+05:30",
+              "name": "Review by Nadean on June 16, 2000",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Nadean"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56668",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56668",
+              "dateCreated": "2000-06-10T08:00:58+05:30",
+              "name": "Review by Deepshikha Nandy on June 10, 2000",
+              "description": "excellent",
+              "text": "excellent",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Deepshikha Nandy"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56702",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56702",
+              "dateCreated": "2000-04-14T08:50:38+05:30",
+              "name": "Review by Marie-jeanne on April 14, 2000",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Marie-jeanne"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-4/#sso/review/56635",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-4/#comment-56635",
+              "dateCreated": "2000-01-15T06:22:00+05:30",
+              "name": "Review by Osborn Capeling on January 15, 2000",
+              "description": "Highly recommended",
+              "text": "Highly recommended",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Osborn Capeling"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56638",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56638",
+              "dateCreated": "1999-10-20T22:06:58+05:30",
+              "name": "Review by Anjana Sunder on October 20, 1999",
+              "description": "Got best deal",
+              "text": "Got best deal",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Anjana Sunder"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56669",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56669",
+              "dateCreated": "1999-07-30T21:11:55+05:30",
+              "name": "Review by Rohit Gupta on July 30, 1999",
+              "description": "super",
+              "text": "super",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Rohit Gupta"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56726",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56726",
+              "dateCreated": "1999-04-04T15:07:45+05:30",
+              "name": "Review by Jo-anne on April 4, 1999",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Jo-anne"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56684",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56684",
+              "dateCreated": "1999-01-29T11:06:48+05:30",
+              "name": "Review by Ankur on January 29, 1999",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ankur"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56640",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56640",
+              "dateCreated": "1998-10-07T07:37:01+05:30",
+              "name": "Review by Pirzada Persad on October 7, 1998",
+              "description": "Was a good pilgrimage",
+              "text": "Was a good pilgrimage",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Pirzada Persad"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56652",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56652",
+              "dateCreated": "1998-08-11T01:27:00+05:30",
+              "name": "Review by Venket on August 11, 1998",
+              "description": "Driver helped us as a guide",
+              "text": "Driver helped us as a guide",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Venket"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56690",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56690",
+              "dateCreated": "1998-07-12T09:12:18+05:30",
+              "name": "Review by Mair on July 12, 1998",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Mair"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56719",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56719",
+              "dateCreated": "1998-07-07T12:30:06+05:30",
+              "name": "Review by David on July 7, 1998",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "David"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56679",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56679",
+              "dateCreated": "1998-05-11T16:38:19+05:30",
+              "name": "Review by Sahal on May 11, 1998",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Sahal"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-3/#sso/review/56683",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-3/#comment-56683",
+              "dateCreated": "1998-03-09T23:02:09+05:30",
+              "name": "Review by Pawan on March 9, 1998",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Pawan"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56666",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56666",
+              "dateCreated": "1998-01-31T11:21:06+05:30",
+              "name": "Review by Tej Patel on January 31, 1998",
+              "description": "Was an excellent tour.",
+              "text": "Was an excellent tour.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Tej Patel"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56708",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56708",
+              "dateCreated": "1997-07-18T13:34:03+05:30",
+              "name": "Review by Darin on July 18, 1997",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Darin"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56637",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56637",
+              "dateCreated": "1997-05-29T04:15:23+05:30",
+              "name": "Review by Jase Bayfield on May 29, 1997",
+              "description": "Hassle free booking",
+              "text": "Hassle free booking",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Jase Bayfield"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56644",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56644",
+              "dateCreated": "1997-01-15T21:08:51+05:30",
+              "name": "Review by Zara Ramnarine on January 15, 1997",
+              "description": "Great driver",
+              "text": "Great driver",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Zara Ramnarine"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56717",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56717",
+              "dateCreated": "1996-02-07T10:04:11+05:30",
+              "name": "Review by Rodie on February 7, 1996",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Rodie"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56643",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56643",
+              "dateCreated": "1995-05-24T05:01:52+05:30",
+              "name": "Review by Chitranjan Prasad Sandal on May 24, 1995",
+              "description": "On time pickup",
+              "text": "On time pickup",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Chitranjan Prasad Sandal"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56648",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56648",
+              "dateCreated": "1995-04-07T16:35:38+05:30",
+              "name": "Review by Quinlan Booker on April 7, 1995",
+              "description": "It was great experience in kerala trip",
+              "text": "It was great experience in kerala trip",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Quinlan Booker"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56727",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56727",
+              "dateCreated": "1995-02-13T06:19:59+05:30",
+              "name": "Review by Wyn on February 13, 1995",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Wyn"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56704",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56704",
+              "dateCreated": "1994-11-02T00:30:34+05:30",
+              "name": "Review by Royall on November 2, 1994",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Royall"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-2/#sso/review/56703",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-2/#comment-56703",
+              "dateCreated": "1994-10-29T16:10:14+05:30",
+              "name": "Review by Malva on October 29, 1994",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Malva"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56632",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-1/#comment-56632",
+              "dateCreated": "1994-08-06T12:23:46+05:30",
+              "name": "Review by Bil Bricksey on August 6, 1994",
+              "description": "Wonderful",
+              "text": "Wonderful",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Bil Bricksey"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56718",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-1/#comment-56718",
+              "dateCreated": "1994-07-22T08:29:13+05:30",
+              "name": "Review by Mary on July 22, 1994",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Mary"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56725",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-1/#comment-56725",
+              "dateCreated": "1994-07-21T07:44:28+05:30",
+              "name": "Review by Daren on July 21, 1994",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Daren"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56651",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-1/#comment-56651",
+              "dateCreated": "1994-07-04T06:45:13+05:30",
+              "name": "Review by Ramnath on July 4, 1994",
+              "description": "Taxi booking was hassle free and was done just over phone and mail",
+              "text": "Taxi booking was hassle free and was done just over phone and mail",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Ramnath"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56705",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-1/#comment-56705",
+              "dateCreated": "1994-05-24T04:08:04+05:30",
+              "name": "Review by Irene on May 24, 1994",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Irene"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56698",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-1/#comment-56698",
+              "dateCreated": "1994-04-17T16:14:29+05:30",
+              "name": "Review by Dan on April 17, 1994",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 5,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Dan"
+              }
+            },
+            {
+              "@id": "/product/kochi-munnar-taxi-package-3-days/comment-page-1/#sso/review/56701",
+              "@context": "https://schema.org",
+              "@type": "Review",
+              "url": "https://www.bluebirdtravels.in/product/kochi-munnar-taxi-package-3-days/comment-page-1/#comment-56701",
+              "dateCreated": "1994-04-05T16:24:34+05:30",
+              "name": "Review by Lawry on April 5, 1994",
+              "description": "No Description.",
+              "reviewRating": {
+                "@context": "https://schema.org",
+                "@type": "Rating",
+                "ratingValue": 4,
+                "worstRating": 1,
+                "bestRating": 5
+              },
+              "author": {
+                "@context": "https://schema.org",
+                "@type": "Person",
+                "name": "Lawry"
+              }
+            },
+            {
+              "@id": "/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x1200-cropped.jpg#sso/image-object",
+              "@context": "https://schema.org",
+              "@type": "ImageObject",
+              "url": "https://www.bluebirdtravels.in/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x1200-cropped.jpg",
+              "identifier": "21997-wpsso-schema-1x1",
+              "name": "Product Kochi Munnar Taxi Package(Featured Image)",
+              "description": "Image: Product Kochi Munnar Taxi Package(Featured Image).",
+              "encodingFormat": "image/jpeg",
+              "uploadDate": "2021-07-14T11:56:25+00:00",
+              "alternativeHeadline": "Product Kochi Munnar Taxi Package(Featured Image)",
+              "width": [
+                {
+                  "@id": "#sso/qv-width-px-1200"
+                }
+              ],
+              "height": [
+                {
+                  "@id": "#sso/qv-height-px-1200"
+                }
+              ]
+            },
+            {
+              "@id": "#sso/qv-width-px-1200",
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "name": "Width",
+              "unitText": "px",
+              "unitCode": "E37",
+              "value": "1200"
+            },
+            {
+              "@id": "#sso/qv-height-px-1200",
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "name": "Height",
+              "unitText": "px",
+              "unitCode": "E37",
+              "value": "1200"
+            },
+            {
+              "@id": "/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x900-cropped.jpg#sso/image-object",
+              "@context": "https://schema.org",
+              "@type": "ImageObject",
+              "url": "https://www.bluebirdtravels.in/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x900-cropped.jpg",
+              "identifier": "21997-wpsso-schema-4x3",
+              "name": "Product Kochi Munnar Taxi Package(Featured Image)",
+              "description": "Image: Product Kochi Munnar Taxi Package(Featured Image).",
+              "encodingFormat": "image/jpeg",
+              "uploadDate": "2021-07-14T11:56:25+00:00",
+              "alternativeHeadline": "Product Kochi Munnar Taxi Package(Featured Image)",
+              "width": [
+                {
+                  "@id": "#sso/qv-width-px-1200"
+                }
+              ],
+              "height": [
+                {
+                  "@id": "#sso/qv-height-px-900"
+                }
+              ]
+            },
+            {
+              "@id": "#sso/qv-height-px-900",
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "name": "Height",
+              "unitText": "px",
+              "unitCode": "E37",
+              "value": "900"
+            },
+            {
+              "@id": "/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x675-cropped.jpg#sso/image-object",
+              "@context": "https://schema.org",
+              "@type": "ImageObject",
+              "url": "https://www.bluebirdtravels.in/wp-content/uploads/Product-Kochi-Munnar-Taxi-PackageFeatured-Image-1200x675-cropped.jpg",
+              "identifier": "21997-wpsso-schema-16x9",
+              "name": "Product Kochi Munnar Taxi Package(Featured Image)",
+              "description": "Image: Product Kochi Munnar Taxi Package(Featured Image).",
+              "encodingFormat": "image/jpeg",
+              "uploadDate": "2021-07-14T11:56:25+00:00",
+              "alternativeHeadline": "Product Kochi Munnar Taxi Package(Featured Image)",
+              "width": [
+                {
+                  "@id": "#sso/qv-width-px-1200"
+                }
+              ],
+              "height": [
+                {
+                  "@id": "#sso/qv-height-px-675"
+                }
+              ]
+            },
+            {
+              "@id": "#sso/qv-height-px-675",
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "name": "Height",
+              "unitText": "px",
+              "unitCode": "E37",
+              "value": "675"
+            },
+            {
+              "@id": "https://bluebirdtravels.in#sso/organization/site/org-logo-url",
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              "url": "https://bluebirdtravels.in",
+              "name": "Blue Bird Travels",
+              "alternateName": "Blue Bird Travels",
+              "description": "We are leading Tour Operator and Car Rental Company in the State of Kerala since 1992. We have a large fleet of all types of vehicles which are driven by experienced courteous chauffeurs, who are well versed with handling domestic/foreign tourists and corporate customers. Our trade partners include the most well-known Tour Operators, Travel Agents &amp; Corporate offices all over India.",
+              "image": [
+                {
+                  "@id": "/wp-content/uploads/blue_bird_logo_512x512.jpg#sso/image-object"
+                }
+              ],
+              "logo": {
+                "@id": "/wp-content/uploads/blue_bird_logo_512x512.jpg#sso/image-object"
+              },
+              "location": {
+                "@id": "#sso/travel-agency/place-22861"
+              },
+              "sameAs": [
+                "https://www.facebook.com/bluebirdkerala/",
+                "https://www.instagram.com/bluebirdkochi/",
+                "https://linkedin.com/company/blue-bird-travels/",
+                "https://www.tumblr.com/blog/bluebirdtravels",
+                "https://twitter.com/bluebirdtravels"
+              ]
+            },
+            {
+              "@id": "/wp-content/uploads/blue_bird_logo_512x512.jpg#sso/image-object",
+              "@context": "https://schema.org",
+              "@type": "ImageObject",
+              "url": "https://www.bluebirdtravels.in/wp-content/uploads/blue_bird_logo_512x512.jpg",
+              "width": [
+                {
+                  "@id": "#sso/qv-width-px-512"
+                }
+              ],
+              "height": [
+                {
+                  "@id": "#sso/qv-height-px-512"
+                }
+              ]
+            },
+            {
+              "@id": "#sso/qv-width-px-512",
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "name": "Width",
+              "unitText": "px",
+              "unitCode": "E37",
+              "value": "512"
+            },
+            {
+              "@id": "#sso/qv-height-px-512",
+              "@context": "https://schema.org",
+              "@type": "QuantitativeValue",
+              "name": "Height",
+              "unitText": "px",
+              "unitCode": "E37",
+              "value": "512"
+            },
+            {
+              "@id": "#sso/travel-agency/place-22861",
+              "@context": "https://schema.org",
+              "@type": "TravelAgency",
+              "url": "https://www.bluebirdtravels.in",
+              "name": "Blue Bird Travels",
+              "alternateName": "Blue Bird Travels - Kerala Tour Packages",
+              "description": "We are leading Travel Agent in the State of Kerala for the past 25 years. We are affiliated to the Blue Bird Industries, functioning and providing excellent services for all its customers and clients for the last 40 years.  \r\n\r\nWe have a large fleet of all types of vehicles which are driven by experienced courteous chauffeurs, who are well versed with handling domestic/foreign tourists and corporate customers. Our trade partners include the most well-known Tour Operators, Travel Agents &amp; Corporate offices all over India.",
+              "telephone": "9847035999",
+              "address": {
+                "@context": "https://schema.org",
+                "@type": "PostalAddress",
+                "name": "Blue Bird Travels",
+                "streetAddress": "Providence Road",
+                "addressLocality": "Kochi",
+                "addressRegion": "Kerala",
+                "postalCode": "682018",
+                "addressCountry": "IN"
+              },
+              "geo": {
+                "@context": "https://schema.org",
+                "@type": "GeoCoordinates",
+                "elevation": "6",
+                "latitude": "9.9879741",
+                "longitude": "76.2809693"
+              },
+              "currenciesAccepted": "INR",
+              "paymentAccepted": "Cash, Cheque, Credit Card",
+              "priceRange": "$$",
+              "areaServed": {
+                "@context": "https://schema.org",
+                "@type": "GeoShape",
+                "circle": "9.9879741 76.2809693 1500000"
+              },
+              "image": [
+                {
+                  "@id": "/wp-content/uploads/blue-bird-travels-office-photo-1200x1200-cropped.jpg#sso/image-object"
+                },
+                {
+                  "@id": "/wp-content/uploads/blue-bird-travels-office-photo-1200x900-cropped.jpg#sso/image-object"
+                },
+                {
+                  "@id": "/wp-content/uploads/blue-bird-travels-office-photo-1200x675-cropped.jpg#sso/image-object"
+                }
+              ]
+            },
+            {
+              "@id": "/wp-content/uploads/blue-bird-travels-office-photo-1200x1200-cropped.jpg#sso/image-object",
+              "@context": "https://schema.org",
+              "@type": "ImageObject",
+              "url": "https://www.bluebirdtravels.in/wp-content/uploads/blue-bird-travels-office-photo-1200x1200-cropped.jpg",
+              "identifier": "2105-wpsso-schema-1x1",
+              "name": "blue-bird-travels-office-photo",
+              "alternativeHeadline": "Office",
+              "caption": "Photo credits: Jayaram",
+              "description": "Photo credits: Jayaram",
+              "encodingFormat": "image/jpeg",
+              "uploadDate": "2019-06-26T10:57:31+00:00",
+              "width": [
+                {
+                  "@id": "#sso/qv-width-px-1200"
+                }
+              ],
+              "height": [
+                {
+                  "@id": "#sso/qv-height-px-1200"
+                }
+              ]
+            },
+            {
+              "@id": "/wp-content/uploads/blue-bird-travels-office-photo-1200x900-cropped.jpg#sso/image-object",
+              "@context": "https://schema.org",
+              "@type": "ImageObject",
+              "url": "https://www.bluebirdtravels.in/wp-content/uploads/blue-bird-travels-office-photo-1200x900-cropped.jpg",
+              "identifier": "2105-wpsso-schema-4x3",
+              "name": "blue-bird-travels-office-photo",
+              "alternativeHeadline": "Office",
+              "caption": "Photo credits: Jayaram",
+              "description": "Photo credits: Jayaram",
+              "encodingFormat": "image/jpeg",
+              "uploadDate": "2019-06-26T10:57:31+00:00",
+              "width": [
+                {
+                  "@id": "#sso/qv-width-px-1200"
+                }
+              ],
+              "height": [
+                {
+                  "@id": "#sso/qv-height-px-900"
+                }
+              ]
+            },
+            {
+              "@id": "/wp-content/uploads/blue-bird-travels-office-photo-1200x675-cropped.jpg#sso/image-object",
+              "@context": "https://schema.org",
+              "@type": "ImageObject",
+              "url": "https://www.bluebirdtravels.in/wp-content/uploads/blue-bird-travels-office-photo-1200x675-cropped.jpg",
+              "identifier": "2105-wpsso-schema-16x9",
+              "name": "blue-bird-travels-office-photo",
+              "alternativeHeadline": "Office",
+              "caption": "Photo credits: Jayaram",
+              "description": "Photo credits: Jayaram",
+              "encodingFormat": "image/jpeg",
+              "uploadDate": "2019-06-26T10:57:31+00:00",
+              "width": [
+                {
+                  "@id": "#sso/qv-width-px-1200"
+                }
+              ],
+              "height": [
+                {
+                  "@id": "#sso/qv-height-px-675"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    }
+  ]
+}

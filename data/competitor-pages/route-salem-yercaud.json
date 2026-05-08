@@ -1,0 +1,362 @@
+{
+  "cluster_id": "route-salem-yercaud",
+  "pages": [
+    {
+      "url": "https://www.makemytrip.com/routeplanner/salem-yercaud.html",
+      "fetched_at": "2026-05-08T02:24:09.586Z",
+      "rank": 2,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.yatra.com/distance-between/distance-from-salem-to-yercaud.html",
+      "fetched_at": "2026-05-08T02:24:41.603Z",
+      "rank": 3,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.uber.com/in/en/r/intercity/salem-tamil-nadu-to-yercaud-tamil-nadu/",
+      "fetched_at": "2026-05-08T02:24:42.300Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Salem to Yercaud Cabs @ 1090 (up to 500 off) | Uber Intercity",
+      "title_length": 61,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [
+        "Book Salem to Yercaud cabs at ₹1010 (up to ₹500 off)"
+      ],
+      "h2": [
+        "Salem to Yercaud outstation cab options",
+        "Need help choosing the right intercity ride? Call 0522-4665220—no app required.",
+        "Why book Salem to Yercaud cabs with Uber Intercity",
+        "Transportation options",
+        "Frequently asked questions",
+        "Popular nearby intercity routes",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "It’s easier in the apps",
+        "Download the Uber app",
+        "Download the Driver app",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Select your preferred language",
+        "Sign up to drive & deliver",
+        "Create a rider account",
+        "Order delivery with Uber Eats",
+        "Sign up for Uber for Business",
+        "Sign in to drive & deliver",
+        "Sign in to ride",
+        "Sign in to order delivery with Uber Eats",
+        "Sign in to your Uber for Business account",
+        "Drive & deliver",
+        "Ride",
+        "Uber Eats",
+        "Uber for Business",
+        "Manage account",
+        "Sign out"
+      ],
+      "h3": [
+        "Browser not supported",
+        "Average travel time",
+        "Average route distance",
+        "Average route price",
+        "Uber Go Intercity",
+        "1-4 seats",
+        "Uber Sedan Intercity",
+        "1-4 seats",
+        "UberXL Intercity",
+        "1-6 seats",
+        "Affordable one-way fares",
+        "24x7 availability",
+        "In-app safety features",
+        "Cabs from Salem",
+        "About",
+        "About"
+      ],
+      "word_count": 1758,
+      "internal_link_count": 92,
+      "external_link_count": 82,
+      "image_count": 6,
+      "schema_types": [
+        "BreadcrumbList",
+        "Product",
+        "FAQPage"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Salem South",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/salem-south-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Salem to Yercaud cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Salem South",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/salem-south-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Salem to Yercaud cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "name": "India",
+              "position": 1,
+              "item": "https://www.uber.com/global/en/r/india/cities/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Salem South",
+              "position": 2,
+              "item": "https://www.uber.com/global/en/r/cities/salem-south-tamil-nadu-in/"
+            },
+            {
+              "@type": "ListItem",
+              "name": "Book Salem to Yercaud cabs",
+              "position": 3
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "Product",
+          "name": "Salem to Yercaud outstation cab",
+          "image": "https://www.uber-assets.com/image/upload/q_auto:eco,c_fill,h_1152,w_1152/v1729199487/assets/22/f40fc4-04d6-440b-be79-572c59f31de3/original/Uber_Intercity_Small2x.svg",
+          "description": "Salem to Yercaud outstation cab",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": 4.8,
+            "reviewCount": 50
+          },
+          "offers": {
+            "@type": "AggregateOffer",
+            "offerCount": 3,
+            "lowPrice": 1010,
+            "highPrice": 1010,
+            "priceCurrency": "INR"
+          }
+        },
+        {
+          "@context": "https://schema.org/",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Uber Intercity helps you conveniently book comfortable cars online or from the Uber app so you can travel outstation. Whether you want to travel from Salem to Yercaud or to another destination, there’s a vehicle for your travel needs. Enjoy door-to-door pickup and dropoff every time. </p>\n"
+              },
+              "name": "What is Uber Intercity? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>While signed in to your Uber account, open the Uber app, then enter the pickup and dropoff addresses in the “Where to?” box. From there, select your preferred Intercity ride option to confirm your trip from Salem to Yercaud. </p>\n<p>You can also book outstation cabs online. First sign in to your Uber account, enter your pickup and dropoff locations, then select one of the Uber Intercity options to request an outstation cab to take you from Salem to Yercaud.  </p>\n"
+              },
+              "name": "How do I request a ride for outstation travel from Salem to Yercaud? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Several ride options are available to help you get from Salem to Yercaud. For groups with up to 4 people, select Go Intercity or Sedan Intercity. If you’re travelling with up to 6 people, select UberXL Intercity as your ride option.</p>\n"
+              },
+              "name": "What ride options are available to get from Salem to Yercaud?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p> On average, it costs ₹1010 to travel from Salem to Yercaud with Uber Intercity. Prices may vary due to weather, traffic, and other factors.</p>\n"
+              },
+              "name": "How much does a cab cost to get from Salem to Yercaud?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>On average, it takes 1 hour  to travel from Salem to Yercaud with Uber Intercity. Duration may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "How much time does it take to get from Salem to Yercaud?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can cancel your ride from Salem to Yercaud at any time with Uber Intercity. Cancellation fees depend on the overall distance and time that a driver travelled while picking up the rider for a cancelled trip.</p>\n"
+              },
+              "name": "What is the cancellation policy for cabs booked from Salem to Yercaud? "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>You can use cash, Paytm, Amazon Pay, and Uber for Business payment methods to pay for your trip from Salem to Yercaud with Uber Intercity. </p>\n"
+              },
+              "name": "How can I pay for my trip from Salem to Yercaud with Uber Intercity?  "
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The most affordable ride option to book to get from Salem to Yercaud is Uber Go Intercity. </p>\n"
+              },
+              "name": "What is the most affordable ride option to book to get from Salem to Yercaud?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Safety is a priority for rides booked with Uber Intercity. You can access in-app safety features such as Share My Trip so that someone always knows where you are while travelling from Salem to Yercaud or another destination.</p>\n"
+              },
+              "name": "Is it safe to book outstation cabs with Uber Intercity?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>The average distance from Salem to Yercaud by outstation cab is 27 kilometers. The average distance may vary due to traffic and other factors. </p>\n"
+              },
+              "name": "What is the distance from Salem to Yercaud by outstation cab?"
+            },
+            {
+              "@type": "Question",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "<p>Yes, you can request a round-trip ride with Uber Intercity. Check in the app to see if round-trip rides are available from Salem to Yercaud.</p>\n"
+              },
+              "name": "Can I book a round-trip ride from Salem to Yercaud?"
+            }
+          ]
+        }
+      ],
+      "faq_count": 11,
+      "faq_questions": [
+        "What is Uber Intercity? ",
+        "How do I request a ride for outstation travel from Salem to Yercaud? ",
+        "What ride options are available to get from Salem to Yercaud?",
+        "How much does a cab cost to get from Salem to Yercaud?",
+        "How much time does it take to get from Salem to Yercaud?",
+        "What is the cancellation policy for cabs booked from Salem to Yercaud? ",
+        "How can I pay for my trip from Salem to Yercaud with Uber Intercity?  ",
+        "What is the most affordable ride option to book to get from Salem to Yercaud?",
+        "Is it safe to book outstation cabs with Uber Intercity?",
+        "What is the distance from Salem to Yercaud by outstation cab?",
+        "Can I book a round-trip ride from Salem to Yercaud?"
+      ],
+      "has_pricing_table": true,
+      "has_distance_info": false
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "cluster_id": "info-chennai-airport-cmc-vellore",
+  "pages": [
+    {
+      "url": "https://www.rome2rio.com/s/Madras-Airport-MAA/Christian-Medical-College-Vellore",
+      "fetched_at": "2026-05-08T02:16:43.447Z",
+      "rank": 2,
+      "fetch_status": 403,
+      "fetch_ok": false,
+      "fetch_error": "HTTP 403",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://ssdroptaxi.com/chennai/chennai-airport-to-vellore-cmc-taxi",
+      "fetched_at": "2026-05-08T02:16:45.422Z",
+      "rank": 3,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Chennai Airport to Vellore CMC drop taxi | Chennai Airport to Vellore CMC taxi",
+      "title_length": 78,
+      "meta_description": "Book lowest price taxi from Chennai Airport to Vellore CMC one way drop taxi in SS Drop Taxi. We offer outstation taxi service in Chennai, Madurai, Trichy, Coimbatore, Vellore, Pondicherry, Bangalore.",
+      "meta_description_length": 200,
+      "canonical": "https://ssdroptaxi.com/chennai/chennai-airport-to-vellore-cmc-taxi",
+      "h1": [
+        "Chennai Airport to Vellore CMC drop taxi",
+        "Are you looking for best drop taxi service from Chennai Airport to Vellore CMC?"
+      ],
+      "h2": [
+        "The best one way drop taxi from Chennai Airport to Vellore CMC"
+      ],
+      "h3": [
+        "Booking Summary",
+        "For Booking / Support, Call Us 9042 95 5959",
+        "FAQs about drop taxi car rental Chennai Airport to Vellore CMC",
+        "Book the lowest taxi fare one way call taxi from Chennai Airport to Vellore CMC in SS Drop Taxi"
+      ],
+      "word_count": 819,
+      "internal_link_count": 40,
+      "external_link_count": 4,
+      "image_count": 2,
+      "schema_types": [
+        "WebSite",
+        "WebPage"
+      ],
+      "schemas": [
+        {
+          "@context": "http://schema.org",
+          "@type": "WebSite",
+          "url": "https://ssdroptaxi.com/",
+          "name": "SS Drop Taxi",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://ssdroptaxi.com/?s={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@context": "http://schema.org",
+          "@type": "WebPage",
+          "name": "Book one way call taxi from Chennai Airport to Vellore CMC  - SS Drop Taxi",
+          "description": "Book lowest price taxi from Chennai Airport to Vellore CMC one way drop taxi in SS Drop Taxi. We offer outstation taxi service in Chennai, Madurai, Trichy, Coimbatore, Vellore, Pondicherry, Bangalore."
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://taxida.in/blog/how-to-reach-chennai-international-airport-maa-to-cmc-hospital-vellore",
+      "fetched_at": "2026-05-08T02:16:58.375Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "How to Reach Chennai Airport to CMC Vellore Hospital",
+      "title_length": 52,
+      "meta_description": "People to reach from Chennai airport to CMC Hospital, Vellore, or nearby cities, taxi services help ordinary folks in endless ways. Nowadays, you can book taxis from the confines of your home with just a few clicks.",
+      "meta_description_length": 215,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [
+        "Related articles",
+        "Special offers"
+      ],
+      "word_count": 1307,
+      "internal_link_count": 28,
+      "external_link_count": 3,
+      "image_count": 14,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    }
+  ]
+}

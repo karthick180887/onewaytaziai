@@ -1,0 +1,155 @@
+{
+  "cluster_id": "info-tirupati-arunachalam",
+  "pages": [
+    {
+      "url": "https://tirupatibalajitourstravels.com/tirupati-to-arunachalam-distance/",
+      "fetched_at": "2026-05-08T02:16:59.467Z",
+      "rank": 2,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Tirupati to Arunachalam Distance Your Blissful 2025 Pilgrimage Guide",
+      "title_length": 68,
+      "meta_description": "Plan your spiritual journey from Tirupati to Arunachalam Distance. Compare routes by car, train &amp; bus with updated travel times, costs, and tips for 2025.",
+      "meta_description_length": 158,
+      "canonical": "https://tirupatibalajitourstravels.com/tirupati-to-arunachalam-distance/",
+      "h1": [
+        "How to Go to Arunachalam from Tirupati: A Comprehensive Guide to Tirupati to Arunachalam Distance"
+      ],
+      "h2": [
+        "Arunachalam Temple: A Divine Destination",
+        "Tirupati to Arunachalam Distance: How Far Is It?",
+        "How to Go to Arunachalam from Tirupati: Travel Options",
+        "Tirupati to Arunachalam: A Comparison of Travel Modes",
+        "Best Time to Visit Arunachalam Temple",
+        "Conclusion:",
+        "Post Navigation",
+        "Recent Posts",
+        "Comments",
+        "Featured Trips",
+        "Tirupati to Golden Temple Arunachalam Kanchipuram Taxi Service",
+        "2 Days Tirupati Darshan Package Balaji Temple Tour from Tirupati",
+        "1 Day Tirupati Balaji Darshan Package from Tirupati",
+        "Recommended Articles"
+      ],
+      "h3": [
+        "1. Traveling by Road: The Scenic Route",
+        "2. Tirupati to Arunachalam by Bus",
+        "3. Tirupati to Arunachalam by Train:",
+        "4. Tirupati to Arunachalam by Air: (Not Recommended)",
+        "Leave a Reply Cancel reply",
+        "tirupatibalajitourstravel",
+        "Tirupati Attractions Near Me: What to Explore Based on Where You&#8217;re Staying",
+        "Tirupati to Srikalahasti &#8211; Best Routes, Transportation & Temple Tips",
+        "Tirupati to Tirumala Distance, Taxi Fare & Complete Booking Guide",
+        "ISKCON Temple Tirupati: Timings, Darshan, History & Complete Visitor Guide 2026"
+      ],
+      "word_count": 2072,
+      "internal_link_count": 232,
+      "external_link_count": 19,
+      "image_count": 42,
+      "schema_types": [],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "BreadcrumbList",
+              "@id": "https://tirupatibalajitourstravels.com/tirupati-to-arunachalam-distance/#breadcrumb",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": "1",
+                  "item": {
+                    "@id": "https://tirupatibalajitourstravels.com",
+                    "name": "Home"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "2",
+                  "item": {
+                    "@id": "https://tirupatibalajitourstravels.com/blog/",
+                    "name": "Tirupati Travel Blog"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "3",
+                  "item": {
+                    "@id": "https://tirupatibalajitourstravels.com/category/travel-guide/",
+                    "name": "Travel Guide"
+                  }
+                },
+                {
+                  "@type": "ListItem",
+                  "position": "4",
+                  "item": {
+                    "@id": "https://tirupatibalajitourstravels.com/tirupati-to-arunachalam-distance/",
+                    "name": "How to Go to Arunachalam from Tirupati: A Comprehensive Guide to Tirupati to Arunachalam Distance"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.redbus.in/bus-tickets/tirupathi-to-arunachalam",
+      "fetched_at": "2026-05-08T02:17:32.108Z",
+      "rank": 4,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.rome2rio.com/s/Tirupati/Arunachala",
+      "fetched_at": "2026-05-08T02:17:34.247Z",
+      "rank": 5,
+      "fetch_status": 403,
+      "fetch_ok": false,
+      "fetch_error": "HTTP 403",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    }
+  ]
+}

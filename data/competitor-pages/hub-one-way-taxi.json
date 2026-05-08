@@ -1,0 +1,276 @@
+{
+  "cluster_id": "hub-one-way-taxi",
+  "pages": [
+    {
+      "url": "https://onewaydroptaxi.com/?srsltid=AfmBOooGyFZ6EkY1fOYkzj8qTh9oCHpChsR8fuomSyFLc1WkvKSN5a-n",
+      "fetched_at": "2026-05-08T02:16:39.057Z",
+      "rank": 1,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Book Online Outstation Taxi Service| 9040091009 | OneWayDropTaxi.Com @ One\r\n      Way Fare",
+      "title_length": 90,
+      "meta_description": "If you are looking for reliable outstation taxi services in tamilnadu, bangalore, pondicherry, kerala, andhra pradesh. one way drop taxi service provide one way and round trip outstation taxi service at affordable price.",
+      "meta_description_length": 220,
+      "canonical": "https://onewaydroptaxi.com",
+      "h1": [],
+      "h2": [
+        "Welcome to",
+        "Oneway Drop Taxi",
+        "Book Online Outstation Cab At One Way Fare"
+      ],
+      "h3": [
+        "Why Choose Us?",
+        "Testimonials",
+        "Booking Tariff",
+        "Book an One Way Drop Taxi from the App",
+        "Airport Outstation Taxi",
+        "One Way Outstation Trip",
+        "One Way Outstation Trip",
+        "One Way Outstation Trip"
+      ],
+      "word_count": 780,
+      "internal_link_count": 0,
+      "external_link_count": 7,
+      "image_count": 25,
+      "schema_types": [
+        "corporation"
+      ],
+      "schemas": [
+        {
+          "@context": "http://schema.org",
+          "@type": "corporation",
+          "name": "One way drop taxi",
+          "url": "https://www.onewaydroptaxi.com/",
+          "logo": "https://www.onewaydroptaxi.com/images/one-way-drop-taxi.png",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": " 30, srinagar main road,Anna salai",
+            "addressLocality": " Poonamallee,Chennai",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "600056",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "telephone": "+919040091009",
+            "email": "Support@onewaydroptaxi.com"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "ratingCount": "488"
+          }
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://www.droptaxi.in/",
+      "fetched_at": "2026-05-08T02:16:39.583Z",
+      "rank": 2,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "DropTaxi",
+      "title_length": 8,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [
+        "Get a drop taxi booking for just Rs.14/km",
+        "Available vehicles!",
+        "Confirm Your Booking",
+        "Why Choose Us?",
+        "Popular Cities",
+        "Popular Routes",
+        "DOWNLOAD OUR APP NOW!",
+        "What Our Customers Say"
+      ],
+      "h2": [
+        "Trichy",
+        "Pondicherry",
+        "Bangalore",
+        "Chennai",
+        "Madurai",
+        "Kumbakonam",
+        "Vellore",
+        "Thiruvannamalai",
+        "Thanjavur",
+        "Salem",
+        "Tirunelveli",
+        "Coimbatore",
+        "Ooty",
+        "Rameshwaram",
+        "Karaikudi"
+      ],
+      "h3": [
+        "Booking Summary -",
+        "Request a Callback"
+      ],
+      "word_count": 1633,
+      "internal_link_count": 15,
+      "external_link_count": 15,
+      "image_count": 98,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": true,
+      "has_distance_info": true
+    },
+    {
+      "url": "https://www.redtaxi.co.in/oneway-trip",
+      "fetched_at": "2026-05-08T02:16:40.395Z",
+      "rank": 3,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "One Way Trip Call Taxi - Book One Way Drop Taxi",
+      "title_length": 47,
+      "meta_description": "Book your One Way Drop Taxi Service for Rental with Red Taxi. Have a Pleasant Ride with Our Oneway Cab Service at the Cheapest Price/Fare",
+      "meta_description_length": 137,
+      "canonical": "https://www.redtaxi.co.in/oneway-trip",
+      "h1": [
+        "Oneway Trip"
+      ],
+      "h2": [
+        "Reach Us, We are here to help you",
+        "Oneway Trip Fare",
+        "Your Reliable Ride for Every Business Need.",
+        "Get the Ride You Deserve"
+      ],
+      "h3": [
+        "Trips",
+        "Corporate",
+        "Cab Types",
+        "Become a Partner",
+        "Become a Driver",
+        "Contact Us",
+        "Careers",
+        "Cabs",
+        "Cabs",
+        "Bike Taxi",
+        "Quick Links",
+        "Become a Partner",
+        "Become a Driver",
+        "Contact Us",
+        "Careers"
+      ],
+      "word_count": 816,
+      "internal_link_count": 91,
+      "external_link_count": 18,
+      "image_count": 17,
+      "schema_types": [
+        "Organization"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "Organization",
+          "@id": "https://www.redtaxi.co.in",
+          "name": "Red Taxi",
+          "alternateName": "Red Taxi",
+          "url": "https://www.redtaxi.co.in/",
+          "logo": "https://www.redtaxi.co.in/images/red-taxi-logo.webp",
+          "description": "Book a Cab Online near your location. Red Taxi offers Tours, Taxi, Travels, Cabs, Car Rentals, Hire Services & Local or Outstation Packages at affordable prices",
+          "brand": {
+            "@type": "Brand",
+            "name": "Red Taxi"
+          },
+          "slogan": "Comfortable Rides, Anytime, Anywhere",
+          "knowsAbout": [
+            "Taxi Service",
+            "Cab Booking",
+            "Airport Taxi Service",
+            "Outstation Cabs",
+            "Local City Taxi",
+            "Corporate Taxi Service",
+            "24x7 Taxi Booking",
+            "Premium Cab Service",
+            "Affordable Taxi Service",
+            "Online Cab Booking"
+          ],
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "1226, Magudam Towers, Mettupalayam Rd, Saibaba Colony",
+            "addressLocality": "Coimbatore",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "641043",
+            "addressCountry": "IN"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "0422 4567890",
+              "email": "customersupport@redtaxi.co.in",
+              "contactType": "Customer Support",
+              "areaServed": "IN",
+              "availableLanguage": [
+                "English"
+              ]
+            }
+          ],
+          "sameAs": [
+            "https://www.facebook.com/redtaxi.ind",
+            "https://www.instagram.com/redtaxicabs/",
+            "https://x.com/REDTaxiInd"
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@graph": [
+            {
+              "@type": "WebPage",
+              "@id": "https://www.redtaxi.co.in/oneway-trip",
+              "url": "https://www.redtaxi.co.in/oneway-trip",
+              "name": "Oneway Trip - Red Taxi",
+              "description": "Book your One Way Drop Taxi Service for Rental with Red Taxi. Have a Pleasant Ride with Our Oneway Cab Service at the Cheapest Price/Fare.",
+              "inLanguage": "en",
+              "publisher": {
+                "@type": "Organization",
+                "@id": "https://www.redtaxi.co.in",
+                "name": "Red Taxi",
+                "url": "https://www.redtaxi.co.in",
+                "logo": {
+                  "@type": "ImageObject",
+                  "url": "https://www.redtaxi.co.in/images/red-taxi-logo.webp"
+                },
+                "brand": {
+                  "@type": "Brand",
+                  "name": "Red Taxi",
+                  "url": "https://www.redtaxi.co.in"
+                }
+              }
+            },
+            {
+              "@type": "BreadcrumbList",
+              "itemListElement": [
+                {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "name": "Home",
+                  "item": "https://www.redtaxi.co.in"
+                },
+                {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "name": "Oneway Trip - Red Taxi",
+                  "item": "https://www.redtaxi.co.in/oneway-trip"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    }
+  ]
+}

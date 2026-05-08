@@ -1,0 +1,171 @@
+{
+  "cluster_id": "route-coimbatore-ooty",
+  "pages": [
+    {
+      "url": "https://www.makemytrip.com/car-rental/coimbatore-ooty-cab-services.html",
+      "fetched_at": "2026-05-08T02:21:59.477Z",
+      "rank": 2,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.savaari.com/coimbatore/coimbatore-to-ooty-cabs",
+      "fetched_at": "2026-05-08T02:21:59.634Z",
+      "rank": 3,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "",
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": "https://www.savaari.com/coimbatore/coimbatore-to-ooty-cabs",
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 28,
+      "internal_link_count": 1,
+      "external_link_count": 0,
+      "image_count": 4,
+      "schema_types": [
+        "FAQPage",
+        "Product"
+      ],
+      "schemas": [
+        {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How much is the Coimbatore to Ooty taxi fare, and what payment options does Savaari accept?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Savaari offers the lowest fare for a Mumbai to Lonavala taxi fare, starting at just ?1499. Rent any cab or even a luxury tempo traveller in Mumbai for a group of more than 8 members and have a funfilled group travel experience with Savaari.Savaari offers the lowest fare for traveling from Hyderabad to Srisailam by car, starting at just ?2772. Save significantly on your Hyderabad to Srisailam taxi price by choosing Savaari's chauffeur-driven cars and enjoying a pleasant ride. Book any cab or even a luxury tempo traveller in Hyderabad for a stress-free ride to Srisailam.Savaari offers the best price for travelling from Coimbatore to Ooty by car, starting at just ?1275. You can save significantly on your Ooty taxi fare by choosing Savaari's chauffeur-driven cars and enjoying a pleasant ride. Book a car rental from Coimbatore today for a stress-free ride to the mesmerising hill station nestled in the Nilgiris Hills.At Savaari, we accept cash, credit and debit cards, UPI, GooglePay, digital wallets, and international cards. You can either pay at the end of the trip or while completing the cab booking process."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What types of vehicles are available with Savaari for the Coimbatore to Ooty route?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Savaari provides various car rental options from Coimbatore to Ooty, and you can book a comfortable taxi service in Coimbatore for a hassle-free ride. Depending on your travel preferences and budget, you can select from compact hatchbacks, comfortable sedans, Innova cabs, SUVs or luxurious tempo travellers."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What are the top things to do in Ooty?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Udhagamandalam is a beautiful hill station known for verdant green valleys, well-kept gardens, serene landscapes, the enchanting Nilgiri Hills, vast tea estates, and British-era architecture. While planning a trip, include these fun things to do in Ooty in your itinerary:Boating at Ooty Lake: Enjoy the calming ambience of this lake and other nearby lakes by indulging in paddle boating, rowing, or motor boating. Soak in the breathtaking beauty of the surroundings while splashing in the serene waters.Explore St Stephen's Church: Marvel at the architecture of this magnificent church that boasts colonial influences, featuring a Neo-Gothic style characterised by pointed arches, stained glass windows, and ornate spires. Try Nilgiri Mountain Railway: Enjoy a blissful ride in the \"Toy Train\", a historic railway line between Mettupalayam and Udhagamandalam in the Nilgiri Hills. It is a UNESCO World Heritage Site renowned for its scenic beauty, engineering marvels, and unique heritage.Spend time at the Botanical Garden: This Botanical Garden is home to thousands of plant species, including rare and exotic varieties. Explore themed sections like the Fern House, Orchid House, and Italian Garden, showcasing different types of flora.Sample local food: From famous homemade chocolates and chocolate-based goodies to authentic South Indian dishes, Udhagamandalam offers a wide assortment of food."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can I change my existing or ongoing bookings or cancel if necessary? What is the cancellation policy?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "At Savaari, we understand that last-minute changes can happen to your plans due to unforeseen circumstances. Hence, we follow a flexible cancellation process. You can cancel your existing or ongoing bookings 24 hours before your journey without paying any cancellation charges. However, if you request cancellation or modification of the ride within 24 hours of the pick-up time, the following regulations will apply:Multi-day trip: The charge for the first day will be deducted from the total amount, and users will receive a refund.Single Day travel/ Airport transfer: No refund is given to users.Airport transfer: No Cancellation Charges if cancelled at least 2 hours before pickup time."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How can I book a cab from Coimbatore to Ooty with Savaari?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Book Coimbatore to Ooty taxi via Savaari's website, our mobile app, or by contacting our customer care executive.Website: Our easy-to-use website facilitates cab booking that meets your needs. Enter trip details, travel date, and destination, and select the payment mode to complete the process.Mobile app: Download the Savaari mobile app to book a Coimbatore to Ooty cab from your phones or tablets anytime, anywhere.Phone Booking: Contact our responsive customer care team at 09045450000, and they will help you with the booking process."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is the best time to visit Ooty?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Although Udhagamandalam is bestowed with a pleasant climate all year round, the best time to visit Ooty is from March to June, when you can get respite from the heat and chaos of the city and enjoy the tranquillity here."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Are there any sightseeing spots or pit stops along the Coimbatore to Ooty route?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "There are several captivating and unique sites where you can stop and explore while embarking on a Coimbatore to Ooty road trip. And, if you are a larger group with 10-12 members, you can also book a deluxe tempo traveller in Coimbatore to commence a fun-filled family trip. Some of the must-see ones include:Arulmigu Subramanya Swami Temple, Marudhamalai: Pray at this renowned temple dedicated to Lord Murugan. Discover architectural beauty, spiritual significance, and natural surroundings here and enjoy its serene atmosphere.Ramayana Theme Park, Periyanaickenpalayam: Visit this unique and intriguing theme park that features games and rides inspired by the Hindu Epic Ramayana, where each ride reflects elements from the epic, and alongside each attraction, there is a board providing a narrative of the corresponding story from the Ramayana.Karamadai Ranganathar Temple, Karamadai: Offer prayers at this famous temple dedicated to Lord Vishnu featuring traditional South Indian Dravidian style, characterised by intricately carved pillars, towering gopurams (entrance towers), and ornate sculptures depicting various mythological themes.Kattery Park, Coonoor: Explore this park offering lush greenery, well-manicured lawns, and breathtaking views of the surrounding hills and valleys. Enjoy strolls along winding pathways, surrounded by towering trees, vibrant flowers, and chirping birds.Doddabetta Peak: Stop here to tour the highest point in the Nilgiri mountain range, offering breathtaking panoramic views of the surrounding valleys, tea estates, and distant plains."
+              }
+            }
+          ]
+        },
+        {
+          "@context": "https://schema.org",
+          "@type": "Product",
+          "name": "Coimbatore to Ooty Cabs",
+          "description": "Savaari Car Rentals provides affordable cabs from Coimbatore to Ooty. Customers can book both oneway drops as well as roundtrip cabs on this route. Savaari provides several reliable and safe cab options like Hatchbacks, Sedans, SUVs, Innovas, Innova Crysta and Tempo Traveller.",
+          "sku": "InStock",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "bestRating": "5",
+            "worstRating": "1",
+            "ratingValue": "4.4",
+            "ratingCount": "5237"
+          }
+        }
+      ],
+      "faq_count": 7,
+      "faq_questions": [
+        "How much is the Coimbatore to Ooty taxi fare, and what payment options does Savaari accept?",
+        "What types of vehicles are available with Savaari for the Coimbatore to Ooty route?",
+        "What are the top things to do in Ooty?",
+        "Can I change my existing or ongoing bookings or cancel if necessary? What is the cancellation policy?",
+        "How can I book a cab from Coimbatore to Ooty with Savaari?",
+        "What is the best time to visit Ooty?",
+        "Are there any sightseeing spots or pit stops along the Coimbatore to Ooty route?"
+      ],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.goibibo.com/cars/coimbatore-to-ooty-cabs/",
+      "fetched_at": "2026-05-08T02:22:32.507Z",
+      "rank": 4,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    }
+  ]
+}

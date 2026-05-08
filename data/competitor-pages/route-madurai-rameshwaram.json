@@ -1,0 +1,126 @@
+{
+  "cluster_id": "route-madurai-rameshwaram",
+  "pages": [
+    {
+      "url": "https://www.makemytrip.com/car-rental/madurai-rameshwaram-cab-services.html",
+      "fetched_at": "2026-05-08T02:23:04.540Z",
+      "rank": 2,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.goibibo.com/cars/madurai-to-rameshwaram-cabs/",
+      "fetched_at": "2026-05-08T02:23:36.557Z",
+      "rank": 3,
+      "fetch_status": null,
+      "fetch_ok": false,
+      "fetch_error": "This operation was aborted",
+      "title": null,
+      "title_length": 0,
+      "meta_description": null,
+      "meta_description_length": 0,
+      "canonical": null,
+      "h1": [],
+      "h2": [],
+      "h3": [],
+      "word_count": 0,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 0,
+      "schema_types": [],
+      "schemas": [],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": false
+    },
+    {
+      "url": "https://www.onewaydroptaxi.com/madurai-to-rameshwaram-one-way-taxi-service.html?srsltid=AfmBOoqvr2fkVIGTAcHK8onSQ17m5CsrXwwEzYwx5H2VCxdn4P5f5wTM",
+      "fetched_at": "2026-05-08T02:23:36.737Z",
+      "rank": 4,
+      "fetch_status": 200,
+      "fetch_ok": true,
+      "fetch_error": null,
+      "title": "Madurai to Rameshwaram Taxi Service | Madurai to Rameshwaram Cab Service",
+      "title_length": 72,
+      "meta_description": "Now book cabs online at best price from one way taxi from madurai to rameshwaram. Get all types of cheap taxi booking services at lowest fare.",
+      "meta_description_length": 142,
+      "canonical": "https://www.onewaydroptaxi.com/madurai-to-rameshwaram-one-way-taxi-service.html",
+      "h1": [
+        "Madurai to Rameshwaram Taxi Fare"
+      ],
+      "h2": [
+        "Outstation Cabs from",
+        "Madurai to Rameshwaram",
+        "Madurai to Rameshwaram One Way & Round Trip tariff PLAN",
+        "Why book taxi online for outstation at one way drop taxi"
+      ],
+      "h3": [
+        "Quick Booking APP",
+        "Safe and Secure",
+        "24/7 Customer Service",
+        "Vehicle Option",
+        "Cash Pack",
+        "Advance Booking"
+      ],
+      "word_count": 659,
+      "internal_link_count": 0,
+      "external_link_count": 0,
+      "image_count": 11,
+      "schema_types": [
+        "corporation"
+      ],
+      "schemas": [
+        {
+          "@context": "http://schema.org",
+          "@type": "corporation",
+          "name": "One way drop taxi",
+          "url": "https://www.onewaydroptaxi.com/",
+          "logo": "https://www.onewaydroptaxi.com/images/one-way-drop-taxi.png",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": " 30, srinagar main road,Anna salai",
+            "addressLocality": " Poonamallee,Chennai",
+            "addressRegion": "Tamil Nadu",
+            "postalCode": "600056",
+            "addressCountry": "India"
+          },
+          "contactPoint": {
+            "@type": "ContactPoint",
+            "contactType": "customer support",
+            "telephone": "+919040091009",
+            "email": "Support@onewaydroptaxi.com"
+          },
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.5",
+            "ratingCount": "488"
+          }
+        }
+      ],
+      "faq_count": 0,
+      "faq_questions": [],
+      "has_pricing_table": false,
+      "has_distance_info": true
+    }
+  ]
+}
