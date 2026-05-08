@@ -170,6 +170,103 @@ export type RouteOverride = {
 };
 
 const ROUTE_OVERRIDES: Record<string, RouteOverride> = {
+    "bangalore-to-mysore": {
+        snippetLede:
+            "Bangalore to Mysore by taxi is approximately 150 km via the Bengaluru-Mysuru Expressway (NH275). The drive takes 2.5 to 3 hours on the new 10-lane access-controlled expressway. One-way drop taxi fares start at ₹2,100 for a sedan, ₹2,850 for an SUV and ₹3,150 for an Innova Crysta — all-inclusive of tolls, driver bata and GST. The Mysore Expressway has cut earlier 4-hour journey times to under 3 hours for most weekday departures.",
+        intro:
+            "The Bangalore to Mysore route was transformed in March 2023 when the new <strong>Bengaluru-Mysuru Expressway</strong> opened — a 119 km greenfield 10-lane access-controlled highway with 110 km/h speed limits, eliminating the older traffic-choked NH275 stretch through Ramanagara and Mandya. The expressway has dropped average journey time from 3.5-4 hours to 2.5-3 hours for sedans and SUVs leaving Bangalore city limits before 9 AM. Mysore (officially Mysuru) is Karnataka's cultural capital — home to the Mysore Palace, Chamundi Hills, the dasara processions, and Karnataka's classical music tradition. The route is South India's most-booked weekend corridor, with Bangalore city dwellers regularly making same-day round trips for the palace, KRS dam, or Srirangapatna heritage sites.",
+        bestTime:
+            "Depart Bangalore between 6 AM and 8 AM to clear the Electronic City and NICE Road interchange before peak traffic. Late-evening departures (after 8 PM) are also smooth — the expressway is well-lit and toll plazas have FASTag-only fast lanes. Avoid Friday 5 PM-9 PM and Sunday 4 PM-9 PM (peak return traffic from Mysore weekenders). For festival weekends (Mysore Dasara — September-October), book 7-10 days ahead and add 60-90 minutes to drive estimates. The route operates year-round; monsoon (June-September) can slow visibility but rarely closes the expressway.",
+        sampleTimeline: [
+            { time: "6:00 AM", activity: "Pickup from Bangalore (Whitefield, Electronic City, Koramangala, Indiranagar, Airport, or your address)." },
+            { time: "6:30 AM (+30 min)", activity: "Clear NICE Road interchange or Electronic City junction. Enter the Bengaluru-Mysuru Expressway near Bidadi." },
+            { time: "7:30 AM (+1.5 hrs)", activity: "Pass Ramanagara — silk-cocoon belt and the iconic granite hills. Brief halt at the Ramanagara service area for chai and bathroom break." },
+            { time: "8:15 AM (+2 hrs 15 min)", activity: "Mandya district — sugarcane and paddy belt. Famous Maddur vada at Kamat or Adyar Anand Bhavan service halts." },
+            { time: "8:45 AM (+2 hrs 45 min)", activity: "Exit expressway at Srirangapatna — optional 30-minute detour to the fort, Tipu Sultan's summer palace, and the Cauvery river island." },
+            { time: "9:00-9:30 AM (+3 hrs)", activity: "Arrive Mysore. Drop at Mysore Palace, Chamundi Hills, KSRTC bus stand, Mysore railway station, or your booked address." },
+        ],
+        dropPoints: [
+            "Mysore Palace (city centre)",
+            "Chamundi Hills (10 km from city)",
+            "Brindavan Gardens / KRS Dam (19 km from city)",
+            "Srirangapatna fort and Tipu's Summer Palace",
+            "Mysore Zoo (Sri Chamarajendra Zoological Gardens)",
+            "Mysore Railway Station and KSRTC Bus Stand",
+            "Heritage hotels: Lalith Mahal Palace Hotel, Royal Orchid Metropole",
+            "Resorts at Mandakalli, Kabini direction, and Bandipur road",
+        ],
+        routeHighlights: [
+            { title: "Bengaluru-Mysuru Expressway (NH275)", detail: "10-lane access-controlled expressway opened March 2023. 110 km/h speed limit, FASTag-only at three toll plazas (Sheshagirihalli, Ganangur, Manipura). 119 km of the 150 km route is on this expressway — the older state highway connects Bangalore inner city to the expressway entry." },
+            { title: "Ramanagara", detail: "60 km from Bangalore — a granite-hill landscape made famous as the location for the 1975 film 'Sholay'. Silk-cocoon trade hub. Service area on the expressway has well-equipped restrooms, fuel stations, and a McDonalds-Subway-South Indian food court combo. 15-minute halt territory." },
+            { title: "Mandya sugarcane belt", detail: "Mid-route through the Cauvery delta — sugar mills, paddy fields, and the famous Maddur Tiffanys / Maddur vada heritage at the Maddur exit. Kamat and Adyar Anand Bhavan run service-road outlets for the classic ghee-laden Maddur vada and rava idli stop." },
+            { title: "Srirangapatna island fort", detail: "10 km before Mysore — the Cauvery-encircled island fort that was Tipu Sultan's capital. Worth a 30-minute detour: the Daria Daulat Bagh summer palace, the British war memorial, and the dargah at the foot of the fort. Drivers familiar with the route know the back-entry that avoids the main bottleneck." },
+            { title: "Mysore Palace approach", detail: "The drive into Mysore via the Bangalore Road approach passes Karanji Lake, the zoo gates, and St. Philomena's Cathedral. The palace itself is in the heart of the old city; drop-off is on the south gate with paid parking nearby." },
+            { title: "Chamundi Hills viewpoint", detail: "On the Mysore approach for those routing via the Chamundi side, the drive up to Chamundeshwari Temple offers panoramic Mysore vistas. Many drivers will accept a short Chamundi detour as part of the drop." },
+        ],
+        foodStops: [
+            { title: "Bidadi (toddy + thatte idli, 30 km)", detail: "First Bangalore exit on the older route — famous for thatte idli (plate idli, soft and 4x normal size). Most drivers know the trustworthy stalls that survived the expressway opening. Ten-minute halt." },
+            { title: "Ramanagara service area (60 km)", detail: "Modern food court with McDonald's, Subway, Café Coffee Day, A2B (Adyar Anand Bhavan), clean restrooms, and a fuel station. Best halt on the entire route for families. 20-minute halt territory." },
+            { title: "Maddur Tiffanys / Kamat (90 km)", detail: "Maddur vada is the route's signature snack — a crisp ghee-onion pancake unique to this stretch. Kamat and Adyar Anand Bhavan both run highway outlets. Vegetarian only; perfect 15-minute mid-route stop." },
+            { title: "Srirangapatna river-side dhabas (135 km)", detail: "Cauvery-bank restaurants near the fort entrance. Karnataka-style fish (especially silver carp) and ragi mudde + saaru at lunch. Drivers familiar with the route prefer the Hotel Mayura Cauvery view." },
+        ],
+        vehicleGuidance:
+            "The Bangalore-Mysore Expressway is one of South India's smoothest highway runs — virtually any vehicle in our fleet handles the route comfortably. <strong>Sedans (Etios/Dzire)</strong> at ₹2,100 are the best value for 2-3 passengers; the smooth tarmac and 110 km/h cruise make engine effort minimal. <strong>SUVs (Ertiga/Innova)</strong> at ₹2,850 give more cabin headroom for families with strollers/luggage and are preferred for the elderly because the seating height makes ingress/egress easier at multiple stops. <strong>Innova Crysta</strong> at ₹3,150 is the premium pick — quieter cabin lets passengers nap on the return leg. <strong>Tempo Travellers</strong> handle the route at expressway speeds without strain. Diesel and petrol both work; the expressway's flat profile means no significant fuel-economy gap between vehicle types.",
+        monsoonAdvisory:
+            "The route operates year-round. <strong>Monsoon impact (June-September):</strong> the expressway has good drainage and rarely floods, but heavy rain reduces visibility and toll-plaza queues lengthen. Add 30-45 minutes to dry-season estimates during heavy downpours. <strong>October-November</strong> is the most pleasant weather. <strong>Winter fog (December-January)</strong> can affect early-morning departures (5-7 AM) — drivers slow to 60-80 km/h on visibility under 200m, adding 30-45 minutes. <strong>What to pack year-round:</strong> sunglasses (the expressway runs east-west and the morning sun is direct), light jacket (Mysore is 5°C cooler than Bangalore on average), and FASTag credit if self-driving.",
+        multiDayPackage:
+            "For 2-3 day Mysore trips, our <strong>multi-day Mysore package</strong> uses the same vehicle and driver throughout. The package includes daily 250 km kilometre allowance (covers Mysore + Srirangapatna + KRS + Chamundi sightseeing), driver bata (₹500/day for inter-state travel), one night halt charge (₹350-500), tolls, and GST. <strong>Day 1:</strong> Bangalore pickup → Mysore arrival → Mysore Palace, Chamundi Hills. <strong>Day 2:</strong> KRS Dam, Brindavan Gardens, Mysore Zoo, optional Srirangapatna circuit. <strong>Day 3:</strong> Mysore departure → optional Talakad/Somnathpur detour → Bangalore drop. Sedan package starts at ₹10,800 for 3 days, SUV at ₹14,500, Crysta at ₹16,200. Add Coorg or Wayanad as an extension for an extra day.",
+        destinationGuide: [
+            { title: "Mysore Palace (Amba Vilas)", detail: "Open 10 AM-5:30 PM. Indo-Saracenic architecture from 1912; the seat of the Wodeyar dynasty. Sunday and public holiday illuminations (7-7:45 PM) are the photography highlight. ₹70 entry; ₹50 extra for the inner halls. Allow 2 hours minimum." },
+            { title: "Chamundi Hills and Chamundeshwari Temple", detail: "10 km from city, 1,062 steps or a winding road. The Mahishasura statue at the temple courtyard, the Nandi monolith on the hill, and panoramic Mysore views. Best at sunrise (cooler, fewer crowds)." },
+            { title: "KRS Dam and Brindavan Gardens", detail: "19 km from Mysore on the Krishnaraja Sagar dam. Musical fountain show 7 PM-7:55 PM; check seasonality before visiting. The terraced gardens are worth a 60-90 minute walk." },
+            { title: "Srirangapatna fort circuit", detail: "Daria Daulat Bagh (Tipu's Summer Palace), Jamia Masjid, Sri Ranganathaswamy temple, the British war memorial, and the dungeons. Half-day visit; combine with the drive in or out of Mysore." },
+            { title: "Mysore Zoo", detail: "One of India's oldest zoos (1892), well-curated with white tigers, giraffes, and a butterfly park. ₹80 adult, ₹40 child. 2-3 hour visit." },
+            { title: "St. Philomena's Cathedral", detail: "Neo-Gothic Catholic cathedral, one of India's tallest. Free entry; quiet 30-minute stop on the way back to Bangalore." },
+            { title: "Mysore Sandalwood Oil Factory and Government Silk Weaving Factory", detail: "Industrial heritage tours showing traditional Mysore craft production. Booking ahead recommended for the silk factory." },
+        ],
+        customFaqs: [
+            {
+                question: "How long does the Bangalore to Mysore drive take in 2026?",
+                answer: "On the Bengaluru-Mysuru Expressway (opened March 2023), the drive takes 2.5 to 3 hours from city limit to city limit. From central Bangalore (MG Road, Indiranagar) to central Mysore the door-to-door time is typically 3 to 3.5 hours including the city-traffic legs at both ends. The earlier 4-hour journey times via the old NH275 are now obsolete.",
+            },
+            {
+                question: "How much is a Bangalore to Mysore taxi?",
+                answer: "One-way drop taxi: ₹2,100 sedan (Etios/Dzire), ₹2,850 SUV (Ertiga/Innova), ₹3,150 Innova Crysta — based on 150 km × per-km rates. The fare includes tolls (~₹250 for the expressway plazas), driver bata (₹400/day), and GST. There are no surge or weekend multipliers.",
+            },
+            {
+                question: "Is the Bengaluru-Mysuru Expressway open for taxis?",
+                answer: "Yes. The expressway is fully operational since March 2023 with FASTag-only toll plazas at Sheshagirihalli, Ganangur, and Manipura. Two-wheelers and tractors are not permitted; cars, SUVs, taxis, buses, and trucks are. Speed limits: 110 km/h for cars, 80 km/h for trucks. Our taxi fares already include all expressway tolls.",
+            },
+            {
+                question: "Can I do a same-day Bangalore-Mysore-Bangalore trip?",
+                answer: "Yes. A typical same-day plan: 6 AM Bangalore departure, 9 AM Mysore arrival, sightseeing 9 AM-5 PM (palace, Chamundi, lunch, KRS), 5-8 PM return. Choose a sedan or SUV depending on group size. For comfortable Mysore Palace + Chamundi Hills + KRS Brindavan Gardens coverage, a same-day round-trip works; for adding Srirangapatna or Mysore Zoo, plan an overnight stay.",
+            },
+            {
+                question: "Do I need an inter-state permit for Bangalore to Mysore?",
+                answer: "No — Bangalore and Mysore are both in Karnataka, so there is no inter-state permit fee. This is one reason the Bangalore-Mysore corridor is among India's cheapest 150 km taxi routes. Compare with Bangalore-Coimbatore which crosses the Karnataka-Tamil Nadu border and requires an inter-state permit.",
+            },
+            {
+                question: "Are Uber and Ola available for Bangalore to Mysore?",
+                answer: "Both Uber Intercity and Ola Outstation cover this route on demand, but availability outside Bangalore metro is intermittent. For guaranteed pickup at Bangalore Airport (KIA) or Whitefield/Electronic City pickups with a Mysore-experienced driver, dedicated drop-taxi operators are more consistent.",
+            },
+            {
+                question: "What's the Bangalore Airport to Mysore taxi fare?",
+                answer: "Bangalore Airport (KIA, Devanahalli) to Mysore is approximately 185 km via the airport-NICE Road-expressway combination. Sedan: ₹2,590, SUV: ₹3,515, Crysta: ₹3,890 — all-inclusive of tolls, driver bata, GST. The drive takes 3.5-4 hours depending on Bangalore city traffic to bypass.",
+            },
+            {
+                question: "What's the cheapest way to travel from Bangalore to Mysore?",
+                answer: "By cost per person: KSRTC Volvo bus (₹350-500) is cheapest for solo travellers; train (Mysuru Shatabdi or Tipu Express, ₹150-450) is comparable. For groups of 3+, a sedan taxi at ₹2,100 split between 4 = ₹525 per head — comparable to Volvo with door-to-door convenience and flexibility for stops at Srirangapatna and Maddur.",
+            },
+            {
+                question: "Is the route safe for night travel?",
+                answer: "Yes. The Bengaluru-Mysuru Expressway has streetlights through the toll-plaza zones, ample CCTV, and 24/7 highway patrol. Service areas at Ramanagara are open all night. We assign drivers experienced on this route for night bookings — most overnight bookings are 10 PM Bangalore departure, 1 AM Mysore arrival.",
+            },
+            {
+                question: "Will the driver wait while I sightsee at Mysore?",
+                answer: "Not on a one-way drop — that ends at the booked drop point. For sightseeing on arrival (palace + Chamundi + KRS), book a round trip or our 1-day Mysore package where the same driver and vehicle stay with you 8-10 hours. Mention sightseeing intent at booking; we quote the right product (round-trip vs day-rental vs multi-day).",
+            },
+        ],
+    },
     "kochi-to-munnar": {
         snippetLede:
             "Kochi to Munnar by taxi is approximately 130 km via NH85 through Kothamangalam, Adimali and Neriamangalam. The drive takes 3.5 to 4.5 hours depending on traffic on the ghat section. One-way drop taxi fares start at ₹1,820 for a sedan, ₹2,470 for an SUV and ₹2,730 for an Innova Crysta — all-inclusive of tolls, driver bata and GST.",
