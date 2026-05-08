@@ -2,6 +2,7 @@
 
 import { ALL_DISTRICTS, DISTRICT_BY_SLUG, District } from './districts';
 import { VEHICLE_TYPES as VEHICLES, SUPPORT_PHONE } from './constants';
+import { SEO_ALIASES } from './seo-aliases';
 
 export interface RouteData {
     from: District;
@@ -43,12 +44,27 @@ export function getAllRouteSlugs(): string[] {
     return getAllRoutes().map(r => r.slug);
 }
 
-// Parse a route slug
+// Resolve a city slug, applying SEO_ALIASES if no direct District match exists.
+// Returns the canonical slug (or null if neither the input nor its alias resolves).
+function resolveCitySlug(slug: string): string | null {
+    if (DISTRICT_BY_SLUG.has(slug)) return slug;
+    const aliased = SEO_ALIASES[slug];
+    if (aliased && DISTRICT_BY_SLUG.has(aliased)) return aliased;
+    return null;
+}
+
+// Parse a route slug. Applies alias resolution to both from and to slugs.
+// The returned `slug` field is always the CANONICAL form (using District slugs),
+// not the input — so callers can detect alias use by comparing to the input.
 export function parseRouteSlug(slug: string): RouteData | null {
     const match = slug.match(/^(.+?)-to-(.+?)-taxi$/);
     if (!match) return null;
 
-    const [, fromSlug, toSlug] = match;
+    const [, rawFrom, rawTo] = match;
+    const fromSlug = resolveCitySlug(rawFrom);
+    const toSlug = resolveCitySlug(rawTo);
+    if (!fromSlug || !toSlug) return null;
+
     const fromDistrict = DISTRICT_BY_SLUG.get(fromSlug);
     const toDistrict = DISTRICT_BY_SLUG.get(toSlug);
     if (!fromDistrict || !toDistrict) return null;
@@ -57,12 +73,14 @@ export function parseRouteSlug(slug: string): RouteData | null {
     const routeEntry = fromDistrict.popularRoutes.find(r => r.toSlug === toSlug);
     if (!routeEntry) return null;
 
+    const canonicalSlug = `${fromSlug}-to-${toSlug}-taxi`;
+
     return {
         from: fromDistrict,
         to: toDistrict,
         distanceKm: routeEntry.distanceKm,
         fareEstimate: routeEntry.fareEstimate,
-        slug,
+        slug: canonicalSlug,
     };
 }
 

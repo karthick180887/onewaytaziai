@@ -1,4 +1,4 @@
-import { notFound } from 'next/navigation';
+import { notFound, redirect } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllRouteSlugs, parseRouteSlug, getRouteSEOContent, getRouteFAQs, getAllRoutes } from '@/lib/routes';
@@ -63,6 +63,12 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
     const { routeSlug } = await params;
     const route = parseRouteSlug(routeSlug);
     if (!route) notFound();
+
+    // Alias hit (e.g. tirupati-to-arunachalam-taxi -> tirupati-to-tiruvannamalai-taxi).
+    // Redirect to canonical so search engines consolidate ranking signals.
+    if (route.slug !== routeSlug) {
+        redirect(`/route/${route.slug}`);
+    }
 
     const { from, to, distanceKm, fareEstimate } = route;
     const seo = getRouteSEOContent(route);
