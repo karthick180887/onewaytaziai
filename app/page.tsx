@@ -86,6 +86,40 @@ export default function Home() {
 
             <TrustBanner />
 
+            {/* Service Hubs — internal linking to category pages */}
+            <section className="py-12 bg-gray-50 border-b border-gray-100" aria-label="Browse our services">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div className="text-center mb-8">
+                        <h2 className="text-2xl lg:text-3xl font-bold text-gray-900 mb-2">Browse our services</h2>
+                        <p className="text-gray-600">Pick the service that fits your trip — every option covers all 220+ South Indian cities.</p>
+                    </div>
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+                        {[
+                            { label: "Drop Taxi", href: "/drop-taxi", desc: "One-way only" },
+                            { label: "One Way Taxi", href: "/one-way-taxi", desc: "Pay one side" },
+                            { label: "Outstation Cabs", href: "/outstation-cabs", desc: "Inter-city" },
+                            { label: "Round Trip Taxi", href: "/round-trip-taxi", desc: "Same vehicle" },
+                            { label: "Airport Taxi", href: "/airport-taxi", desc: "10 airports" },
+                        ].map(s => (
+                            <Link
+                                key={s.href}
+                                href={s.href}
+                                className="group bg-white hover:bg-teal-50 hover:border-teal-300 hover:shadow-md rounded-2xl border border-gray-200 p-5 text-center transition-all"
+                            >
+                                <div className="font-bold text-gray-900 group-hover:text-teal-800 mb-1">{s.label}</div>
+                                <div className="text-xs text-gray-500">{s.desc}</div>
+                            </Link>
+                        ))}
+                    </div>
+                    <div className="text-center mt-6">
+                        <Link href="/book-now" className="inline-flex items-center gap-1.5 text-teal-700 hover:text-teal-900 font-semibold">
+                            Or jump straight to booking
+                            <span aria-hidden>→</span>
+                        </Link>
+                    </div>
+                </div>
+            </section>
+
             {/* Definition Block — optimized for AI citation (134-167 words) */}
             <section className="py-12 bg-white" aria-label="About OneWayTaxi.ai">
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">

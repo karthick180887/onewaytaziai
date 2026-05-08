@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { Car, Mail, Phone, MapPin, Plane, MessageCircle } from "lucide-react";
-import { APP_NAME, SUPPORT_PHONE, GOOGLE_MAPS_URL } from "@/lib/constants";
+import { Car, Mail, Phone, MapPin, MessageCircle } from "lucide-react";
+import { APP_NAME, SUPPORT_PHONE } from "@/lib/constants";
 import { DISTRICTS_BY_STATE, SERVICE_TYPES } from "@/lib/districts";
 
 const WHATSAPP_URL = 'https://wa.me/918124476010?text=Hi%2C%20I%20want%20to%20book%20a%20one-way%20taxi.';
@@ -121,9 +121,9 @@ export default function Footer() {
 
             {/* Bottom Row */}
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-8">
                     {/* Brand */}
-                    <div className="space-y-3">
+                    <div className="space-y-3 col-span-2 sm:col-span-3 lg:col-span-1">
                         <div className="flex items-center gap-2">
                             <div className="bg-teal-500 p-1.5 rounded-lg">
                                 <Car className="h-5 w-5 text-white" />
@@ -131,21 +131,20 @@ export default function Footer() {
                             <span className="text-xl font-bold text-white">{APP_NAME}</span>
                         </div>
                         <p className="text-gray-400 leading-relaxed text-sm">
-                            South India&apos;s leading one-way drop taxi service. 120+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana &amp; Pondicherry.
+                            South India&apos;s leading one-way drop taxi service. 220+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana &amp; Pondicherry.
                         </p>
                     </div>
 
-                    {/* Quick Links */}
+                    {/* Services */}
                     <div>
-                        <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Quick Links</h3>
+                        <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Services</h3>
                         <ul className="space-y-2">
                             {[
-                                { label: "Home", href: "/" },
-                                { label: "About Us", href: "/about" },
-                                { label: "Contact", href: "/contact" },
-                                { label: "Fare Calculator", href: "/fare-calculator" },
-                                { label: "Blog", href: "/blog" },
-                                { label: "Sitemap", href: "/sitemap.xml" },
+                                { label: "Drop Taxi", href: "/drop-taxi" },
+                                { label: "One Way Taxi", href: "/one-way-taxi" },
+                                { label: "Outstation Cabs", href: "/outstation-cabs" },
+                                { label: "Round Trip Taxi", href: "/round-trip-taxi" },
+                                { label: "Airport Taxi", href: "/airport-taxi" },
                             ].map(item => (
                                 <li key={item.label}>
                                     <Link href={item.href} className="text-gray-400 hover:text-teal-400 transition-colors text-sm">
@@ -156,24 +155,42 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* Airport Taxi */}
+                    {/* Vehicles */}
                     <div>
-                        <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">
-                            <Plane className="h-3.5 w-3.5 inline mr-1.5" />
-                            Airport Taxi
-                        </h3>
+                        <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Vehicles</h3>
                         <ul className="space-y-2">
                             {[
-                                { label: "Chennai Airport (MAA)", slug: "chennai-airport" },
-                                { label: "Bangalore Airport (BLR)", slug: "bangalore-airport" },
-                                { label: "Hyderabad Airport (HYD)", slug: "hyderabad-airport" },
-                                { label: "Kochi Airport (COK)", slug: "kochi-airport" },
-                                { label: "Coimbatore Airport (CJB)", slug: "coimbatore-airport" },
-                                { label: "Madurai Airport (IXM)", slug: "madurai-airport" },
-                            ].map(a => (
-                                <li key={a.slug}>
-                                    <Link href={`/airport-taxi/${a.slug}`} className="text-gray-400 hover:text-teal-400 transition-colors text-sm">
-                                        {a.label}
+                                { label: "Sedan Taxi", href: "/sedan-taxi" },
+                                { label: "SUV Taxi", href: "/suv-taxi" },
+                                { label: "Innova Crysta", href: "/innova-crysta-taxi" },
+                                { label: "Tempo Traveller", href: "/tempo-traveller" },
+                                { label: "Luxury Taxi", href: "/luxury-taxi" },
+                            ].map(item => (
+                                <li key={item.label}>
+                                    <Link href={item.href} className="text-gray-400 hover:text-teal-400 transition-colors text-sm">
+                                        {item.label}
+                                    </Link>
+                                </li>
+                            ))}
+                        </ul>
+                    </div>
+
+                    {/* Quick Links */}
+                    <div>
+                        <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Quick Links</h3>
+                        <ul className="space-y-2">
+                            {[
+                                { label: "Book Now", href: "/book-now" },
+                                { label: "Fare Calculator", href: "/fare-calculator" },
+                                { label: "FAQ", href: "/faq" },
+                                { label: "Reviews", href: "/reviews" },
+                                { label: "About Us", href: "/about" },
+                                { label: "Contact", href: "/contact" },
+                                { label: "Blog", href: "/blog" },
+                            ].map(item => (
+                                <li key={item.label}>
+                                    <Link href={item.href} className="text-gray-400 hover:text-teal-400 transition-colors text-sm">
+                                        {item.label}
                                     </Link>
                                 </li>
                             ))}
@@ -182,7 +199,7 @@ export default function Footer() {
 
                     {/* Contact */}
                     <div>
-                        <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Contact Us</h3>
+                        <h3 className="text-sm font-bold text-white uppercase tracking-wider mb-4">Contact</h3>
                         <ul className="space-y-3">
                             <li className="flex items-center gap-3">
                                 <Phone className="h-4 w-4 text-teal-500 shrink-0" />
@@ -208,8 +225,15 @@ export default function Footer() {
             </div>
 
             {/* Copyright */}
-            <div className="border-t border-gray-800 py-5 text-center text-xs text-gray-500">
-                <p>&copy; {new Date().getFullYear()} {APP_NAME}. All rights reserved. | One-Way Drop Taxi Across South India</p>
+            <div className="border-t border-gray-800 py-5">
+                <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-gray-500">
+                    <p>&copy; {new Date().getFullYear()} {APP_NAME}. All rights reserved. | One-Way Drop Taxi Across South India</p>
+                    <div className="flex items-center gap-4">
+                        <Link href="/terms-and-conditions" className="hover:text-teal-400 transition-colors">Terms & Conditions</Link>
+                        <Link href="/privacy-policy" className="hover:text-teal-400 transition-colors">Privacy Policy</Link>
+                        <Link href="/sitemap.xml" className="hover:text-teal-400 transition-colors">Sitemap</Link>
+                    </div>
+                </div>
             </div>
         </footer>
     );

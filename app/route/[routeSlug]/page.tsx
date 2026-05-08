@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { getAllRouteSlugs, parseRouteSlug, getRouteSEOContent, getRouteFAQs } from '@/lib/routes';
+import { getAllRouteSlugs, parseRouteSlug, getRouteSEOContent, getRouteFAQs, getAllRoutes } from '@/lib/routes';
 import { VEHICLE_TYPES, SUPPORT_PHONE } from '@/lib/constants';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -70,6 +70,15 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
 
     // Check if reverse route exists
     const reverseSlug = `${to.slug}-to-${from.slug}-taxi`;
+
+    // Related routes — same origin or same destination as this route
+    const allRoutes = getAllRoutes();
+    const moreFromOrigin = allRoutes
+        .filter(r => r.from.slug === from.slug && r.to.slug !== to.slug)
+        .slice(0, 6);
+    const moreToDestination = allRoutes
+        .filter(r => r.to.slug === to.slug && r.from.slug !== from.slug)
+        .slice(0, 6);
 
     return (
         <div className="min-h-screen bg-gray-50">
@@ -375,36 +384,88 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
 
             {/* Reverse Route + Related Links */}
             <section className="py-12 bg-white" aria-label="Related routes">
-                <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-                    <h2 className="text-xl font-bold text-gray-900 mb-6">Related Routes</h2>
-                    <div className="flex flex-wrap gap-3">
-                        {/* Reverse route */}
-                        <Link
-                            href={`/route/${reverseSlug}`}
-                            className="inline-flex items-center gap-2 px-5 py-3 bg-teal-50 border border-teal-200 rounded-xl text-teal-800 font-medium hover:bg-teal-100 transition-colors"
-                        >
-                            <ArrowLeftRight className="h-4 w-4" />
-                            {to.name} to {from.name} Taxi
-                        </Link>
+                <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
+                    <div>
+                        <h2 className="text-xl font-bold text-gray-900 mb-6">Related Routes</h2>
+                        <div className="flex flex-wrap gap-3">
+                            {/* Reverse route */}
+                            <Link
+                                href={`/route/${reverseSlug}`}
+                                className="inline-flex items-center gap-2 px-5 py-3 bg-teal-50 border border-teal-200 rounded-xl text-teal-800 font-medium hover:bg-teal-100 transition-colors"
+                            >
+                                <ArrowLeftRight className="h-4 w-4" />
+                                {to.name} to {from.name} Taxi
+                            </Link>
 
-                        {/* From city page */}
-                        <Link
-                            href={`/drop-taxi-in-${from.slug}`}
-                            className="inline-flex items-center gap-2 px-5 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-700 font-medium hover:border-teal-300 transition-colors"
-                        >
-                            <MapPin className="h-4 w-4 text-teal-600" />
-                            {from.name} Drop Taxi
-                        </Link>
+                            {/* From city page */}
+                            <Link
+                                href={`/drop-taxi-in-${from.slug}`}
+                                className="inline-flex items-center gap-2 px-5 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-700 font-medium hover:border-teal-300 transition-colors"
+                            >
+                                <MapPin className="h-4 w-4 text-teal-600" />
+                                {from.name} Drop Taxi
+                            </Link>
 
-                        {/* To city page */}
-                        <Link
-                            href={`/drop-taxi-in-${to.slug}`}
-                            className="inline-flex items-center gap-2 px-5 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-700 font-medium hover:border-teal-300 transition-colors"
-                        >
-                            <MapPin className="h-4 w-4 text-teal-600" />
-                            {to.name} Drop Taxi
-                        </Link>
+                            {/* To city page */}
+                            <Link
+                                href={`/drop-taxi-in-${to.slug}`}
+                                className="inline-flex items-center gap-2 px-5 py-3 bg-gray-50 border border-gray-200 rounded-xl text-gray-700 font-medium hover:border-teal-300 transition-colors"
+                            >
+                                <MapPin className="h-4 w-4 text-teal-600" />
+                                {to.name} Drop Taxi
+                            </Link>
+                        </div>
                     </div>
+
+                    {moreFromOrigin.length > 0 && (
+                        <div>
+                            <h3 className="text-lg font-bold text-gray-900 mb-4">More routes from {from.name}</h3>
+                            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                                {moreFromOrigin.map(r => (
+                                    <Link
+                                        key={r.slug}
+                                        href={`/route/${r.slug}`}
+                                        className="group bg-gray-50 hover:bg-white hover:shadow-md rounded-xl border border-gray-200 hover:border-teal-300 p-4 transition-all"
+                                    >
+                                        <div className="flex items-center justify-between mb-2 text-sm font-semibold text-gray-900">
+                                            <span>{r.from.name}</span>
+                                            <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-teal-600" />
+                                            <span>{r.to.name}</span>
+                                        </div>
+                                        <div className="flex items-center justify-between text-xs text-gray-500">
+                                            <span>{r.distanceKm} km</span>
+                                            <span className="font-bold text-teal-700">₹{r.fareEstimate}</span>
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    {moreToDestination.length > 0 && (
+                        <div>
+                            <h3 className="text-lg font-bold text-gray-900 mb-4">More taxis to {to.name}</h3>
+                            <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                                {moreToDestination.map(r => (
+                                    <Link
+                                        key={r.slug}
+                                        href={`/route/${r.slug}`}
+                                        className="group bg-gray-50 hover:bg-white hover:shadow-md rounded-xl border border-gray-200 hover:border-teal-300 p-4 transition-all"
+                                    >
+                                        <div className="flex items-center justify-between mb-2 text-sm font-semibold text-gray-900">
+                                            <span>{r.from.name}</span>
+                                            <ArrowRight className="h-4 w-4 text-gray-400 group-hover:text-teal-600" />
+                                            <span>{r.to.name}</span>
+                                        </div>
+                                        <div className="flex items-center justify-between text-xs text-gray-500">
+                                            <span>{r.distanceKm} km</span>
+                                            <span className="font-bold text-teal-700">₹{r.fareEstimate}</span>
+                                        </div>
+                                    </Link>
+                                ))}
+                            </div>
+                        </div>
+                    )}
                 </div>
             </section>
 
