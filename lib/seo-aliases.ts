@@ -12,7 +12,7 @@ export const SEO_ALIASES: Record<string, string> = {
     'nilgiris': 'ooty',
     'udhagamandalam': 'ooty',
     'rameshwaram': 'rameswaram',
-    'ramanathapuram': 'rameswaram',
+    'ramnad': 'ramanathapuram', // common short form of Ramanathapuram district
     'kumbakonam': 'kumbakonam',
     'arunachalam': 'tiruvannamalai',
     'arunachala': 'tiruvannamalai',
