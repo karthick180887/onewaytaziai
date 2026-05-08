@@ -1181,6 +1181,151 @@ export const BLOG_POSTS: BlogPost[] = [
 `,
     },
     {
+        slug: 'chennai-airport-to-cmc-vellore-distance-taxi-guide',
+        title: 'Chennai Airport to CMC Vellore: Distance, Travel Time & Taxi Guide for Patients',
+        metaTitle: 'Chennai Airport to CMC Vellore — 145 km, 2.5-3 hr Taxi Guide | OneWayTaxi.ai',
+        metaDescription: 'Chennai Airport (MAA) to CMC Vellore Hospital is 145 km via NH48, taking 2.5-3 hours. Sedan taxi ₹2,030. Wheelchair-accessible vehicles, direct route to CMC main gate, return-trip option. Medical-tourism guide.',
+        category: 'Routes',
+        readTimeMinutes: 11,
+        publishedAt: '2026-05-08',
+        updatedAt: '2026-05-08',
+        excerpt:
+            'CMC Vellore — Christian Medical College Hospital — receives thousands of patients flying into Chennai every month. This guide covers the verified distance from Chennai Airport (MAA) to CMC main gate, exact travel time, vehicle options including wheelchair-accessible Crysta bookings, and the same-day return-trip considerations specific to outpatient visits.',
+        keywords: [
+            'chennai airport to cmc vellore distance',
+            'chennai airport to cmc vellore taxi',
+            'maa to vellore taxi',
+            'cmc vellore nearest airport',
+            'chennai airport to cmc vellore travel time',
+            'cmc vellore taxi from chennai airport',
+        ],
+        content: `
+<p class="lead"><strong>Quick answer:</strong> Chennai International Airport (MAA, Meenambakkam) to CMC Vellore (Christian Medical College Hospital main gate) is approximately <strong>145 km via NH48</strong>, taking <strong>2.5 to 3 hours</strong> in normal traffic. A pre-booked drop taxi is the standard way patients and accompanying relatives travel — our sedan fare starts at <strong>₹2,030</strong>, SUV ₹2,755, Innova Crysta ₹3,045 — all-inclusive of tolls, driver bata and GST. Wheelchair-accessible vehicles are available on request.</p>
+
+<h2>Why Chennai Airport is the recommended air gateway for CMC Vellore</h2>
+<p>CMC Vellore — the Christian Medical College Hospital, founded in 1900 by Dr. Ida Sophia Scudder — is one of India's most prestigious tertiary-care teaching hospitals and a major medical-tourism destination for patients from across India, Bangladesh, Maldives, and the Middle East. The hospital does not have a directly-served airport; the two practical air-arrival options are <strong>Chennai International Airport (MAA, 145 km)</strong> and <strong>Bangalore International Airport (KIA, 220 km)</strong>. For most patients, MAA is the better choice because:</p>
+<ul>
+  <li><strong>Better domestic connectivity.</strong> MAA receives direct flights from 30+ Indian cities including all major southern, western, and northern hubs, plus 30+ international destinations. Chennai is the closer major airport for Tamil Nadu, southern Andhra, and most Indian medical-tourism flows.</li>
+  <li><strong>Simpler ground transport.</strong> The Chennai-Vellore corridor on NH48 is one of South India's smoothest 145 km drives — four-laned throughout, well-maintained, with consistent travel times of 2.5-3 hours.</li>
+  <li><strong>Lower fare.</strong> MAA-to-CMC sedan fare (₹2,030) is roughly 30-35% lower than KIA-to-CMC (~₹3,080) because of the shorter distance.</li>
+</ul>
+
+<h2>Distance and travel time — verified figures</h2>
+<table>
+  <thead><tr><th>Route segment</th><th>Distance</th><th>Travel time</th><th>Note</th></tr></thead>
+  <tbody>
+    <tr><td>MAA airport to NH48 entry (via GST Road)</td><td>~10 km</td><td>20-30 min</td><td>Chennai outer-city traffic during peak hours adds 15-20 min.</td></tr>
+    <tr><td>NH48 from Chennai outskirts to Vellore</td><td>~125 km</td><td>2-2.5 hrs</td><td>Smooth 4-lane highway via Sriperumbudur, Kanchipuram bypass, Chittoor approach.</td></tr>
+    <tr><td>Vellore bypass to CMC main gate</td><td>~10 km</td><td>20-30 min</td><td>Vellore inner-city traffic; afternoon and evening can stretch this.</td></tr>
+    <tr><td><strong>Total</strong></td><td><strong>~145 km</strong></td><td><strong>2.5-3 hrs</strong></td><td>Door-to-door from MAA exit to CMC main gate.</td></tr>
+  </tbody>
+</table>
+<p>Some online sources list the MAA-to-CMC distance at 132-138 km — those are the city-to-city figures (Chennai to Vellore CBD) and don't include the 10 km MAA-to-NH48 leg. The 145 km figure is what your taxi will actually drive door-to-door.</p>
+
+<h2>Taxi fare options for the MAA-to-CMC journey</h2>
+<table>
+  <thead><tr><th>Vehicle</th><th>Per km</th><th>One-way fare (~145 km)</th><th>Best for</th></tr></thead>
+  <tbody>
+    <tr><td>Hatchback (Mini)</td><td>₹13</td><td>₹1,885</td><td>Solo patient or 1 patient + 1 attendant, light luggage.</td></tr>
+    <tr><td>Sedan (Etios / Dzire)</td><td>₹14</td><td>₹2,030</td><td>2-3 family members with mid-size bags. Most-booked option.</td></tr>
+    <tr><td>SUV (Ertiga / Innova)</td><td>₹19</td><td>₹2,755</td><td>4-7 family members or patient + multiple attendants with luggage.</td></tr>
+    <tr><td>Innova Crysta</td><td>₹21</td><td>₹3,045</td><td>Recommended for elderly patients, post-surgery patients, or anyone needing the smoothest ride. Captain seats (variant-dependent) help post-op recovery.</td></tr>
+    <tr><td>Wheelchair-accessible vehicle</td><td>On request</td><td>From ₹3,500</td><td>For patients requiring transfer-from-wheelchair access. Limited availability — book 24-48 hours ahead.</td></tr>
+  </tbody>
+</table>
+<p>The displayed fare includes <strong>fuel, tolls, ₹400/day driver bata, and 5% GST</strong>. There is <strong>no inter-state permit fee</strong> on this route — both MAA and Vellore are in Tamil Nadu. Excluded items disclosed up-front: night charges (₹250-500 between 10 PM and 6 AM) for trips with overnight legs, and waiting charges if the driver halts more than 30 minutes free wait time at MAA arrival.</p>
+
+<h2>Recommended departure timing for CMC appointments</h2>
+<p>CMC Vellore's outpatient departments (OPD) typically run 8 AM-12 noon for first-batch consultations and 2 PM-4 PM for follow-ups. The hospital's standard advice is to arrive 60-90 minutes before your appointment slot for registration, vital-signs check, and any pre-consultation tests. Combine this with the 2.5-3 hour MAA-to-CMC drive and your departure timing planning is straightforward:</p>
+<ul>
+  <li><strong>For 8 AM appointment:</strong> Land at MAA by 4-4:30 AM. Most overnight international flights from the Middle East arrive in this window.</li>
+  <li><strong>For 9-10 AM appointment:</strong> Land at MAA by 5:30-6 AM. Domestic morning flights from Bangalore, Hyderabad, Mumbai land in this window.</li>
+  <li><strong>For 11 AM-12 PM appointment:</strong> Land by 7:30-8 AM. Most domestic morning flights work for this slot.</li>
+  <li><strong>For afternoon (2-4 PM) follow-up:</strong> Land by 11 AM-12 PM. Mid-day flights from Delhi, Kolkata, and Bangladeshi cities.</li>
+</ul>
+<p>Add a 30-45 minute buffer for immigration (international arrivals), baggage pickup (typically 30-45 minutes for international, 15-30 minutes for domestic), and the 5-10 minute taxi-pickup walk to our designated airport pickup zone.</p>
+
+<h2>The exact route — what your driver will take</h2>
+<ul>
+  <li><strong>Exit MAA via the Tirusulam direction.</strong> The airport's southbound exit connects to the GST Road within 5 minutes.</li>
+  <li><strong>GST Road to NH48 entry.</strong> 10 km via Tambaram, joining NH48 at Sriperumbudur.</li>
+  <li><strong>NH48 to Vellore bypass.</strong> 125 km of smooth four-lane highway through Sriperumbudur (Hyundai/Ford manufacturing), Kanchipuram bypass, and Walajapet. The Vellore bypass is the standard route — drivers avoid driving through Vellore city centre.</li>
+  <li><strong>Vellore bypass to CMC main gate.</strong> Exit the bypass via Bagayam-Sathuvachari junction, drive 10 km to the CMC main gate (Vellore's IDA Scudder Road is the immediate access road). Vellore inner-city traffic in the afternoon (3-7 PM) can extend this final leg by 20-30 minutes.</li>
+</ul>
+
+<h2>What to expect on arrival at CMC main gate</h2>
+<p>The CMC main gate sits on Ida Scudder Road, the hospital's central axis. Taxis drop at the marked drop-off zone immediately inside the gate. From here:</p>
+<ul>
+  <li><strong>Outpatient (OPD) registration:</strong> 100-metre walk to the OPD building.</li>
+  <li><strong>Inpatient admissions:</strong> A separate admission counter beside the OPD.</li>
+  <li><strong>Patient drop-off with wheelchair access:</strong> The hospital's main lobby has wheelchair stands; the entrance is ramp-accessible. Mention 'wheelchair patient' at booking and our driver will assist with the transfer at drop-off.</li>
+  <li><strong>Accompanying-relative transit:</strong> CMC has a separate Patient Welfare Centre where attendants can wait. Long-stay relatives often book affordable rooms at the CMC-managed Bagayam guesthouse or nearby budget hotels.</li>
+</ul>
+
+<h2>Return-trip options — same day vs overnight</h2>
+<p>For outpatient consultations and short procedures, many patients return to MAA the same day for an evening flight. We can quote:</p>
+<ul>
+  <li><strong>Same-day round-trip taxi:</strong> the same vehicle and driver wait at CMC during your appointment (usually 2-4 hours), then return you to MAA. Typical pricing: sedan ₹4,500-5,000 (round trip + driver halt), SUV ₹6,000-6,800, Crysta ₹6,800-7,500. Mention expected halt time at booking; we add a small driver-wait charge (₹150-250 per hour beyond the free 30 minutes).</li>
+  <li><strong>One-way drop only:</strong> standard one-way fares above. Useful when the patient is admitted as an inpatient and the family arranges a separate return when the patient is discharged.</li>
+  <li><strong>Multi-day package:</strong> for inpatient admissions of 2-7 days, we keep a vehicle and driver on standby at CMC for ferry runs (hospital-to-hotel-to-pharmacy-to-airport). Mention the duration at booking — package rates are typically 25-30% cheaper than separate one-way trips.</li>
+</ul>
+
+<h2>Wheelchair-accessible and special-needs considerations</h2>
+<p>Patients arriving for spine, oncology, transplant, or post-surgery follow-up often require accessibility considerations our standard fleet can accommodate with advance notice:</p>
+<ul>
+  <li><strong>Wheelchair transfers:</strong> Innova Crysta with sliding side door is the most accessible standard vehicle. We position the wheelchair beside the door for direct transfer to the seat. The chair travels in the rear cargo space.</li>
+  <li><strong>Wheelchair-accessible vans (WAV):</strong> for patients who must remain in their wheelchair during transit, we have a small WAV fleet. Pricing from ₹3,500 one-way; book 24-48 hours ahead to confirm availability.</li>
+  <li><strong>Stretcher transport:</strong> for bed-bound patients, mention this at booking — we coordinate with stretcher-equipped ambulance operators who handle airport-to-CMC transfers; we do not operate ambulances ourselves but can connect you to verified providers.</li>
+  <li><strong>Oxygen-cylinder requirement:</strong> patients on portable oxygen during transit are routinely transported in our SUV/Crysta vehicles. Confirm cylinder dimensions at booking; the vehicle's rear floor accommodates standard cylinders securely.</li>
+  <li><strong>Tamil-speaking driver for elderly patients:</strong> all our Chennai-Vellore drivers speak fluent Tamil; mention 'Tamil-language preference for patient' at booking and we ensure the driver communicates in Tamil during the journey.</li>
+</ul>
+
+<h2>Comparison: taxi vs train vs bus</h2>
+<table>
+  <thead><tr><th>Mode</th><th>Total time</th><th>Cost (one-way)</th><th>Patient comfort</th></tr></thead>
+  <tbody>
+    <tr><td>Pre-booked drop taxi (sedan)</td><td>2.5-3 hrs</td><td>₹2,030 + airport pickup</td><td>★★★★ — direct, comfortable, no transfers</td></tr>
+    <tr><td>SUV / Innova Crysta</td><td>2.5-3 hrs</td><td>₹2,755 / ₹3,045</td><td>★★★★★ — premium for elderly/post-op</td></tr>
+    <tr><td>Train (MAA-Katpadi)</td><td>4-5 hrs</td><td>₹150-1,400 (sleeper to 1AC)</td><td>★★ — requires MAA-to-station leg + Katpadi-CMC autorickshaw</td></tr>
+    <tr><td>Bus (MAA-Vellore via private operators)</td><td>4-5 hrs</td><td>₹350-650</td><td>★★ — limited service from MAA; requires CMBT transfer</td></tr>
+    <tr><td>App-based taxi (Uber/Ola Outstation)</td><td>2.5-3 hrs</td><td>₹2,200-2,800 + surge</td><td>★★★ — surge pricing common, intermittent availability</td></tr>
+  </tbody>
+</table>
+<p>For medical-appointment travel, a pre-booked drop taxi is the clearly recommended option — predictable timing, fixed fare, vehicle suitable for patient comfort, and a single transfer (airport gate to CMC main gate) versus the multiple transfers required by train or bus.</p>
+
+<h2>Booking tips for medical-tourism patients</h2>
+<ul>
+  <li><strong>Book 48-72 hours ahead</strong> for wheelchair-accessible or special-needs vehicles. Standard sedan/SUV bookings can be done same-day.</li>
+  <li><strong>Share the patient's flight number at booking.</strong> We track the flight automatically and adjust pickup timing to actual landing — useful for international flights where immigration and baggage waits vary.</li>
+  <li><strong>Carry a printed CMC appointment slip.</strong> Some Vellore traffic-control checkpoints during peak medical-visiting hours allow priority passage for confirmed CMC patients.</li>
+  <li><strong>Book the return trip in advance</strong> if your appointment is followed by a same-day return flight. This saves you the post-consultation hassle of finding transport.</li>
+  <li><strong>Mention any specific patient need</strong> (oxygen, wheelchair transfer, stretcher) explicitly. We allocate vehicles and drivers based on these needs rather than just standard sedan/SUV/Crysta selection.</li>
+  <li><strong>For multi-day inpatient admissions</strong>, we offer a fixed-driver package — the same driver and vehicle stay assigned throughout the stay for ferry runs between hotel, hospital, pharmacy, and airport.</li>
+</ul>
+
+<h2>Where to stay near CMC during inpatient or extended visits</h2>
+<p>Short-stay accommodation options for patient relatives include:</p>
+<ul>
+  <li><strong>CMC Bagayam Guest House</strong> (managed by the hospital, budget-friendly, 1.5 km from main gate).</li>
+  <li><strong>Mid-range Vellore hotels:</strong> Hotel Daspalla, Hotel Brindavan Court, Hotel Chinnar Resort.</li>
+  <li><strong>Budget guest houses near CMC:</strong> dozens along Ida Scudder Road and Officer's Line.</li>
+</ul>
+<p>For longer outpatient cycles (2-3 weeks of follow-ups), Tata Coffee or Apartment-style stays at Sathuvachari and Katpadi are popular. Many patient families stay in Chennai (90-minute taxi) and commute to CMC for appointments via our Chennai-Vellore packages.</p>
+`,
+        faqs: [
+            { q: "What is the distance from Chennai Airport to CMC Vellore?", a: "Chennai International Airport (MAA) to CMC Vellore main gate is approximately 145 km by road via NH48. The drive takes 2.5 to 3 hours in normal traffic — 10 km from MAA to NH48 entry, 125 km on NH48, and 10 km from the Vellore bypass to the CMC main gate. Some online sources list 132-138 km, but those are city-to-city figures excluding the 10 km MAA-to-NH48 leg." },
+            { q: "How much does a taxi from Chennai Airport to CMC Vellore cost?", a: "One-way drop taxi: ₹1,885 hatchback, ₹2,030 sedan (Etios/Dzire), ₹2,755 SUV (Ertiga/Innova), ₹3,045 Innova Crysta — all based on 145 km × per-km rates. The fare includes tolls, ₹400/day driver bata, and GST. Wheelchair-accessible vehicles start at ₹3,500 with 24-48 hour advance booking." },
+            { q: "Which is the nearest airport to CMC Vellore?", a: "Chennai International Airport (MAA, Meenambakkam) is the nearest major airport to CMC Vellore at 145 km — closer and better-connected than Bangalore Airport (KIA, 220 km). For most domestic and international medical-tourism patients, MAA is the recommended air-arrival point." },
+            { q: "How long does the journey from MAA to CMC take?", a: "2.5 to 3 hours in normal traffic. The route is mostly four-lane NH48 highway with smooth driving. Vellore inner-city traffic in the afternoon (3-7 PM) can extend the final leg by 20-30 minutes; morning departures (5-9 AM) are the smoothest." },
+            { q: "Can I book a wheelchair-accessible taxi from Chennai Airport to CMC?", a: "Yes. We have a small fleet of wheelchair-accessible vans (WAV) for patients who need to remain in their wheelchair during transit. Book 24-48 hours ahead to confirm availability; pricing starts at ₹3,500 one-way. For patients who can transfer from wheelchair to vehicle seat, our standard Innova Crysta accommodates most needs without surcharge." },
+            { q: "Is there a same-day return option from CMC to Chennai Airport?", a: "Yes. We quote round-trip same-day packages where the same vehicle and driver wait at CMC during your appointment (typically 2-4 hours) and return you to MAA. Typical pricing: sedan ₹4,500-5,000, SUV ₹6,000-6,800, Crysta ₹6,800-7,500 including driver halt charges. Useful for outpatient consultations and minor procedures." },
+            { q: "Can the taxi pick me up directly from the international arrivals at MAA?", a: "Yes. We assign drivers to MAA's designated pre-paid taxi pickup zone with flight tracking. The first 60 minutes of waiting after touchdown are free. Drivers carry a name placard if requested at booking — useful for elderly relatives or first-time visitors. International arrivals (immigration + baggage) typically take 45-60 minutes; domestic arrivals take 15-30 minutes." },
+            { q: "Is the route from Chennai Airport to CMC safe at night?", a: "Yes. NH48 is well-lit through major sections, well-trafficked 24/7 with heavy commercial traffic, and has 24-hour fuel stations and dhabas. Night charges (₹250-500) apply for trips between 10 PM and 6 AM. Common pattern: international flights landing at 11 PM-3 AM with patients reaching CMC by 4-7 AM for early-morning admissions." },
+            { q: "Do I need an inter-state permit for the MAA-to-CMC drive?", a: "No. Both Chennai (MAA) and Vellore (CMC) are in Tamil Nadu, so no inter-state permit applies. This makes the route notably cheaper than airport-to-CMC trips from Bangalore or other state airports." },
+            { q: "Can I keep the same driver for multi-day inpatient stays?", a: "Yes. Mention your stay duration at booking — we offer a fixed-driver multi-day package where the same driver and vehicle stay assigned throughout the stay for ferry runs between hotel, hospital, pharmacy, and airport. Pricing is typically 25-30% cheaper than booking separate one-way trips for each leg. Useful for 2-7 day inpatient admissions." },
+        ],
+    },
+    {
         slug: 'best-tourist-places-in-chennai',
         title: 'Best Tourist Places to Visit in Chennai (2026 Guide)',
         metaTitle: 'Best Tourist Places in Chennai 2026 | 20 Must-Visit Spots | OneWayTaxi.ai',
