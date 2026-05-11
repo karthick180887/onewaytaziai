@@ -1,5 +1,6 @@
 import { VEHICLE_TYPES } from '@/lib/constants';
 import { Car, CarFront, Bus, Truck, Users, Snowflake } from 'lucide-react';
+import AllInclusiveBadge from '@/components/seo/AllInclusiveBadge';
 
 const ICONS: Record<string, React.ElementType> = { Car, CarFront, Bus, Truck };
 
@@ -29,6 +30,7 @@ export default function PricingTable({ districtName }: PricingTableProps) {
                                 <th className="text-center py-4 px-4 font-semibold">Seats</th>
                                 <th className="text-center py-4 px-4 font-semibold">Per KM Rate</th>
                                 <th className="text-center py-4 px-4 font-semibold">AC</th>
+                                <th className="text-center py-4 px-4 font-semibold">All-Inclusive</th>
                                 <th className="text-center py-4 px-4 font-semibold"></th>
                             </tr>
                         </thead>
@@ -53,6 +55,9 @@ export default function PricingTable({ districtName }: PricingTableProps) {
                                     </td>
                                     <td className="py-4 px-4 text-center">
                                         <Snowflake className="h-5 w-5 text-blue-500 mx-auto" />
+                                    </td>
+                                    <td className="py-4 px-4 text-center">
+                                        <AllInclusiveBadge size="compact" />
                                     </td>
                                     <td className="py-4 px-4 text-center">
                                         <a href="#booking" className="inline-flex items-center gap-1 bg-teal-900 text-white px-5 py-2 rounded-lg font-medium hover:bg-teal-800 transition-colors text-sm">
@@ -88,6 +93,9 @@ export default function PricingTable({ districtName }: PricingTableProps) {
                                         <div className="text-2xl font-bold text-teal-700">₹{v.price}</div>
                                         <div className="text-xs text-gray-500">per km</div>
                                     </div>
+                                </div>
+                                <div className="mb-3 flex justify-center sm:justify-start">
+                                    <AllInclusiveBadge size="compact" />
                                 </div>
                                 <a href="#booking" className="block text-center bg-teal-900 text-white py-2.5 rounded-lg font-medium hover:bg-teal-800 transition-colors">
                                     Book Now
