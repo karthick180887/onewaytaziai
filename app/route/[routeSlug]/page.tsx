@@ -669,7 +669,7 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                             reviewCount: '4',
                             bestRating: '5',
                         },
-                    }),
+                    }).replace(/</g, '\\u003c'),
                 }}
             />
             <script

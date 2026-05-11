@@ -466,7 +466,7 @@ export default function Home() {
                             "longitude": 80.2707
                         },
                         "sameAs": [GOOGLE_MAPS_URL]
-                    })
+                    }).replace(/</g, '\\u003c')
                 }}
             />
 

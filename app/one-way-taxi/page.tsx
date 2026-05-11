@@ -48,11 +48,13 @@ const onewayFaqs = [
 const tier1And2 = ALL_DISTRICTS.filter(d => d.tier === 1 || d.tier === 2).sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
 const topRoutes = getAllRoutes().filter(r => r.from.tier === 1).slice(0, 16);
 
-const faqSchema = JSON.stringify({
+const escapeJsonLd = (json: string) => json.replace(/</g, '\\u003c');
+
+const faqSchema = escapeJsonLd(JSON.stringify({
     "@context": "https://schema.org", "@type": "FAQPage",
     mainEntity: onewayFaqs.map(({ q, a }) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: a } })),
-});
-const serviceSchema = JSON.stringify({
+}));
+const serviceSchema = escapeJsonLd(JSON.stringify({
     "@context": "https://schema.org", "@type": "TaxiService",
     name: "One Way Taxi — OneWayTaxi.ai",
     description: "One-way drop taxi service across South India. Pay only for one-way distance. All-inclusive fare includes tolls, driver bata, state permit, and 5% GST.",
@@ -69,14 +71,14 @@ const serviceSchema = JSON.stringify({
             valueAddedTaxIncluded: true,
         },
     },
-});
-const breadcrumbSchema = JSON.stringify({
+}));
+const breadcrumbSchema = escapeJsonLd(JSON.stringify({
     "@context": "https://schema.org", "@type": "BreadcrumbList",
     itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://onewaytaxi.ai" },
         { "@type": "ListItem", position: 2, name: "One Way Taxi", item: "https://onewaytaxi.ai/one-way-taxi" },
     ],
-});
+}));
 
 export default function OneWayTaxiHubPage() {
     return (
