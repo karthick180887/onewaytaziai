@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 import { ALL_DISTRICTS } from "./lib/districts";
 
+type RedirectRule = Awaited<ReturnType<NonNullable<NextConfig["redirects"]>>>[number];
+
 const OLD_SUFFIX_MAP: { suffix: string; newPrefix: string }[] = [
   { suffix: "-outstation-cab", newPrefix: "outstation-cabs-in-" },
   { suffix: "-outstation-cabs", newPrefix: "outstation-cabs-in-" },
@@ -19,13 +21,13 @@ const nextConfig: NextConfig = {
     unoptimized: true,
   },
   async redirects() {
-    const rules = [];
+    const rules: RedirectRule[] = [];
     for (const d of ALL_DISTRICTS) {
       for (const { suffix, newPrefix } of OLD_SUFFIX_MAP) {
         rules.push({
           source: `/${d.slug}${suffix}`,
           destination: `/${newPrefix}${d.slug}`,
-          permanent: true,
+          statusCode: 301,
         });
       }
     }
