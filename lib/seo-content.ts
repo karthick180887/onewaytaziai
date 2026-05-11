@@ -272,6 +272,15 @@ function getCityOverride(district: District, serviceType: ServiceType): CityOver
     return null;
 }
 
+/**
+ * Returns true if the (city, serviceType) combination has a hand-tuned
+ * CITY_OVERRIDES entry. Used by sitemap.ts to mark overridden pages as
+ * freshly modified for Google re-crawl prioritization.
+ */
+export function hasCityOverride(citySlug: string, serviceType: ServiceType): boolean {
+    return Boolean(CITY_OVERRIDES[`${citySlug}-${serviceType}`] || CITY_OVERRIDES[citySlug]);
+}
+
 // ─── SEO Content Generators ─────────────────────────────────
 
 export function getSEOContent(district: District, serviceType: ServiceType): SEOContent {

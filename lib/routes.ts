@@ -1070,6 +1070,15 @@ export function getRouteOverride(route: RouteData): RouteOverride | null {
     return ROUTE_OVERRIDES[`${route.from.slug}-to-${route.to.slug}`] ?? null;
 }
 
+/**
+ * Cheap boolean variant — by slug, no RouteData object required. Used by
+ * sitemap.ts to mark overridden routes as freshly modified for Google
+ * re-crawl prioritization.
+ */
+export function hasRouteOverride(fromSlug: string, toSlug: string): boolean {
+    return Boolean(ROUTE_OVERRIDES[`${fromSlug}-to-${toSlug}`]);
+}
+
 // Generate route-specific FAQs.
 // If a route has a per-route override with customFaqs defined, those replace the generic set.
 export function getRouteFAQs(route: RouteData) {
