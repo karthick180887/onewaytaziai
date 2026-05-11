@@ -30,12 +30,12 @@ export default function robots(): MetadataRoute.Robots {
             {
                 userAgent: 'Googlebot',
                 allow: '/',
-                disallow: OLD_PATTERN_DISALLOW,
+                disallow: [...OLD_PATTERN_DISALLOW],
             },
             {
                 userAgent: 'Bingbot',
                 allow: '/',
-                disallow: OLD_PATTERN_DISALLOW,
+                disallow: [...OLD_PATTERN_DISALLOW],
             },
             // Allow AI crawlers for GEO (Generative Engine Optimization) — no disallow.
             {
