@@ -6,6 +6,7 @@ import { FEATURES, VEHICLE_TYPES, SUPPORT_PHONE, GOOGLE_MAPS_URL } from "@/lib/c
 import * as LucideIcons from "lucide-react";
 import TrustBanner from "@/components/seo/TrustBanner";
 import HowItWorks from "@/components/seo/HowItWorks";
+import AllInclusiveBadge from "@/components/seo/AllInclusiveBadge";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -55,6 +56,8 @@ export default function Home() {
                                 Top Rated Drop Taxi Service
                             </div>
 
+                            <div className="mb-4 flex justify-center lg:justify-start"><AllInclusiveBadge size="hero" /></div>
+
                             <h1 className="text-4xl lg:text-6xl font-bold text-white leading-tight">
                                 One Way Drop Taxi <br />
                                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-teal-200 to-emerald-400">
@@ -74,6 +77,10 @@ export default function Home() {
                                     </span>
                                 ))}
                             </div>
+
+                            <Link href="/all-inclusive-pricing" className="mt-4 inline-flex items-center gap-1 text-sm text-white/90 hover:text-white underline underline-offset-4">
+                                How all-inclusive pricing works <span aria-hidden>→</span>
+                            </Link>
                         </div>
 
                         {/* Booking Widget Container */}

@@ -182,6 +182,7 @@ export default function Footer() {
                             {[
                                 { label: "Book Now", href: "/book-now" },
                                 { label: "Fare Calculator", href: "/fare-calculator" },
+                                { label: "All-Inclusive Pricing", href: "/all-inclusive-pricing" },
                                 { label: "FAQ", href: "/faq" },
                                 { label: "Reviews", href: "/reviews" },
                                 { label: "About Us", href: "/about" },
