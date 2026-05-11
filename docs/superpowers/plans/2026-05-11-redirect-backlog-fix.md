@@ -2,7 +2,7 @@
 
 > **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
 
-**Goal:** Cut the 2-3 hop redirect chain to 1 hop for ~1,200 known old→new URL pairs at Netlify's edge, and stop Google from re-discovering old-pattern URLs via `robots.ts` Disallow patterns.
+**Goal:** Cut the 2-3 hop redirect chain to 1 hop for ~1,832 known old→new URL pairs at Netlify's edge, and stop Google from re-discovering old-pattern URLs via `robots.ts` Disallow patterns. (Spec originally said 1,200 — actual is 1,832 because `ALL_DISTRICTS` includes 79 Tamil Nadu sub-districts in addition to 150 district-level entries.)
 
 **Architecture:** Two atomic config edits, no new dependencies, no test framework required (the project has none). Verification gate is `npm run build` succeeding plus inspection of the generated `.next/routes-manifest.json`. Spec lives at `docs/superpowers/specs/2026-05-11-redirect-backlog-fix-design.md`.
 

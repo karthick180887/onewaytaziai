@@ -81,7 +81,7 @@ const nextConfig: NextConfig = {
 
 Trailing-slash variants are handled by Next.js automatically: with `trailingSlash: false` (default), `/foo/` 308s to `/foo` before redirect matching, so we only need the non-slash rule.
 
-**Volume:** 150 × 8 = **1,200 rules**. Next.js builds these into the routes manifest in milliseconds; Netlify's `_redirects` file at the edge handles them with no measurable latency cost.
+**Volume:** 229 districts × 8 = **1,832 rules** (the 229 comes from `ALL_DISTRICTS` which concatenates 150 district-level entries plus 79 Tamil Nadu sub-districts from `lib/tamil-nadu-sub-districts.ts`). Earlier draft of this spec said "1,200" assuming 150 districts; the loop naturally picks up everything `ALL_DISTRICTS` exports. Next.js builds these into the routes manifest in milliseconds; Netlify's `_redirects` file at the edge handles them with no measurable latency cost.
 
 **Source of truth:** `lib/districts.ts` (already used by sitemap.ts, page generation, and proxy.ts via its own copy). The `OLD_SUFFIX_MAP` is duplicated from `proxy.ts` — acceptable because (a) both are tiny 8-entry tables, (b) extracting to a shared module is a separate refactor, (c) proxy.ts remains as fallback so drift is non-fatal. A follow-up commit may consolidate.
 
@@ -120,7 +120,7 @@ No changes — it's defense-in-depth.
 
 | File | Change |
 |---|---|
-| `next.config.ts` | EDIT — add `redirects()` async function returning 1,200 explicit rules, import `ALL_DISTRICTS` |
+| `next.config.ts` | EDIT — add `redirects()` async function returning ~1,832 explicit rules (229 districts × 8 suffixes), import `ALL_DISTRICTS` |
 | `app/robots.ts` | EDIT — add 16 Disallow patterns under `*`, `Googlebot`, and `Bingbot` user agents |
 | `proxy.ts` | UNCHANGED (fallback) |
 | `app/sitemap.ts` | UNCHANGED |
