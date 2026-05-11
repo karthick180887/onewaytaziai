@@ -52,6 +52,13 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
                 priceCurrency: "INR",
                 unitText: "per km",
                 availability: "https://schema.org/InStock",
+                priceSpecification: {
+                    "@type": "UnitPriceSpecification",
+                    price: v.price,
+                    priceCurrency: "INR",
+                    referenceQuantity: { "@type": "QuantitativeValue", unitCode: "KMT", value: 1 },
+                    valueAddedTaxIncluded: true,
+                },
             })),
         },
         priceRange: `₹${VEHICLE_TYPES[0].price} - ₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price} per km`,
