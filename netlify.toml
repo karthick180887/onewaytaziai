@@ -1,0 +1,52 @@
+# Netlify configuration for onewaytaxi.ai
+# Build, environment, plugin, and HTTP-header rules for the deploy.
+# Redirects + middleware are handled by @netlify/plugin-nextjs which
+# compiles next.config.ts redirects() and proxy.ts (Next.js 16 renamed
+# middleware) at deploy time — do NOT duplicate them here.
+
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[build.environment]
+  NODE_VERSION = "20"
+  NPM_FLAGS = "--prefer-offline --no-audit"
+
+# Next.js Netlify adapter — auto-installed by Netlify, pinning declaration
+# here makes the dependency explicit in the repo.
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# ─── Security response headers (apply to every URL) ───────────────────
+# These match the secure-by-default guidance for Indian-market consumer
+# sites. No CSP yet — adding CSP requires a content audit (inline scripts
+# in JSON-LD blocks, third-party widgets) so it ships in a follow-up.
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), interest-cohort=()"
+    Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+    X-DNS-Prefetch-Control = "on"
+
+# ─── Long-cache fingerprinted assets ─────────────────────────────────
+# Next.js puts a content hash on every file under /_next/static/, so
+# they can be cached forever. Same for our /images/ folder (manually
+# managed; treat as immutable once deployed).
+[[headers]]
+  for = "/_next/static/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/images/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Fonts (if served from /fonts in the future) — same fingerprinted pattern
+[[headers]]
+  for = "/fonts/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
