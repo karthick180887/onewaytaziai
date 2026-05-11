@@ -351,7 +351,7 @@ Popular one-way drop taxi routes from ${dn}: ${routeText}. Whether you're travel
 What makes our ${dn} taxi service stand out? Transparent one-way pricing (no return charges), real-time GPS tracking, 24/7 availability, and a 4.8-star customer rating. Unlike app-based taxi services that charge surge pricing during peak hours, festivals, or rain, our ${dn} taxi fare stays fixed — no surprises at the end of your journey.
 
 ### Destinations
-Popular destinations from ${dn}: ${routeText}. We also serve ${routeNames} and 115+ other cities across ${ds}, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana. Our ${dn} taxi service is available for one-way drops, round trips, multi-city tours, and corporate travel. Book online in 30 seconds or call our 24/7 helpline for instant confirmation.`,
+Popular destinations from ${dn}: ${routeText}. We also serve ${routeNames} and 220+ other cities across ${ds}, Tamil Nadu, Kerala, Andhra Pradesh, and Telangana. Our ${dn} taxi service is available for one-way drops, round trips, multi-city tours, and corporate travel. Book online in 30 seconds or call our 24/7 helpline for instant confirmation.`,
 
         'outstation-cabs': `Planning an outstation trip from ${dn}? Book your **${verb}** with OneWayTaxi.ai and enjoy hassle-free intercity travel across ${ds} and all of South India. Our outstation cabs service is designed for travelers who want the convenience of a private vehicle at the affordability of a one-way fare structure.
 
@@ -383,7 +383,7 @@ Top one-way taxi routes from ${dn}: ${routeText}. All fares include driver bata,
 Unlike auto-rickshaws and app-based taxis that charge surge pricing during peak hours, rain, or festivals, our ${dn} call taxi fare stays **fixed and transparent**. No meter tampering, no surge, no bargaining. Our fleet includes AC Hatchbacks (₹${VEHICLE_TYPES[0].price}/km), Sedans (₹${VEHICLE_TYPES[1].price}/km), SUVs, and Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km) — all GPS-tracked and driven by verified, professional drivers.
 
 ### Local & Outstation Coverage
-Popular routes from ${dn}: ${routeText}. Our ${dn} call taxi service covers local city rides, railway station pickups, hospital visits, shopping trips, and intercity travel to ${routeNames} and 115+ other cities. Available 24/7, 365 days. All fares include driver bata, tolls, and GST with zero hidden charges.`,
+Popular routes from ${dn}: ${routeText}. Our ${dn} call taxi service covers local city rides, railway station pickups, hospital visits, shopping trips, and intercity travel to ${routeNames} and 220+ other cities. Available 24/7, 365 days. All fares include driver bata, tolls, and GST with zero hidden charges.`,
     };
 
     return descriptions[serviceType];
