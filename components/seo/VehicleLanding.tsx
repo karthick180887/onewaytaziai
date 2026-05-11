@@ -104,6 +104,8 @@ export default function VehicleLanding(props: VehicleLandingProps) {
                 price: pricePerKm,
                 priceCurrency: "INR",
                 unitText: "per km",
+                referenceQuantity: { "@type": "QuantitativeValue", unitCode: "KMT", value: 1 },
+                valueAddedTaxIncluded: true,
             },
             availability: "https://schema.org/InStock",
             url,

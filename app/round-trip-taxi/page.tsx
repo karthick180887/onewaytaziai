@@ -7,6 +7,7 @@ import { getAllRoutes } from "@/lib/routes";
 import { ALL_DISTRICTS } from "@/lib/districts";
 import { SUPPORT_PHONE, VEHICLE_TYPES } from "@/lib/constants";
 import { Phone, MessageCircle, ArrowRight, IndianRupee, Clock, CheckCircle2, RefreshCw, MapPin } from "lucide-react";
+import AllInclusiveBadge from "@/components/seo/AllInclusiveBadge";
 
 const phoneDigits = SUPPORT_PHONE.replace(/\s/g, "");
 
@@ -83,6 +84,7 @@ export default function RoundTripHubPage() {
                                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-teal-50 text-sm font-medium">
                                     <RefreshCw className="h-4 w-4 text-emerald-300" /> Round Trip Service
                                 </div>
+                                <div className="mb-4 flex"><AllInclusiveBadge size="hero" /></div>
                                 <h1 className="text-3xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
                                     Round trip taxi for your <span className="text-emerald-300">whole journey</span>
                                 </h1>

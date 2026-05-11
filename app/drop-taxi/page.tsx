@@ -7,6 +7,7 @@ import { ALL_DISTRICTS } from "@/lib/districts";
 import { getAllRoutes } from "@/lib/routes";
 import { SUPPORT_PHONE, VEHICLE_TYPES } from "@/lib/constants";
 import { Phone, MessageCircle, IndianRupee, Clock, Shield, MapPin, ArrowRight, CheckCircle2, Route, Calendar, CreditCard, Users } from "lucide-react";
+import AllInclusiveBadge from "@/components/seo/AllInclusiveBadge";
 
 const phoneDigits = SUPPORT_PHONE.replace(/\s/g, "");
 
@@ -55,7 +56,7 @@ const serviceSchema = JSON.stringify({
     description: "One-way drop taxi service across South India. Pay only for one-way distance.",
     provider: { "@type": "Organization", name: "OneWayTaxi.ai", url: "https://onewaytaxi.ai", telephone: SUPPORT_PHONE },
     areaServed: ["Tamil Nadu", "Kerala", "Karnataka", "Andhra Pradesh", "Telangana", "Pondicherry"],
-    offers: { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", price: 13, priceCurrency: "INR", unitText: "per km" } },
+    offers: { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", price: 13, priceCurrency: "INR", unitText: "per km", referenceQuantity: { "@type": "QuantitativeValue", unitCode: "KMT", value: 1 }, valueAddedTaxIncluded: true } },
 });
 
 const breadcrumbSchema = JSON.stringify({
@@ -92,6 +93,7 @@ export default function DropTaxiHubPage() {
                                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-teal-50 text-sm font-medium">
                                     <Route className="h-4 w-4 text-emerald-300" /> Drop Taxi Service
                                 </div>
+                                <div className="mb-4 flex"><AllInclusiveBadge size="hero" /></div>
                                 <h1 className="text-3xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
                                     One-way drop taxi across <span className="text-emerald-300">South India</span>
                                 </h1>

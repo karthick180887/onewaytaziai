@@ -7,6 +7,7 @@ import { ALL_DISTRICTS } from "@/lib/districts";
 import { getAllRoutes } from "@/lib/routes";
 import { SUPPORT_PHONE, VEHICLE_TYPES } from "@/lib/constants";
 import { Phone, ArrowRight, Briefcase, Mountain, Calendar } from "lucide-react";
+import AllInclusiveBadge from "@/components/seo/AllInclusiveBadge";
 
 const phoneDigits = SUPPORT_PHONE.replace(/\s/g, "");
 
@@ -55,7 +56,7 @@ const serviceSchema = JSON.stringify({
     description: "Outstation cab service for inter-city travel across South India.",
     provider: { "@type": "Organization", name: "OneWayTaxi.ai", url: "https://onewaytaxi.ai", telephone: SUPPORT_PHONE },
     areaServed: ["Tamil Nadu", "Kerala", "Karnataka", "Andhra Pradesh", "Telangana", "Pondicherry"],
-    offers: { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", price: 13, priceCurrency: "INR", unitText: "per km" } },
+    offers: { "@type": "Offer", priceSpecification: { "@type": "UnitPriceSpecification", price: 13, priceCurrency: "INR", unitText: "per km", referenceQuantity: { "@type": "QuantitativeValue", unitCode: "KMT", value: 1 }, valueAddedTaxIncluded: true } },
 });
 
 const breadcrumbSchema = JSON.stringify({
@@ -92,6 +93,7 @@ export default function OutstationCabsHubPage() {
                                 <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-teal-50 text-sm font-medium">
                                     <Mountain className="h-4 w-4 text-emerald-300" /> Outstation Cab Service
                                 </div>
+                                <div className="mb-4 flex"><AllInclusiveBadge size="hero" /></div>
                                 <h1 className="text-3xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
                                     Outstation cabs across <span className="text-emerald-300">South India</span>
                                 </h1>
