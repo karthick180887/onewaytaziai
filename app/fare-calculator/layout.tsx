@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     twitter: {
         card: 'summary_large_image',
         title: 'Taxi Fare Calculator | OneWayTaxi.ai',
-        description: 'Instant fare estimate for one-way taxis across 120+ South Indian cities.',
+        description: 'Instant fare estimate for one-way taxis across 220+ South Indian cities.',
     },
     robots: {
         index: true,

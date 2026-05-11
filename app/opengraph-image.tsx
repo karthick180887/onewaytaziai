@@ -76,7 +76,7 @@ export default function OGImage() {
             <span style={{ color: '#F59E0B', fontWeight: 700 }}>*</span> Starting Rs.13/km
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-            <span style={{ color: '#F59E0B', fontWeight: 700 }}>*</span> 120+ Cities
+            <span style={{ color: '#F59E0B', fontWeight: 700 }}>*</span> 220+ Cities
           </div>
           <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
             <span style={{ color: '#F59E0B', fontWeight: 700 }}>*</span> 24/7 Service

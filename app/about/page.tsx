@@ -22,7 +22,7 @@ import {
 export const metadata: Metadata = {
   title: "About OneWayTaxi.ai — South India's #1 One Way Drop Taxi Service",
   description:
-    "Learn about OneWayTaxi.ai — South India's trusted one-way drop taxi covering 120+ cities. Save 40% vs round-trip. 24/7 service, verified drivers, from ₹13/km.",
+    "Learn about OneWayTaxi.ai — South India's trusted one-way drop taxi covering 220+ cities. Save 40% vs round-trip. 24/7 service, verified drivers, from ₹13/km.",
   alternates: {
     canonical: "https://onewaytaxi.ai/about",
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "About OneWayTaxi.ai — South India's #1 One Way Drop Taxi Service",
     description:
-      "South India's most trusted one-way drop taxi. 120+ cities, from ₹13/km, save 40%. Learn our story.",
+      "South India's most trusted one-way drop taxi. 220+ cities, from ₹13/km, save 40%. Learn our story.",
     images: ["/opengraph-image"],
   },
   robots: {
@@ -94,7 +94,7 @@ const organizationSchema = JSON.stringify({
   telephone: phoneDigits,
   email: "booking@onewaytaxi.ai",
   description:
-    "South India's leading one-way drop taxi service covering 120+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. Pay only for one way — save up to 40%.",
+    "South India's leading one-way drop taxi service covering 220+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. Pay only for one way — save up to 40%.",
   logo: {
     "@type": "ImageObject",
     url: "https://onewaytaxi.ai/logo.png",
@@ -168,7 +168,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-lg lg:text-xl text-teal-100/90 leading-relaxed max-w-3xl mx-auto">
               South India&apos;s most trusted one-way drop taxi service.
-              We connect travellers across 120+ cities in Tamil Nadu, Kerala,
+              We connect travellers across 220+ cities in Tamil Nadu, Kerala,
               Karnataka, Andhra Pradesh, Telangana, and Pondicherry with
               safe, affordable, and transparent intercity cab rides &mdash;
               every single day.

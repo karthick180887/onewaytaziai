@@ -359,7 +359,7 @@ Popular destinations from ${dn}: ${routeText}. We also serve ${routeNames} and 1
 Why choose OneWayTaxi.ai for outstation cabs from ${dn}? We eliminate the traditional round-trip billing model — you pay only for the distance from ${dn} to your destination. This makes our outstation cabs up to 40% cheaper than regular taxi services. Your fare includes driver allowance, toll charges, state permits, and GST.
 
 ### Fleet & Routes
-Top outstation routes from ${dn}: ${routeText}. Our outstation cabs fleet covers 115+ cities across 5 South Indian states with vehicles ranging from budget hatchbacks (₹${VEHICLE_TYPES[0].price}/km) to premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). All vehicles are air-conditioned, clean, GPS-tracked, and driven by experienced, verified drivers who know the best highway routes.`,
+Top outstation routes from ${dn}: ${routeText}. Our outstation cabs fleet covers 220+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry with vehicles ranging from budget hatchbacks (₹${VEHICLE_TYPES[0].price}/km) to premium Innova Crysta (₹${VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price}/km). All vehicles are air-conditioned, clean, GPS-tracked, and driven by experienced, verified drivers who know the best highway routes.`,
 
         'cab-service': `Looking for a **${verb} in ${dn}**? OneWayTaxi.ai is your go-to cab booking platform in ${dn}, ${ds}. Whether you need a local city ride, an outstation trip, or an airport transfer, our comprehensive cab service has you covered with well-maintained AC vehicles and professional, verified drivers.
 

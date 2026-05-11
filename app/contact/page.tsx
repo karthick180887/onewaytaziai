@@ -51,7 +51,7 @@ const faqs = [
     },
     {
         question: "Which cities do you cover?",
-        answer: "We cover 120+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. Major cities include Chennai, Bangalore, Coimbatore, Madurai, Kochi, Hyderabad, and many more.",
+        answer: "We cover 220+ cities across Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. Major cities include Chennai, Bangalore, Coimbatore, Madurai, Kochi, Hyderabad, and many more.",
     },
 ];
 
@@ -274,7 +274,7 @@ export default function ContactPage() {
                                     Service Area
                                 </h2>
                                 <p className="text-sm text-gray-500 mb-3">
-                                    6 states, 120+ cities
+                                    6 states, 220+ cities
                                 </p>
                                 <p className="text-teal-900 font-semibold text-sm leading-relaxed">
                                     Tamil Nadu, Kerala, Karnataka, Andhra

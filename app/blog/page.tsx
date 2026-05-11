@@ -160,7 +160,7 @@ export default function BlogListPage() {
                             Ready to Book Your One Way Taxi?
                         </h2>
                         <p className="text-teal-700 mb-6">
-                            Pay only for one way. No return charges. 115+ cities across South India.
+                            Pay only for one way. No return charges. 220+ cities across South India.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-3 justify-center">
                             <Link
