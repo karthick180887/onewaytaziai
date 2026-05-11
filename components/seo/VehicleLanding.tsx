@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BookingWidget from "@/components/BookingWidget";
 import { SUPPORT_PHONE } from "@/lib/constants";
+import { escapeJsonLd } from "@/lib/schema-utils";
 import {
     Phone,
     MessageCircle,
@@ -17,11 +18,7 @@ import {
 
 const phoneDigits = SUPPORT_PHONE.replace(/\s/g, "");
 
-// JSON.stringify with "<" escaped to "<" so no string field can break
-// out of the surrounding <script> tag. Used for JSON-LD structured data.
-function safeJsonLd(data: object): string {
-    return JSON.stringify(data).replace(/</g, "\\u003c");
-}
+const safeJsonLd = (data: object): string => escapeJsonLd(JSON.stringify(data));
 
 export type VehicleSpec = {
     label: string;

@@ -1,5 +1,6 @@
 import { District, ServiceType } from '@/lib/districts';
 import { VEHICLE_TYPES, SUPPORT_PHONE, GOOGLE_MAPS_URL } from '@/lib/constants';
+import { escapeJsonLd } from '@/lib/schema-utils';
 
 interface FAQ {
     question: string;
@@ -152,8 +153,6 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
         })),
     } : null;
 
-    const escape = (json: string) => json.replace(/</g, '\\u003c');
-
     return (
         <>
             {/*
@@ -164,20 +163,20 @@ export default function SchemaMarkup({ district, serviceType, serviceLabel, faqs
               Standard Next.js pattern for JSON-LD.
             */}
             {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(taxiServiceSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(taxiServiceSchema)) }} />
             {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(breadcrumbSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(breadcrumbSchema)) }} />
             {routeListSchema && (
                 /* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(routeListSchema)) }} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(routeListSchema)) }} />
             )}
             {tripSchema && (
                 /* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(tripSchema)) }} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(tripSchema)) }} />
             )}
             {faqPageSchema && (
                 /* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(faqPageSchema)) }} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(faqPageSchema)) }} />
             )}
         </>
     );

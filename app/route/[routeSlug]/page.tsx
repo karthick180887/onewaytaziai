@@ -3,6 +3,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getAllRouteSlugs, parseRouteSlug, getRouteSEOContent, getRouteFAQs, getAllRoutes, getRouteOverride } from '@/lib/routes';
 import { VEHICLE_TYPES, SUPPORT_PHONE } from '@/lib/constants';
+import { escapeJsonLd } from '@/lib/schema-utils';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import BookingWidget from '@/components/BookingWidget';
@@ -629,7 +630,7 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
+                    __html: escapeJsonLd(JSON.stringify({
                         '@context': 'https://schema.org',
                         '@type': 'TaxiService',
                         name: `${from.name} to ${to.name} One Way Taxi — OneWayTaxi.ai`,
@@ -669,13 +670,13 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                             reviewCount: '4',
                             bestRating: '5',
                         },
-                    }).replace(/</g, '\\u003c'),
+                    })),
                 }}
             />
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
+                    __html: escapeJsonLd(JSON.stringify({
                         '@context': 'https://schema.org',
                         '@type': 'BreadcrumbList',
                         itemListElement: [
@@ -683,14 +684,14 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                             { '@type': 'ListItem', position: 2, name: `Drop Taxi in ${from.name}`, item: `https://onewaytaxi.ai/drop-taxi-in-${from.slug}` },
                             { '@type': 'ListItem', position: 3, name: `${from.name} to ${to.name} Taxi`, item: `https://onewaytaxi.ai/route/${routeSlug}` },
                         ],
-                    }).replace(/</g, '\\u003c'),
+                    })),
                 }}
             />
             {/* FAQPage schema — mirrors the visible FAQ section for rich-result eligibility */}
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
+                    __html: escapeJsonLd(JSON.stringify({
                         '@context': 'https://schema.org',
                         '@type': 'FAQPage',
                         mainEntity: faqs.map(f => ({
@@ -698,7 +699,7 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                             name: f.question,
                             acceptedAnswer: { '@type': 'Answer', text: f.answer },
                         })),
-                    }).replace(/</g, '\\u003c'),
+                    })),
                 }}
             />
         </div>

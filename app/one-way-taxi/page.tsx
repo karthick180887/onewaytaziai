@@ -8,6 +8,7 @@ import { getAllRoutes } from "@/lib/routes";
 import { SUPPORT_PHONE, VEHICLE_TYPES } from "@/lib/constants";
 import { Phone, MessageCircle, ArrowRight, IndianRupee, Clock, Shield, CheckCircle2, Route } from "lucide-react";
 import AllInclusiveBadge from "@/components/seo/AllInclusiveBadge";
+import { escapeJsonLd } from "@/lib/schema-utils";
 
 const phoneDigits = SUPPORT_PHONE.replace(/\s/g, "");
 
@@ -47,8 +48,6 @@ const onewayFaqs = [
 
 const tier1And2 = ALL_DISTRICTS.filter(d => d.tier === 1 || d.tier === 2).sort((a, b) => a.tier - b.tier || a.name.localeCompare(b.name));
 const topRoutes = getAllRoutes().filter(r => r.from.tier === 1).slice(0, 16);
-
-const escapeJsonLd = (json: string) => json.replace(/</g, '\\u003c');
 
 const faqSchema = escapeJsonLd(JSON.stringify({
     "@context": "https://schema.org", "@type": "FAQPage",

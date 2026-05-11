@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import AllInclusiveBadge from "@/components/seo/AllInclusiveBadge";
 import { SUPPORT_PHONE } from "@/lib/constants";
+import { escapeJsonLd } from "@/lib/schema-utils";
 import { Phone, MessageCircle, CheckCircle2, XCircle, ArrowRight } from "lucide-react";
 
 const PHONE_DIGITS = SUPPORT_PHONE.replace(/\s/g, "");
@@ -98,7 +99,6 @@ const serviceSchema = {
     },
 };
 
-const escape = (json: string) => json.replace(/</g, "\\u003c");
 
 export default function AllInclusivePricingPage() {
     return (
@@ -339,15 +339,15 @@ export default function AllInclusivePricingPage() {
             <Footer />
 
             {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(articleSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(articleSchema)) }} />
             {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(webPageSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(webPageSchema)) }} />
             {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(breadcrumbSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(breadcrumbSchema)) }} />
             {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(faqPageSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(faqPageSchema)) }} />
             {/* nosemgrep: typescript.react.security.audit.react-dangerouslysetinnerhtml.react-dangerouslysetinnerhtml */}
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escape(JSON.stringify(serviceSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(serviceSchema)) }} />
         </div>
     );
 }

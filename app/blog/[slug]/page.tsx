@@ -4,6 +4,7 @@ import Link from 'next/link';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import { BLOG_POSTS, getBlogPostBySlug, getAllBlogSlugs } from '@/lib/blog-posts';
+import { escapeJsonLd } from '@/lib/schema-utils';
 
 // ─── Static Params ────────────────────────────────────────────
 export function generateStaticParams() {
@@ -126,13 +127,13 @@ export default async function BlogArticlePage(
 
     return (
         <div className="min-h-screen bg-gray-50">
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema).replace(/</g, '\\u003c') }} />
-            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema).replace(/</g, '\\u003c') }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(articleSchema)) }} />
+            <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(breadcrumbSchema)) }} />
             {faqSchema && (
-                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema).replace(/</g, '\\u003c') }} />
+                <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(faqSchema)) }} />
             )}
             {post.additionalSchemas?.map((s, i) => (
-                <script key={`extra-schema-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(s).replace(/</g, '\\u003c') }} />
+                <script key={`extra-schema-${i}`} type="application/ld+json" dangerouslySetInnerHTML={{ __html: escapeJsonLd(JSON.stringify(s)) }} />
             ))}
             <Header />
             <main>

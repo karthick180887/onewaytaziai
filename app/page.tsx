@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import BookingWidget from "@/components/BookingWidget";
 import { FEATURES, VEHICLE_TYPES, SUPPORT_PHONE, GOOGLE_MAPS_URL } from "@/lib/constants";
+import { escapeJsonLd } from "@/lib/schema-utils";
 import * as LucideIcons from "lucide-react";
 import TrustBanner from "@/components/seo/TrustBanner";
 import HowItWorks from "@/components/seo/HowItWorks";
@@ -12,13 +13,13 @@ import Image from "next/image";
 
 export const metadata: Metadata = {
     title: "#1 One Way Drop Taxi South India — ₹13/km | OneWayTaxi.ai",
-    description: "Book one-way drop taxis across Chennai, Bangalore, Coimbatore & 120+ cities. ₹13/km. Pay one way only — save 40%. Call +91 81244 76010!",
+    description: "Book one-way drop taxis across Chennai, Bangalore, Coimbatore & 220+ cities. ₹13/km. Pay one way only — save 40%. Call +91 81244 76010!",
     alternates: {
         canonical: "https://onewaytaxi.ai",
     },
     openGraph: {
         title: "OneWayTaxi.ai — #1 One Way Drop Taxi Service in South India",
-        description: "Book affordable one-way drop taxis across South India. Starting ₹13/km. Pay only for one way — save up to 40%. 115+ cities covered.",
+        description: "Book affordable one-way drop taxis across South India. Starting ₹13/km. Pay only for one way — save up to 40%. 220+ cities covered.",
         url: "https://onewaytaxi.ai",
         siteName: "OneWayTaxi.ai",
         type: "website",
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     twitter: {
         card: "summary_large_image",
         title: "OneWayTaxi.ai — #1 One Way Drop Taxi in South India",
-        description: "Book one-way drop taxis from ₹13/km. 115+ cities. Save 40% vs round-trip. 24/7 service.",
+        description: "Book one-way drop taxis from ₹13/km. 220+ cities. Save 40% vs round-trip. 24/7 service.",
     },
 };
 
@@ -66,7 +67,7 @@ export default function Home() {
                             </h1>
 
                             <p className="text-lg lg:text-xl text-teal-100/90 leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                                Book affordable one-way drop taxi across South India — Chennai, Bangalore, Coimbatore & 115+ cities.
+                                Book affordable one-way drop taxi across South India — Chennai, Bangalore, Coimbatore & 220+ cities.
                                 No return fare, no hidden charges. Save up to 40% on outstation travel.
                             </p>
 
@@ -172,7 +173,7 @@ export default function Home() {
                 <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
                     <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">What is OneWayTaxi.ai?</h2>
                     <p className="text-gray-700 leading-relaxed text-lg">
-                        OneWayTaxi.ai is South India&apos;s leading one-way drop taxi service, operating across 120+ cities in Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. Unlike traditional round-trip taxis that charge passengers for the driver&apos;s return journey, OneWayTaxi.ai uses a one-way fare model where customers pay only for the distance they actually travel — saving up to 40% on intercity cab fares. Fares start at ₹13 per kilometer for a hatchback, ₹14/km for a sedan, ₹19/km for an SUV, and ₹22/km for an Innova Crysta. All fares include driver bata (allowance), toll charges, inter-state permits, and GST with no hidden costs. The service operates 24/7 with GPS-tracked, air-conditioned vehicles driven by background-verified drivers. Passengers can book online in 30 seconds or call +91 81244 76010 for instant confirmation.
+                        OneWayTaxi.ai is South India&apos;s leading one-way drop taxi service, operating across 220+ cities in Tamil Nadu, Kerala, Karnataka, Andhra Pradesh, Telangana, and Pondicherry. Unlike traditional round-trip taxis that charge passengers for the driver&apos;s return journey, OneWayTaxi.ai uses a one-way fare model where customers pay only for the distance they actually travel — saving up to 40% on intercity cab fares. Fares start at ₹13 per kilometer for a hatchback, ₹14/km for a sedan, ₹19/km for an SUV, and ₹22/km for an Innova Crysta. All fares include driver bata (allowance), toll charges, inter-state permits, and GST with no hidden costs. The service operates 24/7 with GPS-tracked, air-conditioned vehicles driven by background-verified drivers. Passengers can book online in 30 seconds or call +91 81244 76010 for instant confirmation.
                     </p>
                 </div>
             </section>
@@ -299,7 +300,7 @@ export default function Home() {
             <section className="py-16 bg-white" aria-label="Service cities">
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="text-center mb-12">
-                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">One Way Taxi Across 120+ Cities</h2>
+                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-3">One Way Taxi Across 220+ Cities</h2>
                         <p className="text-lg text-gray-600">Affordable drop taxi service covering every district in South India</p>
                     </div>
 
@@ -373,7 +374,7 @@ export default function Home() {
                         {[
                             {
                                 q: 'What is a one-way drop taxi?',
-                                a: 'A one-way drop taxi is a taxi service where you pay only for the distance from your pickup to your drop location. Unlike traditional round-trip taxis, there are no return charges. This saves you up to 40% on intercity travel. OneWayTaxi.ai is the leading one-way drop taxi provider across South India with 115+ cities covered.'
+                                a: 'A one-way drop taxi is a taxi service where you pay only for the distance from your pickup to your drop location. Unlike traditional round-trip taxis, there are no return charges. This saves you up to 40% on intercity travel. OneWayTaxi.ai is the leading one-way drop taxi provider across South India with 220+ cities covered.'
                             },
                             {
                                 q: 'How much does a one-way taxi cost?',
@@ -381,7 +382,7 @@ export default function Home() {
                             },
                             {
                                 q: 'Which cities are covered by OneWayTaxi.ai?',
-                                a: 'OneWayTaxi.ai covers 115+ cities across 5 South Indian states — Tamil Nadu (38 districts), Kerala (14 districts), Andhra Pradesh (26 districts), Telangana (33 districts), and Pondicherry (4 districts). Major cities include Chennai, Bangalore, Coimbatore, Madurai, Hyderabad, Kochi, Tirupati, and more.'
+                                a: 'OneWayTaxi.ai covers 220+ cities across 5 South Indian states — Tamil Nadu (38 districts), Kerala (14 districts), Andhra Pradesh (26 districts), Telangana (33 districts), and Pondicherry (4 districts). Major cities include Chennai, Bangalore, Coimbatore, Madurai, Hyderabad, Kochi, Tirupati, and more.'
                             },
                             {
                                 q: 'Is one-way taxi cheaper than Ola or Uber?',
@@ -415,14 +416,14 @@ export default function Home() {
             <script
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{
-                    __html: JSON.stringify({
+                    __html: escapeJsonLd(JSON.stringify({
                         "@context": "https://schema.org",
                         "@type": "TaxiService",
                         "name": "OneWayTaxi.ai — One Way Drop Taxi",
                         "url": "https://onewaytaxi.ai",
                         "telephone": SUPPORT_PHONE.replace(/\s/g, ''),
                         "image": "https://onewaytaxi.ai/logo.png",
-                        "description": "Premium one-way drop taxi service across South India. Pay only for one way — save up to 40%. 115+ cities, 24/7 service.",
+                        "description": "Premium one-way drop taxi service across South India. Pay only for one way — save up to 40%. 220+ cities, 24/7 service.",
                         "priceRange": "₹13 - ₹22 per km",
                         "currenciesAccepted": "INR",
                         "paymentAccepted": "Cash, UPI, Credit Card, Debit Card",
@@ -466,7 +467,7 @@ export default function Home() {
                             "longitude": 80.2707
                         },
                         "sameAs": [GOOGLE_MAPS_URL]
-                    }).replace(/</g, '\\u003c')
+                    }))
                 }}
             />
 
