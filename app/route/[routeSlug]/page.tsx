@@ -10,6 +10,7 @@ import FAQSection from '@/components/seo/FAQSection';
 import TrustBanner from '@/components/seo/TrustBanner';
 import CrossLinks from '@/components/seo/CrossLinks';
 import { MapPin, Clock, IndianRupee, ArrowRight, ArrowLeftRight, Phone, Shield, Car, Route, Navigation, Lightbulb, CheckCircle } from 'lucide-react';
+import AllInclusiveBadge from "@/components/seo/AllInclusiveBadge";
 
 // ─── Static Params (SSG for all route pages) ─────────────────
 export function generateStaticParams() {
@@ -123,9 +124,12 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                                 One Way Drop Taxi
                             </div>
 
-                            <h1 className="text-3xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
-                                {seo.h1}
-                            </h1>
+                            <div className="flex flex-wrap items-center gap-3">
+                                <h1 className="text-3xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight">
+                                    {seo.h1}
+                                </h1>
+                                <AllInclusiveBadge size="inline" />
+                            </div>
 
                             {/* Route Stats */}
                             <div className="flex flex-wrap justify-center lg:justify-start gap-6 text-white">
@@ -645,8 +649,17 @@ export default async function RoutePage({ params }: { params: Promise<{ routeSlu
                                     '@type': 'Service',
                                     name: `${v.name} — ${from.name} to ${to.name}`,
                                 },
-                                price: Math.round(distanceKm * v.price),
-                                priceCurrency: 'INR',
+                                priceSpecification: {
+                                    '@type': 'UnitPriceSpecification',
+                                    price: Math.round(distanceKm * v.price),
+                                    priceCurrency: 'INR',
+                                    referenceQuantity: {
+                                        '@type': 'QuantitativeValue',
+                                        unitCode: 'KMT',
+                                        value: 1,
+                                    },
+                                    valueAddedTaxIncluded: true,
+                                },
                             })),
                         },
                         priceRange: `₹${fareEstimate} - ₹${Math.round(distanceKm * VEHICLE_TYPES[VEHICLE_TYPES.length - 1].price)}`,
